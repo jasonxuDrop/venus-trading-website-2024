@@ -1,5 +1,6 @@
 
 import './App.css';
+import Product from './pages/Product';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>
           Venus Trading 2024
         </p>
+        <Product name="test" />
       </header>
     </div>
   );
