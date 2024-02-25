@@ -9,7 +9,7 @@ function App() {
         <p>
           Venus Trading 2024
         </p>
-        <Product name="test" />
+        <Product product="test" />
       </header>
     </div>
   );
