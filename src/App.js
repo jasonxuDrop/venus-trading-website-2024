@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Venus Trading
+          Venus Trading 2024
         </p>
       </header>
     </div>
