@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-const Product = ({product}) => {
-    return (
-        <div>
-            This is {product} page
-        </div>
-    )
-}
+const Product = ({ product }) => {
+  return (
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
+};
 
 export default Product;
