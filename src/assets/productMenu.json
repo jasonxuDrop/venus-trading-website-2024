@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Product 1",
+      "description": "Get a better understanding of your traffic",
+      "href": "1",
+      "icon": "ChartPieIcon"
+    },
+    {
+      "name": "Product 2",
+      "description": "Speak directly to your customers",
+      "href": "2",
+      "icon": "CursorArrowRaysIcon"
+    },
+    {
+      "name": "Product 3",
+      "description": "Your customers’ data will be safe and secure",
+      "href": "3",
+      "icon": "FingerPrintIcon"
+    },
+    {
+      "name": "Product 4",
+      "description": "Connect with third-party tools",
+      "href": "4",
+      "icon": "SquaresPlusIcon"
+    },
+    {
+      "name": "Product 5",
+      "description": "Build strategic funnels that will convert",
+      "href": "5",
+      "icon": "ArrowPathIcon"
+    }
+  ]

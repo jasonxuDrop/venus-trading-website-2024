@@ -5,59 +5,27 @@
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 
-const products = [
-  {
-    name: "Product 1",
-    description: "Get a better understanding of your traffic",
-    href: "/product",
-    icon: ChartPieIcon,
-  },
-  {
-    name: "Product 2",
-    description: "Speak directly to your customers",
-    href: "/product",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Product 3",
-    description: "Your customers’ data will be safe and secure",
-    href: "/product",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Product 4",
-    description: "Connect with third-party tools",
-    href: "/product",
-    icon: SquaresPlusIcon,
-  },
-  {
-    name: "Product 5",
-    description: "Build strategic funnels that will convert",
-    href: "/product",
-    icon: ArrowPathIcon,
-  },
-];
+import productMenu from "../assets/productMenu.json";
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Header = () => {
+const Header = ({ setSelectedProduct }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isProductsHovering, setIsProductsHovering] = useState(false);
   const [isLanguageHovering, setIsLanguageHovering] = useState(false);
 
+  const updateSelectedProduct = (id) => {
+    setSelectedProduct(id);
+  };
   return (
     <header className="bg-black">
       {/* pc view nav bar */}
@@ -130,11 +98,14 @@ const Header = () => {
                   >
                     <div className="flex">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-                        {products.map((item) => (
+                        {productMenu.map((item) => (
                           <Link
-                            to={item.href}
+                            to={"/product/" + item.href}
                             className="block text-gray-900"
-                            onClick={() => setIsProductsHovering(false)}
+                            onClick={() => {
+                              setIsProductsHovering(false);
+                              updateSelectedProduct(item.href);
+                            }}
                           >
                             <div
                               key={item.name}
@@ -284,24 +255,13 @@ const Header = () => {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products].map((item) => (
+                        {[...productMenu].map((item) => (
                           <Link
-                            to={item.href}
-                            onClick={() => setMobileMenuOpen(false)}
-                          >
-                            <Disclosure.Button
-                              key={item.name}
-                              as="a"
-                              className="block rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
-                            >
-                              {item.name}
-                            </Disclosure.Button>
-                          </Link>
-                        ))}
-                        {[...products].map((item) => (
-                          <Link
-                            to={item.href}
-                            onClick={() => setMobileMenuOpen(false)}
+                            to={"/product/" + item.href}
+                            onClick={() => {
+                              setMobileMenuOpen(false);
+                              updateSelectedProduct(item.href);
+                            }}
                           >
                             <Disclosure.Button
                               key={item.name}

@@ -4,10 +4,9 @@
 
 import React from "react";
 
-import products from "../assets/products.json";
 
-const Product = () => {
-  const product = products[0];
+const Product = ({product}) => {
+
   return (
     <div>
       {/* Product intro*/}
