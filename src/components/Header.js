@@ -62,7 +62,7 @@ const Header = () => {
     <header className="bg-black">
       {/* pc view nav bar */}
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between lg:px-8 p-3"
         aria-label="Global"
       >
         {/* company logo */}
@@ -90,19 +90,19 @@ const Header = () => {
         </div>
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <Link to="/" className=" leading-6 text-white">
+          <Link to="/" className=" leading-6 text-white pt-3 pb-3">
             Home
           </Link>
-          <Link to="/about" className="leading-6 text-white">
+          <Link to="/about" className="leading-6 text-white pt-3 pb-3">
             About
           </Link>
 
           {/* product selection */}
-          <Popover className="relative">
+          <Popover className="relative ">
             {({ open }) => (
               <>
                 <Popover.Button
-                  className="flex items-center gap-x-1 leading-6 text-white"
+                  className="flex items-center gap-x-1 leading-6 text-white pt-3 pb-3"
                   onMouseEnter={() => setIsProductsHovering(true)}
                   onMouseLeave={() => setIsProductsHovering(false)}
                 >
@@ -124,7 +124,7 @@ const Header = () => {
                   leaveTo="opacity-0 translate-y-1"
                 >
                   <Popover.Panel
-                    className="absolute -right-8 top-full z-10 mt-3 w-screen max-w-xl overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black/5"
+                    className="absolute -right-8 top-full z-10 w-screen max-w-xl overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black/5"
                     onMouseEnter={() => setIsProductsHovering(true)}
                     onMouseLeave={() => setIsProductsHovering(false)}
                   >
@@ -162,7 +162,7 @@ const Header = () => {
             )}
           </Popover>
 
-          <Link to="/contact" className="leading-6 text-white">
+          <Link to="/contact" className="leading-6 text-white pt-3 pb-3">
             Contact
           </Link>
 
@@ -171,7 +171,7 @@ const Header = () => {
             {({ open }) => (
               <>
                 <Popover.Button
-                  className="flex items-center gap-x-1 leading-6 text-white"
+                  className="flex items-center gap-x-1 leading-6 text-white pt-3 pb-3"
                   onMouseEnter={() => setIsLanguageHovering(true)}
                   onMouseLeave={() => setIsLanguageHovering(false)}
                 >
@@ -193,7 +193,7 @@ const Header = () => {
                   leaveTo="opacity-0 translate-y-1"
                 >
                   <Popover.Panel
-                    className="absolute -left-8 top-full z-10 mt-3 max-w-sm overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
+                    className="absolute -left-8 top-full z-10 max-w-sm overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
                     onMouseEnter={() => setIsLanguageHovering(true)}
                     onMouseLeave={() => setIsLanguageHovering(false)}
                   >
