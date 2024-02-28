@@ -3,16 +3,13 @@
  */
 
 import { Fragment, useState } from "react";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import {
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 
-import productMenu from "../assets/productMenu.json";
+import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
+import productMenu from "../assets/productMenu.json";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
