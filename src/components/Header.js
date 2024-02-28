@@ -56,7 +56,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-black">
       {/* pc view nav bar */}
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
@@ -78,7 +78,7 @@ const Header = () => {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -89,22 +89,22 @@ const Header = () => {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a
             href="/#"
-            className="text-sm leading-6 text-gray-900"
+            className=" leading-6 text-white"
           >
             Home
           </a>
           <a
             href="/#"
-            className="text-sm leading-6 text-gray-900"
+            className="leading-6 text-white"
           >
             About
           </a>
 
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm leading-6 text-gray-900">
+            <Popover.Button className="flex items-center gap-x-1 leading-6 text-white">
               Product
               <ChevronDownIcon
-                className="h-5 w-5 flex-none text-gray-400"
+                className="h-5 w-5 flex-none text-white"
                 aria-hidden="true"
               />
             </Popover.Button>
@@ -124,7 +124,7 @@ const Header = () => {
                     {products.map((item) => (
                       <div
                         key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 leading-6 hover:bg-gray-50"
                       >
                         <div className="flex-auto">
                           <a
@@ -145,7 +145,7 @@ const Header = () => {
                     {products.map((item) => (
                       <div
                         key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 leading-6 hover:bg-gray-50"
                       >
                         <div className="flex-auto">
                           <a
@@ -169,17 +169,17 @@ const Header = () => {
 
           <a
             href="/#"
-            className="text-sm leading-6 text-gray-900"
+            className="leading-6 text-white"
           >
             Contact
           </a>
 
           {/* lanague selection */}
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm leading-6 text-gray-900">
+            <Popover.Button className="flex items-center gap-x-1 leading-6 text-white">
               EN
               <ChevronDownIcon
-                className="h-5 w-5 flex-none text-gray-400"
+                className="h-5 w-5 flex-none text-white"
                 aria-hidden="true"
               />
               <Transition
@@ -194,10 +194,10 @@ const Header = () => {
                 <Popover.Panel className="absolute -left-8 top-full z-10 mt-3  max-w-sm overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                   <div className="flex">
                     <div className="p-4">
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 leading-6 hover:bg-gray-50 text-gray-900">
                         JP
                       </div>
-                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                      <div className="group relative flex items-center gap-x-6 rounded-lg p-4 leading-6 hover:bg-gray-50 text-gray-900">
                         CN
                       </div>
                     </div>
@@ -217,7 +217,7 @@ const Header = () => {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="/#" className="-m-1.5 p-1.5">
               <span className="sr-only">Venus Trading</span>
@@ -229,7 +229,7 @@ const Header = () => {
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -241,20 +241,20 @@ const Header = () => {
               <div className="space-y-2 py-6">
                 <a
                   href="/#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-50 hover:text-black"
                 >
                   Home
                 </a>
                 <a
                   href="/#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-50 hover:text-black"
                 >
                   About
                 </a>
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-white hover:bg-gray-50 hover:text-black">
                         Product
                         <ChevronDownIcon
                           className={classNames(
@@ -270,7 +270,7 @@ const Header = () => {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -280,7 +280,7 @@ const Header = () => {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -292,7 +292,7 @@ const Header = () => {
 
                 <a
                   href="/#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-50 hover:text-black"
                 >
                   Contact
                 </a>
@@ -300,7 +300,7 @@ const Header = () => {
                 <Disclosure as="div" className={"-mx-3"}>
                 {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-gray-900 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base leading-7 text-white hover:bg-gray-50 hover:text-black">
                         EN
                         <ChevronDownIcon
                           className={classNames(
@@ -313,13 +313,13 @@ const Header = () => {
                       <Disclosure.Panel className="mt-2 space-y-2">
                           <Disclosure.Button
                             as='a'
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
                           >
                             JP
                           </Disclosure.Button>
                           <Disclosure.Button
                             as='a'
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm leading-7 text-gray-900 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
                           >
                             CN
                           </Disclosure.Button>
