@@ -3,10 +3,11 @@
  */
 
 import React from "react";
+import { useParams } from "react-router-dom";
 
-
-const Product = ({product}) => {
-
+const Product = ({ products }) => {
+  let { productId } = useParams();
+  const product = products.find((p) => p.id === productId);
   return (
     <div>
       {/* Product intro*/}

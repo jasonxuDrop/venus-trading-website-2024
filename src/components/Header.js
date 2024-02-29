@@ -15,14 +15,11 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Header = ({ setSelectedProduct }) => {
+const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isProductsHovering, setIsProductsHovering] = useState(false);
   const [isLanguageHovering, setIsLanguageHovering] = useState(false);
 
-  const updateSelectedProduct = (id) => {
-    setSelectedProduct(id);
-  };
   return (
     <header className="bg-black">
       {/* pc view nav bar */}
@@ -97,11 +94,10 @@ const Header = ({ setSelectedProduct }) => {
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
                         {productMenu.map((item) => (
                           <Link
-                            to={"/product/" + item.href}
+                            to={`/product/${item.href}`}
                             className="block text-gray-900"
                             onClick={() => {
                               setIsProductsHovering(false);
-                              updateSelectedProduct(item.href);
                             }}
                           >
                             <div
@@ -254,10 +250,9 @@ const Header = ({ setSelectedProduct }) => {
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...productMenu].map((item) => (
                           <Link
-                            to={"/product/" + item.href}
+                            to={`/product/${item.href}`}
                             onClick={() => {
                               setMobileMenuOpen(false);
-                              updateSelectedProduct(item.href);
                             }}
                           >
                             <Disclosure.Button
