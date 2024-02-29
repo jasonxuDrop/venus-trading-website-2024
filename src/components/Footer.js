@@ -49,7 +49,7 @@ const Footer = () => {
               {/* Navigation links */}
               <li>
                 <a
-                  href="/#"
+                  href="/"
                   className="text-base text-gray-500 hover:text-gray-900"
                 >
                   Home
@@ -57,7 +57,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/about"
                   className="text-base text-gray-500 hover:text-gray-900"
                 >
                   About
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/product/1"
                   className="text-base text-gray-500 hover:text-gray-900"
                 >
                   Product
@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/contact"
                   className="text-base text-gray-500 hover:text-gray-900"
                 >
                   Contact
