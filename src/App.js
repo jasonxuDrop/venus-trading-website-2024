@@ -1,26 +1,30 @@
-import "./App.css";
-import Home from "./pages/Home";
-import Product from "./pages/Product";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-
+import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import products from "./assets/products.json";
 
-function App() {
+import NotFound from "./pages/404";
+const Home = React.lazy(() => import("./pages/Home"));
+const Product = React.lazy(() => import("./pages/Product")); // Lazy-loaded
 
+function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          {/* <Route path={"/product/" + selectedProduct} element={<Product product={product}/>}/> */}
-          <Route path="/product/:productId" element={<Product products={products} />} />
-        </Routes>
-
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route
+              path="/product/:productId"
+              element={<Product products={products} />}
+            />
+            <Route path="/404" element={<NotFound />}/>
+          </Routes>
+        </Suspense>
         <Footer />
       </div>
     </Router>

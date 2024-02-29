@@ -94,6 +94,7 @@ const Header = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
                         {productMenu.map((item) => (
                           <Link
+                            key={item.href}
                             to={`/product/${item.href}`}
                             className="block text-gray-900"
                             onClick={() => {
@@ -104,10 +105,6 @@ const Header = () => {
                               key={item.name}
                               className="group relative flex items-start gap-x-6 rounded-lg p-4 leading-6 hover:bg-gray-50 cursor-pointer"
                             >
-                              <item.icon
-                                className="h-6 w-6 flex-none text-gray-400 group-hover:text-gray-500"
-                                aria-hidden="true"
-                              />
                               <div className="flex-auto">
                                 <p className="font-semibold">{item.name}</p>
 
@@ -250,19 +247,13 @@ const Header = () => {
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...productMenu].map((item) => (
                           <Link
-                            to={`/product/${item.href}`}
-                            onClick={() => {
-                              setMobileMenuOpen(false);
-                            }}
-                          >
-                            <Disclosure.Button
-                              key={item.name}
-                              as="a"
-                              className="block rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
-                            >
-                              {item.name}
-                            </Disclosure.Button>
-                          </Link>
+                          key={item.href}
+                          to={`/product/${item.href}`}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="block w-full text-left rounded-lg py-2 pl-6 pr-3 leading-7 text-white hover:bg-gray-50 hover:text-black"
+                        >
+                          {item.name}
+                        </Link>
                         ))}
                       </Disclosure.Panel>
                     </>
