@@ -1,4 +1,5 @@
-[{
+[
+  {
     "name": "Product Title 1",
     "id": "1",
     "description": "This is product description This is product description This is product description This is product description This is product description. This is product description This is product description This is product description This is product description This is product description.",
@@ -10,17 +11,26 @@
     ],
     "details": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming \"Charcoal Gray\" limited release.",
     "features": [
-      { "name": "Origin", "description": "Designed by Good Goods, Inc." },
+      {
+        "name": "Origin",
+        "description": "Designed by Good Goods, Inc."
+      },
       {
         "name": "Material",
         "description": "Solid walnut base with rare earth magnets and powder coated steel card cover"
       },
-      { "name": "Dimensions", "description": "6.25\" x 3.55\" x 1.15\"" },
+      {
+        "name": "Dimensions",
+        "description": "6.25\" x 3.55\" x 1.15\""
+      },
       {
         "name": "Finish",
         "description": "Hand sanded and finished with natural oil"
       },
-      { "name": "Includes", "description": "Wood card tray and 3 refill packs" },
+      {
+        "name": "Includes",
+        "description": "Wood card tray and 3 refill packs"
+      },
       {
         "name": "Considerations",
         "description": "Made from natural materials. Grain and color vary with each item."
@@ -69,17 +79,26 @@
     ],
     "details": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming \"Charcoal Gray\" limited release.",
     "features": [
-      { "name": "Origin", "description": "Designed by Good Goods, Inc." },
+      {
+        "name": "Origin",
+        "description": "Designed by Good Goods, Inc."
+      },
       {
         "name": "Material",
         "description": "Solid walnut base with rare earth magnets and powder coated steel card cover"
       },
-      { "name": "Dimensions", "description": "6.25\" x 3.55\" x 1.15\"" },
+      {
+        "name": "Dimensions",
+        "description": "6.25\" x 3.55\" x 1.15\""
+      },
       {
         "name": "Finish",
         "description": "Hand sanded and finished with natural oil"
       },
-      { "name": "Includes", "description": "Wood card tray and 3 refill packs" },
+      {
+        "name": "Includes",
+        "description": "Wood card tray and 3 refill packs"
+      },
       {
         "name": "Considerations",
         "description": "Made from natural materials. Grain and color vary with each item."
@@ -128,17 +147,26 @@
     ],
     "details": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming \"Charcoal Gray\" limited release.",
     "features": [
-      { "name": "Origin", "description": "Designed by Good Goods, Inc." },
+      {
+        "name": "Origin",
+        "description": "Designed by Good Goods, Inc."
+      },
       {
         "name": "Material",
         "description": "Solid walnut base with rare earth magnets and powder coated steel card cover"
       },
-      { "name": "Dimensions", "description": "6.25\" x 3.55\" x 1.15\"" },
+      {
+        "name": "Dimensions",
+        "description": "6.25\" x 3.55\" x 1.15\""
+      },
       {
         "name": "Finish",
         "description": "Hand sanded and finished with natural oil"
       },
-      { "name": "Includes", "description": "Wood card tray and 3 refill packs" },
+      {
+        "name": "Includes",
+        "description": "Wood card tray and 3 refill packs"
+      },
       {
         "name": "Considerations",
         "description": "Made from natural materials. Grain and color vary with each item."
@@ -187,17 +215,26 @@
     ],
     "details": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming \"Charcoal Gray\" limited release.",
     "features": [
-      { "name": "Origin", "description": "Designed by Good Goods, Inc." },
+      {
+        "name": "Origin",
+        "description": "Designed by Good Goods, Inc."
+      },
       {
         "name": "Material",
         "description": "Solid walnut base with rare earth magnets and powder coated steel card cover"
       },
-      { "name": "Dimensions", "description": "6.25\" x 3.55\" x 1.15\"" },
+      {
+        "name": "Dimensions",
+        "description": "6.25\" x 3.55\" x 1.15\""
+      },
       {
         "name": "Finish",
         "description": "Hand sanded and finished with natural oil"
       },
-      { "name": "Includes", "description": "Wood card tray and 3 refill packs" },
+      {
+        "name": "Includes",
+        "description": "Wood card tray and 3 refill packs"
+      },
       {
         "name": "Considerations",
         "description": "Made from natural materials. Grain and color vary with each item."
@@ -246,17 +283,26 @@
     ],
     "details": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming \"Charcoal Gray\" limited release.",
     "features": [
-      { "name": "Origin", "description": "Designed by Good Goods, Inc." },
+      {
+        "name": "Origin",
+        "description": "Designed by Good Goods, Inc."
+      },
       {
         "name": "Material",
         "description": "Solid walnut base with rare earth magnets and powder coated steel card cover"
       },
-      { "name": "Dimensions", "description": "6.25\" x 3.55\" x 1.15\"" },
+      {
+        "name": "Dimensions",
+        "description": "6.25\" x 3.55\" x 1.15\""
+      },
       {
         "name": "Finish",
         "description": "Hand sanded and finished with natural oil"
       },
-      { "name": "Includes", "description": "Wood card tray and 3 refill packs" },
+      {
+        "name": "Includes",
+        "description": "Wood card tray and 3 refill packs"
+      },
       {
         "name": "Considerations",
         "description": "Made from natural materials. Grain and color vary with each item."
@@ -292,5 +338,5 @@
         "imageAlt": "Hand holding black machined steel mechanical pencil with brass tip and top."
       }
     ]
-  }]
-  
+  }
+]
