@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import products from "./assets/products.json";
 
 import NotFound from "./pages/404";
+import Contact from "./pages/Contact";
 const Home = React.lazy(() => import("./pages/Home"));
 const Product = React.lazy(() => import("./pages/Product")); // Lazy-loaded
 
@@ -22,7 +23,8 @@ function App() {
               path="/product/:productId"
               element={<Product products={products} />}
             />
-            <Route path="/404" element={<NotFound />}/>
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/404" element={<NotFound />} />
           </Routes>
         </Suspense>
         <Footer />
