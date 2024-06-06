@@ -11,12 +11,12 @@ const Header = () => {
   const [isApparelMenuOpen, setIsApparelMenuOpen] = useState(false);
 
   const toggleLindenMenu = useCallback(() => {
-    setIsLindenMenuOpen(prev => !prev);
+    setIsLindenMenuOpen((prev) => !prev);
     setIsApparelMenuOpen(false);
   }, []);
 
   const toggleApparelMenu = useCallback(() => {
-    setIsApparelMenuOpen(prev => !prev);
+    setIsApparelMenuOpen((prev) => !prev);
     setIsLindenMenuOpen(false);
   }, []);
 
@@ -81,17 +81,15 @@ const Header = () => {
                   onMouseLeave={() => setIsLindenMenuOpen(false)}
                   style={{}}
                 >
-                  <a
-                    href="/"
-                    className="block px-3 py-3 text-sm"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hover">Product 1</span>
+                  <a href="/" className="block px-3 py-3 text-sm">
+                    <span className="border-b-2 border-transparent hover:border-hover">
+                      Product 1
+                    </span>
                   </a>
-                  <a
-                    href="/"
-                    className="block px-3 py-3 text-sm"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hover">Product 2</span>
+                  <a href="/" className="block px-3 py-3 text-sm">
+                    <span className="border-b-2 border-transparent hover:border-hover">
+                      Product 2
+                    </span>
                   </a>
                 </div>
               </div>
@@ -129,17 +127,15 @@ const Header = () => {
                   onMouseEnter={() => setIsApparelMenuOpen(true)}
                   onMouseLeave={() => setIsApparelMenuOpen(false)}
                 >
-                  <a
-                    href="/"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hover">Product 1</span>
+                  <a href="/" className="block px-3 py-3 text-sm">
+                    <span className="border-b-2 border-transparent hover:border-hover">
+                      Product 1
+                    </span>
                   </a>
-                  <a
-                    href="/"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hover">Product 2</span>
+                  <a href="/" className="block px-3 py-3 text-sm">
+                    <span className="border-b-2 border-transparent hover:border-hover">
+                      Product 2
+                    </span>
                   </a>
                 </div>
               </div>
@@ -179,13 +175,13 @@ const Header = () => {
       <div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transform top-0 left-0 w-full h-full bg-navbarcolor fixed z-50 ease-in-out duration-300`}
+        } transform top-0 left-0 w-full h-full bg-navbarcolor fixed z-50 ease-in-out duration-300 flex flex-col`} // Removed justify-center from here
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
+        <div className="px-2 pt-2 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
-              <h1 className="text-lg font-bold">庚尚国际</h1>
+              <h1 className="text-lg font-bold">Weifang SevenUp</h1>
             </div>
             <button
               onClick={closeAllMenus}
@@ -207,111 +203,116 @@ const Header = () => {
               </svg>
             </button>
           </div>
-          <a
-            href="/"
-            className="text-textcolor block px-3 py-2 text-base font-medium border-b-2 border-transparent hover:border-hover"
-            onClick={closeAllMenus}
-          >
-            <span>Home</span>
-          </a>
-          <a
-            href="/"
-            className="text-textcolor block px-3 py-2 text-base font-medium border-b-2 border-transparent hover:border-hover"
-            onClick={closeAllMenus}
-          >
-            <span>About</span>
-          </a>
-          <div>
-            <button
-              onClick={toggleLindenMenu}
-              className="text-textcolor w-full text-center block px-3 py-2 text-base font-bold flex justify-center items-center border-b-2 border-transparent hover:border-hover"
+        </div>
+        {/* Centered container for the rest of the menu items */}
+        <div className="flex-grow flex items-center justify-center">
+          <div className="w-full">
+            <a
+              href="/"
+              className="text-textcolor block px-3 py-4 text-4xl font-medium border-b-2 border-transparent hover:border-hover"
+              onClick={closeAllMenus}
             >
-              <span>Linden Products</span>
-              <svg
-                className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                  isLindenMenuOpen ? "rotate-180" : "rotate-0"
-                }`}
-                fill="none"
-                stroke="#1C1F29"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 15l7-7 7 7"
-                ></path>
-              </svg>
-            </button>
-            {isLindenMenuOpen && (
-              <div className="bg-navbarcolor">
-                <a
-                  href="/"
-                  className="text-textcolor block px-4 py-2 text-sm border-b-2 border-transparent hover:border-hover"
-                  onClick={closeAllMenus}
-                >
-                  <span>Product 1</span>
-                </a>
-                <a
-                  href="/"
-                  className="text-textcolor block px-4 py-2 text-sm border-b-2 border-transparent hover:border-hover"
-                  onClick={closeAllMenus}
-                >
-                  <span>Service 2</span>
-                </a>
-              </div>
-            )}
-          </div>
-          <div>
-            <button
-              onClick={toggleApparelMenu}
-              className="text-textcolor w-full text-center block px-3 py-2 text-base font-bold flex justify-center items-center border-b-2 border-transparent hover:border-hover"
+              <span>Home</span>
+            </a>
+            <a
+              href="/"
+              className="text-textcolor block px-3 py-4 text-4xl font-medium border-b-2 border-transparent hover:border-hover"
+              onClick={closeAllMenus}
             >
-              <span>Apparel Products</span>
-              <svg
-                className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                  isApparelMenuOpen ? "rotate-180" : "rotate-0"
-                }`}
-                fill="none"
-                stroke="#1C1F29"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+              <span>About</span>
+            </a>
+            <div>
+              <button
+                onClick={toggleLindenMenu}
+                className="text-textcolor w-full text-center block px-3 py-4 text-4xl font-bold flex justify-center items-center border-b-2 border-transparent hover:border-hover"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 15l7-7 7 7"
-                ></path>
-              </svg>
-            </button>
-            {isApparelMenuOpen && (
-              <div className="bg-navbarcolor">
-                <a
-                  href="/"
-                  className="text-textcolor block px-4 py-2 text-sm border-b-2 border-transparent hover:border-hover"
-                  onClick={closeAllMenus}
+                <span>Linden Products</span>
+                <svg
+                  className={`ml-2 w-5 h-5 transition-transform duration-300 ${
+                    isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                  }`}
+                  fill="none"
+                  stroke="#1C1F29"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <span>Product 1</span>
-                </a>
-                <a
-                  href="/"
-                  className="text-textcolor block px-4 py-2 text-sm border-b-2 border-transparent hover:border-hover"
-                  onClick={closeAllMenus}
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 15l7-7 7 7"
+                  ></path>
+                </svg>
+              </button>
+              {isLindenMenuOpen && (
+                <div className="bg-navbarcolor">
+                  <a
+                    href="/"
+                    className="text-textcolor block px-4 py-4 text-4xl border-b-2 border-transparent hover:border-hover"
+                    onClick={closeAllMenus}
+                  >
+                    <span>Product 1</span>
+                  </a>
+                  <a
+                    href="/"
+                    className="text-textcolor block px-4 py-4 text-4xl border-b-2 border-transparent hover:border-hover"
+                    onClick={closeAllMenus}
+                  >
+                    <span>Service 2</span>
+                  </a>
+                </div>
+              )}
+            </div>
+            <div>
+              <button
+                onClick={toggleApparelMenu}
+                className="text-textcolor w-full text-center block px-3 py-4 text-4xl font-bold flex justify-center items-center border-b-2 border-transparent hover:border-hover"
+              >
+                <span>Apparel Products</span>
+                <svg
+                  className={`ml-2 w-5 h-5 transition-transform duration-300 ${
+                    isApparelMenuOpen ? "rotate-180" : "rotate-0"
+                  }`}
+                  fill="none"
+                  stroke="#1C1F29"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <span>Product 2</span>
-                </a>
-              </div>
-            )}
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 15l7-7 7 7"
+                  ></path>
+                </svg>
+              </button>
+              {isApparelMenuOpen && (
+                <div className="bg-navbarcolor">
+                  <a
+                    href="/"
+                    className="text-textcolor block px-4 py-4 text-4xl border-b-2 border-transparent hover:border-hover"
+                    onClick={closeAllMenus}
+                  >
+                    <span>Product 1</span>
+                  </a>
+                  <a
+                    href="/"
+                    className="text-textcolor block px-4 py-4 text-4xl border-b-2 border-transparent hover:border-hover"
+                    onClick={closeAllMenus}
+                  >
+                    <span>Product 2</span>
+                  </a>
+                </div>
+              )}
+            </div>
+            <a
+              href="/"
+              className="text-textcolor block px-3 py-4 text-4xl font-medium border-b-2 border-transparent hover:border-hover"
+              onClick={closeAllMenus}
+            >
+              <span>Contact</span>
+            </a>
           </div>
-          <a
-            href="/"
-            className="text-textcolor block px-3 py-2 text-base font-medium border-b-2 border-transparent hover:border-hover"
-            onClick={closeAllMenus}
-          >
-            <span>Contact</span>
-          </a>
         </div>
       </div>
     </nav>
