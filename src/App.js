@@ -16,17 +16,21 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Suspense fallback={<div>Loading...</div>}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route
-              path="/product/:productId"
-              element={<Product products={products} />}
-            />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/404" element={<NotFound />} />
-          </Routes>
-        </Suspense>
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8"> {/* Container that centers the content */}
+          <Suspense fallback={<div>Loading...</div>}>
+            <div className="grid grid-cols-12 gap-4"> {/* 12-column grid layout */}
+              <Routes>
+                <Route path="/" element={<div className="col-span-12"><Home /></div>} />
+                <Route
+                  path="/product/:productId"
+                  element={<div className="col-span-12"><Product products={products} /></div>}
+                />
+                <Route path="/contact" element={<div className="col-span-12"><Contact /></div>} />
+                <Route path="/404" element={<div className="col-span-12"><NotFound /></div>} />
+              </Routes>
+            </div>
+          </Suspense>
+        </div>
         <Footer />
       </div>
     </Router>
