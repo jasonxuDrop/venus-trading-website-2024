@@ -8,6 +8,8 @@ module.exports = {
         mobileNavbarColor: "#CBE498",
         textcolor: "#1C1F29",
         hoverColor: "#036D19",
+        textWhite: "#FFFFFF",
+        footerBgColor: "#454854",
       },
       fontSize: {
         heading1: "3rem",
