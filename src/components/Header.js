@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <nav className="bg-navbarcolor text-textcolor">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8">
+      <div className="max-w-7xl mx-auto px-8 lg:px-12">
         <div className="flex items-center justify-between">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
@@ -199,10 +199,10 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <div className="-mr-2 flex lg:hidden">
+          <div className="-mr-2 py-6 flex lg:hidden z-10">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="bg-navbarcolor inline-flex items-center justify-center p-2 text-textcolor hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-navbar "
+              className="bg-navbarcolor inline-flex items-center justify-center text-textcolor hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-navbar "
             >
               <span className="sr-only">Open main menu</span>
               <svg
