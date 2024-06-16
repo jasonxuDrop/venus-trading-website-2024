@@ -14,11 +14,11 @@ const Product = React.lazy(() => import("./pages/Product")); // Lazy-loaded
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App min-h-screen">
         <Header />
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8"> {/* Container that centers the content */}
+        <div className="">
           <Suspense fallback={<div>Loading...</div>}>
-            <div className="grid grid-cols-12 gap-4"> {/* 12-column grid layout */}
+            {/* <div className="grid grid-cols-12 gap-4">  */}
               <Routes>
                 <Route path="/" element={<div className="col-span-12"><Home /></div>} />
                 <Route
@@ -28,7 +28,7 @@ function App() {
                 <Route path="/contact" element={<div className="col-span-12"><Contact /></div>} />
                 <Route path="/404" element={<div className="col-span-12"><NotFound /></div>} />
               </Routes>
-            </div>
+            {/* </div> */}
           </Suspense>
         </div>
         <Footer />

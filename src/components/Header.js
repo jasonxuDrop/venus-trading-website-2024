@@ -267,7 +267,7 @@ const Header = () => {
           <div className="w-full">
             <a
               href="/"
-              className="text-textcolor block px-3 py-4 text-4xl font-normal "
+              className="text-textcolor text-center block px-3 py-4 text-4xl font-normal "
               onClick={closeAllMenus}
             >
               <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -276,7 +276,7 @@ const Header = () => {
             </a>
             <a
               href="/"
-              className="text-textcolor block px-3 py-4 text-4xl font-normal"
+              className="text-textcolor text-center block px-3 py-4 text-4xl font-normal"
               onClick={closeAllMenus}
             >
               <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -381,7 +381,7 @@ const Header = () => {
             </div>
             <a
               href="/"
-              className="text-textcolor block px-3 py-4 text-4xl font-normal"
+              className="text-textcolor text-center block px-3 py-4 text-4xl font-normal"
               onClick={closeAllMenus}
             >
               <span className="border-b-2 border-transparent hover:border-hoverColor">

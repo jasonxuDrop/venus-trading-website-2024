@@ -10,6 +10,7 @@ module.exports = {
         hoverColor: "#036D19",
         textWhite: "#FFFFFF",
         footerBgColor: "#454854",
+        homeBgColor:"#E6E2DF",
       },
       fontSize: {
         heading1: "3rem",
