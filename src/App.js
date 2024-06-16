@@ -14,7 +14,7 @@ const Product = React.lazy(() => import("./pages/Product")); // Lazy-loaded
 function App() {
   return (
     <Router>
-      <div className="App min-h-screen">
+      <div className="App min-h-screen min-w-[375px]">
         <Header />
         <div className="">
           <Suspense fallback={<div>Loading...</div>}>
