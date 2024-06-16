@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <nav className="bg-navbarcolor text-textcolor">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8">
         <div className="flex items-center justify-between">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
@@ -88,7 +88,7 @@ const Header = () => {
                   </svg>
                 </button>
                 <div
-                  className={`absolute bg-white w-[199px] ${
+                  className={`absolute bg-white w-[199px] z-10 ${
                     isLindenMenuOpen ? "block" : "hidden"
                   }`}
                   onMouseEnter={() => setIsLindenMenuOpen(true)}
@@ -157,7 +157,7 @@ const Header = () => {
                   </svg>
                 </button>
                 <div
-                  className={`absolute bg-white w-[199px] ${
+                  className={`absolute bg-white w-[199px] z-10 ${
                     isApparelMenuOpen ? "block" : "hidden"
                   }`}
                   onMouseEnter={() => setIsApparelMenuOpen(true)}
@@ -165,18 +165,18 @@ const Header = () => {
                 >
                   <a
                     href="/"
-                    className="block text-left px-3 py-3 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 pt-4 2xl:text-heading4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Product 1
+                      Apron
                     </span>
                   </a>
                   <a
                     href="/"
-                    className="block text-left px-3 py-3 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 pb-4 2xl:text-heading4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Product 2
+                      Pajama
                     </span>
                   </a>
                 </div>
@@ -312,7 +312,7 @@ const Header = () => {
                 <div className="bg-mobileNavbarColor">
                   <a
                     href="/"
-                    className="text-textcolor block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
                     onClick={closeAllMenus}
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -321,7 +321,7 @@ const Header = () => {
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
                     onClick={closeAllMenus}
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -360,7 +360,7 @@ const Header = () => {
                 <div className="bg-mobileNavbarColor">
                   <a
                     href="/"
-                    className="text-textcolor block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
                     onClick={closeAllMenus}
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -369,7 +369,7 @@ const Header = () => {
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
                     onClick={closeAllMenus}
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
