@@ -26,11 +26,7 @@ const Header = () => {
     setIsApparelMenuOpen(false);
   }, []);
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
+  
   return (
     <nav className="bg-navbarcolor text-textcolor">
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
