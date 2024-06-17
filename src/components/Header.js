@@ -26,17 +26,18 @@ const Header = () => {
     setIsApparelMenuOpen(false);
   }, []);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <nav className="bg-navbarcolor text-textcolor">
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
         <div className="flex items-center justify-between">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
-              <img
-                src={logo}
-                alt="Logo"
-                className="h-[auto] w-[70px] mr-2"
-              />
+              <img src={logo} alt="Logo" className="h-[auto] w-[70px] mr-2" />
               <h1 className="xl:2xl:text-heading4 text-mobileHeading4">
                 Weifang SevenUp
               </h1>
@@ -53,7 +54,7 @@ const Header = () => {
                 </span>
               </a>
               <a
-                href="/"
+                href="#about"
                 className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal cursor-pointer group"
               >
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
@@ -67,9 +68,11 @@ const Header = () => {
                   onMouseLeave={() => setIsLindenMenuOpen(false)}
                   aria-expanded={isLindenMenuOpen}
                 >
-                  <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                    Linden Products
-                  </span>
+                  <a href="#lineden">
+                    <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                      Linden Products
+                    </span>
+                  </a>
                   <svg
                     className={`ml-2 w-4 h-4 transition-transform duration-300 ${
                       isLindenMenuOpen ? "rotate-180" : "rotate-0"
@@ -136,9 +139,11 @@ const Header = () => {
                   onMouseLeave={() => setIsApparelMenuOpen(false)}
                   aria-expanded={isApparelMenuOpen}
                 >
-                  <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                    Apparel Products
-                  </span>
+                  <a href="#apparel">
+                    <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                      Apparel Products
+                    </span>
+                  </a>
                   <svg
                     className={`ml-2 w-4 h-4 transition-transform duration-300 ${
                       isApparelMenuOpen ? "rotate-180" : "rotate-0"

@@ -10,7 +10,7 @@ import products from "./assets/products.json";
 import NotFound from "./pages/404";
 import Contact from "./pages/Contact";
 const Home = React.lazy(() => import("./pages/Home"));
-const Product = React.lazy(() => import("./pages/Products")); // Lazy-loaded
+const Product = React.lazy(() => import("./pages/LinedenProducts")); // Lazy-loaded
 
 function App() {
   return (

@@ -3,7 +3,8 @@ import homtImg from "../assets/images/homeImg/pexels-karolina-grabowska-4210376.
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 
 import About from "./About";
-import Product from "./Products";
+import LinedenProducts from "./LinedenProducts";
+import ApparelProducts from "./ApparelProducts";
 
 const Home = () => {
   return (
@@ -37,14 +38,18 @@ const Home = () => {
         {/* End Home */}
       </div>
       {/* About */}
-      <div className="my-[5rem]">
+      <div className="py-[5rem]" id="about">
         <About />
       </div>
       {/* End About */}
 
       {/* Product */}
-      <div className="my-[5rem]">
-        <Product />
+      <div className="py-[5rem]" id="lineden">
+        <LinedenProducts />
+      </div>
+
+      <div className="py-[5rem]" id="apparel">
+        <ApparelProducts />
       </div>
       {/* End Product */}
     </>
