@@ -1,8 +1,9 @@
 import React from "react";
 import homtImg from "../assets/images/homeImg/pexels-karolina-grabowska-4210376.png";
-import aboutImg from "../assets/images/aboutImg/pexels-cottonbro-4108797.png";
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
+
 import About from "./About";
+import Product from "./Products";
 
 const Home = () => {
   return (
@@ -18,10 +19,10 @@ const Home = () => {
                   alt="company logo"
                   className="block mx-auto w-[112px] h-auto lg:hidden "
                 />
-                <h1 className="text-mobileHeading1 lg:text-5xl">Weifang SevenUp</h1>
-                <span className="">
-                  International Trading Co.
-                </span>
+                <h1 className="text-mobileHeading1 lg:text-5xl">
+                  Weifang SevenUp
+                </h1>
+                <span className="">International Trading Co.</span>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-left border-2">
@@ -40,6 +41,12 @@ const Home = () => {
         <About />
       </div>
       {/* End About */}
+
+      {/* Product */}
+      <div className="my-[5rem]">
+        <Product />
+      </div>
+      {/* End Product */}
     </>
   );
 };

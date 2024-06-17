@@ -1,3 +1,4 @@
+import loading from "./assets/loading/Spin@1x-1.0s-200px-200px.svg";
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -9,7 +10,7 @@ import products from "./assets/products.json";
 import NotFound from "./pages/404";
 import Contact from "./pages/Contact";
 const Home = React.lazy(() => import("./pages/Home"));
-const Product = React.lazy(() => import("./pages/Product")); // Lazy-loaded
+const Product = React.lazy(() => import("./pages/Products")); // Lazy-loaded
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <div className="App min-h-screen min-w-[375px]">
         <Header />
         <div className="">
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div><img src={loading} alt="loading..."/></div>}>
             {/* <div className="grid grid-cols-12 gap-4">  */}
               <Routes>
                 <Route path="/" element={<div className="col-span-12"><Home /></div>} />
