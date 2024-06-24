@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Usage: font-family: tropikal; */
+@font-face {
+  font-family: tropikal;
+  src: url(assets/fonts/tropikal-bold.otf);
+}
+
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,9 +37,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+/* TODO: use jp class for body if language is in japanese */
+body .jp {
+  line-height: 1.6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
