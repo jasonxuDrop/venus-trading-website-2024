@@ -1,5 +1,5 @@
 import React from "react";
-import homtImg from "../assets/images/homeImg/pexels-karolina-grabowska-4210376.png";
+import homtImg from "../assets/images/homeImg/hero-image.jpg";
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 
 import About from "./About";
