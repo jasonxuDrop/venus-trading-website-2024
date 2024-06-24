@@ -45,6 +45,12 @@ body .jp {
   line-height: 1.6;
 }
 
+.custom-hero-mobile {
+  background-image: url('assets/images/homeImg/hero-image.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

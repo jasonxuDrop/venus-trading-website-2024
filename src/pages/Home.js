@@ -1,6 +1,8 @@
 import React from "react";
 import homtImg from "../assets/images/homeImg/hero-image.jpg";
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
+import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
+import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.png";
 
 import About from "./About";
 import LinedenProducts from "./LinedenProducts";
@@ -11,28 +13,49 @@ const Home = () => {
     <>
       <div className="w-full h-auto bg-homeBgColor">
         {/* Home */}
-        <div className="max-w-screen-xl mx-auto sm:px-0 lg:px-12">
+        <div className="max-w-screen-xl mx-auto
+        sm:px-16 
+        lg:px-32">
           <div className="relative grid grid-cols-12 gap-2">
-            <div className="col-span-12 lg:col-span-5 lg:block lg:pt-[calc(100vh-18.75rem)] lg:text-left text-center border-2 lg:relative absolute inset-0 flex items-center justify-center transform -translate-y-1/4 lg:translate-y-0">
-              <div className="">
+
+
+            {/* DESKTOP HERO */}
+            <div className="hidden col-span-5 
+            sm:block">
+              <div className="flex flex-col justify-end h-full">
                 <img
-                  src={logo}
+                  src={logoNoIconEn}
                   alt="company logo"
-                  className="block mx-auto w-[112px] h-auto lg:hidden "
+                  className="max-w-full"
+                  style={{ marginBottom: "min(12vw, 9rem)" }}
                 />
-                <h1 className="text-mobileHeading1 lg:text-5xl">
-                  Weifang SevenUp
-                </h1>
-                <span className="">International Trading Co.</span>
               </div>
             </div>
-            <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-left border-2">
+            <div className="hidden col-span-6 col-start-7 object-cover object-bottom
+            sm:block">
               <img
                 src={homtImg}
                 alt=""
-                className="w-full h-[calc(100vh-50px)] lg:h-[calc(100vh-72px)] object-cover"
+                className=""
               />
             </div>
+
+
+            {/* MOBILD HERO */}
+            <div className="custom-hero-mobile col-span-12 max-w-full h-[calc(1.672*100vw)]
+            sm:hidden">
+              <div className="flex flex-col items-center justify-center text-center py-16">
+                <img
+                  src={logo}
+                  alt="company logo"
+                  className="block w-28 h-auto"
+                />
+                {/* TODO: SWITCH TO JP LOGO IS IN JAPANESE */}
+                <img src={logoFullCenterEn} alt="company logo" className="w-80 max-w-[80vw]" />
+              </div>
+            </div>
+
+
           </div>
         </div>
         {/* End Home */}
