@@ -15,7 +15,7 @@ const Product = React.lazy(() => import("./pages/LinedenProducts")); // Lazy-loa
 function App() {
   return (
     <Router>
-      <div className="App min-h-screen min-w-[375px]">
+      <div className="App min-h-screen">
         <Header />
         <div className="">
           <Suspense fallback={<div><img src={loading} alt="loading..."/></div>}>
