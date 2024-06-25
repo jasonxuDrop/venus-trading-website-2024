@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <nav className="bg-navbarcolor text-textcolor">
-      <div className="max-w-7xl mx-auto px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
