@@ -14,8 +14,8 @@ const Home = () => {
       <div className="w-full h-auto bg-homeBgColor">
         {/* Home */}
         <div className="max-w-screen-xl mx-auto
-        sm:px-16 
-        lg:px-32">
+        sm:px-6 
+        lg:px-12">
           <div className="relative grid grid-cols-12 gap-2">
 
 
