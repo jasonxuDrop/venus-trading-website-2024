@@ -26,7 +26,6 @@ const Header = () => {
     setIsApparelMenuOpen(false);
   }, []);
 
-  
   return (
     <nav className="bg-navbarcolor text-textcolor">
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
@@ -34,32 +33,24 @@ const Header = () => {
           <a href="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[70px] mr-2" />
-              <h1 className="xl:2xl:text-heading4 text-mobileHeading4">
-                Weifang SevenUp
-              </h1>
+              <h1 className="text-mobileHeading4">Weifang SevenUp</h1>
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a
-                href="/"
-                className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal cursor-pointer group"
-              >
+              <a href="/" className="px-3 py-6 cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   Home
                 </span>
               </a>
-              <a
-                href="#about"
-                className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal cursor-pointer group"
-              >
+              <a href="#about" className="px-3 py-6  cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   About
                 </span>
               </a>
               <div className="group relative">
                 <button
-                  className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal flex items-center"
+                  className="px-3 py-6 flex items-center"
                   onMouseEnter={() => setIsLindenMenuOpen(true)}
                   onMouseLeave={() => setIsLindenMenuOpen(false)}
                   aria-expanded={isLindenMenuOpen}
@@ -130,7 +121,7 @@ const Header = () => {
               </div>
               <div className="group relative">
                 <button
-                  className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal flex items-center"
+                  className="px-3 py-6  flex items-center"
                   onMouseEnter={() => setIsApparelMenuOpen(true)}
                   onMouseLeave={() => setIsApparelMenuOpen(false)}
                   aria-expanded={isApparelMenuOpen}
@@ -182,18 +173,12 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <a
-                href="/"
-                className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal cursor-pointer group"
-              >
+              <a href="/" className="px-3 py-6  cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   Contact
                 </span>
               </a>
-              <a
-                href="/"
-                className="px-3 py-6 2xl:text-heading4 text-mobileHeading4 font-normal cursor-pointer group"
-              >
+              <a href="/" className="px-3 py-6 cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   日本语
                 </span>
@@ -237,9 +222,7 @@ const Header = () => {
             <a href="/">
               <div className="flex items-center flex-shrink-0">
                 <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
-                <h1 className="2xl:text-heading4 text-mobileHeading4 font-normal">
-                  Weifang SevenUp
-                </h1>
+                <h1 className="">Weifang SevenUp</h1>
               </div>
             </a>
             <button
@@ -268,30 +251,30 @@ const Header = () => {
           <div className="w-full">
             <a
               href="/"
-              className="text-textcolor text-center block px-3 py-4 text-4xl font-normal "
+              className="text-textcolor text-center block px-3 py-4"
               onClick={closeAllMenus}
             >
-              <span className="border-b-2 border-transparent hover:border-hoverColor">
+              <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                 Home
-              </span>
+              </h1>
             </a>
             <a
               href="/"
-              className="text-textcolor text-center block px-3 py-4 text-4xl font-normal"
+              className="text-textcolor text-center block px-3 py-4"
               onClick={closeAllMenus}
             >
-              <span className="border-b-2 border-transparent hover:border-hoverColor">
+              <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                 About
-              </span>
+              </h1>
             </a>
             <div>
               <button
                 onClick={toggleLindenMenu}
-                className="text-textcolor w-full text-center block px-3 py-4 text-4xl font-normal flex justify-center items-center"
+                className="text-textcolor w-full text-center block px-3 py-4 flex justify-center items-center"
               >
-                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                   Linden Products
-                </span>
+                </h1>
                 <svg
                   className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                     isLindenMenuOpen ? "rotate-180" : "rotate-0"
@@ -313,21 +296,21 @@ const Header = () => {
                 <div className="bg-mobileNavbarColor">
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4"
                     onClick={closeAllMenus}
                   >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                       Product 1
-                    </span>
+                    </h1>
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4"
                     onClick={closeAllMenus}
                   >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                       Service 2
-                    </span>
+                    </h1>
                   </a>
                 </div>
               )}
@@ -335,11 +318,11 @@ const Header = () => {
             <div>
               <button
                 onClick={toggleApparelMenu}
-                className="text-textcolor w-full text-center block px-3 py-4 text-4xl font-normal flex justify-center items-center"
+                className="text-textcolor w-full text-center block px-3 py-4 flex justify-center items-center"
               >
-                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                   Apparel Products
-                </span>
+                </h1>
                 <svg
                   className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                     isApparelMenuOpen ? "rotate-180" : "rotate-0"
@@ -361,33 +344,33 @@ const Header = () => {
                 <div className="bg-mobileNavbarColor">
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4"
                     onClick={closeAllMenus}
                   >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                       Product 1
-                    </span>
+                    </h1>
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4 text-4xl font-normal"
+                    className="text-textcolor text-center block px-4 py-4"
                     onClick={closeAllMenus}
                   >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                       Product 2
-                    </span>
+                    </h1>
                   </a>
                 </div>
               )}
             </div>
             <a
               href="/"
-              className="text-textcolor text-center block px-3 py-4 text-4xl font-normal"
+              className="text-textcolor text-center block px-3 py-4"
               onClick={closeAllMenus}
             >
-              <span className="border-b-2 border-transparent hover:border-hoverColor">
+              <h1 className="border-b-2 border-transparent hover:border-hoverColor">
                 Contact
-              </span>
+              </h1>
             </a>
           </div>
         </div>
@@ -395,7 +378,7 @@ const Header = () => {
         <div className="px-2 pb-4">
           <a
             href="/"
-            className="block text-left text-mobileHeading4 font-normal"
+            className="block text-left font-normal"
             onClick={closeAllMenus}
           >
             <span className="hover:border-hoverColor border-b-2 border-transparent">
