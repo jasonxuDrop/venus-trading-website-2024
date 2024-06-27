@@ -62,17 +62,17 @@ const Home = () => {
         {/* End Home */}
       </div>
       {/* About */}
-      <div className="py-[5rem]" id="about">
+      <div className="py-[5rem] bg-navbarcolor" id="about">
         <About />
       </div>
       {/* End About */}
 
       {/* Product */}
-      <div className="py-[5rem]" id="lineden">
+      <div className="py-[5rem] bg-navbarcolor" id="lineden">
         <LinedenProducts />
       </div>
 
-      <div className="py-[5rem]" id="apparel">
+      <div className="py-[5rem] bg-navbarcolor" id="apparel">
         <ApparelProducts />
       </div>
       {/* End Product */}
