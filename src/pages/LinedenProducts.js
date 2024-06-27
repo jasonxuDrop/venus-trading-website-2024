@@ -3,6 +3,7 @@
  */
 
 import React from "react";
+import ProductCard from "../components/productCard";
 
 const LinedenProducts = () => {
   return (
@@ -10,18 +11,10 @@ const LinedenProducts = () => {
       {/* Linent Products */}
       <h1 className="text-heading4 text-center mb-[3rem]">Linent Products</h1>
       <div className="relative grid grid-cols-12 gap-4">
-        <div className="mx-auto col-span-12 lg:col-span-3 w-full h-[580px] border-2">
-          1
-        </div>
-        <div className="mx-auto col-span-12 lg:col-span-3 w-full h-[580px] border-2">
-          2
-        </div>
-        <div className="mx-auto col-span-12 lg:col-span-3 w-full h-[580px] border-2">
-          3
-        </div>
-        <div className="mx-auto col-span-12 lg:col-span-3 w-full h-[580px] border-2">
-          4
-        </div>
+        <ProductCard productTitle={1} style={"col-span-12 lg:col-span-3"} />
+        <ProductCard productTitle={2} style={"col-span-12 lg:col-span-3"} />
+        <ProductCard productTitle={3} style={"col-span-12 lg:col-span-3"} />
+        <ProductCard productTitle={4} style={"col-span-12 lg:col-span-3"} />
       </div>
       {/* End Linent Products */}
     </div>
