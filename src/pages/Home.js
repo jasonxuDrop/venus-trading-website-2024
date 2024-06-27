@@ -4,9 +4,9 @@ import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
 import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.png";
 
-import About from "./About";
-import LinedenProducts from "./LinedenProducts";
-import ApparelProducts from "./ApparelProducts";
+import Hero from "../components/Hero";
+import LinedenProducts from "../components/LinedenProducts";
+import ApparelProducts from "../components/ApparelProducts";
 
 const Home = () => {
   return (
@@ -63,7 +63,7 @@ const Home = () => {
       </div>
       {/* About */}
       <div className="py-[5rem] bg-navbarcolor" id="about">
-        <About />
+        <Hero />
       </div>
       {/* End About */}
 
