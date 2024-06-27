@@ -1,17 +1,15 @@
 import React from "react";
-import logo from "../assets/images/logo/Logo Icon@4x 1.png";
+import logo from "../assets/images/logo/Logo Full En.png";
 
 const Footer = () => {
   return (
     <footer className="bg-footerBgColor">
       <div className="max-w-7xl mx-auto py-12 px-3.5 sm:px-16 lg:px-32">
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
-          <div className="sm:col-span-1 lg:col-span-3">
+          <div className="sm:col-span-1 lg:col-span-2">
             <div className="flex items-center flex-shrink-0">
-              <img src={logo} alt="Logo" className="h-[auto] w-[70px] mr-2" />
-              <div className="xl:2xl:text-heading4 text-mobileHeading4 text-left text-textWhite">
-                <h1 className="">Weifang SevenUp</h1>
-                <h1 className="">International Trading Co.</h1>
+              <img src={logo} alt="Logo" className="h-[auto] w-[70%] lg:w-full mr-2" />
+              <div className="text-left text-textWhite">
               </div>
             </div>
             <div className="mt-4">
@@ -34,15 +32,21 @@ const Footer = () => {
               {/* More social icons */}
             </div>
           </div>
-          <div className="sm:col-span-1 lg:col-span-1 text-textWhite text-left lg:text-right">
-            <ul className="xl:2xl:text-heading4 text-mobileHeading4">
+          <div className="sm:col-span-1 lg:col-start-4 lg:col-span-1 text-textWhite text-left lg:text-right">
+            <ul className="text-mobileHeading4">
               <li>
                 <a href="/">Home</a>
               </li>
               <li className="mt-4">
                 <a href="/">About us</a>
               </li>
-              <li className="mt-4">
+              <li className="mt-4 block lg:hidden">
+                <a href="/">Linen Products</a>
+              </li>
+              <li className="mt-4 block lg:hidden">
+                <a href="/">Apparel Products</a>
+              </li>
+              <li className="mt-4 block lg:hidden">
                 <a href="/">Contact us</a>
               </li>
               <li className="mt-4">
@@ -50,8 +54,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="sm:col-span-1 lg:col-span-1 text-textWhite text-left lg:text-right">
-            <ul className="xl:2xl:text-heading4 text-mobileHeading4">
+          <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
+            <ul className="text-mobileHeading4">
               <li>
                 <a href="/">Linen Products</a>
               </li>
@@ -69,8 +73,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="sm:col-span-1 lg:col-span-1 text-textWhite text-left lg:text-right">
-            <ul className="xl:2xl:text-heading4 text-mobileHeading4">
+          <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
+            <ul className="text-mobileHeading4">
               <li>
                 <a href="/">Apparel Products</a>
               </li>
