@@ -2,8 +2,8 @@
  *  This is a nav bar componnent, both PC and Mobile view.
  */
 
-import React, { useState, useCallback } from "react";
-import logo from "../assets/images/logo/Logo Icon@4x 1.png";
+import React, { useState, useEffect, useCallback } from "react";
+import logo from "../assets/images/logo/Logo Icon.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +26,10 @@ const Header = () => {
     setIsApparelMenuOpen(false);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
+  }, [isOpen]);
+
   return (
     <nav className="bg-navbarcolor text-textcolor">
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
@@ -33,7 +37,7 @@ const Header = () => {
           <a href="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[70px] mr-2" />
-              <h1 className="text-mobileHeading4">Weifang SevenUp</h1>
+              <h1 className="text-mobileHeading4 font-medium">Weifang SevenUp</h1>
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
@@ -87,7 +91,7 @@ const Header = () => {
                 >
                   <a
                     href="/"
-                    className="block text-left px-3 py-1 pt-4 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
                       Hotel
@@ -95,7 +99,7 @@ const Header = () => {
                   </a>
                   <a
                     href="/"
-                    className="block text-left px-3 py-1 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
                       Hot Spring Resort
@@ -103,7 +107,7 @@ const Header = () => {
                   </a>
                   <a
                     href="/"
-                    className="block text-left px-3 py-1 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
                       Hospital
@@ -111,7 +115,7 @@ const Header = () => {
                   </a>
                   <a
                     href="/"
-                    className="block text-left px-3 py-1 pb-4 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
                       Fabric
@@ -157,7 +161,7 @@ const Header = () => {
                 >
                   <a
                     href="/"
-                    className="block text-left px-3 py-1 pt-4 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
                       Apron
@@ -165,7 +169,7 @@ const Header = () => {
                   </a>
                   <a
                     href="/"
-                    className="block text-left px-3 py-1 pb-4 2xl:text-heading4 text-mobileHeading4"
+                    className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
                       Pajama
@@ -215,14 +219,14 @@ const Header = () => {
       <div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col`} // Removed justify-center from here
+        } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto`}
       >
         <div className="px-2 pt-4 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
             <a href="/">
               <div className="flex items-center flex-shrink-0">
-                <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
-                <h1 className="">Weifang SevenUp</h1>
+                <img src={logo} alt="Logo" className="h-[auto] w-[50px] mr-2" />
+                <h3 className="">Weifang SevenUp</h3>
               </div>
             </a>
             <button
@@ -300,7 +304,7 @@ const Header = () => {
                     onClick={closeAllMenus}
                   >
                     <h1 className="border-b-2 border-transparent hover:border-hoverColor">
-                      Product 1
+                      Hotel
                     </h1>
                   </a>
                   <a
@@ -309,7 +313,25 @@ const Header = () => {
                     onClick={closeAllMenus}
                   >
                     <h1 className="border-b-2 border-transparent hover:border-hoverColor">
-                      Service 2
+                      Hot Spring Resort
+                    </h1>
+                  </a>
+                  <a
+                    href="/"
+                    className="text-textcolor text-center block px-4 py-4"
+                    onClick={closeAllMenus}
+                  >
+                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                      Hospital
+                    </h1>
+                  </a>
+                  <a
+                    href="/"
+                    className="text-textcolor text-center block px-4 py-4"
+                    onClick={closeAllMenus}
+                  >
+                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                      Fabric
                     </h1>
                   </a>
                 </div>
@@ -348,7 +370,7 @@ const Header = () => {
                     onClick={closeAllMenus}
                   >
                     <h1 className="border-b-2 border-transparent hover:border-hoverColor">
-                      Product 1
+                      Apron
                     </h1>
                   </a>
                   <a
@@ -357,7 +379,7 @@ const Header = () => {
                     onClick={closeAllMenus}
                   >
                     <h1 className="border-b-2 border-transparent hover:border-hoverColor">
-                      Product 2
+                      Pajama
                     </h1>
                   </a>
                 </div>
