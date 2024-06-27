@@ -11,10 +11,27 @@ const LinedenProducts = () => {
       {/* Linent Products */}
       <h1 className="text-heading4 text-center mb-[3rem]">Linent Products</h1>
       <div className="relative grid grid-cols-12 gap-4">
-        <ProductCard productTitle={1} style={"col-span-12 lg:col-span-3"} />
-        <ProductCard productTitle={2} style={"col-span-12 lg:col-span-3"} />
-        <ProductCard productTitle={3} style={"col-span-12 lg:col-span-3"} />
-        <ProductCard productTitle={4} style={"col-span-12 lg:col-span-3"} />
+        <ProductCard
+          productTitle={"Hotel Linen"}
+          productDes={`Gown, Pajama, Bathrobe,
+Bedding, Towel`}
+          style={"col-span-12 lg:col-span-3"}
+        />
+        <ProductCard
+          productTitle={"Onsen Ryokan"}
+          productDes={`Yukata, Indoor Wear, Haori, Sauna Clothes`}
+          style={"col-span-12 lg:col-span-3"}
+        />
+        <ProductCard
+          productTitle={"Hospital"}
+          productDes={`Patient Clothes, Undergarments, etc.`}
+          style={"col-span-12 lg:col-span-3"}
+        />
+        <ProductCard
+          productTitle={"Fabric"}
+          productDes={``}
+          style={"col-span-12 lg:col-span-3"}
+        />
       </div>
       {/* End Linent Products */}
     </div>
