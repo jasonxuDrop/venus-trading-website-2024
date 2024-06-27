@@ -6,9 +6,9 @@ const About = () => {
     <div className="max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32">
       <div className="relative grid grid-cols-12 gap-2">
         <div className="col-span-12 lg:col-span-5 text-left border-2 my-auto">
-          <h1>
+          <h2>
             Import, Export Experts In Weifang, China
-          </h1>
+          </h2>
           <p className="mt-2">
             Weifang SevenUp International Trading Co., Ltd. specializes in the
             import, export, and processing of textiles. Leveraging the abundant
@@ -24,7 +24,7 @@ const About = () => {
           <img
             src={aboutImg}
             alt="About"
-            className="w-full h-auto lg:h-[calc(100vh-10rem)] object-cover"
+            className="w-full h-auto lg:h-[calc(100vh-10rem)] object-contain"
           />
         </div>
       </div>
