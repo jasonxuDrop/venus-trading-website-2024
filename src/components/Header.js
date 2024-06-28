@@ -48,11 +48,11 @@ const Header = () => {
                   Home
                 </span>
               </a>
-              <a href="#about" className="px-3 py-6  cursor-pointer group">
+              <Link to="/about" className="px-3 py-6  cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   About
                 </span>
-              </a>
+              </Link>
               <div className="group relative">
                 <button
                   className="px-3 py-6 flex items-center"
