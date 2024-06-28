@@ -11,6 +11,9 @@ module.exports = {
         textWhite: "#FFFFFF",
         footerBgColor: "#454854",
         homeBgColor:"#E6E2DF",
+        buttonHover:"#A7D747",
+        buttonColor:"#CBE498",
+        formColor:"#54545"
       },
       fontSize: {
         heading1: "3rem",

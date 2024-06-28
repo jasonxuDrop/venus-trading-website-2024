@@ -56,3 +56,20 @@ code {
     monospace;
 }
 
+/* Input field effect */
+.input-field {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 4px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.input-field:focus {
+  outline-style: none;
+  box-shadow: none;
+  outline: none;
+  border-bottom-color: #A7D747;
+}
