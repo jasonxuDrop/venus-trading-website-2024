@@ -3,6 +3,7 @@
  */
 
 import React, { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Icon.png";
 
 const Header = () => {
@@ -177,11 +178,11 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <a href="/" className="px-3 py-6  cursor-pointer group">
+              <Link to="/contactMe" className="px-3 py-6  cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   Contact
                 </span>
-              </a>
+              </Link>
               <a href="/" className="px-3 py-6 cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   日本语

@@ -7,7 +7,7 @@ import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.png";
 import Hero from "../components/Hero";
 import LinedenProducts from "../components/LinedenProducts";
 import ApparelProducts from "../components/ApparelProducts";
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -83,7 +83,7 @@ const Home = () => {
 
       {/* Contact Us */}
       <div className="py-[5rem] bg-navbarcolor">
-        <Contact />{" "}
+        <Contact />
       </div>
 
       {/* End Contact Us */}

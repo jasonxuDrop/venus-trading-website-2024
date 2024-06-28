@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import products from "./assets/products.json";
 
 import NotFound from "./pages/404";
-import Contact from "./pages/Contact";
+import ContactMe from "./pages/ContactMe";
 const Home = React.lazy(() => import("./pages/Home"));
 
 
@@ -22,7 +22,7 @@ function App() {
             {/* <div className="grid grid-cols-12 gap-4">  */}
               <Routes>
                 <Route path="/" element={<div className="col-span-12"><Home /></div>} />
-                <Route path="/contact" element={<div className="col-span-12"><Contact /></div>} />
+                <Route path="/contactMe" element={<div className="col-span-12"><ContactMe /></div>} />
                 <Route path="/404" element={<div className="col-span-12"><NotFound /></div>} />
               </Routes>
             {/* </div> */}
