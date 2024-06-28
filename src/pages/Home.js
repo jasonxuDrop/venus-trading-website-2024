@@ -7,7 +7,7 @@ import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.png";
 import Hero from "../components/Hero";
 import LinedenProducts from "../components/LinedenProducts";
 import ApparelProducts from "../components/ApparelProducts";
-import Contact from "./Contact";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (

@@ -1,8 +1,8 @@
-import Contact from "./Contact";
+import Contact from "../components/Contact";
 
 const ContactMe = () => {
     return (
-        <div>
+        <div className="py-[10rem] bg-navbarcolor">
             <Contact />
         </div>
     )
