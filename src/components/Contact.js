@@ -1,8 +1,15 @@
 import React from "react";
+import useScreenHeight from "../utils/hooks/useScreenHeight";
 
 const Contact = () => {
+  const smallScreenHeight = useScreenHeight(600);
+
   return (
-    <div className="max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32 lg:h-[calc(100vh-30rem)]">
+    <div
+      className={`max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32 ${
+        smallScreenHeight ? "lg:h-[calc(100vh-10rem)]" : ""
+      }`}
+    >
       <div className="relative grid grid-cols-12 gap-2">
         <div className="col-span-12 lg:col-span-5 text-left border-2 flex flex-col justify-between lg:h-[70%]">
           <h2>Contact Us</h2>
@@ -32,24 +39,13 @@ const Contact = () => {
               <label htmlFor="name" className="font-semibold text-formColor">
                 Your Name *
               </label>
-              <input
-                type="text"
-                id="name"
-                required
-                className="input-field"
-                
-              />
+              <input type="text" id="name" required className="input-field" />
             </div>
             <div className="flex flex-col">
               <label htmlFor="email" className="font-semibold text-formColor">
                 Email Address *
               </label>
-              <input
-                type="email"
-                id="email"
-                required
-                className="input-field"
-              />
+              <input type="email" id="email" required className="input-field" />
             </div>
             <div className="flex flex-col">
               <label htmlFor="company" className="font-semibold text-formColor">
