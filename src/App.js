@@ -11,6 +11,7 @@ import ContactMe from "./pages/ContactMe";
 import About from "./pages/About";
 import LinedenProductsPage from "./pages/LinedenProductsPage";
 import ApparelProductsPage from "./pages/ApparelProductsPage";
+import ProductList from "./pages/ProductList";
 const Home = React.lazy(() => import("./pages/Home"));
 
 function App() {
@@ -45,6 +46,10 @@ function App() {
               <Route
                 path="/apparelProducts"
                 element={<ApparelProductsPage />}
+              />
+              <Route
+                path="/productList"
+                element={<ProductList />}
               />
               <Route path="/404" element={<NotFound />} />
             </Routes>
