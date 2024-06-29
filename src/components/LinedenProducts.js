@@ -15,7 +15,16 @@ const LinedenProducts = () => {
         smallScreenHeight ? "lg:h-[calc(100vh-10rem)]" : ""
       } flex flex-col justify-center`}
     >
-      <h1 className="text-heading4 text-center mb-[3rem]">Linent Products</h1>
+      <div className="text-center mb-[3rem]">
+        <h2 className="inline-block relative">
+          Linent Products
+          <span
+            className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/3 h-1 bg-buttonColor"
+            style={{ top: "100%" }}
+          ></span>
+        </h2>
+      </div>
+
       <div className="relative grid grid-cols-12 gap-4">
         <ProductCard
           productTitle={"Hotel Linen"}

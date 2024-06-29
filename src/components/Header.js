@@ -48,11 +48,11 @@ const Header = () => {
                   Home
                 </span>
               </a>
-              <Link to="/about" className="px-3 py-6  cursor-pointer group">
+              <a href="/about" className="px-3 py-6  cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   About
                 </span>
-              </Link>
+              </a>
               <div className="group relative">
                 <button
                   className="px-3 py-6 flex items-center"
@@ -60,7 +60,7 @@ const Header = () => {
                   onMouseLeave={() => setIsLindenMenuOpen(false)}
                   aria-expanded={isLindenMenuOpen}
                 >
-                  <a href="#lineden">
+                  <a href="/linedenProducts">
                     <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                       Linden Products
                     </span>
@@ -131,7 +131,7 @@ const Header = () => {
                   onMouseLeave={() => setIsApparelMenuOpen(false)}
                   aria-expanded={isApparelMenuOpen}
                 >
-                  <a href="#apparel">
+                  <a href="/apparelProducts">
                     <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                       Apparel Products
                     </span>
@@ -178,11 +178,11 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <Link to="/contactMe" className="px-3 py-6  cursor-pointer group">
+              <a href="/contactMe" className="px-3 py-6  cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   Contact
                 </span>
-              </Link>
+              </a>
               <a href="/" className="px-3 py-6 cursor-pointer group">
                 <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                   日本语
@@ -264,7 +264,7 @@ const Header = () => {
               </h1>
             </a>
             <a
-              href="/"
+              href="/about"
               className="text-textcolor text-center block px-3 py-4"
               onClick={closeAllMenus}
             >
@@ -387,7 +387,7 @@ const Header = () => {
               )}
             </div>
             <a
-              href="/"
+              href="/contactMe"
               className="text-textcolor text-center block px-3 py-4"
               onClick={closeAllMenus}
             >

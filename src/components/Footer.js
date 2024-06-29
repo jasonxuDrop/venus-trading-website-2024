@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Full En.png";
 
 const Footer = () => {
@@ -8,9 +9,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
           <div className="sm:col-span-1 lg:col-span-2">
             <div className="flex items-center flex-shrink-0">
-              <img src={logo} alt="Logo" className="h-[auto] w-[70%] lg:w-full mr-2" />
-              <div className="text-left text-textWhite">
-              </div>
+              <img
+                src={logo}
+                alt="Logo"
+                className="h-[auto] w-[70%] lg:w-full mr-2"
+              />
+              <div className="text-left text-textWhite"></div>
             </div>
             <div className="mt-4">
               <p className="text-left text-textWhite">Telephone: 123456789</p>
@@ -38,16 +42,16 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li className="mt-4">
-                <a href="/">About us</a>
+                <a href="/about">About us</a>
               </li>
               <li className="mt-4 block lg:hidden">
-                <a href="/">Linen Products</a>
+                <a href="/linedenProducts">Lineden Products</a>
               </li>
               <li className="mt-4 block lg:hidden">
-                <a href="/">Apparel Products</a>
+                <a href="/apparelProducts">Apparel Products</a>
               </li>
               <li className="mt-4 block lg:hidden">
-                <a href="/">Contact us</a>
+                <a href="/contactMe">Contact us</a>
               </li>
               <li className="mt-4">
                 <a href="/">日本语</a>
@@ -57,10 +61,10 @@ const Footer = () => {
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
               <li>
-                <a href="/">Linen Products</a>
+                <a href="/linedenProducts">Lineden Products</a>
               </li>
               <li className="mt-4">
-                <a href="/">Hotel Linen</a>
+                <a href="/linedenProducts">Hotel Linen</a>
               </li>
               <li className="mt-4">
                 <a href="/">Spa Resort</a>
@@ -76,7 +80,7 @@ const Footer = () => {
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
               <li>
-                <a href="/">Apparel Products</a>
+                <a href="/apparelProducts">Apparel Products</a>
               </li>
               <li className="mt-4">
                 <a href="/">Apron</a>
