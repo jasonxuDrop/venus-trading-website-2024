@@ -9,7 +9,7 @@ const ApparelProducts = () => {
     <div
       className={`max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32 ${
         smallScreenHeight ? "lg:h-[calc(100vh-10rem)]" : ""
-      }flex flex-col justify-center`}
+      } flex flex-col justify-center`}
     >
       {/* Apparel Products */}
       <div className="text-center mb-[3rem]">
