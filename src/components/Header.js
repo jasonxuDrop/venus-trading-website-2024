@@ -37,7 +37,7 @@ const Header = () => {
           <a href="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
-              <h1 className="text-mobileHeading4 font-medium">Weifang SevenUp</h1>
+              <h4 className="font-medium">Weifang SevenUp</h4>
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
@@ -189,7 +189,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <div className="-mr-2 py-6 flex lg:hidden z-10">
+          <div className="-mr-2 py-6 pr-2 flex lg:hidden z-10">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="bg-navbarcolor inline-flex items-center justify-center text-textcolor hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-navbar "
@@ -221,17 +221,17 @@ const Header = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto`}
       >
-        <div className="px-2 pt-4 pb-3 sm:px-3">
+        <div className="px-3 pt-5 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
             <a href="/">
               <div className="flex items-center flex-shrink-0">
                 <img src={logo} alt="Logo" className="h-[auto] w-[50px] mr-2" />
-                <h3 className="">Weifang SevenUp</h3>
+                <h4 className="font-medium">Weifang SevenUp</h4>
               </div>
             </a>
             <button
               onClick={closeAllMenus}
-              className="text-textcolor hover:text-white pr-2"
+              className="text-textcolor hover:text-white"
             >
               <svg
                 className="h-8 w-8"
