@@ -397,7 +397,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="px-2 pb-4">
+        <div className="px-3 pb-4">
           <a
             href="/"
             className="block text-left font-normal"
