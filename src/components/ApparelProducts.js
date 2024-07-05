@@ -8,11 +8,11 @@ const ApparelProducts = () => {
   return (
     <div
       className={`max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32 ${
-        smallScreenHeight ? "lg:h-[calc(100vh-10rem)]" : ""
+        smallScreenHeight ? "" : ""
       } flex flex-col justify-center`}
     >
       {/* Apparel Products */}
-      <div className="text-center mb-[3rem]">
+      <div className="text-center mb-[96px]">
         <h2 className="inline-block relative">
           Apparel Products
           <span

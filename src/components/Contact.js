@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       className={`max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32 ${
-        smallScreenHeight ? "lg:h-[calc(100vh-10rem)]" : ""
+        smallScreenHeight ? "" : ""
       }`}
     >
       <div className="relative grid grid-cols-12 gap-2">

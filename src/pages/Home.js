@@ -66,23 +66,23 @@ const Home = () => {
         {/* End Home */}
       </div>
       {/* About */}
-      <div className="py-[5rem] bg-navbarcolor" id="about">
+      <div className="pt-[192px] bg-navbarcolor" id="about">
         <Hero />
       </div>
       {/* End About */}
 
       {/* Product */}
-      <div className="py-[5rem] bg-navbarcolor" id="lineden">
+      <div className="pt-[192px] bg-navbarcolor" id="lineden">
         <LinedenProducts />
       </div>
 
-      <div className="py-[5rem] bg-navbarcolor" id="apparel">
+      <div className="pt-[192px] bg-navbarcolor" id="apparel">
         <ApparelProducts />
       </div>
       {/* End Product */}
 
       {/* Contact Us */}
-      <div className="py-[5rem] bg-navbarcolor">
+      <div className="py-[192px] bg-navbarcolor">
         <Contact />
       </div>
 
