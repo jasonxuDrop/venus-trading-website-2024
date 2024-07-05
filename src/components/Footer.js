@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-footerBgColor mt-4 pt-8 pb-8">
-        <p className="text-sm text-textWhite text-left px-8 lg:px-8 lg:text-center">
+        <p className="text-sm text-textWhite text-left px-3.5 lg:px-8 lg:text-center">
           © 2024 Weifang SevenUp Internation Trading Co., LTD. All Rights
           Reserved.
         </p>

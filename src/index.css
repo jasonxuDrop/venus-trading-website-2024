@@ -73,3 +73,10 @@ code {
   outline: none;
   border-bottom-color: #A7D747;
 }
+
+.aspect-ratio-square {
+  width: 100%; /* or fixed px based on your design needs */
+  height: auto;
+  aspect-ratio: 1 / 1; /* This maintains a 1:1 aspect ratio */
+}
+

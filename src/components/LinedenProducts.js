@@ -30,17 +30,17 @@ const LinedenProducts = () => {
           productTitle={"Hotel Linen"}
           productDes={`Gown, Pajama, Bathrobe,
 Bedding, Towel`}
-          className={"col-span-12 lg:col-span-3"}
+          className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
         />
         <ProductCard
           productTitle={"Onsen Ryokan"}
           productDes={`Yukata, Indoor Wear, Haori, Sauna Clothes`}
-          className={"col-span-12 lg:col-span-3"}
+          className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
         />
         <ProductCard
           productTitle={"Hospital"}
           productDes={`Patient Clothes, Undergarments, etc.`}
-          className={"col-span-12 lg:col-span-3"}
+          className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
         />
         <ProductCard
           productTitle={"Fabric"}

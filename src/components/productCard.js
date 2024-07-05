@@ -3,7 +3,7 @@ import React from "react";
 const ProductCard = ({ productTitle, productDes, productImage, className }) => {
   return (
     <div
-      className={`mx-auto w-full h-[450px] cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-400 ease-in-out ${className}`}
+      className={`mx-auto w-full max-w-[270px] h-[450px] cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-400 ease-in-out ${className}`}
     >
       <div className="w-full, h-[60%] bg-gray-200"></div>
       <div className="w-full, h-[40%] bg-white flex items-center justify-center">
