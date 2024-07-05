@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function useScreenHeight(threshold = 500) {
+const  useScreenHeight = (threshold = 500) => {
   const [isAboveThreshold, setIsAboveThreshold] = useState(false);
 
   useEffect(() => {

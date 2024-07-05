@@ -9,10 +9,14 @@ import LinedenProducts from "../components/LinedenProducts";
 import ApparelProducts from "../components/ApparelProducts";
 import Contact from "../components/Contact";
 
+import useScreenWidth from "../utils/hooks/useScreenWidth";
+
 const Home = () => {
+  const isMobileScreenWidth = useScreenWidth(640, "smaller");
+
   return (
     <>
-      <div className="w-full h-auto bg-homeBgColor">
+      <div className={`w-full h-auto bg-homeBgColor ${isMobileScreenWidth ? "custom-hero-mobile" : ""}`}>
         {/* Home */}
         <div
           className="max-w-screen-xl mx-auto
@@ -44,7 +48,7 @@ const Home = () => {
 
             {/* MOBILD HERO */}
             <div
-              className="custom-hero-mobile col-span-12 max-w-full h-[calc(1.672*100vw)]
+              className="col-span-12 max-w-full h-[calc(1.672*100vw)]
             sm:hidden"
             >
               <div className="flex flex-col items-center justify-center text-center py-16">
@@ -66,7 +70,7 @@ const Home = () => {
         {/* End Home */}
       </div>
       {/* About */}
-      <div className="pt-[192px] bg-navbarcolor" id="about">
+      <div className="pt-[64px] lg:pt-[192px] bg-navbarcolor" id="about">
         <Hero />
       </div>
       {/* End About */}

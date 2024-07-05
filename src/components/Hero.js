@@ -12,7 +12,7 @@ const Hero = () => {
           <img
             src={aboutImg}
             alt="About"
-            className={`w-full ${smallScreenHeight ? "" : ""} object-cover`}
+            className={`w-full ${smallScreenHeight ? "" : ""} hidden lg:block object-cover`}
           />
         </div>
         <div className="col-span-12 lg:col-span-5 lg:col-start-8 text-left border-2 my-auto">

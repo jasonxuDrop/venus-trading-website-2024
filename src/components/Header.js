@@ -31,12 +31,12 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-navbarcolor text-textcolor">
+    <nav className="sticky top-0 z-50 bg-navbarcolor text-textcolor">
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
-              <img src={logo} alt="Logo" className="h-[auto] w-[70px] mr-2" />
+              <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
               <h1 className="text-mobileHeading4 font-medium">Weifang SevenUp</h1>
             </div>
           </a>

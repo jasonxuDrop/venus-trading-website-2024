@@ -12,7 +12,7 @@ const ProductCard = ({ productTitle, productDes, productImage, className }) => {
             <h4 className="text-center">{productTitle}</h4>
           </div>
           <div className="h-[40px] px-2">
-            <p className="text-center">{productDes}</p>
+            <p className="text-center text-gray-500">{productDes}</p>
           </div>
         </div>
       </div>
