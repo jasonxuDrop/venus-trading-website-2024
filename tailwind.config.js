@@ -28,6 +28,10 @@ module.exports = {
         mobileHeading4: "1rem",
         mobilePText: "1rem",
       },
+      screens: {
+        'lg': '1200px',
+        // => @media (min-width: 1200px) { ... }
+      }
     },
   },
   plugins: [

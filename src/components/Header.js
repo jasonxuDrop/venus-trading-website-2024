@@ -255,7 +255,7 @@ const Header = () => {
           <div className="w-full">
             <a
               href="/"
-              className="text-textcolor text-center block px-3 pt-4 pb-1"
+              className="text-textcolor text-center block px-3 pt-8 pb-1"
               onClick={closeAllMenus}
             >
               <h2 className="border-transparent hover:border-hoverColor">
@@ -403,9 +403,9 @@ const Header = () => {
             className="block text-left font-normal"
             onClick={closeAllMenus}
           >
-            <span className="hover:border-hoverColor border-transparent">
+            <h4 className="hover:border-hoverColor border-transparent">
               日本语
-            </span>
+            </h4>
           </a>
         </div>
       </div>
