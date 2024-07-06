@@ -75,8 +75,8 @@ code {
 }
 
 .aspect-ratio-square {
-  width: 100%; /* or fixed px based on your design needs */
+  width: 100%; 
   height: auto;
-  aspect-ratio: 1 / 1; /* This maintains a 1:1 aspect ratio */
+  aspect-ratio: 1 / 1; 
 }
 
