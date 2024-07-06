@@ -69,7 +69,7 @@ const Contact = () => {
                 className="input-field resize-none"
               ></textarea>
             </div>
-            <div className="flex justify-end">
+            <div className="text-center lg:flex lg:justify-end">
               <button
                 type="submit"
                 className="px-6 py-2 bg-buttonColor text-black rounded hover:bg-buttonHover"
