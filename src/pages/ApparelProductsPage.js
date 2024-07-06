@@ -2,7 +2,7 @@ import ApparelProducts from "../components/ApparelProducts";
 
 const ApparelProductsPage = () => {
   return (
-    <div className="py-[5rem] bg-navbarcolor" id="apparel">
+    <div className="pt-[64px] pb-[128px] bg-navbarcolor" id="apparel">
       <ApparelProducts />
     </div>
   );

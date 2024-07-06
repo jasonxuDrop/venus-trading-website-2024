@@ -2,7 +2,7 @@ import Contact from "../components/Contact";
 
 const ContactMe = () => {
     return (
-        <div className="py-[5rem] bg-navbarcolor">
+        <div className="pt-[64px] pb-[128px] bg-navbarcolor">
             <Contact />
         </div>
     )

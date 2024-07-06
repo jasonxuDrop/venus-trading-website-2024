@@ -2,7 +2,7 @@ import LinedenProducts from "../components/LinedenProducts";
 
 const LinedenProductsPage = () => {
   return (
-    <div className="py-[5rem] bg-navbarcolor" id="lineden">
+    <div className="pt-[64px] pb-[128px] bg-navbarcolor" id="lineden">
       <LinedenProducts />
     </div>
   );

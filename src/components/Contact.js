@@ -11,8 +11,8 @@ const Contact = () => {
       }`}
     >
       <div className="relative grid grid-cols-12 gap-2">
-        <div className="col-span-12 lg:col-span-5 text-left border-2 flex flex-col justify-between lg:h-[70%]">
-          <h2 className="mb-[128px]">Contact Us</h2>
+        <div className="col-span-12 lg:col-span-5 text-left flex flex-col justify-between lg:h-[70%]">
+          <h2 className="mb-[64px]">Contact Us</h2>
           <p className="mb-[16px]">
             Have questions about a particular product or interested in
             collaborating with us? Leave us a message, and we'll get back to you
@@ -33,7 +33,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-left border-2">
+        <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-left">
           <form className="space-y-4">
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="name" className="font-semibold text-formColor">

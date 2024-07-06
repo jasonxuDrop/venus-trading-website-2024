@@ -272,14 +272,14 @@ const Header = () => {
               </h2>
             </a>
             <div>
-              <button
-                onClick={toggleLindenMenu}
-                className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center"
-              >
-                <h2 className="border-transparent hover:border-hoverColor">
-                  Linden Products
-                </h2>
+              <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                <a href="/linedenProducts">
+                  <h2 className="border-transparent hover:border-hoverColor">
+                    Linden Products
+                  </h2>
+                </a>
                 <svg
+                  onClick={toggleLindenMenu}
                   className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                     isLindenMenuOpen ? "rotate-180" : "rotate-0"
                   }`}
@@ -295,7 +295,7 @@ const Header = () => {
                     d="M5 15l7-7 7 7"
                   ></path>
                 </svg>
-              </button>
+              </div>
               {isLindenMenuOpen && (
                 <div className="bg-mobileNavbarColor">
                   <a
@@ -338,14 +338,14 @@ const Header = () => {
               )}
             </div>
             <div>
-              <button
-                onClick={toggleApparelMenu}
-                className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center"
-              >
-                <h2 className="border-transparent hover:border-hoverColor">
-                  Apparel Products
-                </h2>
+              <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                <a href="/apparelProducts">
+                  <h2 className="border-transparent hover:border-hoverColor">
+                    Apparel Products
+                  </h2>
+                </a>
                 <svg
+                  onClick={toggleApparelMenu}
                   className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                     isApparelMenuOpen ? "rotate-180" : "rotate-0"
                   }`}
@@ -361,7 +361,7 @@ const Header = () => {
                     d="M5 15l7-7 7 7"
                   ></path>
                 </svg>
-              </button>
+              </div>
               {isApparelMenuOpen && (
                 <div className="bg-mobileNavbarColor">
                   <a
@@ -398,12 +398,8 @@ const Header = () => {
         </div>
 
         <div className="px-3 pb-4">
-          <a
-            href="/"
-            className="block text-left font-normal"
-            onClick={closeAllMenus}
-          >
-            <h4 className="hover:border-hoverColor border-transparent">
+          <a href="/" className="block text-left" onClick={closeAllMenus}>
+            <h4 className="hover:border-hoverColor border-transparent font-bold">
               日本语
             </h4>
           </a>

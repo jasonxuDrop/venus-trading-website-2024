@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 
 const About = () => {
   return (
-    <div className="py-[5rem] bg-navbarcolor">
+    <div className="pt-[64px] pb-[128px] bg-navbarcolor">
       <Hero />
     </div>
   );
