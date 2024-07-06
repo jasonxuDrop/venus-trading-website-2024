@@ -251,34 +251,34 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="flex-grow flex items-center justify-center border-2">
+        <div className="flex-grow flex border-2">
           <div className="w-full">
             <a
               href="/"
-              className="text-textcolor text-center block px-3 py-4"
+              className="text-textcolor text-center block px-3 pt-4 pb-1"
               onClick={closeAllMenus}
             >
-              <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+              <h2 className="border-transparent hover:border-hoverColor">
                 Home
-              </h1>
+              </h2>
             </a>
             <a
               href="/about"
-              className="text-textcolor text-center block px-3 py-4"
+              className="text-textcolor text-center block px-3 pv-1"
               onClick={closeAllMenus}
             >
-              <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+              <h2 className="border-transparent hover:border-hoverColor">
                 About
-              </h1>
+              </h2>
             </a>
             <div>
               <button
                 onClick={toggleLindenMenu}
-                className="text-textcolor w-full text-center block px-3 py-4 flex justify-center items-center"
+                className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center"
               >
-                <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                <h2 className="border-transparent hover:border-hoverColor">
                   Linden Products
-                </h1>
+                </h2>
                 <svg
                   className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                     isLindenMenuOpen ? "rotate-180" : "rotate-0"
@@ -300,39 +300,39 @@ const Header = () => {
                 <div className="bg-mobileNavbarColor">
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4"
+                    className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
-                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h3 className="border-transparent hover:border-hoverColor">
                       Hotel
-                    </h1>
+                    </h3>
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4"
+                    className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
-                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h3 className="border-transparent hover:border-hoverColor">
                       Hot Spring Resort
-                    </h1>
+                    </h3>
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4"
+                    className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
-                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h3 className="border-transparent hover:border-hoverColor">
                       Hospital
-                    </h1>
+                    </h3>
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4"
+                    className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
-                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h3 className="border-transparent hover:border-hoverColor">
                       Fabric
-                    </h1>
+                    </h3>
                   </a>
                 </div>
               )}
@@ -340,11 +340,11 @@ const Header = () => {
             <div>
               <button
                 onClick={toggleApparelMenu}
-                className="text-textcolor w-full text-center block px-3 py-4 flex justify-center items-center"
+                className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center"
               >
-                <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                <h2 className="border-transparent hover:border-hoverColor">
                   Apparel Products
-                </h1>
+                </h2>
                 <svg
                   className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                     isApparelMenuOpen ? "rotate-180" : "rotate-0"
@@ -366,33 +366,33 @@ const Header = () => {
                 <div className="bg-mobileNavbarColor">
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4"
+                    className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
-                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h3 className="border-transparent hover:border-hoverColor">
                       Apron
-                    </h1>
+                    </h3>
                   </a>
                   <a
                     href="/"
-                    className="text-textcolor text-center block px-4 py-4"
+                    className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
-                    <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+                    <h3 className="border-transparent hover:border-hoverColor">
                       Pajama
-                    </h1>
+                    </h3>
                   </a>
                 </div>
               )}
             </div>
             <a
               href="/contactMe"
-              className="text-textcolor text-center block px-3 py-4"
+              className="text-textcolor text-center block px-3 pb-1"
               onClick={closeAllMenus}
             >
-              <h1 className="border-b-2 border-transparent hover:border-hoverColor">
+              <h2 className="border-transparent hover:border-hoverColor">
                 Contact
-              </h1>
+              </h2>
             </a>
           </div>
         </div>
@@ -403,7 +403,7 @@ const Header = () => {
             className="block text-left font-normal"
             onClick={closeAllMenus}
           >
-            <span className="hover:border-hoverColor border-b-2 border-transparent">
+            <span className="hover:border-hoverColor border-transparent">
               日本语
             </span>
           </a>
