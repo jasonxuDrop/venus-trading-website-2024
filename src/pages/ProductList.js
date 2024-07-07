@@ -17,32 +17,32 @@ const ProductList = () => {
 
       <div className="max-w-screen-xl mx-auto lg:pt-[96px] lg:pb-[192px] px-3.5 sm:px-16 lg:px-32">
         <div className="relative grid grid-cols-12 gap-2">
-          <div className="hidden lg:block lg:col-span-2 border-red-500 border-2">
+          <div className="hidden lg:block lg:col-span-2">
             <div className="flex flex-col h-full">
               <div className="">
-                <h3 className="font-semibold mb-4 text-xl">Linen Product</h3>
-                <div className="mt-[32px] border-2 flex flex-col">
-                  <Link to="/" className="mb-[12px]">
+                <h3 className="font-semibold mb-[24px] text-xl">Linen Product</h3>
+                <div className="flex flex-col">
+                  <Link to="/" className="mb-[24px]">
                     <span className="border-b-2 border-hoverColor">Hotel</span>
                   </Link>
-                  <Link to="/" className="mb-[12px]">
+                  <Link to="/" className="mb-[24px]">
                     <span>Hot Spring Resort</span>
                   </Link>
-                  <Link to="/" className="mb-[12px]">
+                  <Link to="/" className="mb-[24px]">
                     <span>Hospital</span>
                   </Link>
-                  <Link to="/" className="mb-[12px]">
+                  <Link to="/" className="">
                     <span>Fabric</span>
                   </Link>
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-[96px]">
                 <h3 className="font-semibold mb-4 text-xl">Apparel Product</h3>
-                <div className="mt-[32px] border-2 flex flex-col">
-                  <Link to="/" className="mb-[12px]">
+                <div className="mt-[24px] flex flex-col">
+                  <Link to="/" className="mb-[24px]">
                     <span>Apron</span>
                   </Link>
-                  <Link to="/" className="mb-[12px]">
+                  <Link to="/" className="">
                     <span>Pajama</span>
                   </Link>
                 </div>
@@ -60,7 +60,7 @@ const ProductList = () => {
             </h1>
           </div>
 
-          <div className="col-span-12 lg:col-span-10 lg:col-start-3 border border-blue-500">
+          <div className="col-span-12 lg:col-span-10 lg:col-start-3">
             <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-2 lg:gap-4">
               <DetailedProductCard
                 productTitle={"ベッドリネン"}
