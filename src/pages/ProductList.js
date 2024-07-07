@@ -6,14 +6,14 @@ import DetailedProductCard from "../components/DetailedProductCard";
 
 const ProductList = () => {
   return (
-    <div className="w-full bg-navbarcolor relative pt-[64px] pb-[128px]">
+    <div className="w-full bg-navbarcolor relative ">
       <div className="hidden lg:block lg:relative lg:w-full">
-        <img src={img} alt="" className="w-full h-full object-cover" />
+        <img src={img} alt="" className="w-full h-[509px] object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
           <h1 className="text-white">Hotel Linen</h1>
         </div>
-      </div>
+      </div> 
 
       <div className="max-w-screen-xl mx-auto lg:pt-[96px] lg:pb-[192px] px-3.5 sm:px-16 lg:px-32">
         <div className="relative grid grid-cols-12 gap-2">
