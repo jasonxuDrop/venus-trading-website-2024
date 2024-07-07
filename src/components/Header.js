@@ -251,7 +251,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="flex-grow flex border-2">
+        <div className="flex-grow flex">
           <div className="w-full">
             <a
               href="/"
