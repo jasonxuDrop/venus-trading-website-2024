@@ -2,7 +2,7 @@ import React from "react";
 import homtImg from "../assets/images/homeImg/hero-image.jpg";
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
-import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.png";
+import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.svg";
 
 import Hero from "../components/Hero";
 import LinedenProducts from "../components/LinedenProducts";
