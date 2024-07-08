@@ -113,7 +113,7 @@ const ProductDetail = () => {
 
         {/* Photo Gallery */}
         <div className="w-full mb-[128px] lg:mb-[192px]">
-          <h1 className="lg:text-center mb-2">ギャラリー</h1>
+          <h2 className="lg:text-center mb-2">ギャラリー</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2">
             {images.map((image, index) => (
               <img
