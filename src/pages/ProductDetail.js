@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import testImg from "../assets/images/detailImg/product-table-linen-2 1.png";
 import img1 from "../assets/images/detailImg/tablecloth1.png";
@@ -9,36 +9,82 @@ const ProductDetail = () => {
   const [showModal, setShowModal] = useState(false);
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
   const [zoomLevel, setZoomLevel] = useState(1);
-  const [zoomOrigin, setZoomOrigin] = useState("center");
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [dragPosition, setDragPosition] = useState({ x: 0, y: 0 });
+  const [hasMoved, setHasMoved] = useState(false); // Track if the image has moved
+
   const images = [img1, img2, img3];
+
+  useEffect(() => {
+    document.body.style.overflow = showModal ? "hidden" : "auto";
+  }, [showModal]);
 
   const openModal = (index) => {
     setCurrentImgIndex(index);
     setShowModal(true);
     setZoomLevel(1);
+    setDragPosition({ x: 0, y: 0 });
+    setHasMoved(false);
   };
 
   const closeModal = () => {
     setShowModal(false);
     setZoomLevel(1);
+    setDragPosition({ x: 0, y: 0 });
   };
 
   const nextImage = () => {
     setCurrentImgIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setZoomLevel(1);
+    setDragPosition({ x: 0, y: 0 });
   };
 
   const previousImage = () => {
     setCurrentImgIndex(
       (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
+    setZoomLevel(1);
+    setDragPosition({ x: 0, y: 0 });
   };
 
-  const handleImageClick = (event) => {
-    const { offsetX, offsetY, target } = event.nativeEvent;
-    const x = ((offsetX / target.width) * 100).toFixed(2);
-    const y = ((offsetY / target.height) * 100).toFixed(2);
-    setZoomOrigin(`${x}% ${y}%`);
-    setZoomLevel((prevZoom) => (prevZoom < 4 ? prevZoom + 0.5 : 1));
+  const handleMouseDown = (event) => {
+    if (zoomLevel > 1) {
+      setIsDragging(true);
+      setDragStart({
+        x: event.clientX - dragPosition.x,
+        y: event.clientY - dragPosition.y,
+      });
+      event.preventDefault(); // Prevent default drag behavior
+      setHasMoved(false);
+    }
+  };
+
+  const handleMouseMove = (event) => {
+    if (isDragging) {
+      setHasMoved(true);
+      const newPosX = event.clientX - dragStart.x;
+      const newPosY = event.clientY - dragStart.y;
+      setDragPosition({
+        x: newPosX,
+        y: newPosY,
+      });
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleImageClick = () => {
+    if (!hasMoved) {
+      if (zoomLevel === 1) {
+        setZoomLevel(2.5); // Zoom in
+      } else {
+        setZoomLevel(1); // Reset zoom
+        setDragPosition({ x: 0, y: 0 }); // Reset position
+      }
+    }
   };
 
   return (
@@ -130,21 +176,32 @@ const ProductDetail = () => {
 
         {/* Modal for full-screen image view */}
         {showModal && (
-          <div className="fixed inset-0 bg-black bg-[#f0f2fa] flex items-center justify-center z-50">
+          <div
+            className="fixed inset-0 bg-[#f0f2fa] flex items-center justify-center p-4 z-50"
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseDown={(e) => e.preventDefault()}
+          >
             <img
               src={images[currentImgIndex]}
-              className={`w-full h-[1032px] cursor-${
-                zoomLevel > 1 ? "zoom-out" : "zoom-in"
-              } m-[1.5rem] object-contain`}
+              className="max-w-full max-h-full"
               style={{
-                transformOrigin: zoomOrigin,
-                transform: `scale(${zoomLevel})`,
+                cursor: isDragging
+                  ? "grabbing"
+                  : zoomLevel > 1
+                  ? "grab"
+                  : "zoom-in",
+                transform: `translate(${dragPosition.x}px, ${dragPosition.y}px) scale(${zoomLevel})`,
+                transformOrigin: "center",
               }}
+              onMouseDown={handleMouseDown}
+              onMouseUp={handleMouseUp}
               onClick={handleImageClick}
             />
 
+            {/* Close button */}
             <button
-              className="absolute top-[1.5rem] right-[1.5rem] bg-white text-black px-3 py-2 text-center"
+              className="absolute top-[1.5rem] right-[1.5rem] bg-white text-black px-2 py-1 text-center"
               onClick={closeModal}
             >
               <svg
@@ -163,7 +220,8 @@ const ProductDetail = () => {
               </svg>
             </button>
 
-            <div className="absolute bottom-[1.5rem] left-1/2 transform -translate-x-1/2 flex items-center space-x-4 bg-white">
+            {/* Page indicator */}
+            <div className="absolute bottom-[1.5rem] left-1/2 transform -translate-x-1/2 flex items-center space-x-4 p-1 bg-white">
               <button className="text-black" onClick={previousImage}>
                 &lt;
               </button>
