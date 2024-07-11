@@ -90,7 +90,7 @@ const Header = () => {
                   style={{}}
                 >
                   <a
-                    href="/"
+                    href="/productList"
                     className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">

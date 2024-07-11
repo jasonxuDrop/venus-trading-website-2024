@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const DetailedProductCard = ({
   productTitle,
@@ -8,12 +9,18 @@ const DetailedProductCard = ({
   className,
 }) => {
   const [hover, setHover] = useState(false);
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/productDetail');
+  };
 
   return (
     <div
       className={`${className} mb-[32px] max-w-[190px] lg:max-w-full lg:w-full h-[300px] lg:h-[200px] lg:col-span-6 border-2 flex flex-col lg:flex-row cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-400 ease-in-out rounded overflow-hidden`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      onClick={handleNavigate}
     >
       <div className="w-full lg:w-[48%] h-full border-2 overflow-hidden relative">
         <img src={productImg_1} className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${hover ? 'opacity-0' : 'opacity-100'}`} />
