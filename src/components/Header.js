@@ -90,7 +90,7 @@ const Header = () => {
                   style={{}}
                 >
                   <a
-                    href="/productList"
+                    href="/productList/hotel"
                     className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -98,7 +98,7 @@ const Header = () => {
                     </span>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/hotSpring"
                     className="block text-left px-3 py-1 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -106,7 +106,7 @@ const Header = () => {
                     </span>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/hospital"
                     className="block text-left px-3 py-1 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -114,7 +114,7 @@ const Header = () => {
                     </span>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/fabric"
                     className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -160,7 +160,7 @@ const Header = () => {
                   onMouseLeave={() => setIsApparelMenuOpen(false)}
                 >
                   <a
-                    href="/"
+                    href="/productList/apron"
                     className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -168,7 +168,7 @@ const Header = () => {
                     </span>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/pajama"
                     className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                   >
                     <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -299,7 +299,7 @@ const Header = () => {
               {isLindenMenuOpen && (
                 <div className="bg-mobileNavbarColor">
                   <a
-                    href="/"
+                    href="/productList/hotel"
                     className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
@@ -308,7 +308,7 @@ const Header = () => {
                     </h3>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/hotSpring"
                     className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
@@ -317,7 +317,7 @@ const Header = () => {
                     </h3>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/hospital"
                     className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
@@ -326,7 +326,7 @@ const Header = () => {
                     </h3>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/fabric"
                     className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
@@ -365,7 +365,7 @@ const Header = () => {
               {isApparelMenuOpen && (
                 <div className="bg-mobileNavbarColor">
                   <a
-                    href="/"
+                    href="/productList/apron"
                     className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >
@@ -374,7 +374,7 @@ const Header = () => {
                     </h3>
                   </a>
                   <a
-                    href="/"
+                    href="/productList/pajama"
                     className="text-textcolor text-center block px-4 py-1"
                     onClick={closeAllMenus}
                   >

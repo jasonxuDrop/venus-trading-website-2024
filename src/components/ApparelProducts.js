@@ -24,10 +24,14 @@ const ApparelProducts = () => {
 
       <div className="relative grid grid-cols-12 gap-4">
         <ProductCard
+          productType={"apron"}
           productTitle={"Apron"}
-          className={"mb-[64px] lg:mb-0 col-span-12 lg:col-span-3 lg:col-start-4"}
+          className={
+            "mb-[64px] lg:mb-0 col-span-12 lg:col-span-3 lg:col-start-4"
+          }
         />
         <ProductCard
+          productType={"pajama"}
           productTitle={"Pajama"}
           className={"col-span-12 lg:col-span-3 lg:col-start-7"}
         />

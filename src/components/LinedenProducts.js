@@ -27,22 +27,26 @@ const LinedenProducts = () => {
 
       <div className="relative grid grid-cols-12 gap-4">
         <ProductCard
+          productType={"hotel"}
           productTitle={"Hotel Linen"}
           productDes={`Gown, Pajama, Bathrobe,
 Bedding, Towel`}
           className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
         />
         <ProductCard
+          productType={"hotSpring"}
           productTitle={"Onsen Ryokan"}
           productDes={`Yukata, Indoor Wear, Haori, Sauna Clothes`}
           className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
         />
         <ProductCard
+          productType={"hospital"}
           productTitle={"Hospital"}
           productDes={`Patient Clothes, Undergarments, etc.`}
           className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
         />
         <ProductCard
+          productType={"fabric"}
           productTitle={"Fabric"}
           productDes={``}
           className={"col-span-12 lg:col-span-3"}

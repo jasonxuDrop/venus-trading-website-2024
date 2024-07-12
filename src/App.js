@@ -49,7 +49,10 @@ function App() {
                 path="/apparelProducts"
                 element={<ApparelProductsPage />}
               />
-              <Route path="/productList" element={<ProductList />} />
+              <Route
+                path="/productList/:productType"
+                element={<ProductList />}
+              />
               <Route path="/productDetail" element={<ProductDetail />} />
               <Route path="/404" element={<NotFound />} />
             </Routes>

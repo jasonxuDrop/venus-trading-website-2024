@@ -1,13 +1,19 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
-const ProductCard = ({ productTitle, productDes, productImage, className }) => {
+const ProductCard = ({
+  productType,
+  productTitle,
+  productDes,
+  productImage,
+  className,
+}) => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate('/productList');
+    navigate(`/productList/${productType}`);
   };
-  
+
   return (
     <div
       className={`mx-auto w-full max-w-[270px] h-[450px] cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-400 ease-in-out rounded overflow-hidden ${className}`}
