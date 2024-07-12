@@ -13,6 +13,7 @@ const ProductDetail = () => {
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
   const [dragPosition, setDragPosition] = useState({ x: 0, y: 0 });
   const [hasMoved, setHasMoved] = useState(false); // Track if the image has moved
+  const [transformOrigin, setTransformOrigin] = useState("center");
 
   const images = [img1, img2, img3];
 
@@ -26,12 +27,14 @@ const ProductDetail = () => {
     setZoomLevel(1);
     setDragPosition({ x: 0, y: 0 });
     setHasMoved(false);
+    setTransformOrigin("center");
   };
 
   const closeModal = () => {
     setShowModal(false);
     setZoomLevel(1);
     setDragPosition({ x: 0, y: 0 });
+    setTransformOrigin("center");
   };
 
   const nextImage = () => {
@@ -76,13 +79,18 @@ const ProductDetail = () => {
     setIsDragging(false);
   };
 
-  const handleImageClick = () => {
+  const handleImageClick = (event) => {
     if (!hasMoved) {
       if (zoomLevel === 1) {
         setZoomLevel(2.5); // Zoom in
+        const rect = event.target.getBoundingClientRect();
+        const x = ((event.clientX - rect.left) / rect.width) * 100;
+        const y = ((event.clientY - rect.top) / rect.height) * 100;
+        setTransformOrigin(`${x}% ${y}%`);
       } else {
         setZoomLevel(1); // Reset zoom
         setDragPosition({ x: 0, y: 0 }); // Reset position
+        setTransformOrigin("center");
       }
     }
   };
@@ -192,7 +200,7 @@ const ProductDetail = () => {
                   ? "grab"
                   : "zoom-in",
                 transform: `translate(${dragPosition.x}px, ${dragPosition.y}px) scale(${zoomLevel})`,
-                transformOrigin: "center",
+                transformOrigin: transformOrigin,
               }}
               onMouseDown={handleMouseDown}
               onMouseUp={handleMouseUp}
