@@ -10,6 +10,9 @@ const useScrollDetection = (targetId) => {
       console.error(`Element with ID ${targetId} not found.`);
       return;
     }
+    else {
+      console.log(targetElement);
+    }
 
     const observer = new IntersectionObserver(
       ([entry]) => {

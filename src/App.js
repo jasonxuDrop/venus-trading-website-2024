@@ -18,22 +18,22 @@ import useScrollDetection from "./utils/hooks/useScrollDetection";
 
 const Home = React.lazy(() => import("./pages/Home"));
 
-function App() {
-  const ScrollDetectionComponent = ({ onScroll }) => {
-    const isScrolledPast = useScrollDetection('hero');
-  
-    useEffect(() => {
-      onScroll(isScrolledPast);
-    }, [isScrolledPast, onScroll]);
-  
-    return null;
-  };
+const ScrollDetectionComponent = ({ onScroll }) => {
+  const isScrolledPast = useScrollDetection('hero');
 
+  useEffect(() => {
+    onScroll(isScrolledPast);
+  }, [isScrolledPast, onScroll]);
+
+  return null;
+};
+
+function App() {
   const [isSticky, setIsSticky] = useState(false);
 
-  const handleScroll = (scrolledPast) => {
-    setIsSticky(scrolledPast);
-  };
+const handleScroll = (scrolledPast) => {
+  setIsSticky(scrolledPast);
+};
 
   return (
     <Router>
@@ -76,6 +76,7 @@ function App() {
             </Routes>
             {/* </div> */}
           </Suspense>
+          <ScrollDetectionComponent onScroll={handleScroll} />
         </div>
         <Footer />
       </div>
