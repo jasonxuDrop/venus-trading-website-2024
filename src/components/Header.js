@@ -5,7 +5,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import logo from "../assets/images/logo/Logo Icon.png";
 
-const Header = () => {
+const Header = ({ isSticky }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLindenMenuOpen, setIsLindenMenuOpen] = useState(false);
   const [isApparelMenuOpen, setIsApparelMenuOpen] = useState(false);
@@ -29,6 +29,8 @@ const Header = () => {
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
+
+  console.log(isSticky);
 
   return (
     <nav className="sticky top-0 z-50 bg-navbarcolor text-textcolor">

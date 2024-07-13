@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
 
-const  useScreenHeight = (threshold = 500) => {
+const useScreenHeight = (threshold = 500, condition = "greater") => {
   const [isAboveThreshold, setIsAboveThreshold] = useState(false);
 
   useEffect(() => {
     const checkHeight = () => {
       const screenHeight = window.innerHeight;
-      setIsAboveThreshold(screenHeight > threshold);
+      if (condition === "greater") {
+        setIsAboveThreshold(screenHeight > threshold);
+      } else if (condition === "smaller") {
+        setIsAboveThreshold(screenHeight < threshold);
+      }
     };
 
     checkHeight(); // Check on mount
@@ -14,9 +18,9 @@ const  useScreenHeight = (threshold = 500) => {
 
     // Cleanup function to remove the event listener
     return () => window.removeEventListener("resize", checkHeight);
-  }, [threshold]);
+  }, [threshold, condition]);
 
   return isAboveThreshold;
-}
+};
 
 export default useScreenHeight;

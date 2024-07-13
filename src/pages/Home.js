@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-      <div className={`w-full h-auto bg-homeBgColor ${isMobileScreenWidth ? "custom-hero-mobile" : ""}`}>
+      <div className={`w-full h-auto bg-homeBgColor ${isMobileScreenWidth ? "custom-hero-mobile" : ""}`} id="hero">
         {/* Home */}
         <div
           className="max-w-screen-xl mx-auto
