@@ -1,0 +1,16 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "linden": "Linden Products",
+        "hotel": "Linden Products",
+        "hotSpring": "Hot Spring Resort",
+        "hospital": "Hospital",
+        "fabric": "Fabric",
+        "apparel": "Apparel Products",
+        "apron": "Apron",
+        "pajama": "Pajama",
+        "contact": "Contact",
+        "lang": "English / 日本語"
+    }
+}

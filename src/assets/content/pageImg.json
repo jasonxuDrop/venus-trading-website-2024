@@ -1,0 +1,29 @@
+{
+    "assetsBasePath": "../assets/images",
+    "home": {
+        "hero": {
+            "logoNoIcon": {
+                "en": "/homeImg/hero-image-en.jpg",
+                "jp": "/homeImg/hero-image-jp.jpg"
+            },
+            "logoFullCenter": {
+                "en": "/logo/Logo No Icon EN.svg",
+                "jp": "/logo/Logo No Icon JP.svg"
+            },
+            "logoIcon": {
+                "en": "/logo/Logo Icon@4x 1.png",
+                "jp": "/logo/Logo Icon@4x 1.png"
+            },
+            "homeImg": {
+                "en": "/homeImg/hero-image-en.jpg",
+                "jp": "/homeImg/hero-image-jp.jpg"
+            }
+        }
+    },
+    "about": {
+        "aboutImg": {
+            "en": "/about/about-image-en.jpg",
+            "jp": "/about/about-image-jp.jpg"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "home": {
+        "hero": {
+            "title": ""
+        }
+    },
+    "about": {
+        "title": "Import, Export Experts In Weifang, China",
+        "content": [
+            "Weifang SevenUp International Trading Co., Ltd. specializes in the import, export, and processing of textiles. Leveraging the abundant local textile resources, we maintain a comprehensive and rigorous quality management system.",
+            "We export a wide range of high-quality products to Japan, United States, Europe, and other regions throughout the year."
+        ]
+    },
+    "contact": {
+        "title": "Contact Us",
+        "address": "123 Business Rd, Business City, BC 12345",
+        "phone": "+1234567890",
+        "fax": "+1234567891",
+        "content": "Have questions about a particular product or interested in collaborating with us? Leave us a message, and we'll get back to you shortly."
+    }
+}
