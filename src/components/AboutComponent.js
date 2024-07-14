@@ -2,7 +2,7 @@ import React from "react";
 import aboutImg from "../assets/images/aboutImg/pexels-cottonbro-4108797.png";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 
-const Hero = () => {
+const AboutComponent = () => {
   const smallScreenHeight = useScreenHeight(600);
 
   return (
@@ -33,4 +33,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default AboutComponent;

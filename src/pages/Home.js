@@ -4,7 +4,7 @@ import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
 import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.svg";
 
-import Hero from "../components/Hero";
+import AboutComponent from "../components/AboutComponent";
 import LinedenProducts from "../components/LinedenProducts";
 import ApparelProducts from "../components/ApparelProducts";
 import Contact from "../components/Contact";
@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <div className={`w-full h-auto bg-homeBgColor ${isMobileScreenWidth ? "custom-hero-mobile" : ""}`} id="hero">
-        {/* Home */}
+        {/* Hero */}
         <div
           className="max-w-screen-xl mx-auto
         px-3.5
@@ -67,11 +67,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* End Home */}
+        {/* End Hero */}
       </div>
       {/* About */}
       <div className="pt-[64px] lg:pt-[192px] bg-navbarcolor" id="about">
-        <Hero />
+        <AboutComponent />
       </div>
       {/* End About */}
 

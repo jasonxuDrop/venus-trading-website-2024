@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "../components/Hero";
+import AboutComponent from "../components/AboutComponent";
 
 const About = () => {
   return (
     <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor">
-      <Hero />
+      <AboutComponent />
     </div>
   );
 };
