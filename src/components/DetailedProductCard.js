@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 
 const DetailedProductCard = ({
   productTitle,
@@ -9,10 +8,9 @@ const DetailedProductCard = ({
   className,
 }) => {
   const [hover, setHover] = useState(false);
-  const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate('/productDetail');
+    window.location.href = `/productDetail`;
   };
 
   return (

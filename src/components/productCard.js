@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 const ProductCard = ({
   productType,
@@ -8,10 +7,8 @@ const ProductCard = ({
   productImage,
   className,
 }) => {
-  const navigate = useNavigate();
-
   const handleNavigate = () => {
-    navigate(`/productList/${productType}`);
+    window.location.href = `/productList/${productType}`;
   };
 
   return (
