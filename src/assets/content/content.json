@@ -1,0 +1,59 @@
+{
+    "assetsBasePath": "../assets/images",
+    "home": {
+        "hero": {
+            "logoNoIcon": {
+                "en": "/homeImg/hero-image-en.jpg",
+                "jp": "/homeImg/hero-image-jp.jpg"
+            },
+            "logoFullCenter": {
+                "en": "/logo/Logo No Icon EN.svg",
+                "jp": "/logo/Logo No Icon JP.svg"
+            },
+            "logoIcon": {
+                "en": "/logo/Logo Icon@4x 1.png",
+                "jp": "/logo/Logo Icon@4x 1.png"
+            },
+            "homeImg": {
+                "en": "/homeImg/hero-image-en.jpg",
+                "jp": "/homeImg/hero-image-jp.jpg"
+            }
+        }
+    },
+    "about": {
+        "aboutImg": {
+            "en": "/about/about-image-en.jpg",
+            "jp": "/about/about-image-jp.jpg"
+        },
+        "aboutTitle": {
+            "en": "Import, Export Experts In Weifang, China",
+            "jp": "中国潍坊の輸入・輸出の専門家"
+        },
+        "aboutContent": [
+            {
+                "en": "Weifang SevenUp International Trading Co., Ltd. specializes in the import, export, and processing of textiles. Leveraging the abundant local textile resources, we maintain a comprehensive and rigorous quality management system.",
+                "jp": "潍坊セブンアップ国際貿易有限公司は、繊維の輸入、輸出、加工を専門としています。豊富な地元のテキスタイルリソースを活用し、包括的で厳格な品質管理システムを維持しています。"
+            },
+            {
+                "en": "We export a wide range of high-quality products to Japan, United States, Europe, and other regions throughout the year.",
+                "jp": "私たちは一年中、日本、アメリカ、ヨーロッパおよびその他の地域に高品質の製品を輸出しています。"
+            }
+        ]
+    },
+    "contact": {
+        "contactTitle": {
+            "en": "Contact Us",
+            "jp": "お問い合わせ"
+        },
+        "contactContent": {
+            "en": "Have questions about a particular product or interested in collaborating with us? Leave us a message, and we'll get back to you shortly.",
+            "jp": "特定の製品について質問があるか、協力に興味がありますか？メッセージを残してください、すぐに返信します。"
+        },
+        "phone": "+1234567890",
+        "fax": "+1234567891",
+        "address": {
+            "en": "123 Business Rd, Business City, BC 12345",
+            "jp": "123 ビジネスロード、ビジネスシティ、BC 12345"
+        }
+    }
+}

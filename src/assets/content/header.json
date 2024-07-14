@@ -1,0 +1,70 @@
+{
+    "navigation": {
+        "links": [
+            {
+                "id": "home",
+                "title": "Home",
+                "url": "/"
+            },
+            {
+                "id": "about",
+                "title": "About",
+                "url": "/about"
+            },
+            {
+                "id": "linden",
+                "title": "Linden Products",
+                "url": "/linedenProducts",
+                "subMenu": [
+                    {
+                        "id": "hotel",
+                        "title": "Linden Products",
+                        "url": "/productList/hotel"
+                    },
+                    {
+                        "id": "hotSpring",
+                        "title": "Hot Spring Resort",
+                        "url": "/productList/hotSpring"
+                    },
+                    {
+                        "id": "hospital",
+                        "title": "Hospital",
+                        "url": "/productList/hospital"
+                    },
+                    {
+                        "id": "fabric",
+                        "title": "Fabric",
+                        "url": "/productList/fabric"
+                    }
+                ]
+            },
+            {
+                "id": "apparel",
+                "title": "Apparel Products",
+                "url": "/apparelProducts",
+                "subMenu": [
+                    {
+                        "id": "apron",
+                        "title": "Apron",
+                        "url": "/productList/apron"
+                    },
+                    {
+                        "id": "pajama",
+                        "title": "Pajama",
+                        "url": "/productList/pajama"
+                    }
+                ]
+            },
+            {
+                "id": "contact",
+                "title": "Contact",
+                "url": "/contact"
+            },
+            {
+                "id": "lang",
+                "title": "English / 日本語",
+                "url": null
+            }
+        ]
+    }
+}
