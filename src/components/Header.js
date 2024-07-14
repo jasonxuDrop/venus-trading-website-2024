@@ -3,7 +3,9 @@
  */
 
 import React, { useState, useEffect, useCallback } from "react";
+import { useLocation } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Icon.png";
+import useScrollDetection from '../utils/hooks/useScrollDetection';
 
 const Header = ({ isSticky }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,10 +32,12 @@ const Header = ({ isSticky }) => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
-  console.log(isSticky);
+  const location = useLocation(); 
+  const isScrolledPast = useScrollDetection('hero');
+  console.log("xxx", isScrolledPast);
 
   return (
-    <nav className="sticky top-0 z-50 bg-navbarcolor text-textcolor">
+    <nav className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${isScrolledPast ? "sticky opacity-100" : "relative"}`}>
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
           <a href="/">

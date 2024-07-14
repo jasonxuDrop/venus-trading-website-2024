@@ -1,5 +1,5 @@
 import loading from "./assets/loading/Spin@1x-1.0s-200px-200px.svg";
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -14,31 +14,13 @@ import ApparelProductsPage from "./pages/ApparelProductsPage";
 import ProductList from "./pages/ProductList";
 import ProductDetail from "./pages/ProductDetail";
 
-import useScrollDetection from "./utils/hooks/useScrollDetection";
-
 const Home = React.lazy(() => import("./pages/Home"));
 
-const ScrollDetectionComponent = ({ onScroll }) => {
-  const isScrolledPast = useScrollDetection('hero');
-
-  useEffect(() => {
-    onScroll(isScrolledPast);
-  }, [isScrolledPast, onScroll]);
-
-  return null;
-};
-
 function App() {
-  const [isSticky, setIsSticky] = useState(false);
-
-const handleScroll = (scrolledPast) => {
-  setIsSticky(scrolledPast);
-};
-
   return (
     <Router>
       <div className="App min-h-screen">
-        <Header isSticky={isSticky}/>
+        <Header />
         <div className="">
           <Suspense
             fallback={
@@ -76,7 +58,6 @@ const handleScroll = (scrolledPast) => {
             </Routes>
             {/* </div> */}
           </Suspense>
-          <ScrollDetectionComponent onScroll={handleScroll} />
         </div>
         <Footer />
       </div>
