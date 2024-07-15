@@ -1,0 +1,74 @@
+{
+    "allProducts": [
+        {
+            "type": "Linden Product",
+            "productPurpose": [
+                {
+                    "id": "hotel",
+                    "url": "/productList/hotel",
+                    "products": [
+                        {
+                            "id": "hotel_product",
+                            "url": "/productDetail/hotel_product"
+                        }
+                    ]
+                },
+                {
+                    "id": "hotSpring",
+                    "url": "/productList/hotSpring",
+                    "products": [
+                        {
+                            "id": "hotSpring_product",
+                            "url": "/productDetail/hotSpring_product"
+                        }
+                    ]
+                },
+                {
+                    "id": "hospital",
+                    "url": "/productList/hospital",
+                    "products": [
+                        {
+                            "id": "hospital_product",
+                            "url": "/productDetail/hospital_product"
+                        }
+                    ]
+                },
+                {
+                    "id": "fabric",
+                    "url": "/productList/fabric",
+                    "products": [
+                        {
+                            "id": "fabric_product",
+                            "url": "/productDetail/fabric_product"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Apparel Product",
+            "productPurpose": [
+                {
+                    "id": "apron",
+                    "url": "/productList/apron",
+                    "products": [
+                        {
+                            "id": "apron_product",
+                            "url": "/productDetail/apron_product"
+                        }
+                    ]
+                },
+                {
+                    "id": "pajama",
+                    "url": "/productList/pajama",
+                    "products": [
+                        {
+                            "id": "pajama_product",
+                            "url": "/productDetail/pajama_product"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
