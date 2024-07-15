@@ -25,7 +25,7 @@ const DetailedProductCard = ({
         <img src={productImg_2} className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${hover ? 'opacity-100' : 'opacity-0'}`} />
       </div>
       <div className="w-full lg:w-[52%] h-full bg-white">
-        <div className="w-full h-[128px] lg:py-3 lg:pl-3 lg:pr-10">
+        <div className="w-full h-[128px] pt-[27px] pl-[4px] pr-[27px] lg:pt-[16px] lg:pl-[24px] lg:pr-[24px]">
           <h3>{productTitle}</h3>
           <p>
             素材：<span>{productDes}</span>
