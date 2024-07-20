@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/venus-trading-website-2024/static/css/main.537a9131.css",
+    "main.js": "/venus-trading-website-2024/static/js/main.fe5e0264.js",
+    "static/js/215.037d5cf3.chunk.js": "/venus-trading-website-2024/static/js/215.037d5cf3.chunk.js",
+    "static/js/453.9d43c12a.chunk.js": "/venus-trading-website-2024/static/js/453.9d43c12a.chunk.js",
+    "static/media/test.png": "/venus-trading-website-2024/static/media/test.f9b1436ad2df24264d1d.png",
+    "static/media/tablecloth1.png": "/venus-trading-website-2024/static/media/tablecloth1.3dd5ab36201ab890c5a5.png",
+    "static/media/product-table-linen-2 1.png": "/venus-trading-website-2024/static/media/product-table-linen-2 1.c418487eade44819f44c.png",
+    "static/media/pexels-cottonbro-4108797.png": "/venus-trading-website-2024/static/media/pexels-cottonbro-4108797.6a1b130a2c40c583bb14.png",
+    "static/media/tablecloth2.png": "/venus-trading-website-2024/static/media/tablecloth2.deef1c69baf84204c4f2.png",
+    "static/media/tablecloth3.png": "/venus-trading-website-2024/static/media/tablecloth3.9a67c993194bb318a84f.png",
+    "static/media/hero-image.jpg": "/venus-trading-website-2024/static/media/hero-image.451474e2aa6e9067a8b3.jpg",
+    "static/media/Logo No Icon JP.svg": "/venus-trading-website-2024/static/media/Logo No Icon JP.dd558b194d1cdb3e6e5d1aaddde150d1.svg",
+    "static/media/tropikal-bold.otf": "/venus-trading-website-2024/static/media/tropikal-bold.14c9b70ed11cde08bec3.otf",
+    "static/media/Logo Full En-white.svg": "/venus-trading-website-2024/static/media/Logo Full En-white.c19d6472dbfa17b783750db070da94a6.svg",
+    "static/media/Spin@1x-1.0s-200px-200px.svg": "/venus-trading-website-2024/static/media/Spin@1x-1.0s-200px-200px.89152743c1fd3ee3b2f7a76f8e7d848d.svg",
+    "index.html": "/venus-trading-website-2024/index.html",
+    "static/media/getFetch.cjs": "/venus-trading-website-2024/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.537a9131.css.map": "/venus-trading-website-2024/static/css/main.537a9131.css.map",
+    "main.fe5e0264.js.map": "/venus-trading-website-2024/static/js/main.fe5e0264.js.map",
+    "215.037d5cf3.chunk.js.map": "/venus-trading-website-2024/static/js/215.037d5cf3.chunk.js.map",
+    "453.9d43c12a.chunk.js.map": "/venus-trading-website-2024/static/js/453.9d43c12a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.537a9131.css",
+    "static/js/main.fe5e0264.js"
+  ]
+}
