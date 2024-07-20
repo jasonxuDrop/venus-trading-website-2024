@@ -114,7 +114,7 @@ const Header = () => {
                           if (index === link.subMenu.length - 1) {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={`#/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
