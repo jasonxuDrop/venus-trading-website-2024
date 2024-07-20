@@ -353,7 +353,7 @@ const Header = () => {
                 return (
                   <div>
                     <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
-                      <a href="/linedenProducts">
+                      <a href="#/linedenProducts">
                         <h2 className="border-transparent hover:border-hoverColor">
                           {t(`nav.${link.id}`)}
                         </h2>
@@ -381,7 +381,7 @@ const Header = () => {
                         {link.subMenu.map((subLink) => {
                           return (
                             <a
-                              href={`/productList/${subLink.id}`}
+                              href={`#/productList/${subLink.id}`}
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
