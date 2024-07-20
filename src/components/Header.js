@@ -66,7 +66,7 @@ const Header = () => {
                 if (!link.subMenu && link.id != "lang") {
                   return (
                     <a
-                      href={`/${link.id}`}
+                      href={link.url}
                       className="px-3 py-6 cursor-pointer group"
                     >
                       <span className="border-b-2 border-transparent group-hover:border-hoverColor">
@@ -83,7 +83,7 @@ const Header = () => {
                         onMouseLeave={() => setIsLindenMenuOpen(false)}
                         aria-expanded={isLindenMenuOpen}
                       >
-                        <a href="/linedenProducts">
+                        <a href={link.url}>
                           <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                             {t(`nav.${link.id}`)}
                           </span>
@@ -161,7 +161,7 @@ const Header = () => {
                         onMouseLeave={() => setIsApparelMenuOpen(false)}
                         aria-expanded={isApparelMenuOpen}
                       >
-                        <a href="/apparelProducts">
+                        <a href={link.url}>
                           <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                             Apparel Products
                           </span>
@@ -242,6 +242,8 @@ const Header = () => {
                       </span>
                     </button>
                   );
+                } else {
+                  return null;
                 }
               })}
             </div>
@@ -311,154 +313,144 @@ const Header = () => {
 
         <div className="flex-grow flex">
           <div className="w-full">
-            <a
-              href="/"
-              className="text-textcolor text-center block px-3 pt-8 pb-1"
-              onClick={closeAllMenus}
-            >
-              <h2 className="border-transparent hover:border-hoverColor">
-                Home
-              </h2>
-            </a>
-            <a
-              href="/about"
-              className="text-textcolor text-center block px-3 pv-1"
-              onClick={closeAllMenus}
-            >
-              <h2 className="border-transparent hover:border-hoverColor">
-                About
-              </h2>
-            </a>
-            <div>
-              <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
-                <a href="/linedenProducts">
-                  <h2 className="border-transparent hover:border-hoverColor">
-                    Linden Products
-                  </h2>
-                </a>
-                <svg
-                  onClick={toggleLindenMenu}
-                  className={`ml-2 w-5 h-5 transition-transform duration-300 ${
-                    isLindenMenuOpen ? "rotate-180" : "rotate-0"
-                  }`}
-                  fill="none"
-                  stroke="#1C1F29"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 15l7-7 7 7"
-                  ></path>
-                </svg>
-              </div>
-              {isLindenMenuOpen && (
-                <div className="bg-mobileNavbarColor">
-                  <a
-                    href="/productList/hotel"
-                    className="text-textcolor text-center block px-4 py-1"
-                    onClick={closeAllMenus}
-                  >
-                    <h3 className="border-transparent hover:border-hoverColor">
-                      Hotel
-                    </h3>
-                  </a>
-                  <a
-                    href="/productList/hotSpring"
-                    className="text-textcolor text-center block px-4 py-1"
-                    onClick={closeAllMenus}
-                  >
-                    <h3 className="border-transparent hover:border-hoverColor">
-                      Hot Spring Resort
-                    </h3>
-                  </a>
-                  <a
-                    href="/productList/hospital"
-                    className="text-textcolor text-center block px-4 py-1"
-                    onClick={closeAllMenus}
-                  >
-                    <h3 className="border-transparent hover:border-hoverColor">
-                      Hospital
-                    </h3>
-                  </a>
-                  <a
-                    href="/productList/fabric"
-                    className="text-textcolor text-center block px-4 py-1"
-                    onClick={closeAllMenus}
-                  >
-                    <h3 className="border-transparent hover:border-hoverColor">
-                      Fabric
-                    </h3>
-                  </a>
-                </div>
-              )}
-            </div>
-            <div>
-              <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
-                <a href="/apparelProducts">
-                  <h2 className="border-transparent hover:border-hoverColor">
-                    Apparel Products
-                  </h2>
-                </a>
-                <svg
-                  onClick={toggleApparelMenu}
-                  className={`ml-2 w-5 h-5 transition-transform duration-300 ${
-                    isApparelMenuOpen ? "rotate-180" : "rotate-0"
-                  }`}
-                  fill="none"
-                  stroke="#1C1F29"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 15l7-7 7 7"
-                  ></path>
-                </svg>
-              </div>
-              {isApparelMenuOpen && (
-                <div className="bg-mobileNavbarColor">
-                  <a
-                    href="/productList/apron"
-                    className="text-textcolor text-center block px-4 py-1"
-                    onClick={closeAllMenus}
-                  >
-                    <h3 className="border-transparent hover:border-hoverColor">
-                      Apron
-                    </h3>
-                  </a>
-                  <a
-                    href="/productList/pajama"
-                    className="text-textcolor text-center block px-4 py-1"
-                    onClick={closeAllMenus}
-                  >
-                    <h3 className="border-transparent hover:border-hoverColor">
-                      Pajama
-                    </h3>
-                  </a>
-                </div>
-              )}
-            </div>
-            <a
-              href="/contactMe"
-              className="text-textcolor text-center block px-3 pb-1"
-              onClick={closeAllMenus}
-            >
-              <h2 className="border-transparent hover:border-hoverColor">
-                Contact
-              </h2>
-            </a>
+            {headerLinks.navigation.links.map((link, index) => {
+              if (!link.subMenu && link.id != "lang") {
+                if (index === 0) {
+                  return (
+                    <a
+                      href={link.url}
+                      className="text-textcolor text-center block px-3 pt-8 pb-1"
+                      onClick={closeAllMenus}
+                    >
+                      <h2 className="border-transparent hover:border-hoverColor">
+                        {t(`nav.${link.id}`)}
+                      </h2>
+                    </a>
+                  );
+                } else if (index === headerLinks.navigation.links.length - 2) {
+                  return (
+                    <a
+                      href={link.url}
+                      className="text-textcolor text-center block px-3 pb-1"
+                      onClick={closeAllMenus}
+                    >
+                      <h2 className="border-transparent hover:border-hoverColor">
+                        {t(`nav.${link.id}`)}
+                      </h2>
+                    </a>
+                  );
+                }
+              } else if (link.subMenu && link.id === "linden") {
+                return (
+                  <div>
+                    <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                      <a href="/linedenProducts">
+                        <h2 className="border-transparent hover:border-hoverColor">
+                          {t(`nav.${link.id}`)}
+                        </h2>
+                      </a>
+                      <svg
+                        onClick={toggleLindenMenu}
+                        className={`ml-2 w-5 h-5 transition-transform duration-300 ${
+                          isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                        }`}
+                        fill="none"
+                        stroke="#1C1F29"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 15l7-7 7 7"
+                        ></path>
+                      </svg>
+                    </div>
+                    {isLindenMenuOpen && (
+                      <div className="bg-mobileNavbarColor">
+                        {link.subMenu.map((subLink) => {
+                          return (
+                            <a
+                              href={`/productList/${subLink.id}`}
+                              className="text-textcolor text-center block px-4 py-1"
+                              onClick={closeAllMenus}
+                            >
+                              <h3 className="border-transparent hover:border-hoverColor">
+                                {t(`nav.${subLink.id}`)}
+                              </h3>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              } else if (link.subMenu && link.id === "apparel") {
+                return (
+                  <div>
+                    <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                      <a href="/apparelProducts">
+                        <h2 className="border-transparent hover:border-hoverColor">
+                          {t(`nav.${link.id}`)}
+                        </h2>
+                      </a>
+                      <svg
+                        onClick={toggleApparelMenu}
+                        className={`ml-2 w-5 h-5 transition-transform duration-300 ${
+                          isApparelMenuOpen ? "rotate-180" : "rotate-0"
+                        }`}
+                        fill="none"
+                        stroke="#1C1F29"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 15l7-7 7 7"
+                        ></path>
+                      </svg>
+                    </div>
+                    {isApparelMenuOpen && (
+                      <div className="bg-mobileNavbarColor">
+                        {link.subMenu.map((subLink) => {
+                          return (
+                            <a
+                              href={`/productList/${subLink.id}`}
+                              className="text-textcolor text-center block px-4 py-1"
+                              onClick={closeAllMenus}
+                            >
+                              <h3 className="border-transparent hover:border-hoverColor">
+                                {t(`nav.${subLink.id}`)}
+                              </h3>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              }
+            })}
           </div>
         </div>
 
         <div className="px-3 pb-4">
-          <a href="/" className="block text-left" onClick={closeAllMenus}>
+          <a
+            href="#"
+            className="block text-left"
+            onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
+          >
             <h4 className="hover:border-hoverColor border-transparent font-bold">
-              日本语
+              {t(
+                `nav.${
+                  headerLinks.navigation.links[
+                    headerLinks.navigation.links.length - 1
+                  ].id
+                }`
+              )}
             </h4>
           </a>
         </div>
