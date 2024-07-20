@@ -4,10 +4,15 @@
 
 import React, { useState, useEffect, useCallback } from "react";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import logo from "../assets/images/logo/Logo Icon.png";
-import useScrollDetection from '../utils/hooks/useScrollDetection';
+import useScrollDetection from "../utils/hooks/useScrollDetection";
 
-const Header = ({ isSticky }) => {
+import headerLinks from "../assets/content/headerLink.json";
+
+const Header = () => {
+  const { t, i18n } = useTranslation("header");
+
   const [isOpen, setIsOpen] = useState(false);
   const [isLindenMenuOpen, setIsLindenMenuOpen] = useState(false);
   const [isApparelMenuOpen, setIsApparelMenuOpen] = useState(false);
@@ -32,12 +37,21 @@ const Header = ({ isSticky }) => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
-  const location = useLocation(); 
-  const isScrolledPast = useScrollDetection('hero');
+  const location = useLocation();
+  const isScrolledPast = useScrollDetection("hero");
   console.log("xxx", isScrolledPast);
 
+  const changeLanguage = (lng) => {
+    console.log("1233");
+    i18n.changeLanguage(lng);
+  };
+
   return (
-    <nav className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${isScrolledPast ? "sticky opacity-100" : "relative"}`}>
+    <nav
+      className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${
+        isScrolledPast ? "sticky opacity-100" : "relative"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
           <a href="/">
@@ -48,153 +62,191 @@ const Header = ({ isSticky }) => {
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="/" className="px-3 py-6 cursor-pointer group">
-                <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                  Home
-                </span>
-              </a>
-              <a href="/about" className="px-3 py-6  cursor-pointer group">
-                <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                  About
-                </span>
-              </a>
-              <div className="group relative">
-                <button
-                  className="px-3 py-6 flex items-center"
-                  onMouseEnter={() => setIsLindenMenuOpen(true)}
-                  onMouseLeave={() => setIsLindenMenuOpen(false)}
-                  aria-expanded={isLindenMenuOpen}
-                >
-                  <a href="/linedenProducts">
-                    <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                      Linden Products
-                    </span>
-                  </a>
-                  <svg
-                    className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                      isLindenMenuOpen ? "rotate-180" : "rotate-0"
-                    }`}
-                    fill="none"
-                    stroke="#1C1F29"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 15l7-7 7 7"
-                    ></path>
-                  </svg>
-                </button>
-                <div
-                  className={`absolute bg-white w-[199px] z-10 ${
-                    isLindenMenuOpen ? "block" : "hidden"
-                  }`}
-                  onMouseEnter={() => setIsLindenMenuOpen(true)}
-                  onMouseLeave={() => setIsLindenMenuOpen(false)}
-                  style={{}}
-                >
-                  <a
-                    href="/productList/hotel"
-                    className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Hotel
-                    </span>
-                  </a>
-                  <a
-                    href="/productList/hotSpring"
-                    className="block text-left px-3 py-1 text-mobileHeading4"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Hot Spring Resort
-                    </span>
-                  </a>
-                  <a
-                    href="/productList/hospital"
-                    className="block text-left px-3 py-1 text-mobileHeading4"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Hospital
-                    </span>
-                  </a>
-                  <a
-                    href="/productList/fabric"
-                    className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Fabric
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="group relative">
-                <button
-                  className="px-3 py-6  flex items-center"
-                  onMouseEnter={() => setIsApparelMenuOpen(true)}
-                  onMouseLeave={() => setIsApparelMenuOpen(false)}
-                  aria-expanded={isApparelMenuOpen}
-                >
-                  <a href="/apparelProducts">
-                    <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                      Apparel Products
-                    </span>
-                  </a>
-                  <svg
-                    className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                      isApparelMenuOpen ? "rotate-180" : "rotate-0"
-                    }`}
-                    fill="none"
-                    stroke="#1C1F29"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 15l7-7 7 7"
-                    ></path>
-                  </svg>
-                </button>
-                <div
-                  className={`absolute bg-white w-[199px] z-10 ${
-                    isApparelMenuOpen ? "block" : "hidden"
-                  }`}
-                  onMouseEnter={() => setIsApparelMenuOpen(true)}
-                  onMouseLeave={() => setIsApparelMenuOpen(false)}
-                >
-                  <a
-                    href="/productList/apron"
-                    className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Apron
-                    </span>
-                  </a>
-                  <a
-                    href="/productList/pajama"
-                    className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
-                  >
-                    <span className="border-b-2 border-transparent hover:border-hoverColor">
-                      Pajama
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <a href="/contactMe" className="px-3 py-6  cursor-pointer group">
-                <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                  Contact
-                </span>
-              </a>
-              <a href="/" className="px-3 py-6 cursor-pointer group">
-                <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                  日本语
-                </span>
-              </a>
+              {headerLinks.navigation.links.map((link) => {
+                if (!link.subMenu && link.id != "lang") {
+                  return (
+                    <a
+                      href={`/${link.id}`}
+                      className="px-3 py-6 cursor-pointer group"
+                    >
+                      <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                        {t(`nav.${link.id}`)}
+                      </span>
+                    </a>
+                  );
+                } else if (link.id === "linden") {
+                  return (
+                    <div className="group relative">
+                      <button
+                        className="px-3 py-6 flex items-center"
+                        onMouseEnter={() => setIsLindenMenuOpen(true)}
+                        onMouseLeave={() => setIsLindenMenuOpen(false)}
+                        aria-expanded={isLindenMenuOpen}
+                      >
+                        <a href="/linedenProducts">
+                          <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                            {t(`nav.${link.id}`)}
+                          </span>
+                        </a>
+                        <svg
+                          className={`ml-2 w-4 h-4 transition-transform duration-300 ${
+                            isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                          }`}
+                          fill="none"
+                          stroke="#1C1F29"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 15l7-7 7 7"
+                          ></path>
+                        </svg>
+                      </button>
+                      <div
+                        className={`absolute bg-white w-[199px] z-10 ${
+                          isLindenMenuOpen ? "block" : "hidden"
+                        }`}
+                        onMouseEnter={() => setIsLindenMenuOpen(true)}
+                        onMouseLeave={() => setIsLindenMenuOpen(false)}
+                        style={{}}
+                      >
+                        {link.subMenu.map((subLink, index) => {
+                          if (index === link.subMenu.length - 1) {
+                            return (
+                              <a
+                                href={`/productList/${subLink.id}`}
+                                className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
+                              >
+                                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                  {t(`nav.${subLink.id}`)}
+                                </span>
+                              </a>
+                            );
+                          } else if (index === 0) {
+                            return (
+                              <a
+                                href={`/productList/${subLink.id}`}
+                                className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
+                              >
+                                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                  {t(`nav.${subLink.id}`)}
+                                </span>
+                              </a>
+                            );
+                          } else {
+                            return (
+                              <a
+                                href={`/productList/${subLink.id}`}
+                                className="block text-left px-3 py-1 text-mobileHeading4"
+                              >
+                                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                  {t(`nav.${subLink.id}`)}
+                                </span>
+                              </a>
+                            );
+                          }
+                        })}
+                      </div>
+                    </div>
+                  );
+                } else if (link.id === "apparel") {
+                  return (
+                    <div className="group relative">
+                      <button
+                        className="px-3 py-6  flex items-center"
+                        onMouseEnter={() => setIsApparelMenuOpen(true)}
+                        onMouseLeave={() => setIsApparelMenuOpen(false)}
+                        aria-expanded={isApparelMenuOpen}
+                      >
+                        <a href="/apparelProducts">
+                          <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                            Apparel Products
+                          </span>
+                        </a>
+                        <svg
+                          className={`ml-2 w-4 h-4 transition-transform duration-300 ${
+                            isApparelMenuOpen ? "rotate-180" : "rotate-0"
+                          }`}
+                          fill="none"
+                          stroke="#1C1F29"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 15l7-7 7 7"
+                          ></path>
+                        </svg>
+                      </button>
+                      <div
+                        className={`absolute bg-white w-[199px] z-10 ${
+                          isApparelMenuOpen ? "block" : "hidden"
+                        }`}
+                        onMouseEnter={() => setIsApparelMenuOpen(true)}
+                        onMouseLeave={() => setIsApparelMenuOpen(false)}
+                      >
+                        {link.subMenu.map((subLink, index) => {
+                          if (index === link.subMenu.length - 1) {
+                            return (
+                              <a
+                                href={`/productList/${subLink.id}`}
+                                className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
+                              >
+                                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                  {t(`nav.${subLink.id}`)}
+                                </span>
+                              </a>
+                            );
+                          } else if (index === 0) {
+                            return (
+                              <a
+                                href={`/productList/${subLink.id}`}
+                                className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
+                              >
+                                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                  {t(`nav.${subLink.id}`)}
+                                </span>
+                              </a>
+                            );
+                          } else {
+                            return (
+                              <a
+                                href="/productList/hospital"
+                                className="block text-left px-3 py-1 text-mobileHeading4"
+                              >
+                                <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                  {t(`nav.${subLink.id}`)}
+                                </span>
+                              </a>
+                            );
+                          }
+                        })}
+                      </div>
+                    </div>
+                  );
+                } else if (link.id === "lang") {
+                  return (
+                    <button
+                      className="px-3 py-6 cursor-pointer group"
+                      onClick={() =>
+                        changeLanguage(i18n.language === "en" ? "jp" : "en")
+                      }
+                    >
+                      <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                        {t(`nav.${link.id}`)}
+                      </span>
+                    </button>
+                  );
+                }
+              })}
             </div>
           </div>
+
           <div className="-mr-2 py-6 pr-2 flex lg:hidden z-10">
             <button
               onClick={() => setIsOpen(!isOpen)}
