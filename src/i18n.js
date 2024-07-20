@@ -15,7 +15,7 @@ i18n
       escapeValue: false, 
     },
     backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/venus-trading-website-2024/locales/{{lng}}/{{ns}}.json',
     },
   });
 
