@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/venus-trading-website-2024/static/css/main.537a9131.css",
-    "main.js": "/venus-trading-website-2024/static/js/main.35e8f682.js",
+    "main.css": "/venus-trading-website-2024/static/css/main.c1a19557.css",
+    "main.js": "/venus-trading-website-2024/static/js/main.e6cb57fc.js",
     "static/js/215.8e6ee7f8.chunk.js": "/venus-trading-website-2024/static/js/215.8e6ee7f8.chunk.js",
     "static/js/453.9d43c12a.chunk.js": "/venus-trading-website-2024/static/js/453.9d43c12a.chunk.js",
     "static/media/test.png": "/venus-trading-website-2024/static/media/test.f9b1436ad2df24264d1d.png",
@@ -17,13 +17,13 @@
     "static/media/Spin@1x-1.0s-200px-200px.svg": "/venus-trading-website-2024/static/media/Spin@1x-1.0s-200px-200px.fc177f1f8d95e8d4633bc122e4453b9f.svg",
     "index.html": "/venus-trading-website-2024/index.html",
     "static/media/getFetch.cjs": "/venus-trading-website-2024/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.537a9131.css.map": "/venus-trading-website-2024/static/css/main.537a9131.css.map",
-    "main.35e8f682.js.map": "/venus-trading-website-2024/static/js/main.35e8f682.js.map",
+    "main.c1a19557.css.map": "/venus-trading-website-2024/static/css/main.c1a19557.css.map",
+    "main.e6cb57fc.js.map": "/venus-trading-website-2024/static/js/main.e6cb57fc.js.map",
     "215.8e6ee7f8.chunk.js.map": "/venus-trading-website-2024/static/js/215.8e6ee7f8.chunk.js.map",
     "453.9d43c12a.chunk.js.map": "/venus-trading-website-2024/static/js/453.9d43c12a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.537a9131.css",
-    "static/js/main.35e8f682.js"
+    "static/css/main.c1a19557.css",
+    "static/js/main.e6cb57fc.js"
   ]
 }
