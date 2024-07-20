@@ -1,6 +1,7 @@
 {
   "name": "venus-trading-2024",
   "version": "0.1.0",
+  "homepage": "https://jasonxuDrop.github.io/venus-trading-website-2024",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b publish -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +49,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.1"
   }
 }
