@@ -37,9 +37,7 @@ const Header = () => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
-  const location = useLocation();
   const isScrolledPast = useScrollDetection("hero");
-  console.log("xxx", isScrolledPast);
 
   const changeLanguage = (lng) => {
     console.log("1233");
@@ -163,7 +161,7 @@ const Header = () => {
                       >
                         <a href={link.url}>
                           <span className="border-b-2 border-transparent group-hover:border-hoverColor">
-                            Apparel Products
+                            {t(`nav.${link.id}`)}
                           </span>
                         </a>
                         <svg
@@ -314,7 +312,7 @@ const Header = () => {
         <div className="flex-grow flex">
           <div className="w-full">
             {headerLinks.navigation.links.map((link, index) => {
-              if (!link.subMenu && link.id != "lang") {
+              if (!link.subMenu && link.id !== "lang") {
                 if (index === 0) {
                   return (
                     <a
@@ -332,6 +330,18 @@ const Header = () => {
                     <a
                       href={link.url}
                       className="text-textcolor text-center block px-3 pb-1"
+                      onClick={closeAllMenus}
+                    >
+                      <h2 className="border-transparent hover:border-hoverColor">
+                        {t(`nav.${link.id}`)}
+                      </h2>
+                    </a>
+                  );
+                } else {
+                  return (
+                    <a
+                      href={link.url}
+                      className="text-textcolor text-center block px-3 pv-1"
                       onClick={closeAllMenus}
                     >
                       <h2 className="border-transparent hover:border-hoverColor">
@@ -438,8 +448,7 @@ const Header = () => {
         </div>
 
         <div className="px-3 pb-4">
-          <a
-            href="#"
+          <button
             className="block text-left"
             onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
           >
@@ -452,7 +461,7 @@ const Header = () => {
                 }`
               )}
             </h4>
-          </a>
+          </button>
         </div>
       </div>
     </nav>
