@@ -22,7 +22,7 @@ function App() {
   const basename = process.env.NODE_ENV === 'production' ? '/venus-trading-website-2024' : '/';
 
   return (
-    <Router basename={basename}>
+    <Router >
       <div className="App min-h-screen">
         <Header />
         <div className="">
