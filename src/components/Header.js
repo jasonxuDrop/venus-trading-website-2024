@@ -3,7 +3,6 @@
  */
 
 import React, { useState, useEffect, useCallback } from "react";
-import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/images/logo/Logo Icon.png";
 import useScrollDetection from "../utils/hooks/useScrollDetection";
@@ -61,7 +60,7 @@ const Header = () => {
           <div className="hidden lg:flex justify-end flex-grow">
             <div className="ml-10 flex items-baseline space-x-4">
               {headerLinks.navigation.links.map((link) => {
-                if (!link.subMenu && link.id != "lang") {
+                if (!link.subMenu && link.id !== "lang") {
                   return (
                     <a
                       href={link.url}
