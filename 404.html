@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Redirecting...</title>
-    <script type="text/javascript">
-        // Check for any redirect stored in localStorage
-        const redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        // If found, use it and clear it out of sessionStorage
-        if (redirect && redirect !== location.href) {
-            history.replaceState(null, null, redirect);
-        }
-    </script>
 </head>
 <body>
-    <!-- This script runs if the above did not redirect -->
+    <!-- Redirect to index.html while preserving the path -->
     <script type="text/javascript">
-        // Store the full intended URL in sessionStorage and redirect to index.html
-        sessionStorage.redirect = location.href;
-        location.href = '/venus-trading-website-2024/index.html';
+        // This function handles the redirection with path preservation
+        function handleRedirect() {
+            var segmentCount = 1;  // Change this if deeper paths need to be handled, e.g., /a/b/c requires 2
+            var location = window.location;
+            var pathParts = location.pathname.split('/').slice(1, segmentCount + 1);
+            var newPath = pathParts.join('/');
+            var newUrl = location.origin + '/' + newPath + '/#' + location.pathname.slice(newPath.length) + location.search;
+            window.location.replace(newUrl);
+        }
+
+        handleRedirect();
     </script>
 </body>
 </html>
