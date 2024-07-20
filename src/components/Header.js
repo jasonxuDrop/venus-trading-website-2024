@@ -443,6 +443,7 @@ const Header = () => {
                   </div>
                 );
               }
+              return null;
             })}
           </div>
         </div>
