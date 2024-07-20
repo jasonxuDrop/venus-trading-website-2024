@@ -1,6 +1,6 @@
 import loading from "./assets/loading/Spin@1x-1.0s-200px-200px.svg";
 import React, { Suspense} from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Header from "./components/Header";
@@ -22,7 +22,7 @@ function App() {
   const basename = process.env.NODE_ENV === 'production' ? '/venus-trading-website-2024' : '/';
 
   return (
-    <Router >
+    <Router>
       <div className="App min-h-screen">
         <Header />
         <div className="">
