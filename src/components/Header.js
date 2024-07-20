@@ -280,7 +280,7 @@ const Header = () => {
       >
         <div className="px-3 pt-5 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
-            <a href="/">
+            <a href="#/">
               <div className="flex items-center flex-shrink-0">
                 <img src={logo} alt="Logo" className="h-[auto] w-[50px] mr-2" />
                 <h4 className="font-medium">Weifang SevenUp</h4>
@@ -399,7 +399,7 @@ const Header = () => {
                 return (
                   <div>
                     <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
-                      <a href="/apparelProducts">
+                      <a href="#/apparelProducts">
                         <h2 className="border-transparent hover:border-hoverColor">
                           {t(`nav.${link.id}`)}
                         </h2>
@@ -427,7 +427,7 @@ const Header = () => {
                         {link.subMenu.map((subLink) => {
                           return (
                             <a
-                              href={`/productList/${subLink.id}`}
+                              href={`#/productList/${subLink.id}`}
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
