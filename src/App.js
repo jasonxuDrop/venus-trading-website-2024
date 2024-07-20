@@ -19,8 +19,10 @@ import './i18n';
 const Home = React.lazy(() => import("./pages/Home"));
 
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? '/venus-trading-website-2024' : '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="App min-h-screen">
         <Header />
         <div className="">
