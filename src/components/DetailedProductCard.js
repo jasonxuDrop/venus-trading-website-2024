@@ -26,7 +26,7 @@ const DetailedProductCard = ({
       </div>
       <div className="w-full lg:w-[52%] h-full bg-white">
         <div className="w-full h-[128px] pt-[27px] pl-[4px] pr-[27px] lg:pt-[16px] lg:pl-[24px] lg:pr-[24px]">
-          <h3>{productTitle}</h3>
+          <h4>{productTitle}</h4>
           <p>
             素材：<span>{productDes}</span>
           </p>
