@@ -4,6 +4,7 @@
 
 import React, { useState, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Icon.png";
 import useScrollDetection from "../utils/hooks/useScrollDetection";
 
@@ -51,25 +52,25 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
-          <a href="/">
+          <Link to="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
               <h4 className="font-medium">Weifang SevenUp</h4>
             </div>
-          </a>
+          </Link>
           <div className="hidden lg:flex justify-end flex-grow">
             <div className="ml-10 flex items-baseline space-x-4">
               {headerLinks.navigation.links.map((link) => {
                 if (!link.subMenu && link.id !== "lang") {
                   return (
-                    <a
-                      href={link.url}
+                    <Link
+                      to={link.url}
                       className="px-3 py-6 cursor-pointer group"
                     >
                       <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                         {t(`nav.${link.id}`)}
                       </span>
-                    </a>
+                    </Link>
                   );
                 } else if (link.id === "linden") {
                   return (
