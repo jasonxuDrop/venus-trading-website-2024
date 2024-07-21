@@ -32,7 +32,6 @@ function App() {
               </div>
             }
           >
-            {/* <div className="grid grid-cols-12 gap-4">  */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
@@ -59,7 +58,6 @@ function App() {
               <Route path="/productDetail" element={<ProductDetail />} />
               <Route path="/404" element={<NotFound />} />
             </Routes>
-            {/* </div> */}
           </Suspense>
         </div>
         <Footer />
