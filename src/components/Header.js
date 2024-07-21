@@ -4,6 +4,7 @@
 
 import React, { useState, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Icon.png";
 import useScrollDetection from "../utils/hooks/useScrollDetection";
 
@@ -37,6 +38,13 @@ const Header = () => {
   }, [isOpen]);
 
   const isScrolledPast = useScrollDetection("hero");
+  const location = useLocation();
+
+  const stickOrNot = () => {
+    return location.pathname === "/"
+      ? isScrolledPast ? "sticky opacity-100" : "relative"
+      : "sticky";
+  };
 
   const changeLanguage = (lng) => {
     console.log("1233");
@@ -45,9 +53,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${
-        isScrolledPast ? "sticky opacity-100" : "relative"
-      }`}
+      className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${stickOrNot()}`}
     >
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
