@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="text-left text-textWhite"></div>
             </div>
             <div className="mt-4">
-              {footerLink.navigation["desktop-links"]["col-1"].map((link) => {
+              {footerLink.navigation["col-1"].map((link) => {
                 return (
                   <p className="text-left text-textWhite">
                     {t(`footer.${link.id}`)}:{" "}
@@ -45,25 +45,7 @@ const Footer = () => {
           </div>
           <div className="sm:col-span-1 lg:col-start-4 lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {/* <li>
-                <a href="/">Home</a>
-              </li>
-              <li className="mt-4">
-                <a href="/about">About us</a>
-              </li>
-              <li className="mt-4 block lg:hidden">
-                <a href="/linedenProducts">Lineden Products</a>
-              </li>
-              <li className="mt-4 block lg:hidden">
-                <a href="/apparelProducts">Apparel Products</a>
-              </li>
-              <li className="mt-4 block lg:hidden">
-                <a href="/contactMe">Contact us</a>
-              </li>
-              <li className="mt-4">
-                <a href="/">日本语</a>
-              </li> */}
-              {footerLink.navigation["desktop-links"]["col-2"].map(
+              {footerLink.navigation["col-2"].map(
                 (link, index) => {
                   if (index === 0) {
                     return (
@@ -94,7 +76,7 @@ const Footer = () => {
           </div>
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {footerLink.navigation["desktop-links"]["col-3"].map(
+              {footerLink.navigation["col-3"].map(
                 (link, index) => {
                   if (index === 0) {
                     return (
@@ -115,7 +97,7 @@ const Footer = () => {
           </div>
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {footerLink.navigation["desktop-links"]["col-4"].map(
+              {footerLink.navigation["col-4"].map(
                 (link, index) => {
                   if (index === 0) {
                     return (
