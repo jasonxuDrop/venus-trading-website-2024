@@ -57,7 +57,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between">
-          <a href="#/">
+          <a href="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
               <h4 className="font-medium">Weifang SevenUp</h4>
@@ -69,7 +69,7 @@ const Header = () => {
                 if (!link.subMenu && link.id !== "lang") {
                   return (
                     <a
-                      href={"#" + link.url}
+                      href={link.url}
                       className="px-3 py-6 cursor-pointer group"
                     >
                       <span className="border-b-2 border-transparent group-hover:border-hoverColor">
@@ -86,7 +86,7 @@ const Header = () => {
                         onMouseLeave={() => setIsLindenMenuOpen(false)}
                         aria-expanded={isLindenMenuOpen}
                       >
-                        <a href={"#" + link.url}>
+                        <a href={link.url}>
                           <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                             {t(`nav.${link.id}`)}
                           </span>
@@ -120,7 +120,7 @@ const Header = () => {
                           if (index === link.subMenu.length - 1) {
                             return (
                               <a
-                                href={`#/productList/${subLink.id}`}
+                                href={`/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -131,7 +131,7 @@ const Header = () => {
                           } else if (index === 0) {
                             return (
                               <a
-                                href={`#/productList/${subLink.id}`}
+                                href={`/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -142,7 +142,7 @@ const Header = () => {
                           } else {
                             return (
                               <a
-                                href={`#/productList/${subLink.id}`}
+                                href={`/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -164,7 +164,7 @@ const Header = () => {
                         onMouseLeave={() => setIsApparelMenuOpen(false)}
                         aria-expanded={isApparelMenuOpen}
                       >
-                        <a href={"#" + link.url}>
+                        <a href={link.url}>
                           <span className="border-b-2 border-transparent group-hover:border-hoverColor">
                             {t(`nav.${link.id}`)}
                           </span>
@@ -197,7 +197,7 @@ const Header = () => {
                           if (index === link.subMenu.length - 1) {
                             return (
                               <a
-                                href={`#/productList/${subLink.id}`}
+                                href={`/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -208,7 +208,7 @@ const Header = () => {
                           } else if (index === 0) {
                             return (
                               <a
-                                href={`#/productList/${subLink.id}`}
+                                href={`/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -219,7 +219,7 @@ const Header = () => {
                           } else {
                             return (
                               <a
-                                href={`#/productList/${subLink.id}`}
+                                href={`/productList/${subLink.id}`}
                                 className="block text-left px-3 py-1 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -286,7 +286,7 @@ const Header = () => {
       >
         <div className="px-3 pt-5 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
-            <a href="#/" onClick={closeAllMenus}>
+            <a href="/" onClick={closeAllMenus}>
               <div className="flex items-center flex-shrink-0">
                 <img src={logo} alt="Logo" className="h-[auto] w-[50px] mr-2" />
                 <h4 className="font-medium">Weifang SevenUp</h4>
@@ -321,7 +321,7 @@ const Header = () => {
                 if (index === 0) {
                   return (
                     <a
-                      href={"#" + link.url}
+                      href={link.url}
                       className="text-textcolor text-center block px-3 pt-8 pb-1"
                       onClick={closeAllMenus}
                     >
@@ -333,7 +333,7 @@ const Header = () => {
                 } else if (index === headerLinks.navigation.links.length - 2) {
                   return (
                     <a
-                      href={"#" + link.url}
+                      href={link.url}
                       className="text-textcolor text-center block px-3 pb-1"
                       onClick={closeAllMenus}
                     >
@@ -345,7 +345,7 @@ const Header = () => {
                 } else {
                   return (
                     <a
-                      href={"#" + link.url}
+                      href={link.url}
                       className="text-textcolor text-center block px-3 pv-1"
                       onClick={closeAllMenus}
                     >
@@ -359,7 +359,7 @@ const Header = () => {
                 return (
                   <div>
                     <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
-                      <a href="#/linedenProducts" onClick={closeAllMenus}>
+                      <a href="/linedenProducts" onClick={closeAllMenus}>
                         <h2 className="border-transparent hover:border-hoverColor">
                           {t(`nav.${link.id}`)}
                         </h2>
@@ -387,7 +387,7 @@ const Header = () => {
                         {link.subMenu.map((subLink) => {
                           return (
                             <a
-                              href={`#/productList/${subLink.id}`}
+                              href={`/productList/${subLink.id}`}
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
@@ -405,7 +405,7 @@ const Header = () => {
                 return (
                   <div>
                     <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
-                      <a href="#/apparelProducts" onClick={closeAllMenus}>
+                      <a href="/apparelProducts" onClick={closeAllMenus}>
                         <h2 className="border-transparent hover:border-hoverColor">
                           {t(`nav.${link.id}`)}
                         </h2>
@@ -433,7 +433,7 @@ const Header = () => {
                         {link.subMenu.map((subLink) => {
                           return (
                             <a
-                              href={`#/productList/${subLink.id}`}
+                              href={`/productList/${subLink.id}`}
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
