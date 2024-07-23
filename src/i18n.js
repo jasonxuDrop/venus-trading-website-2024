@@ -6,7 +6,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 // Determine base URL based on environment
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? "/sevenuptrading.netlify.app/locales"
+    ? "/locales"
     : "/locales";
 
 i18n
