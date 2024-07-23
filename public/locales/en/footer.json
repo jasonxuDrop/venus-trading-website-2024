@@ -1,0 +1,24 @@
+{
+    "footer": {
+        "home": "Home",
+        "about": "About",
+        "linden": "Linden Products",
+        "hotel": "Hotel",
+        "hotSpring": "Hot Spring Resort",
+        "hospital": "Hospital",
+        "fabric": "Fabric",
+        "apparel": "Apparel Products",
+        "apron": "Apron",
+        "pajama": "Pajama",
+        "contact": "Contact",
+        "lang": "日本語",
+        "addressText": "Address",
+        "address": "123 Business Rd, Business City, BC 12345",
+        "telText": "Telephone",
+        "tel": "+1234567890",
+        "faxText": "Fax",
+        "fax": "+1234567891",
+        "copyRight": "© 2024 Weifang SevenUp Internation Trading Co., LTD. All Rights Reserved.",
+        "logoImg": "../assets/images/logo/Logo Full En-white.svg"
+    }
+}
