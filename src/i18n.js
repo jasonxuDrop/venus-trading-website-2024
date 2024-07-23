@@ -6,8 +6,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 // Determine base URL based on environment
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? "/venus-trading-website-2024/locales" // Adjust the base URL for GitHub Pages
-    : "/locales"; // Localhost base URL
+    ? "/sevenuptrading.netlify.app/locales"
+    : "/locales";
 
 i18n
   .use(HttpBackend)
