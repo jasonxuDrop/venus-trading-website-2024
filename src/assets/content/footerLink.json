@@ -6,22 +6,16 @@
         "desktop-links": {
             "col-1": [
                 {
-                    "id": "telText"
+                    "id": "telText",
+                    "id2": "tel"
                 },
                 {
-                    "id": "tel"
+                    "id": "faxText",
+                    "id2": "fax"
                 },
                 {
-                    "id": "faxText"
-                },
-                {
-                    "id": "fax"
-                },
-                {
-                    "id": "addressText"
-                },
-                {
-                    "id": "address"
+                    "id": "addressText",
+                    "id2": "address"
                 }
             ],
             "col-2": [
@@ -32,6 +26,18 @@
                 {
                     "id": "about",
                     "url": "/about"
+                },
+                {
+                    "id": "linden",
+                    "url": "/linedenProducts"
+                },
+                {
+                    "id": "apparel",
+                    "url": "/apparelProducts"
+                },
+                {
+                    "id": "contact",
+                    "url": "/contact"
                 },
                 {
                     "id": "lang",
@@ -48,7 +54,7 @@
                     "url": "/productList/hotel"
                 },
                 {
-                    "id": "hostSpring",
+                    "id": "hotSpring",
                     "url": "/productList/hotSpring"
                 },
                 {
@@ -72,50 +78,6 @@
                 {
                     "id": "pajama",
                     "url": "/productList/pajama"
-                }
-            ]
-        },
-        "mobile-links": {
-            "col-1": [
-                {
-                    "id": "telText"
-                },
-                {
-                    "id": "tel"
-                },
-                {
-                    "id": "faxText"
-                },
-                {
-                    "id": "fax"
-                },
-                {
-                    "id": "addressText"
-                },
-                {
-                    "id": "address"
-                }
-            ],
-            "col-2": [
-                {
-                    "id": "home",
-                    "url": "/"
-                },
-                {
-                    "id": "about",
-                    "url": "/about"
-                },
-                {
-                    "id": "linden",
-                    "url": "/linedenProducts"
-                },
-                {
-                    "id": "apparel",
-                    "url": "/apparelProducts"
-                },
-                {
-                    "id": "lang",
-                    "url": null
                 }
             ]
         }

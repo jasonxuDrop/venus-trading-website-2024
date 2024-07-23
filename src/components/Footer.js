@@ -1,7 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import logo from "../assets/images/logo/Logo Full En-white.svg";
 
+import footerLink from "../assets/content/footerLink.json";
+
 const Footer = () => {
+  const { t, i18n } = useTranslation("footer");
+
   return (
     <footer className="bg-footerBgColor">
       <div className="max-w-7xl mx-auto py-12 px-3.5 sm:px-16 lg:px-32">
@@ -16,11 +21,14 @@ const Footer = () => {
               <div className="text-left text-textWhite"></div>
             </div>
             <div className="mt-4">
-              <p className="text-left text-textWhite">Telephone: 123456789</p>
-              <p className=" text-left text-textWhite">Fax: 128736864901</p>
-              <p className=" text-left text-textWhite">
-                Address: 12356878969612 123987
-              </p>
+              {footerLink.navigation["desktop-links"]["col-1"].map((link) => {
+                return (
+                  <p className="text-left text-textWhite">
+                    {t(`footer.${link.id}`)}:{" "}
+                    <span>{t(`footer.${link.id2}`)}</span>
+                  </p>
+                );
+              })}
             </div>
             <div className="mt-8 flex space-x-6">
               {/* Social media links here */}
@@ -37,7 +45,7 @@ const Footer = () => {
           </div>
           <div className="sm:col-span-1 lg:col-start-4 lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              <li>
+              {/* <li>
                 <a href="/">Home</a>
               </li>
               <li className="mt-4">
@@ -54,47 +62,83 @@ const Footer = () => {
               </li>
               <li className="mt-4">
                 <a href="/">日本语</a>
-              </li>
+              </li> */}
+              {footerLink.navigation["desktop-links"]["col-2"].map(
+                (link, index) => {
+                  if (index === 0) {
+                    return (
+                      <li>
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  } else if (
+                    link.id === "linden" ||
+                    link.id === "apparel" ||
+                    link.id === "contact"
+                  ) {
+                    return (
+                      <li className="mt-4 block lg:hidden">
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  } else {
+                    return (
+                      <li className="mt-4">
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  }
+                }
+              )}
             </ul>
           </div>
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              <li>
-                <a href="/linedenProducts">Lineden Products</a>
-              </li>
-              <li className="mt-4">
-                <a href="/linedenProducts">Hotel Linen</a>
-              </li>
-              <li className="mt-4">
-                <a href="/">Spa Resort</a>
-              </li>
-              <li className="mt-4">
-                <a href="/">Hospital</a>
-              </li>
-              <li className="mt-4">
-                <a href="/">Fabric</a>
-              </li>
+              {footerLink.navigation["desktop-links"]["col-3"].map(
+                (link, index) => {
+                  if (index === 0) {
+                    return (
+                      <li>
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  } else {
+                    return (
+                      <li className="mt-4">
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  }
+                }
+              )}
             </ul>
           </div>
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              <li>
-                <a href="/apparelProducts">Apparel Products</a>
-              </li>
-              <li className="mt-4">
-                <a href="/">Apron</a>
-              </li>
-              <li className="mt-4">
-                <a href="/">Pajama</a>
-              </li>
+              {footerLink.navigation["desktop-links"]["col-4"].map(
+                (link, index) => {
+                  if (index === 0) {
+                    return (
+                      <li>
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  } else {
+                    return (
+                      <li className="mt-4">
+                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                      </li>
+                    );
+                  }
+                }
+              )}
             </ul>
           </div>
         </div>
       </div>
       <div className="bg-footerBgColor mt-4 pt-8 pb-8">
         <p className="text-sm text-textWhite text-left px-3.5 sm:px-16 lg:px-8 lg:text-center">
-          © 2024 Weifang SevenUp Internation Trading Co., LTD. All Rights
-          Reserved.
+          {t(`footer.${footerLink.copyRight.id}`)}
         </p>
       </div>
     </footer>
