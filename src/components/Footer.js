@@ -7,6 +7,10 @@ import footerLink from "../assets/content/footerLink.json";
 const Footer = () => {
   const { t, i18n } = useTranslation("footer");
 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <footer className="bg-footerBgColor">
       <div className="max-w-7xl mx-auto py-12 px-3.5 sm:px-16 lg:px-32">
@@ -45,75 +49,76 @@ const Footer = () => {
           </div>
           <div className="sm:col-span-1 lg:col-start-4 lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {footerLink.navigation["col-2"].map(
-                (link, index) => {
-                  if (index === 0) {
-                    return (
-                      <li>
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  } else if (
-                    link.id === "linden" ||
-                    link.id === "apparel" ||
-                    link.id === "contact"
-                  ) {
-                    return (
-                      <li className="mt-4 block lg:hidden">
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  } else {
-                    return (
-                      <li className="mt-4">
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  }
+              {footerLink.navigation["col-2"].map((link, index) => {
+                if (index === 0) {
+                  return (
+                    <li>
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                    </li>
+                  );
+                } else if (
+                  link.id === "linden" ||
+                  link.id === "apparel" ||
+                  link.id === "contact"
+                ) {
+                  return (
+                    <li className="mt-4 block lg:hidden">
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                    </li>
+                  );
+                } else {
+                  return (
+                    <li className="mt-4">
+                      <button
+                        href={link.url}
+                        onClick={() =>
+                          changeLanguage(i18n.language === "en" ? "jp" : "en")
+                        }
+                      >
+                        {t(`footer.${link.id}`)}
+                      </button>
+                    </li>
+                  );
                 }
-              )}
+              })}
             </ul>
           </div>
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {footerLink.navigation["col-3"].map(
-                (link, index) => {
-                  if (index === 0) {
-                    return (
-                      <li>
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  } else {
-                    return (
-                      <li className="mt-4">
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  }
+              {footerLink.navigation["col-3"].map((link, index) => {
+                if (index === 0) {
+                  return (
+                    <li>
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                    </li>
+                  );
+                } else {
+                  return (
+                    <li className="mt-4">
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                    </li>
+                  );
                 }
-              )}
+              })}
             </ul>
           </div>
           <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {footerLink.navigation["col-4"].map(
-                (link, index) => {
-                  if (index === 0) {
-                    return (
-                      <li>
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  } else {
-                    return (
-                      <li className="mt-4">
-                        <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                      </li>
-                    );
-                  }
+              {footerLink.navigation["col-4"].map((link, index) => {
+                if (index === 0) {
+                  return (
+                    <li>
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                    </li>
+                  );
+                } else {
+                  return (
+                    <li className="mt-4">
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
+                    </li>
+                  );
                 }
-              )}
+              })}
             </ul>
           </div>
         </div>
