@@ -22,8 +22,18 @@
     },
     "about": {
         "aboutImg": {
-            "en": "/about/about-image-en.jpg",
-            "jp": "/about/about-image-jp.jpg"
-        }
+            "id": "aboutImg"
+        },
+        "title": {
+            "id": "title"
+        },
+        "paragraph": [
+            {
+                "id": "paragraph_1"
+            },
+            {
+                "id": "paragraph_2"
+            }
+        ]
     }
 }
