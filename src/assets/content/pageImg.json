@@ -35,5 +35,24 @@
                 "id": "paragraph_2"
             }
         ]
+    },
+    "contact": {
+        "context": {
+            "title": "title",
+            "address": "address",
+            "addressVal": "addressVal",
+            "phone": "phone",
+            "phoneVal": "phoneVal",
+            "fax": "fax",
+            "faxVal": "faxVal",
+            "content": "content"
+        },
+        "form": {
+            "name": "name",
+            "email": "email",
+            "company": "company",
+            "message": "message",
+            "send":"send"
+        }
     }
 }
