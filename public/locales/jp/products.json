@@ -1,0 +1,130 @@
+{
+    "productType": {
+        "linen": "リンデン製品",
+        "apparel": "アパレル製品",
+        "hotel": {
+            "title": "ホテルリネン",
+            "des": "ガウン、パジャマ、バスローブ、寝具、タオル。"
+        },
+        "hotSpring": {
+            "title": "温泉リゾート",
+            "des": "浴衣、室内着、羽織、サウナ服。"
+        },
+        "hospital": {
+            "title": "病院",
+            "des": "患者服、下着など。"
+        },
+        "fabric": {
+            "title": "生地",
+            "des": ""
+        },
+        "apron": {
+            "title": "エプロン",
+            "des": ""
+        },
+        "pajama": {
+            "title": "パジャマ",
+            "des": ""
+        }
+    },
+    "products": {
+        "hotel_product": {
+            "title": "ホテル製品",
+            "meterial": "素材"
+        },
+        "hotSpring_product": {
+            "title": "温泉製品",
+            "meterial": "素材"
+        },
+        "hospital_product": {
+            "title": "病院製品",
+            "meterial": "素材"
+        },
+        "fabric_product": {
+            "title": "生地製品",
+            "meterial": "素材"
+        },
+        "apron_product": {
+            "title": "エプロン製品",
+            "meterial": "素材"
+        },
+        "pajama_product": {
+            "title": "パジャマ製品",
+            "meterial": "素材"
+        }
+    },
+    "productDetails": {
+        "hotel_product": {
+            "title": "",
+            "subTitle": "",
+            "des": "",
+            "spec": {
+                "productName": "",
+                "materials": "",
+                "category": "",
+                "category2": ""
+            },
+            "imgs": []
+        },
+        "hotSpring_product": {
+            "title": "",
+            "subTitle": "",
+            "des": "",
+            "spec": {
+                "productName": "",
+                "materials": "",
+                "category": "",
+                "category2": ""
+            },
+            "imgs": []
+        },
+        "hospital_product": {
+            "title": "",
+            "subTitle": "",
+            "des": "",
+            "spec": {
+                "productName": "",
+                "materials": "",
+                "category": "",
+                "category2": ""
+            },
+            "imgs": []
+        },
+        "fabric_product": {
+            "title": "",
+            "subTitle": "",
+            "des": "",
+            "spec": {
+                "productName": "",
+                "materials": "",
+                "category": "",
+                "category2": ""
+            },
+            "imgs": []
+        },
+        "apron_product": {
+            "title": "",
+            "subTitle": "",
+            "des": "",
+            "spec": {
+                "productName": "",
+                "materials": "",
+                "category": "",
+                "category2": ""
+            },
+            "imgs": []
+        },
+        "pajama_product": {
+            "title": "",
+            "subTitle": "",
+            "des": "",
+            "spec": {
+                "productName": "",
+                "materials": "",
+                "category": "",
+                "category2": ""
+            },
+            "imgs": []
+        }
+    }
+}

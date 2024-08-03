@@ -1,8 +1,8 @@
 {
     "allProducts": [
         {
-            "type": "Linden Product",
-            "productPurpose": [
+            "type": "linen",
+            "productCard": [
                 {
                     "id": "hotel",
                     "url": "/productList/hotel",
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "type": "Apparel Product",
-            "productPurpose": [
+            "type": "apparel",
+            "productCard": [
                 {
                     "id": "apron",
                     "url": "/productList/apron",

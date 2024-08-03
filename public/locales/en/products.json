@@ -1,5 +1,7 @@
 {
-    "productPurpose": {
+    "productType": {
+        "linen": "Linen Products",
+        "apparel": "Apparel Products",
         "hotel": {
             "title": "Hotel Linen",
             "des": "Gown, Pajama, Bathrobe, Bedding, Towel."
