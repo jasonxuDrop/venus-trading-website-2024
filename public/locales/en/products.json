@@ -5,26 +5,20 @@
         "hotel": {
             "title": "Hotel Linen",
             "des": "Gown, Pajama, Bathrobe, Bedding, Towel.",
-            "products": [
-                {
-                    "hotel_product": {
-                        "title": "hotel_product",
-                        "meterial": "meterial"
-                    }
+            "products": {
+                "hotel_product": {
+                    "title": "hotel product",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "hotel_product1": {
-                        "title": "hotel_product1",
-                        "meterial": "meterial"
-                    }
+                "hotel_product1": {
+                    "title": "hotel product 1",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "hotel_product2": {
-                        "title": "hotel_product2",
-                        "meterial": "meterial"
-                    }
+                "hotel_product2": {
+                    "title": "hotel product 2",
+                    "meterial": "meterial 100%"
                 }
-            ]
+            }
         },
         "hotSpring": {
             "title": "Hot Spring Resort",
@@ -147,7 +141,6 @@
             ]
         }
     },
-    "products": {},
     "productDetails": {
         "hotel_product": {
             "title": "",

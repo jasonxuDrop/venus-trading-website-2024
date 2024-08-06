@@ -24,13 +24,19 @@ const ProductList = () => {
     return productTitles[productType] || "Default Product Title";
   };
 
+  const productsData = productsLink.allProducts[type].productCard.find(
+    (element) => element.id === productType
+  ).products;
+  
   return (
     <div className="w-full bg-navbarcolor relative ">
       <div className="hidden lg:block lg:relative lg:w-full">
         <img src={img} alt="" className="w-full h-[509px] object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
-          <h1 className="text-white">{t(`productType.${productType}.title`)}</h1>
+          <h1 className="text-white">
+            {t(`productType.${productType}.title`)}
+          </h1>
         </div>
       </div>
 
@@ -131,7 +137,7 @@ const ProductList = () => {
 
           <div className="col-span-12 lg:col-span-10 lg:col-start-3">
             <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-2 lg:gap-4">
-              <DetailedProductCard
+              {/* <DetailedProductCard
                 productTitle={"ベッドリネン"}
                 productDes={"100% Cotton 朱子無地サテン"}
                 productImg_1={img}
@@ -148,10 +154,17 @@ const ProductList = () => {
                 productDes={"100% Cotton 朱子無地サテン"}
                 productImg_1={img}
                 className={"justify-self-end"}
-              />
-              {
-                type
-              }
+              /> */}
+              {productsData.map((product) => {
+                return (
+                  <DetailedProductCard
+                    productTitle={t(`productType.${productType}.products.${product.id}.title`)}
+                    productDes={t(`productType.${productType}.products.${product.id}.meterial`)}
+                    productImg_1={img}
+                    className={""}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>

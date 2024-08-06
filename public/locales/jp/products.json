@@ -5,26 +5,20 @@
         "hotel": {
             "title": "ホテルリネン",
             "des": "ガウン、パジャマ、バスローブ、寝具、タオル。",
-            "products": [
-                {
-                    "hotel_product": {
-                        "title": "ホテル製品",
-                        "meterial": "素材"
-                    }
+            "products": {
+                "hotel_product": {
+                    "title": "ホテル 製品",
+                    "meterial": "素材 100%"
                 },
-                {
-                    "hotel_product1": {
-                        "title": "ホテル製品1",
-                        "meterial": "素材"
-                    }
+                "hotel_product1": {
+                    "title": "ホテル 製品 1",
+                    "meterial": "素材 100%"
                 },
-                {
-                    "hotel_product2": {
-                        "title": "ホテル製品2",
-                        "meterial": "素材"
-                    }
+                "hotel_product2": {
+                    "title": "ホテル 製品 2",
+                    "meterial": "素材 100%"
                 }
-            ]
+            }
         },
         "hotSpring": {
             "title": "温泉リゾート",
@@ -147,7 +141,6 @@
             ]
         }
     },
-    "products": {},
     "productDetails": {
         "hotel_product": {
             "title": "",
