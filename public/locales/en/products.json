@@ -4,55 +4,150 @@
         "apparel": "Apparel Products",
         "hotel": {
             "title": "Hotel Linen",
-            "des": "Gown, Pajama, Bathrobe, Bedding, Towel."
+            "des": "Gown, Pajama, Bathrobe, Bedding, Towel.",
+            "products": [
+                {
+                    "hotel_product": {
+                        "title": "hotel_product",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "hotel_product1": {
+                        "title": "hotel_product1",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "hotel_product2": {
+                        "title": "hotel_product2",
+                        "meterial": "meterial"
+                    }
+                }
+            ]
         },
         "hotSpring": {
             "title": "Hot Spring Resort",
-            "des": "Yukata, Indoor Wear, Haori, Sauna Clothes."
+            "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
+            "products": [
+                {
+                    "hotSpring_product": {
+                        "title": "hotSpring_product",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "hotSpring_product1": {
+                        "title": "hotSpring_product1",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "hotSpring_product2": {
+                        "title": "hotSpring_product2",
+                        "meterial": "meterial"
+                    }
+                }
+            ]
         },
         "hospital": {
             "title": "Hospital",
-            "des": "Patient Clothes, Undergarments, etc."
+            "des": "Patient Clothes, Undergarments, etc.",
+            "products": [
+                {
+                    "hospital_product": {
+                        "title": "hospital_product",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "hospital_product1": {
+                        "title": "hospital_product1",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "hospital_product2": {
+                        "title": "hospital_product2",
+                        "meterial": "meterial"
+                    }
+                }
+            ]
         },
         "fabric": {
             "title": "Fabric",
-            "des": ""
+            "des": "",
+            "products": [
+                {
+                    "fabric_product": {
+                        "title": "fabric_product",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "fabric_product1": {
+                        "title": "fabric_product1",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "fabric_product2": {
+                        "title": "fabric_product2",
+                        "meterial": "meterial"
+                    }
+                }
+            ]
         },
         "apron": {
             "title": "Apron",
-            "des": ""
+            "des": "",
+            "products": [
+                {
+                    "apron_product": {
+                        "title": "apron_product",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "apron_product1": {
+                        "title": "apron_product1",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "apron_product2": {
+                        "title": "apron_product2",
+                        "meterial": "meterial"
+                    }
+                }
+            ]
         },
         "pajama": {
             "title": "Pajama",
-            "des": ""
+            "des": "",
+            "products": [
+                {
+                    "pajama_product": {
+                        "title": "pajama_product",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "pajama_product1": {
+                        "title": "pajama_product1",
+                        "meterial": "meterial"
+                    }
+                },
+                {
+                    "pajama_product2": {
+                        "title": "pajama_product2",
+                        "meterial": "meterial"
+                    }
+                }
+            ]
         }
     },
-    "products": {
-        "hotel_product": {
-            "title": "hotel_product",
-            "meterial": "meterial"
-        },
-        "hotSpring_product": {
-            "title": "hotSpring_product",
-            "meterial": "meterial"
-        },
-        "hospital_product": {
-            "title": "hospital_product",
-            "meterial": "meterial"
-        },
-        "fabric_product": {
-            "title": "fabric_product",
-            "meterial": "meterial"
-        },
-        "apron_product": {
-            "title": "apron_product",
-            "meterial": "meterial"
-        },
-        "pajama_product": {
-            "title": "pajama_product",
-            "meterial": "meterial"
-        }
-    },
+    "products": {},
     "productDetails": {
         "hotel_product": {
             "title": "",
