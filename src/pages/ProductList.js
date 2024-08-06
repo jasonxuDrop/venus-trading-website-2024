@@ -1,11 +1,15 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import img from "../assets/images/test.png";
 
 import DetailedProductCard from "../components/DetailedProductCard";
+import productsLink from "../assets/content/productsLink.json";
 
 const ProductList = () => {
-  const { productType } = useParams();
+  const { type, productType } = useParams();
+
+  const { t } = useTranslation("products");
 
   const productTitles = {
     hotel: "Hotel Linen",
@@ -26,7 +30,7 @@ const ProductList = () => {
         <img src={img} alt="" className="w-full h-[509px] object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
-          <h1 className="text-white">{displayProductTitle(productType)}</h1>
+          <h1 className="text-white">{t(`productType.${productType}.title`)}</h1>
         </div>
       </div>
 
@@ -145,6 +149,9 @@ const ProductList = () => {
                 productImg_1={img}
                 className={"justify-self-end"}
               />
+              {
+                type
+              }
             </div>
           </div>
         </div>

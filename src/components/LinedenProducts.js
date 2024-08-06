@@ -22,7 +22,7 @@ const LinedenProducts = () => {
     >
       <div className="text-center mb-[96px]">
         <h2 className="inline-block relative">
-          {t(`productType.${productsLink.allProducts[0].type}`)}
+          {t(`productType.${productsLink.allProducts.linen.type}`)}
           <span
             className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/3 h-1 bg-buttonColor"
             style={{ top: "100%" }}
@@ -31,27 +31,31 @@ const LinedenProducts = () => {
       </div>
 
       <div className="relative grid grid-cols-12 gap-4">
-        {productsLink.allProducts[0].productCard.map((productCard, index) => {
-          if (index < productsLink.allProducts[0].productCard.length - 1) {
-            return (
-              <ProductCard
-                productType={productCard.id}
-                productTitle={t(`productType.${productCard.id}.title`)}
-                productDes={t(`productType.${productCard.id}.des`)}
-                className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
-              />
-            );
-          } else {
-            return (
-              <ProductCard
-                productType={productCard.id}
-                productTitle={t(`productType.${productCard.id}.title`)}
-                productDes={t(`productType.${productCard.id}.des`)}
-                className={"col-span-12 lg:col-span-3"}
-              />
-            );
+        {productsLink.allProducts.linen.productCard.map(
+          (productCard, index) => {
+            if (index < productsLink.allProducts.linen.productCard.length - 1) {
+              return (
+                <ProductCard
+                  type={productsLink.allProducts.linen.type}
+                  productType={productCard.id}
+                  productTitle={t(`productType.${productCard.id}.title`)}
+                  productDes={t(`productType.${productCard.id}.des`)}
+                  className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
+                />
+              );
+            } else {
+              return (
+                <ProductCard
+                  type={productsLink.allProducts.linen.type}
+                  productType={productCard.id}
+                  productTitle={t(`productType.${productCard.id}.title`)}
+                  productDes={t(`productType.${productCard.id}.des`)}
+                  className={"col-span-12 lg:col-span-3"}
+                />
+              );
+            }
           }
-        })}
+        )}
       </div>
     </div>
   );

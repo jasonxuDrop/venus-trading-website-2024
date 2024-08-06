@@ -1,58 +1,153 @@
 {
     "productType": {
-        "linen": "リンデン製品",
+        "linen": "リネン製品",
         "apparel": "アパレル製品",
         "hotel": {
             "title": "ホテルリネン",
-            "des": "ガウン、パジャマ、バスローブ、寝具、タオル。"
+            "des": "ガウン、パジャマ、バスローブ、寝具、タオル。",
+            "products": [
+                {
+                    "hotel_product": {
+                        "title": "ホテル製品",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "hotel_product1": {
+                        "title": "ホテル製品1",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "hotel_product2": {
+                        "title": "ホテル製品2",
+                        "meterial": "素材"
+                    }
+                }
+            ]
         },
         "hotSpring": {
             "title": "温泉リゾート",
-            "des": "浴衣、室内着、羽織、サウナ服。"
+            "des": "浴衣、室内着、羽織、サウナ服。",
+            "products": [
+                {
+                    "hotSpring_product": {
+                        "title": "温泉製品",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "hotSpring_product1": {
+                        "title": "温泉製品1",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "hotSpring_product2": {
+                        "title": "温泉製品2",
+                        "meterial": "素材"
+                    }
+                }
+            ]
         },
         "hospital": {
             "title": "病院",
-            "des": "患者服、下着など。"
+            "des": "患者服、下着など。",
+            "products": [
+                {
+                    "hospital_product": {
+                        "title": "病院製品",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "hospital_product1": {
+                        "title": "病院製品1",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "hospital_product2": {
+                        "title": "病院製品2",
+                        "meterial": "素材"
+                    }
+                }
+            ]
         },
         "fabric": {
             "title": "生地",
-            "des": ""
+            "des": "",
+            "products": [
+                {
+                    "fabric_product": {
+                        "title": "生地製品",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "fabric_product1": {
+                        "title": "生地製品1",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "fabric_product2": {
+                        "title": "生地製品2",
+                        "meterial": "素材"
+                    }
+                }
+            ]
         },
         "apron": {
             "title": "エプロン",
-            "des": ""
+            "des": "",
+            "products": [
+                {
+                    "apron_product": {
+                        "title": "エプロン製品",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "apron_product1": {
+                        "title": "エプロン製品1",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "apron_product2": {
+                        "title": "エプロン製品2",
+                        "meterial": "素材"
+                    }
+                }
+            ]
         },
         "pajama": {
             "title": "パジャマ",
-            "des": ""
+            "des": "",
+            "products": [
+                {
+                    "pajama_product": {
+                        "title": "パジャマ製品",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "pajama_product1": {
+                        "title": "パジャマ製品1",
+                        "meterial": "素材"
+                    }
+                },
+                {
+                    "pajama_product2": {
+                        "title": "パジャマ製品2",
+                        "meterial": "素材"
+                    }
+                }
+            ]
         }
     },
-    "products": {
-        "hotel_product": {
-            "title": "ホテル製品",
-            "meterial": "素材"
-        },
-        "hotSpring_product": {
-            "title": "温泉製品",
-            "meterial": "素材"
-        },
-        "hospital_product": {
-            "title": "病院製品",
-            "meterial": "素材"
-        },
-        "fabric_product": {
-            "title": "生地製品",
-            "meterial": "素材"
-        },
-        "apron_product": {
-            "title": "エプロン製品",
-            "meterial": "素材"
-        },
-        "pajama_product": {
-            "title": "パジャマ製品",
-            "meterial": "素材"
-        }
-    },
+    "products": {},
     "productDetails": {
         "hotel_product": {
             "title": "",

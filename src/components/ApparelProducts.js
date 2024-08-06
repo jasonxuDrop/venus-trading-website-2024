@@ -19,7 +19,7 @@ const ApparelProducts = () => {
       {/* Apparel Products */}
       <div className="text-center mb-[96px]">
         <h2 className="inline-block relative">
-          {t(`productType.${productsLink.allProducts[1].type}`)}
+          {t(`productType.${productsLink.allProducts.apparel.type}`)}
           <span
             className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/3 h-1 bg-buttonColor"
             style={{ top: "100%" }}
@@ -28,8 +28,8 @@ const ApparelProducts = () => {
       </div>
 
       <div className="relative grid grid-cols-12 gap-4">
-        {productsLink.allProducts[1].productCard.map((productCard, index) => {
-          if (index < productsLink.allProducts[1].productCard.length - 1) {
+        {productsLink.allProducts.apparel.productCard.map((productCard, index) => {
+          if (index < productsLink.allProducts.apparel.productCard.length - 1) {
             return (
               <ProductCard
                 productType={productCard.id}

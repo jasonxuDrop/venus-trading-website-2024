@@ -1,11 +1,11 @@
 {
-    "allProducts": [
-        {
+    "allProducts": {
+        "linen": {
             "type": "linen",
             "productCard": [
                 {
                     "id": "hotel",
-                    "url": "/productList/hotel",
+                    "url": "/productList/linen/hotel",
                     "products": [
                         {
                             "id": "hotel_product",
@@ -23,7 +23,7 @@
                 },
                 {
                     "id": "hotSpring",
-                    "url": "/productList/hotSpring",
+                    "url": "/productList/linen/hotSpring",
                     "products": [
                         {
                             "id": "hotSpring_product",
@@ -41,7 +41,7 @@
                 },
                 {
                     "id": "hospital",
-                    "url": "/productList/hospital",
+                    "url": "/productList/linen/hospital",
                     "products": [
                         {
                             "id": "hospital_product",
@@ -59,7 +59,7 @@
                 },
                 {
                     "id": "fabric",
-                    "url": "/productList/fabric",
+                    "url": "/productList/linen/fabric",
                     "products": [
                         {
                             "id": "fabric_product",
@@ -77,12 +77,12 @@
                 }
             ]
         },
-        {
+        "apparel": {
             "type": "apparel",
             "productCard": [
                 {
                     "id": "apron",
-                    "url": "/productList/apron",
+                    "url": "/productList/apparel/apron",
                     "products": [
                         {
                             "id": "apron_product",
@@ -100,7 +100,7 @@
                 },
                 {
                     "id": "pajama",
-                    "url": "/productList/pajama",
+                    "url": "/productList/apparel/pajama",
                     "products": [
                         {
                             "id": "pajama_product",
@@ -118,5 +118,5 @@
                 }
             ]
         }
-    ]
+    }
 }

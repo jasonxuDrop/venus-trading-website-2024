@@ -1,6 +1,7 @@
 import React from "react";
 
 const ProductCard = ({
+  type,
   productType,
   productTitle,
   productDes,
@@ -8,7 +9,7 @@ const ProductCard = ({
   className,
 }) => {
   const handleNavigate = () => {
-    window.location.href = `/productList/${productType}`;
+    window.location.href = `/productList/${type}/${productType}`;
   };
 
   return (
