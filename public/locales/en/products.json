@@ -8,7 +8,19 @@
             "products": {
                 "hotel_product": {
                     "title": "hotel product",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "details": {
+                        "title": "",
+                        "subTitle": "",
+                        "des": "",
+                        "spec": {
+                            "productName": "",
+                            "materials": "",
+                            "category": "",
+                            "category2": ""
+                        },
+                        "imgs": []
+                    }
                 },
                 "hotel_product1": {
                     "title": "hotel product 1",
