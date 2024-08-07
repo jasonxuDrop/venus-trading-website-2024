@@ -15,19 +15,19 @@
                 "subMenu": [
                     {
                         "id": "hotel",
-                        "url": "/productList/hotel"
+                        "url": "/productList/linen/hotel"
                     },
                     {
                         "id": "hotSpring",
-                        "url": "/productList/hotSpring"
+                        "url": "/productList/linen/hotSpring"
                     },
                     {
                         "id": "hospital",
-                        "url": "/productList/hospital"
+                        "url": "/productList/linen/hospital"
                     },
                     {
                         "id": "fabric",
-                        "url": "/productList/fabric"
+                        "url": "/productList/linen/fabric"
                     }
                 ]
             },
@@ -37,11 +37,11 @@
                 "subMenu": [
                     {
                         "id": "apron",
-                        "url": "/productList/apron"
+                        "url": "/productList/apparel/apron"
                     },
                     {
                         "id": "pajama",
-                        "url": "/productList/pajama"
+                        "url": "/productList/apparel/pajama"
                     }
                 ]
             },
