@@ -23,122 +23,92 @@
         "hotSpring": {
             "title": "Hot Spring Resort",
             "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
-            "products": [
-                {
-                    "hotSpring_product": {
-                        "title": "hotSpring_product",
-                        "meterial": "meterial"
-                    }
+            "products": {
+                "hotSpring_product": {
+                    "title": "hotSpring product",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "hotSpring_product1": {
-                        "title": "hotSpring_product1",
-                        "meterial": "meterial"
-                    }
+                "hotSpring_product1": {
+                    "title": "hotSpring product1",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "hotSpring_product2": {
-                        "title": "hotSpring_product2",
-                        "meterial": "meterial"
-                    }
+                "hotSpring_product2": {
+                    "title": "hotSpring product2",
+                    "meterial": "meterial 100%"
                 }
-            ]
+            }
         },
         "hospital": {
             "title": "Hospital",
             "des": "Patient Clothes, Undergarments, etc.",
-            "products": [
-                {
-                    "hospital_product": {
-                        "title": "hospital_product",
-                        "meterial": "meterial"
-                    }
+            "products": {
+                "hospital_product": {
+                    "title": "hospital product",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "hospital_product1": {
-                        "title": "hospital_product1",
-                        "meterial": "meterial"
-                    }
+                "hospital_product1": {
+                    "title": "hospital product1",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "hospital_product2": {
-                        "title": "hospital_product2",
-                        "meterial": "meterial"
-                    }
+                "hospital_product2": {
+                    "title": "hospital product2",
+                    "meterial": "meterial 100%"
                 }
-            ]
+            }
         },
         "fabric": {
             "title": "Fabric",
             "des": "",
-            "products": [
-                {
-                    "fabric_product": {
-                        "title": "fabric_product",
-                        "meterial": "meterial"
-                    }
+            "products": {
+                "fabric_product": {
+                    "title": "fabric product",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "fabric_product1": {
-                        "title": "fabric_product1",
-                        "meterial": "meterial"
-                    }
+                "fabric_product1": {
+                    "title": "fabric product 1",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "fabric_product2": {
-                        "title": "fabric_product2",
-                        "meterial": "meterial"
-                    }
+                "fabric_product2": {
+                    "title": "fabric product 2",
+                    "meterial": "meterial 100%"
                 }
-            ]
+            }
         },
         "apron": {
             "title": "Apron",
             "des": "",
-            "products": [
-                {
-                    "apron_product": {
-                        "title": "apron_product",
-                        "meterial": "meterial"
-                    }
+            "products": {
+                "apron_product": {
+                    "title": "apron product",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "apron_product1": {
-                        "title": "apron_product1",
-                        "meterial": "meterial"
-                    }
+                "apron_product1": {
+                    "title": "apron product 1",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "apron_product2": {
-                        "title": "apron_product2",
-                        "meterial": "meterial"
-                    }
+                "apron_product2": {
+                    "title": "apron product 2",
+                    "meterial": "meterial 100%"
                 }
-            ]
+            }
         },
         "pajama": {
             "title": "Pajama",
             "des": "",
-            "products": [
-                {
-                    "pajama_product": {
-                        "title": "pajama_product",
-                        "meterial": "meterial"
-                    }
+            "products": {
+                "pajama_product": {
+                    "title": "pajama product",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "pajama_product1": {
-                        "title": "pajama_product1",
-                        "meterial": "meterial"
-                    }
+                "pajama_product1": {
+                    "title": "pajama product 1",
+                    "meterial": "meterial 100%"
                 },
-                {
-                    "pajama_product2": {
-                        "title": "pajama_product2",
-                        "meterial": "meterial"
-                    }
+                "pajama_product2": {
+                    "title": "pajama product 2",
+                    "meterial": "meterial 100%"
                 }
-            ]
+            }
         }
     },
     "productDetails": {
