@@ -1,8 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
+
+import pageImage from "../assets/content/pageImg.json";
 
 const Contact = () => {
   const smallScreenHeight = useScreenHeight(600);
+
+  const { t } = useTranslation("page");
 
   return (
     <div
@@ -12,24 +17,36 @@ const Contact = () => {
     >
       <div className="relative grid grid-cols-12 gap-2">
         <div className="col-span-12 lg:col-span-5 text-left flex flex-col justify-between lg:h-[70%]">
-          <h2 className="mb-[64px]">Contact Us</h2>
+          <h2 className="mb-[64px]">
+            {t(`contact.${pageImage.contact.context.title}`)}
+          </h2>
           <p className="mb-[16px]">
-            Have questions about a particular product or interested in
-            collaborating with us? Leave us a message, and we'll get back to you
-            shortly.
+            {t(`contact.${pageImage.contact.context.content}`)}
           </p>
           <div className="my-2 mb-[128px]">
             <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">Phone</span>
-              <span className="lg:col-span-1">912345678</span>
+              <span className="pr-2 lg:col-span-1">
+                {t(`contact.${pageImage.contact.context.phone}`)}
+              </span>
+              <span className="lg:col-span-1">
+                {t(`contact.${pageImage.contact.context.phoneVal}`)}
+              </span>
             </p>
             <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">Fax</span>
-              <span className="lg:col-span-1">128736864901</span>
+              <span className="pr-2 lg:col-span-1">
+                {t(`contact.${pageImage.contact.context.fax}`)}
+              </span>
+              <span className="lg:col-span-1">
+                {t(`contact.${pageImage.contact.context.faxVal}`)}
+              </span>
             </p>
             <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">Address</span>
-              <span className="lg:col-span-3">12356878969612 123987</span>
+              <span className="pr-2 lg:col-span-1">
+                {t(`contact.${pageImage.contact.context.address}`)}
+              </span>
+              <span className="lg:col-span-3">
+                {t(`contact.${pageImage.contact.context.addressVal}`)}
+              </span>
             </p>
           </div>
         </div>
@@ -37,19 +54,19 @@ const Contact = () => {
           <form className="space-y-4">
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="name" className="font-semibold text-formColor">
-                Your Name *
+                {t(`contact.form.${pageImage.contact.form.name}`)}
               </label>
               <input type="text" id="name" required className="input-field" />
             </div>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="email" className="font-semibold text-formColor">
-                Email Address *
+                {t(`contact.form.${pageImage.contact.form.email}`)}
               </label>
               <input type="email" id="email" required className="input-field" />
             </div>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="company" className="font-semibold text-formColor">
-                Company Name *
+                {t(`contact.form.${pageImage.contact.form.company}`)}
               </label>
               <input
                 type="text"
@@ -60,7 +77,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col mb-[32px]">
               <label htmlFor="message" className="font-semibold text-formColor">
-                Message *
+                {t(`contact.form.${pageImage.contact.form.message}`)}
               </label>
               <textarea
                 id="message"
@@ -74,7 +91,7 @@ const Contact = () => {
                 type="submit"
                 className="px-6 py-2 bg-buttonColor text-black rounded hover:bg-buttonHover"
               >
-                Send
+                {t(`contact.form.${pageImage.contact.form.send}`)}
               </button>
             </div>
           </form>

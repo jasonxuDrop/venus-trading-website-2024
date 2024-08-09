@@ -120,7 +120,7 @@ const Header = () => {
                           if (index === link.subMenu.length - 1) {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={subLink.url}
                                 className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -131,7 +131,7 @@ const Header = () => {
                           } else if (index === 0) {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={subLink.url}
                                 className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -142,7 +142,7 @@ const Header = () => {
                           } else {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={subLink.url}
                                 className="block text-left px-3 py-1 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -197,7 +197,7 @@ const Header = () => {
                           if (index === link.subMenu.length - 1) {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={subLink.url}
                                 className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -208,7 +208,7 @@ const Header = () => {
                           } else if (index === 0) {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={subLink.url}
                                 className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -219,7 +219,7 @@ const Header = () => {
                           } else {
                             return (
                               <a
-                                href={`/productList/${subLink.id}`}
+                                href={subLink.url}
                                 className="block text-left px-3 py-1 text-mobileHeading4"
                               >
                                 <span className="border-b-2 border-transparent hover:border-hoverColor">
@@ -387,7 +387,7 @@ const Header = () => {
                         {link.subMenu.map((subLink) => {
                           return (
                             <a
-                              href={`/productList/${subLink.id}`}
+                              href={subLink.url}
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
@@ -433,7 +433,7 @@ const Header = () => {
                         {link.subMenu.map((subLink) => {
                           return (
                             <a
-                              href={`/productList/${subLink.id}`}
+                              href={subLink.url}
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >

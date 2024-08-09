@@ -1,0 +1,24 @@
+{
+    "footer": {
+        "home": "ホーム",
+        "about": "約",
+        "linden": "リンデン製品",
+        "hotel": "ホテル",
+        "hotSpring": "温泉リゾート",
+        "hospital": "病院",
+        "fabric": "ファブリック",
+        "apparel": "アパレル製品",
+        "apron": "エプロン",
+        "pajama": "パジャマ",
+        "contact": "連絡先",
+        "lang": "English", 
+        "addressText": "住所",
+        "address": "123 ビジネスロード, ビジネスシティ, BC 12345",
+        "telText": "電話",
+        "tel": "+1234567890",
+        "faxText": "ファックス",
+        "fax": "+1234567891",
+        "copyRight": "© 2024 Weifang SevenUp International Trading Co., LTD. すべての権利を保有.",
+        "logoImg": "../assets/images/logo/Logo Full En-white.svg"
+    }
+}

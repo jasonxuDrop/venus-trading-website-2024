@@ -1,0 +1,86 @@
+{
+    "logoImg": {
+        "id": "logoImg"
+    },
+    "navigation": {
+        "col-1": [
+            {
+                "id": "telText",
+                "id2": "tel"
+            },
+            {
+                "id": "faxText",
+                "id2": "fax"
+            },
+            {
+                "id": "addressText",
+                "id2": "address"
+            }
+        ],
+        "col-2": [
+            {
+                "id": "home",
+                "url": "/"
+            },
+            {
+                "id": "about",
+                "url": "/about"
+            },
+            {
+                "id": "linden",
+                "url": "/linedenProducts"
+            },
+            {
+                "id": "apparel",
+                "url": "/apparelProducts"
+            },
+            {
+                "id": "contact",
+                "url": "/contact"
+            },
+            {
+                "id": "lang",
+                "url": null
+            }
+        ],
+        "col-3": [
+            {
+                "id": "linden",
+                "url": "/linedenProducts"
+            },
+            {
+                "id": "hotel",
+                "url": "/productList/linen/hotel"
+            },
+            {
+                "id": "hotSpring",
+                "url": "/productList/linen/hotSpring"
+            },
+            {
+                "id": "hospital",
+                "url": "/productList/linen/hospital"
+            },
+            {
+                "id": "fabric",
+                "url": "/productList/linen/fabric"
+            }
+        ],
+        "col-4": [
+            {
+                "id": "apparel",
+                "url": "/apparelProducts"
+            },
+            {
+                "id": "apron",
+                "url": "/productList/apparel/apron"
+            },
+            {
+                "id": "pajama",
+                "url": "/productList/apparel/pajama"
+            }
+        ]
+    },
+    "copyRight": {
+        "id": "copyRight"
+    }
+}

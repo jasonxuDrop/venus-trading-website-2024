@@ -3,11 +3,16 @@
  */
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 import ProductCard from "./productCard";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 
+import productsLink from "../assets/content/productsLink.json";
+
 const LinedenProducts = () => {
   const smallScreenHeight = useScreenHeight(600);
+
+  const { t } = useTranslation("products");
 
   return (
     <div
@@ -17,7 +22,7 @@ const LinedenProducts = () => {
     >
       <div className="text-center mb-[96px]">
         <h2 className="inline-block relative">
-          Linent Products
+          {t(`productType.${productsLink.allProducts.linen.type}`)}
           <span
             className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/3 h-1 bg-buttonColor"
             style={{ top: "100%" }}
@@ -26,31 +31,31 @@ const LinedenProducts = () => {
       </div>
 
       <div className="relative grid grid-cols-12 gap-4">
-        <ProductCard
-          productType={"hotel"}
-          productTitle={"Hotel Linen"}
-          productDes={`Gown, Pajama, Bathrobe,
-Bedding, Towel`}
-          className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
-        />
-        <ProductCard
-          productType={"hotSpring"}
-          productTitle={"Onsen Ryokan"}
-          productDes={`Yukata, Indoor Wear, Haori, Sauna Clothes`}
-          className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
-        />
-        <ProductCard
-          productType={"hospital"}
-          productTitle={"Hospital"}
-          productDes={`Patient Clothes, Undergarments, etc.`}
-          className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
-        />
-        <ProductCard
-          productType={"fabric"}
-          productTitle={"Fabric"}
-          productDes={``}
-          className={"col-span-12 lg:col-span-3"}
-        />
+        {productsLink.allProducts.linen.productCard.map(
+          (productCard, index) => {
+            if (index < productsLink.allProducts.linen.productCard.length - 1) {
+              return (
+                <ProductCard
+                  type={productsLink.allProducts.linen.type}
+                  productType={productCard.id}
+                  productTitle={t(`productType.${productCard.id}.title`)}
+                  productDes={t(`productType.${productCard.id}.des`)}
+                  className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
+                />
+              );
+            } else {
+              return (
+                <ProductCard
+                  type={productsLink.allProducts.linen.type}
+                  productType={productCard.id}
+                  productTitle={t(`productType.${productCard.id}.title`)}
+                  productDes={t(`productType.${productCard.id}.des`)}
+                  className={"col-span-12 lg:col-span-3"}
+                />
+              );
+            }
+          }
+        )}
       </div>
     </div>
   );

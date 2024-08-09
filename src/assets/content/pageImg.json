@@ -22,8 +22,37 @@
     },
     "about": {
         "aboutImg": {
-            "en": "/about/about-image-en.jpg",
-            "jp": "/about/about-image-jp.jpg"
+            "id": "aboutImg"
+        },
+        "title": {
+            "id": "title"
+        },
+        "paragraph": [
+            {
+                "id": "paragraph_1"
+            },
+            {
+                "id": "paragraph_2"
+            }
+        ]
+    },
+    "contact": {
+        "context": {
+            "title": "title",
+            "address": "address",
+            "addressVal": "addressVal",
+            "phone": "phone",
+            "phoneVal": "phoneVal",
+            "fax": "fax",
+            "faxVal": "faxVal",
+            "content": "content"
+        },
+        "form": {
+            "name": "name",
+            "email": "email",
+            "company": "company",
+            "message": "message",
+            "send":"send"
         }
     }
 }
