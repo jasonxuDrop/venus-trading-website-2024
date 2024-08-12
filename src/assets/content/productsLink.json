@@ -9,7 +9,8 @@
                     "products": [
                         {
                             "id": "hotel_product",
-                            "url": "/productDetail/hotel_product"
+                            "url": "/productDetail/hotel_product",
+                            "img":[]
                         },
                         {
                             "id": "hotel_product1",

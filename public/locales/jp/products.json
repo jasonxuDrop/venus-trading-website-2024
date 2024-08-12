@@ -18,8 +18,7 @@
                             "materials": "バラ柄バラ柄 <br /> 朱子無地サテン",
                             "category": "カテゴリ",
                             "category2": "バスタオル： <br /> バスマット： 20x30インチ <br /> フェイスタオル：12x12インチまたは13x13インチ <br /> ハンドタオル：16x27インチ <br /> バスシートまたはスパシート：54x90インチ カスタムサイズ対応可 <br />"
-                        },
-                        "imgs": []
+                        }
                     }
                 },
                 "hotel_product1": {
@@ -133,8 +132,7 @@
                 "materials": "",
                 "category": "",
                 "category2": ""
-            },
-            "imgs": []
+            }
         },
         "hotSpring_product": {
             "title": "",
@@ -145,8 +143,7 @@
                 "materials": "",
                 "category": "",
                 "category2": ""
-            },
-            "imgs": []
+            }
         },
         "hospital_product": {
             "title": "",
@@ -157,8 +154,7 @@
                 "materials": "",
                 "category": "",
                 "category2": ""
-            },
-            "imgs": []
+            }
         },
         "fabric_product": {
             "title": "",
@@ -169,8 +165,7 @@
                 "materials": "",
                 "category": "",
                 "category2": ""
-            },
-            "imgs": []
+            }
         },
         "apron_product": {
             "title": "",
@@ -181,8 +176,7 @@
                 "materials": "",
                 "category": "",
                 "category2": ""
-            },
-            "imgs": []
+            }
         },
         "pajama_product": {
             "title": "",
@@ -193,8 +187,7 @@
                 "materials": "",
                 "category": "",
                 "category2": ""
-            },
-            "imgs": []
+            }
         }
     }
 }
