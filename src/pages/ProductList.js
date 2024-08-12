@@ -27,6 +27,7 @@ const ProductList = () => {
   const productsData = productsLink.allProducts[type].productCard.find(
     (element) => element.id === productType
   ).products;
+  console.log("xxx", productsData);
 
   return (
     <div className="w-full bg-navbarcolor relative ">
@@ -123,11 +124,12 @@ const ProductList = () => {
                         `productType.${productType}.products.${product.id}.meterial`
                       )}
                       productImg_1={img}
+                      productID={product.id}
                       className={"justify-self-end"}
                     />
                   );
                 }
-                if (index == 0) {
+                if (index === 0) {
                   return (
                     <DetailedProductCard
                       productTitle={t(
@@ -137,6 +139,7 @@ const ProductList = () => {
                         `productType.${productType}.products.${product.id}.meterial`
                       )}
                       productImg_1={img}
+                      productID={product.id}
                       className={"justify-self-end"}
                     />
                   );
@@ -150,6 +153,7 @@ const ProductList = () => {
                         `productType.${productType}.products.${product.id}.meterial`
                       )}
                       productImg_1={img}
+                      productID={product.id}
                       className={""}
                     />
                   );

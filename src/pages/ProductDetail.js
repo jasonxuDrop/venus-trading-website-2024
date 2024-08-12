@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {useParams} from "react-router-dom";
 
 import testImg from "../assets/images/detailImg/product-table-linen-2 1.png";
 import img1 from "../assets/images/detailImg/tablecloth1.png";
@@ -6,6 +7,8 @@ import img2 from "../assets/images/detailImg/tablecloth2.png";
 import img3 from "../assets/images/detailImg/tablecloth3.png";
 
 const ProductDetail = () => {
+  const { productID } = useParams(); // productID
+
   const [showModal, setShowModal] = useState(false);
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
   const [zoomLevel, setZoomLevel] = useState(1);
