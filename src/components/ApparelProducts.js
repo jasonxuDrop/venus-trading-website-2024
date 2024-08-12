@@ -32,6 +32,7 @@ const ApparelProducts = () => {
           if (index < productsLink.allProducts.apparel.productCard.length - 1) {
             return (
               <ProductCard
+              type={productsLink.allProducts.apparel.type}
                 productType={productCard.id}
                 productTitle={t(`productType.${productCard.id}.title`)}
                 className={
@@ -42,6 +43,7 @@ const ApparelProducts = () => {
           } else {
             return (
               <ProductCard
+              type={productsLink.allProducts.apparel.type}
                 productType={productCard.id}
                 productTitle={t(`productType.${productCard.id}.title`)}
                 className={"col-span-12 lg:col-span-3 lg:col-start-7"}
