@@ -9,6 +9,7 @@
                 "hotel_product": {
                     "title": "hotel product",
                     "meterial": "meterial 100%",
+                    "materialText": "Material",
                     "details": {
                         "title": "",
                         "subTitle": "",
@@ -24,11 +25,13 @@
                 },
                 "hotel_product1": {
                     "title": "hotel product 1",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "hotel_product2": {
                     "title": "hotel product 2",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 }
             }
         },
@@ -38,15 +41,18 @@
             "products": {
                 "hotSpring_product": {
                     "title": "hotSpring product",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "hotSpring_product1": {
                     "title": "hotSpring product1",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "hotSpring_product2": {
                     "title": "hotSpring product2",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 }
             }
         },
@@ -56,15 +62,18 @@
             "products": {
                 "hospital_product": {
                     "title": "hospital product",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "hospital_product1": {
                     "title": "hospital product1",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "hospital_product2": {
                     "title": "hospital product2",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 }
             }
         },
@@ -74,15 +83,18 @@
             "products": {
                 "fabric_product": {
                     "title": "fabric product",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "fabric_product1": {
                     "title": "fabric product 1",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "fabric_product2": {
                     "title": "fabric product 2",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 }
             }
         },
@@ -92,15 +104,18 @@
             "products": {
                 "apron_product": {
                     "title": "apron product",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "apron_product1": {
                     "title": "apron product 1",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "apron_product2": {
                     "title": "apron product 2",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 }
             }
         },
@@ -110,15 +125,18 @@
             "products": {
                 "pajama_product": {
                     "title": "pajama product",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "pajama_product1": {
                     "title": "pajama product 1",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 },
                 "pajama_product2": {
                     "title": "pajama product 2",
-                    "meterial": "meterial 100%"
+                    "meterial": "meterial 100%",
+                    "materialText": "Material"
                 }
             }
         }

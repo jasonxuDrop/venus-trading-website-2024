@@ -9,6 +9,7 @@
                 "hotel_product": {
                     "title": "ホテル 製品",
                     "meterial": "素材 100%",
+                    "materialText": "素材",
                     "details": {
                         "title": "ホテル 製品",
                         "subTitle": "Nylon 80",
@@ -23,11 +24,13 @@
                 },
                 "hotel_product1": {
                     "title": "ホテル 製品 1",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "hotel_product2": {
                     "title": "ホテル 製品 2",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 }
             }
         },
@@ -37,15 +40,18 @@
             "products": {
                 "hotSpring_product": {
                     "title": "温泉製品",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "hotSpring_product1": {
                     "title": "温泉製品 1",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "hotSpring_product2": {
                     "title": "温泉製品 2",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 }
             }
         },
@@ -55,15 +61,18 @@
             "products": {
                 "hospital_product": {
                     "title": "病院製品",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "hospital_product1": {
                     "title": "病院製品 1",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "hospital_product2": {
                     "title": "病院製品 2",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 }
             }
         },
@@ -73,15 +82,18 @@
             "products": {
                 "fabric_product": {
                     "title": "生地製品",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "fabric_product1": {
                     "title": "生地製品 1",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "fabric_product2": {
                     "title": "生地製品 2",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 }
             }
         },
@@ -91,15 +103,18 @@
             "products": {
                 "apron_product": {
                     "title": "エプロン製品",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "apron_product1": {
                     "title": "エプロン製品 1",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "apron_product2": {
                     "title": "エプロン製品 2",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 }
             }
         },
@@ -109,15 +124,18 @@
             "products": {
                 "pajama_product": {
                     "title": "パジャマ製品",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "pajama_product1": {
                     "title": "パジャマ製品 1",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 },
                 "pajama_product2": {
                     "title": "パジャマ製品 2",
-                    "meterial": "素材 100%"
+                    "meterial": "素材 100%",
+                    "materialText": "素材"
                 }
             }
         }

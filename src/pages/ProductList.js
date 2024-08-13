@@ -120,9 +120,14 @@ const ProductList = () => {
                       productTitle={t(
                         `productType.${productType}.products.${product.id}.title`
                       )}
-                      productDes={t(
-                        `productType.${productType}.products.${product.id}.meterial`
-                      )}
+                      productDes={{
+                        title: t(
+                          `productType.${productType}.products.${product.id}.materialText`
+                        ),
+                        content: t(
+                          `productType.${productType}.products.${product.id}.meterial`
+                        ),
+                      }}
                       productImg_1={img}
                       productID={product.id}
                       className={"justify-self-end"}
@@ -135,9 +140,14 @@ const ProductList = () => {
                       productTitle={t(
                         `productType.${productType}.products.${product.id}.title`
                       )}
-                      productDes={t(
-                        `productType.${productType}.products.${product.id}.meterial`
-                      )}
+                      productDes={{
+                        title: t(
+                          `productType.${productType}.products.${product.id}.materialText`
+                        ),
+                        content: t(
+                          `productType.${productType}.products.${product.id}.meterial`
+                        ),
+                      }}
                       productImg_1={img}
                       productID={product.id}
                       className={"justify-self-end"}
@@ -149,9 +159,14 @@ const ProductList = () => {
                       productTitle={t(
                         `productType.${productType}.products.${product.id}.title`
                       )}
-                      productDes={t(
-                        `productType.${productType}.products.${product.id}.meterial`
-                      )}
+                      productDes={{
+                        title: t(
+                          `productType.${productType}.products.${product.id}.materialText`
+                        ),
+                        content: t(
+                          `productType.${productType}.products.${product.id}.meterial`
+                        ),
+                      }}
                       productImg_1={img}
                       productID={product.id}
                       className={""}
