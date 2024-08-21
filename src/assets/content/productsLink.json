@@ -9,16 +9,33 @@
                     "products": [
                         {
                             "id": "hotel_product",
-                            "url": "/productDetail/hotel_product",
-                            "img":[]
+                            "url": "/productDetail/linen/hotel/hotel_product",
+                            "imgs": [
+                                {
+                                    "id": "img",
+                                    "path": "../assets/images/detailImg/product-table-linen-2.png"
+                                },
+                                {
+                                    "id": "img1",
+                                    "path": "../assets/images/detailImg/tablecloth1.png"
+                                },
+                                {
+                                    "id": "img2",
+                                    "path": "../assets/images/detailImg/tablecloth2.png"
+                                },
+                                {
+                                    "id": "img3",
+                                    "path": "../assets/images/detailImg/tablecloth3.png"
+                                }
+                            ]
                         },
                         {
                             "id": "hotel_product1",
-                            "url": "/productDetail/hotel_product1"
+                            "url": "/productDetail/linen/hotel/hotel_product1"
                         },
                         {
                             "id": "hotel_product2",
-                            "url": "/productDetail/hotel_product2"
+                            "url": "/productDetail/linen/hotel/hotel_product2"
                         }
                     ]
                 },
@@ -28,15 +45,15 @@
                     "products": [
                         {
                             "id": "hotSpring_product",
-                            "url": "/productDetail/hotSpring_product"
+                            "url": "/productDetail/linen/hotSpring/hotSpring_product"
                         },
                         {
                             "id": "hotSpring_product1",
-                            "url": "/productDetail/hotSpring_product1"
+                            "url": "/productDetail/linen/hotSpring/hotSpring_product1"
                         },
                         {
                             "id": "hotSpring_product2",
-                            "url": "/productDetail/hotSpring_product2"
+                            "url": "/productDetail/linen/hotSpring/hotSpring_product2"
                         }
                     ]
                 },
@@ -46,15 +63,15 @@
                     "products": [
                         {
                             "id": "hospital_product",
-                            "url": "/productDetail/hospital_product"
+                            "url": "/productDetail/linen/hospital/hospital_product"
                         },
                         {
                             "id": "hospital_product1",
-                            "url": "/productDetail/hospital_product1"
+                            "url": "/productDetail/linen/hospital/hospital_product1"
                         },
                         {
                             "id": "hospital_product2",
-                            "url": "/productDetail/hospital_product2"
+                            "url": "/productDetail/linen/hospital/hospital_product2"
                         }
                     ]
                 },
@@ -64,15 +81,15 @@
                     "products": [
                         {
                             "id": "fabric_product",
-                            "url": "/productDetail/fabric_product"
+                            "url": "/productDetail/linen/fabric/fabric_product"
                         },
                         {
                             "id": "fabric_product1",
-                            "url": "/productDetail/fabric_product1"
+                            "url": "/productDetail/linen/fabric/fabric_product1"
                         },
                         {
                             "id": "fabric_product2",
-                            "url": "/productDetail/fabric_product2"
+                            "url": "/productDetail/linen/fabric/fabric_product2"
                         }
                     ]
                 }
@@ -87,15 +104,15 @@
                     "products": [
                         {
                             "id": "apron_product",
-                            "url": "/productDetail/apron_product"
+                            "url": "/productDetail/apparel/apron/apron_product"
                         },
                         {
                             "id": "apron_product1",
-                            "url": "/productDetail/apron_product1"
+                            "url": "/productDetail/apparel/apron/apron_product1"
                         },
                         {
                             "id": "apron_product2",
-                            "url": "/productDetail/apron_product2"
+                            "url": "/productDetail/apparel/apron/apron_product2"
                         }
                     ]
                 },
@@ -105,15 +122,15 @@
                     "products": [
                         {
                             "id": "pajama_product",
-                            "url": "/productDetail/pajama_product"
+                            "url": "/productDetail/apparel/pajama/pajama_product"
                         },
                         {
                             "id": "pajama_product1",
-                            "url": "/productDetail/pajama_product1"
+                            "url": "/productDetail/apparel/pajama/pajama_product1"
                         },
                         {
                             "id": "pajama_product2",
-                            "url": "/productDetail/pajama_product2"
+                            "url": "/productDetail/apparel/pajama/pajama_product2"
                         }
                     ]
                 }

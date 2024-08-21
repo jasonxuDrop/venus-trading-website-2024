@@ -6,12 +6,12 @@ const DetailedProductCard = ({
   productImg_1,
   productImg_2,
   className,
-  productID
+  productURL
 }) => {
   const [hover, setHover] = useState(false);
 
   const handleNavigate = () => {
-    window.location.href = `/productDetail/${productID}`;
+    window.location.href = `${productURL}`;
   };
 
   return (

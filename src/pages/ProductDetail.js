@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
-import {useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 
-import testImg from "../assets/images/detailImg/product-table-linen-2 1.png";
-import img1 from "../assets/images/detailImg/tablecloth1.png";
-import img2 from "../assets/images/detailImg/tablecloth2.png";
-import img3 from "../assets/images/detailImg/tablecloth3.png";
+import productsLink from "../assets/content/productsLink.json";
 
 const ProductDetail = () => {
-  const { productID } = useParams(); // productID
+  const { type, productType, productID } = useParams(); // productID
 
   const [showModal, setShowModal] = useState(false);
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
@@ -18,8 +15,29 @@ const ProductDetail = () => {
   const [hasMoved, setHasMoved] = useState(false); // Track if the image has moved
   const [transformOrigin, setTransformOrigin] = useState("center");
 
-  const images = [img1, img2, img3];
+  // For product details
+  const productDetails = productsLink.allProducts[type].productCard
+    .find((element) => element.id === productType)
+    ?.products.find((element) => element.id === productID);
 
+  // Helper function for importing imgs dynamically.
+  const importAll = (r) => {
+    let images = {};
+    r.keys().map((item, index) => {
+      images[item.replace("./", "")] = r(item);
+    });
+    return images;
+  };
+
+  const allImages = importAll(
+    require.context("../assets/images/detailImg", false, /\.(png)$/)
+  );
+
+  const images = productDetails.imgs.map((img, index) => {
+      return allImages[img.path.split("/").pop()];
+  });
+
+  console.log("...", images);
   useEffect(() => {
     document.body.style.overflow = showModal ? "hidden" : "auto";
   }, [showModal]);
@@ -104,7 +122,7 @@ const ProductDetail = () => {
         <div className="relative grid grid-cols-12 gap-2">
           <div className="col-span-12 lg:col-span-6 text-left">
             <img
-              src={testImg}
+              src={`${images[0]}`}
               alt="About"
               className={`h-[auto] object-cover`}
             />
@@ -172,16 +190,19 @@ const ProductDetail = () => {
         <div className="w-full mb-[128px] lg:mb-[192px]">
           <h2 className="lg:text-center mb-2">ギャラリー</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                className={`w-full h-[auto] mb-2 cursor-pointer ${
-                  index === 0 ? "col-span-1 lg:col-span-2" : "col-span-1"
-                }  mb-2 lg:mb-0 `}
-                onClick={() => openModal(index)}
-              />
-            ))}
+            {images.map(
+              (image, index) =>
+                index > 0 && (
+                  <img
+                    key={index}
+                    src={image}
+                    className={`w-full h-[auto] mb-2 cursor-pointer ${
+                      index === 0 ? "col-span-1 lg:col-span-2" : "col-span-1"
+                    }  mb-2 lg:mb-0 `}
+                    onClick={() => openModal(index)}
+                  />
+                )
+            )}
           </div>
         </div>
 

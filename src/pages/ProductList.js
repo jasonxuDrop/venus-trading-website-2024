@@ -129,7 +129,7 @@ const ProductList = () => {
                         ),
                       }}
                       productImg_1={img}
-                      productID={product.id}
+                      productURL={product.url}
                       className={"justify-self-end"}
                     />
                   );
@@ -149,7 +149,7 @@ const ProductList = () => {
                         ),
                       }}
                       productImg_1={img}
-                      productID={product.id}
+                      productURL={product.url}
                       className={"justify-self-end"}
                     />
                   );
@@ -168,7 +168,7 @@ const ProductList = () => {
                         ),
                       }}
                       productImg_1={img}
-                      productID={product.id}
+                      productURL={product.url}
                       className={""}
                     />
                   );
