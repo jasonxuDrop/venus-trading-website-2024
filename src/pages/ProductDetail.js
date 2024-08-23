@@ -31,6 +31,7 @@ const ProductDetail = () => {
 
     // Function to load all images
     const loadImages = async () => {
+      console.log("running");
       const promises = productDetails.imgs.map((img) =>
         import(
           `../assets/images/detailImg/${type}/${productType}/${productID}/${img.name}`

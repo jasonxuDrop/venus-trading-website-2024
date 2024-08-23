@@ -127,15 +127,33 @@
                     "products": [
                         {
                             "id": "hotSpring_product",
-                            "url": "/productDetail/linen/hotSpring/hotSpring_product"
+                            "url": "/productDetail/linen/hotSpring/hotSpring_product",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "hotSpring_product1",
-                            "url": "/productDetail/linen/hotSpring/hotSpring_product1"
+                            "url": "/productDetail/linen/hotSpring/hotSpring_product1",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "hotSpring_product2",
-                            "url": "/productDetail/linen/hotSpring/hotSpring_product2"
+                            "url": "/productDetail/linen/hotSpring/hotSpring_product2",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         }
                     ]
                 },
@@ -145,15 +163,33 @@
                     "products": [
                         {
                             "id": "hospital_product",
-                            "url": "/productDetail/linen/hospital/hospital_product"
+                            "url": "/productDetail/linen/hospital/hospital_product",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "hospital_product1",
-                            "url": "/productDetail/linen/hospital/hospital_product1"
+                            "url": "/productDetail/linen/hospital/hospital_product1",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "hospital_product2",
-                            "url": "/productDetail/linen/hospital/hospital_product2"
+                            "url": "/productDetail/linen/hospital/hospital_product2",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         }
                     ]
                 },
@@ -163,15 +199,33 @@
                     "products": [
                         {
                             "id": "fabric_product",
-                            "url": "/productDetail/linen/fabric/fabric_product"
+                            "url": "/productDetail/linen/fabric/fabric_product",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "fabric_product1",
-                            "url": "/productDetail/linen/fabric/fabric_product1"
+                            "url": "/productDetail/linen/fabric/fabric_product1",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "fabric_product2",
-                            "url": "/productDetail/linen/fabric/fabric_product2"
+                            "url": "/productDetail/linen/fabric/fabric_product2",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         }
                     ]
                 }
@@ -186,15 +240,33 @@
                     "products": [
                         {
                             "id": "apron_product",
-                            "url": "/productDetail/apparel/apron/apron_product"
+                            "url": "/productDetail/apparel/apron/apron_product",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "apron_product1",
-                            "url": "/productDetail/apparel/apron/apron_product1"
+                            "url": "/productDetail/apparel/apron/apron_product1",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "apron_product2",
-                            "url": "/productDetail/apparel/apron/apron_product2"
+                            "url": "/productDetail/apparel/apron/apron_product2",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         }
                     ]
                 },
@@ -204,15 +276,35 @@
                     "products": [
                         {
                             "id": "pajama_product",
-                            "url": "/productDetail/apparel/pajama/pajama_product"
+                            "url": "/productDetail/apparel/pajama/pajama_product",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "pajama_product1",
-                            "url": "/productDetail/apparel/pajama/pajama_product1"
+                            "url": "/productDetail/apparel/pajama/pajama_product1",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         },
                         {
                             "id": "pajama_product2",
-                            "url": "/productDetail/apparel/pajama/pajama_product2"
+                            "url": "/productDetail/apparel/pajama/pajama_product2",
+                            "imgs": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
                         }
                     ]
                 }
