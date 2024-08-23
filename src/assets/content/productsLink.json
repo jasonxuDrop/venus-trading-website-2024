@@ -10,25 +10,39 @@
                         {
                             "id": "hotel_product",
                             "url": "/productDetail/linen/hotel/hotel_product",
+                            "thumbNails": [
+                                {
+                                    "id": "thumbNail1",
+                                    "name": "thumbNail.jpg"
+                                },
+                                {
+                                    "id": "thumbNail2",
+                                    "name": "thumbNail2.jpg"
+                                }
+                            ],
                             "imgs": [
                                 {
                                     "id": "img",
                                     "name": "product-table-linen-2.png",
+                                    "alt": "product detail image",
                                     "use_for": "cover"
                                 },
                                 {
                                     "id": "img1",
                                     "name": "tablecloth1.png",
+                                    "alt": "product detail image",
                                     "use_for": "gallery"
                                 },
                                 {
                                     "id": "img2",
                                     "name": "tablecloth2.png",
+                                    "alt": "product detail image",
                                     "use_for": "gallery"
                                 },
                                 {
                                     "id": "img3",
                                     "name": "tablecloth3.png",
+                                    "alt": "product detail image",
                                     "use_for": "gallery"
                                 }
                             ]
@@ -36,6 +50,16 @@
                         {
                             "id": "hotel_product1",
                             "url": "/productDetail/linen/hotel/hotel_product1",
+                            "thumbNails": [
+                                {
+                                    "id": "thumbNail1",
+                                    "name": "thumbNail.jpg"
+                                },
+                                {
+                                    "id": "thumbNail2",
+                                    "name": "thumbNail2.jpg"
+                                }
+                            ],
                             "imgs": [
                                 {
                                     "id": "img",
@@ -62,6 +86,16 @@
                         {
                             "id": "hotel_product2",
                             "url": "/productDetail/linen/hotel/hotel_product2",
+                            "thumbNails": [
+                                {
+                                    "id": "thumbNail1",
+                                    "name": "thumbNail.jpg"
+                                },
+                                {
+                                    "id": "thumbNail2",
+                                    "name": "thumbNail2.jpg"
+                                }
+                            ],
                             "imgs": [
                                 {
                                     "id": "img",

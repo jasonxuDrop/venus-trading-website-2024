@@ -20,7 +20,17 @@
                             "category": "",
                             "category2": ""
                         },
-                        "imgs": []
+                        "imgs": {
+                            "img": {
+                                "alt": "product detail image"
+                            },
+                            "img1": {
+                                "alt": "product detail image"
+                            },
+                            "img2": {
+                                "alt": "product detail image"
+                            }
+                        }
                     }
                 },
                 "hotel_product1": {

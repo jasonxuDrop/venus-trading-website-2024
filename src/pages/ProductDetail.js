@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import productsLink from "../assets/content/productsLink.json";
 
 const ProductDetail = () => {
-  const { type, productType, productID } = useParams(); // productID
+  const { type, productType, productID } = useParams(); // Get type, productType, productID from url
 
   const [showModal, setShowModal] = useState(false);
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
@@ -29,16 +29,19 @@ const ProductDetail = () => {
     // Clear the previous images
     setImagesPath([]);
 
-    // Create a function to load all images
+    // Function to load all images
     const loadImages = async () => {
       const promises = productDetails.imgs.map((img) =>
         import(
           `../assets/images/detailImg/${type}/${productType}/${productID}/${img.name}`
         )
-          .then((module) => module.default)
+          .then((module) => ({ id: img.id, path: module.default }))
           .catch((error) => {
             console.error("Failed to load image", error);
-            return `${process.env.PUBLIC_URL}/NoImageFound.png`;
+            return {
+              id: img.id,
+              path: `${process.env.PUBLIC_URL}/NoImageFound.png`,
+            };
           })
       );
 
@@ -141,7 +144,8 @@ const ProductDetail = () => {
         <div className="relative grid grid-cols-12 gap-2">
           <div className="col-span-12 lg:col-span-6 text-left">
             <img
-              src={`${imagesPath[0]}`}
+              key={`${imagesPath[0]?.id}`}
+              src={`${imagesPath[0]?.path}`}
               alt="About"
               className={`h-[auto] object-cover`}
             />
@@ -213,8 +217,8 @@ const ProductDetail = () => {
               (image, index) =>
                 index > 0 && (
                   <img
-                    key={index}
-                    src={image}
+                    key={`${image?.id}`}
+                    src={`${image?.path}`}
                     className={`w-full h-[auto] mb-2 cursor-pointer ${
                       index === 1 ? "col-span-1 lg:col-span-2" : "col-span-1"
                     }  mb-2 lg:mb-0 `}
@@ -234,7 +238,8 @@ const ProductDetail = () => {
             onMouseDown={(e) => e.preventDefault()}
           >
             <img
-              src={imagesPath[currentImgIndex]}
+              key={imagesPath[currentImgIndex]?.id}
+              src={imagesPath[currentImgIndex]?.path}
               className="max-w-full max-h-full"
               style={{
                 cursor: isDragging
