@@ -13,29 +13,77 @@
                             "imgs": [
                                 {
                                     "id": "img",
-                                    "path": "../assets/images/detailImg/product-table-linen-2.png"
+                                    "name": "product-table-linen-2.png",
+                                    "use_for": "cover"
                                 },
                                 {
                                     "id": "img1",
-                                    "path": "../assets/images/detailImg/tablecloth1.png"
+                                    "name": "tablecloth1.png",
+                                    "use_for": "gallery"
                                 },
                                 {
                                     "id": "img2",
-                                    "path": "../assets/images/detailImg/tablecloth2.png"
+                                    "name": "tablecloth2.png",
+                                    "use_for": "gallery"
                                 },
                                 {
                                     "id": "img3",
-                                    "path": "../assets/images/detailImg/tablecloth3.png"
+                                    "name": "tablecloth3.png",
+                                    "use_for": "gallery"
                                 }
                             ]
                         },
                         {
                             "id": "hotel_product1",
-                            "url": "/productDetail/linen/hotel/hotel_product1"
+                            "url": "/productDetail/linen/hotel/hotel_product1",
+                            "imgs": [
+                                {
+                                    "id": "img",
+                                    "name": "product-table-linen-2.png",
+                                    "use_for": "cover"
+                                },
+                                {
+                                    "id": "img1",
+                                    "name": "tablecloth1.png",
+                                    "use_for": "gallery"
+                                },
+                                {
+                                    "id": "img2",
+                                    "name": "tablecloth2.png",
+                                    "use_for": "gallery"
+                                },
+                                {
+                                    "id": "img3",
+                                    "name": "tablecloth3.png",
+                                    "use_for": "gallery"
+                                }
+                            ]
                         },
                         {
                             "id": "hotel_product2",
-                            "url": "/productDetail/linen/hotel/hotel_product2"
+                            "url": "/productDetail/linen/hotel/hotel_product2",
+                            "imgs": [
+                                {
+                                    "id": "img",
+                                    "name": "product-table-linen-2.png",
+                                    "use_for": "cover"
+                                },
+                                {
+                                    "id": "img1",
+                                    "name": "tablecloth1.png",
+                                    "use_for": "gallery"
+                                },
+                                {
+                                    "id": "img2",
+                                    "name": "tablecloth2.png",
+                                    "use_for": "gallery"
+                                },
+                                {
+                                    "id": "img3",
+                                    "name": "tablecloth3.png",
+                                    "use_for": "gallery"
+                                }
+                            ]
                         }
                     ]
                 },

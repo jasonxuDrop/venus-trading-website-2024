@@ -14,33 +14,52 @@ const ProductDetail = () => {
   const [dragPosition, setDragPosition] = useState({ x: 0, y: 0 });
   const [hasMoved, setHasMoved] = useState(false); // Track if the image has moved
   const [transformOrigin, setTransformOrigin] = useState("center");
+  const [imagesPath, setImagesPath] = useState([]); // Product details images path
 
   // For product details
   const productDetails = productsLink.allProducts[type].productCard
     .find((element) => element.id === productType)
     ?.products.find((element) => element.id === productID);
 
-  // Helper function for importing imgs dynamically.
-  const importAll = (r) => {
-    let images = {};
-    r.keys().map((item, index) => {
-      images[item.replace("./", "")] = r(item);
-    });
-    return images;
-  };
-
-  const allImages = importAll(
-    require.context("../assets/images/detailImg", false, /\.(png)$/)
-  );
-
-  const images = productDetails.imgs.map((img, index) => {
-      return allImages[img.path.split("/").pop()];
-  });
-
-  console.log("...", images);
   useEffect(() => {
+    let isMounted = true; // Flag to check if component is still mounted
+
     document.body.style.overflow = showModal ? "hidden" : "auto";
-  }, [showModal]);
+
+    // Clear the previous images
+    setImagesPath([]);
+
+    // Create a function to load all images
+    const loadImages = async () => {
+      const promises = productDetails.imgs.map((img) =>
+        import(
+          `../assets/images/detailImg/${type}/${productType}/${productID}/${img.name}`
+        )
+          .then((module) => module.default)
+          .catch((error) => {
+            console.error("Failed to load image", error);
+            return `${process.env.PUBLIC_URL}/NoImageFound.png`;
+          })
+      );
+
+      // Wait for all images to be loaded
+      const images = await Promise.all(promises);
+
+      // Update state with all loaded images
+      if (isMounted) {
+        setImagesPath(images);
+      }
+    };
+
+    // Call the function
+    if (productDetails?.imgs) {
+      loadImages();
+    }
+
+    return () => {
+      isMounted = false; // Set the flag as false when the component unmounts
+    };
+  }, [productDetails]);
 
   const openModal = (index) => {
     setCurrentImgIndex(index);
@@ -59,14 +78,14 @@ const ProductDetail = () => {
   };
 
   const nextImage = () => {
-    setCurrentImgIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentImgIndex((prevIndex) => (prevIndex + 1) % imagesPath.length);
     setZoomLevel(1);
     setDragPosition({ x: 0, y: 0 });
   };
 
   const previousImage = () => {
     setCurrentImgIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+      (prevIndex) => (prevIndex - 1 + imagesPath.length) % imagesPath.length
     );
     setZoomLevel(1);
     setDragPosition({ x: 0, y: 0 });
@@ -122,7 +141,7 @@ const ProductDetail = () => {
         <div className="relative grid grid-cols-12 gap-2">
           <div className="col-span-12 lg:col-span-6 text-left">
             <img
-              src={`${images[0]}`}
+              src={`${imagesPath[0]}`}
               alt="About"
               className={`h-[auto] object-cover`}
             />
@@ -190,14 +209,14 @@ const ProductDetail = () => {
         <div className="w-full mb-[128px] lg:mb-[192px]">
           <h2 className="lg:text-center mb-2">ギャラリー</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2">
-            {images.map(
+            {imagesPath.map(
               (image, index) =>
                 index > 0 && (
                   <img
                     key={index}
                     src={image}
                     className={`w-full h-[auto] mb-2 cursor-pointer ${
-                      index === 0 ? "col-span-1 lg:col-span-2" : "col-span-1"
+                      index === 1 ? "col-span-1 lg:col-span-2" : "col-span-1"
                     }  mb-2 lg:mb-0 `}
                     onClick={() => openModal(index)}
                   />
@@ -215,7 +234,7 @@ const ProductDetail = () => {
             onMouseDown={(e) => e.preventDefault()}
           >
             <img
-              src={images[currentImgIndex]}
+              src={imagesPath[currentImgIndex]}
               className="max-w-full max-h-full"
               style={{
                 cursor: isDragging
@@ -258,7 +277,7 @@ const ProductDetail = () => {
                 &lt;
               </button>
               <span className="text-black">
-                {currentImgIndex + 1} / {images.length}
+                {currentImgIndex + 1} / {imagesPath.length}
               </span>
               <button className="text-black" onClick={nextImage}>
                 &gt;
