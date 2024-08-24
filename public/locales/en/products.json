@@ -3,6 +3,7 @@
         "linen": "Linen Products",
         "apparel": "Apparel Products",
         "hotel": {
+            "type": "linen",
             "title": "Hotel Linen",
             "des": "Gown, Pajama, Bathrobe, Bedding, Towel.",
             "products": {
@@ -46,6 +47,7 @@
             }
         },
         "hotSpring": {
+            "type": "linene",
             "title": "Hot Spring Resort",
             "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
             "products": {
@@ -67,6 +69,7 @@
             }
         },
         "hospital": {
+            "type": "linene",
             "title": "Hospital",
             "des": "Patient Clothes, Undergarments, etc.",
             "products": {
@@ -88,6 +91,7 @@
             }
         },
         "fabric": {
+            "type": "linene",
             "title": "Fabric",
             "des": "",
             "products": {
@@ -109,6 +113,7 @@
             }
         },
         "apron": {
+            "type": "apparel",
             "title": "Apron",
             "des": "",
             "products": {
@@ -130,6 +135,7 @@
             }
         },
         "pajama": {
+            "type": "apparel",
             "title": "Pajama",
             "des": "",
             "products": {
@@ -149,80 +155,6 @@
                     "materialText": "Material"
                 }
             }
-        }
-    },
-    "productDetails": {
-        "hotel_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "hotSpring_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "hospital_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "fabric_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "apron_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "pajama_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
         }
     }
 }

@@ -145,9 +145,9 @@ const ProductDetail = () => {
         <div className="relative grid grid-cols-12 gap-2">
           <div className="col-span-12 lg:col-span-6 text-left">
             <img
-              key={`${imagesPath[0]?.id}`}
-              src={`${imagesPath[0]?.path}`}
-              alt="About"
+              key={imagesPath[0]?.id}
+              src={imagesPath[0]?.path}
+              alt={imagesPath[0]?.alt}
               className={`h-[auto] object-cover`}
             />
           </div>
@@ -218,8 +218,9 @@ const ProductDetail = () => {
               (image, index) =>
                 index > 0 && (
                   <img
-                    key={`${image?.id}`}
-                    src={`${image?.path}`}
+                    key={image?.id}
+                    alt={image?.alt}
+                    src={image?.path}
                     className={`w-full h-[auto] mb-2 cursor-pointer ${
                       index === 1 ? "col-span-1 lg:col-span-2" : "col-span-1"
                     }  mb-2 lg:mb-0 `}
@@ -240,6 +241,7 @@ const ProductDetail = () => {
           >
             <img
               key={imagesPath[currentImgIndex]?.id}
+              alt={imagesPath[currentImgIndex]?.alt}
               src={imagesPath[currentImgIndex]?.path}
               className="max-w-full max-h-full"
               style={{
