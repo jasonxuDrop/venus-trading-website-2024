@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import productsLink from "../assets/content/productsLink.json";
 
@@ -15,6 +16,7 @@ const ProductDetail = () => {
   const [hasMoved, setHasMoved] = useState(false); // Track if the image has moved
   const [transformOrigin, setTransformOrigin] = useState("center");
   const [imagesPath, setImagesPath] = useState([]); // Product details images path
+  const { t } = useTranslation("products"); // Product details contents in japanese and english
 
   // For product details
   const productDetails = productsLink.allProducts[type].productCard
@@ -139,6 +141,8 @@ const ProductDetail = () => {
     }
   };
 
+  const details = t(`productType.${productType}.products.${productID}.details`);
+
   return (
     <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor">
       <div className="max-w-screen-xl mx-auto h-[auto] px-3.5 sm:px-16 lg:px-32">
@@ -153,57 +157,60 @@ const ProductDetail = () => {
           </div>
 
           <div className="col-span-12 lg:col-span-5 lg:col-start-8 text-left">
-            <h1 className="mt-[64px] lg:mt-0">テーブルクロス</h1>
-            <span className="mt-[16px] lg:mt-0">Nylon 80</span>
-            <p className="mt-[16px] lg:mt-[48px]">
-              無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般
-              用タオル製品も、お客様に好評をいただいています。
-              小ロットにも対応できます。
-            </p>
+            <h1 className="mt-[64px] lg:mt-0">{details.title}</h1>
+            <span className="mt-[16px] lg:mt-0">{details.subTitle}</span>
+            <p className="mt-[16px] lg:mt-[48px]">{details.des}</p>
             <button
               type="submit"
               className="px-6 py-2 mt-[32px] lg:mt-[48px] bg-buttonColor text-black rounded hover:bg-buttonHover"
             >
-              問い合わせ
+              {details.buttonText}
             </button>
 
             <div className="my-[128px] lg:my-[96px]">
-              <h2 className="border-b-4 border-buttonColor">仕様</h2>
+              <h2 className="border-b-4 border-buttonColor">
+                {details.specText}
+              </h2>
               <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
                 <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  商品名
+                  {details.spec.productNameText}
                 </h4>
-                <p className="col-span-1 lg:col-span-2">ワッフル</p>
-              </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
-                <h4 className="col-span-1 lg:col-span-1 font-semibold">素材</h4>
                 <p className="col-span-1 lg:col-span-2">
-                  バラ柄 <br />
-                  朱子無地サテン
+                  {details.spec.productName}
                 </p>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
                 <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  カテゴリ
+                  {details.spec.materialsText}
                 </h4>
                 <p className="col-span-1 lg:col-span-2">
-                  ハンドタオル、フェイスタオル、バスタオルなど
+                  {Object.keys(details.spec.materials).map((key) => (
+                    <>
+                      <span>{details.spec.materials[key]}</span>
+                      <br />
+                    </>
+                  ))}
                 </p>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
                 <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  カテゴリ
+                  {details.spec.categoryText}
                 </h4>
                 <p className="col-span-1 lg:col-span-2">
-                  バスタオル： <br />
-                  バスマット： 20x30インチ
-                  <br />
-                  フェイスタオル：12x12インチまたは13x13インチ
-                  <br />
-                  ハンドタオル：16x27インチ
-                  <br />
-                  バスシートまたはスパシート：54x90インチ カスタムサイズ対応可
-                  <br />
+                  {details.spec.category}
+                </p>
+              </div>
+              <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
+                <h4 className="col-span-1 lg:col-span-1 font-semibold">
+                  {details.spec.category2Text}
+                </h4>
+                <p className="col-span-1 lg:col-span-2">
+                  {Object.keys(details.spec.category2).map((key) => (
+                    <>
+                      <span>{details.spec.category2[key]}</span>
+                      <br />
+                    </>
+                  ))}
                 </p>
               </div>
             </div>
@@ -212,7 +219,7 @@ const ProductDetail = () => {
 
         {/* Photo Gallery */}
         <div className="w-full mb-[128px] lg:mb-[192px]">
-          <h2 className="lg:text-center mb-2">ギャラリー</h2>
+          <h2 className="lg:text-center mb-2">{details.gallery}</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2">
             {imagesPath.map(
               (image, index) =>

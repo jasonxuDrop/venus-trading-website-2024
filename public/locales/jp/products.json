@@ -14,23 +14,93 @@
                         "title": "ホテル 製品",
                         "subTitle": "Nylon 80",
                         "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
                         "spec": {
+                            "productNameText": "商品名",
                             "productName": "ワッフル",
-                            "materials": "バラ柄バラ柄 <br /> 朱子無地サテン",
-                            "category": "カテゴリ",
-                            "category2": "バスタオル： <br /> バスマット： 20x30インチ <br /> フェイスタオル：12x12インチまたは13x13インチ <br /> ハンドタオル：16x27インチ <br /> バスシートまたはスパシート：54x90インチ カスタムサイズ対応可 <br />"
-                        }
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
                     }
                 },
                 "hotel_product1": {
                     "title": "ホテル 製品 1",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "hotel_product2": {
                     "title": "ホテル 製品 2",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 }
             }
         },
@@ -41,17 +111,98 @@
                 "hotSpring_product": {
                     "title": "温泉製品",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "hotSpring_product1": {
                     "title": "温泉製品 1",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "hotSpring_product2": {
                     "title": "温泉製品 2",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 }
             }
         },
@@ -62,17 +213,98 @@
                 "hospital_product": {
                     "title": "病院製品",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "hospital_product1": {
                     "title": "病院製品 1",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "hospital_product2": {
                     "title": "病院製品 2",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 }
             }
         },
@@ -83,17 +315,98 @@
                 "fabric_product": {
                     "title": "生地製品",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "fabric_product1": {
                     "title": "生地製品 1",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "fabric_product2": {
                     "title": "生地製品 2",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 }
             }
         },
@@ -104,17 +417,98 @@
                 "apron_product": {
                     "title": "エプロン製品",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "apron_product1": {
                     "title": "エプロン製品 1",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "apron_product2": {
                     "title": "エプロン製品 2",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 }
             }
         },
@@ -125,86 +519,99 @@
                 "pajama_product": {
                     "title": "パジャマ製品",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "pajama_product1": {
                     "title": "パジャマ製品 1",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 },
                 "pajama_product2": {
                     "title": "パジャマ製品 2",
                     "meterial": "素材 100%",
-                    "materialText": "素材"
+                    "materialText": "素材",
+                    "details": {
+                        "title": "ホテル 製品",
+                        "subTitle": "Nylon 80",
+                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+                        "buttonText": "問い合わせ",
+                        "specText": "仕様",
+                        "spec": {
+                            "productNameText": "商品名",
+                            "productName": "ワッフル",
+                            "materialsText": "素材",
+                            "materials": {
+                                "material_1": "バラ柄バラ柄",
+                                "material_2": "朱子無地サテン"
+                            },
+                            "categoryText": "カテゴリ",
+                            "category": "ハンドタオル、フェイスタオル、バスタオルなど",
+                            "category2Text": "カテゴリ",
+                            "category2": {
+                                "category2_1": "バスタオル：",
+                                "category2_2": "バスマット： 20x30インチ",
+                                "category2_3": "フェイスタオル： 12x12インチまたは13x13インチ",
+                                "category2_4": "ハンドタオル： 16x27インチ",
+                                "category2_5": "バスシートまたはスパシート： 54x90インチ カスタムサイズ対応可"
+                            }
+                        },
+                        "gallery": "ギャラリー"
+                    }
                 }
-            }
-        }
-    },
-    "productDetails": {
-        "hotel_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            }
-        },
-        "hotSpring_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            }
-        },
-        "hospital_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            }
-        },
-        "fabric_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            }
-        },
-        "apron_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            }
-        },
-        "pajama_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
             }
         }
     }

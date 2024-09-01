@@ -9,7 +9,7 @@ import productsLink from "../assets/content/productsLink.json";
 const ProductList = () => {
   const { type, productType } = useParams();
 
-  const { t } = useTranslation("products");
+  const { t } = useTranslation("products"); // Product details contents in japanese and english
 
   // For sidebar menu
   const sideBarData = Object.keys(productsLink.allProducts).map((key) => {

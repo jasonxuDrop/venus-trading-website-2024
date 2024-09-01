@@ -23,6 +23,7 @@ i18n
     backend: {
       loadPath: `${baseUrl}/{{lng}}/{{ns}}.json`,
     },
+    returnObjects: true
   });
 
 export default i18n;
