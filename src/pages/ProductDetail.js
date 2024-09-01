@@ -23,6 +23,9 @@ const ProductDetail = () => {
     .find((element) => element.id === productType)
     ?.products.find((element) => element.id === productID);
 
+  // For product details content in English and Janapanes
+  const details = t(`productType.${productType}.products.${productID}.details`);
+
   useEffect(() => {
     let isMounted = true; // Flag to check if component is still mounted
 
@@ -33,7 +36,7 @@ const ProductDetail = () => {
 
     // Function to load all images
     const loadImages = async () => {
-      console.log("running");
+      // console.log("running");
       const promises = productDetails.imgs.map((img) =>
         import(
           `../assets/images/detailImg/${type}/${productType}/${productID}/${img.name}`
@@ -140,8 +143,6 @@ const ProductDetail = () => {
       }
     }
   };
-
-  const details = t(`productType.${productType}.products.${productID}.details`);
 
   return (
     <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor">

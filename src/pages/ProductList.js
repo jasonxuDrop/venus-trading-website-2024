@@ -27,7 +27,13 @@ const ProductList = () => {
   const productsData = productsLink.allProducts[type].productCard.find(
     (element) => element.id === productType
   ).products;
-  console.log("xxx", productsData);
+  // console.log("xxx", productsData);
+
+  // For product card content in English and Japanese
+  const productCards = t(`productType.${productType}.products`);
+
+  // For products thumb nail images
+  
 
   return (
     <div className="w-full bg-navbarcolor relative ">
@@ -117,16 +123,10 @@ const ProductList = () => {
                 if (index === productsData.length - 1) {
                   return (
                     <DetailedProductCard
-                      productTitle={t(
-                        `productType.${productType}.products.${product.id}.title`
-                      )}
+                      productTitle={productCards[product.id].title}
                       productDes={{
-                        title: t(
-                          `productType.${productType}.products.${product.id}.materialText`
-                        ),
-                        content: t(
-                          `productType.${productType}.products.${product.id}.meterial`
-                        ),
+                        title: productCards[product.id].materialText,
+                        content: productCards[product.id].meterial,
                       }}
                       productImg_1={img}
                       productURL={product.url}
@@ -137,16 +137,10 @@ const ProductList = () => {
                 if (index === 0) {
                   return (
                     <DetailedProductCard
-                      productTitle={t(
-                        `productType.${productType}.products.${product.id}.title`
-                      )}
+                      productTitle={productCards[product.id].title}
                       productDes={{
-                        title: t(
-                          `productType.${productType}.products.${product.id}.materialText`
-                        ),
-                        content: t(
-                          `productType.${productType}.products.${product.id}.meterial`
-                        ),
+                        title: productCards[product.id].materialText,
+                        content: productCards[product.id].meterial,
                       }}
                       productImg_1={img}
                       productURL={product.url}
@@ -156,16 +150,10 @@ const ProductList = () => {
                 } else {
                   return (
                     <DetailedProductCard
-                      productTitle={t(
-                        `productType.${productType}.products.${product.id}.title`
-                      )}
+                      productTitle={productCards[product.id].title}
                       productDes={{
-                        title: t(
-                          `productType.${productType}.products.${product.id}.materialText`
-                        ),
-                        content: t(
-                          `productType.${productType}.products.${product.id}.meterial`
-                        ),
+                        title: productCards[product.id].materialText,
+                        content: productCards[product.id].meterial,
                       }}
                       productImg_1={img}
                       productURL={product.url}
