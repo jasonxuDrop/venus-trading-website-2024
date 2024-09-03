@@ -11,6 +11,7 @@ const ProductList = () => {
 
   const { t } = useTranslation("products"); // Product details contents in japanese and english
   const [thumbNailPath, setThumbNailPath] = useState([]); // Product thumbnail images path
+  const [coverImagePath, setCoverImagePath] = useState(); // Product cover image path
 
   // For sidebar menu
   const sideBarData = Object.keys(productsLink.allProducts).map((key) => {
@@ -45,7 +46,9 @@ const ProductList = () => {
         // Loop through each product and load its thumbnails
         for (let product of productsData) {
           const promises = product.thumbNails.map((thumb) =>
-            import(`../assets/images/detailImg/${type}/${productType}/${product.id}/thumbNail/${thumb.name}`)
+            import(
+              `../assets/images/detailImg/${type}/${productType}/${product.id}/thumbNail/${thumb.name}`
+            )
               .then((module) => ({ id: thumb.id, path: module.default }))
               .catch((error) => {
                 console.error("Failed to load thumbnail", error);
@@ -57,10 +60,13 @@ const ProductList = () => {
           );
 
           const thumbnails = await Promise.all(promises);
-          productImages[product.id] = thumbnails.reduce((acc, thumb) => ({
-            ...acc,
-            [thumb.id]: thumb.path,
-          }), {});
+          productImages[product.id] = thumbnails.reduce(
+            (acc, thumb) => ({
+              ...acc,
+              [thumb.id]: thumb.path,
+            }),
+            {}
+          );
         }
 
         // Update state with all loaded thumbnail images
@@ -70,20 +76,32 @@ const ProductList = () => {
       }
     };
 
+    const loadCoverImage = async () => {
+      try {
+        const module = await import(
+          `../assets/images/detailImg/${type}/${productType}/cover/cover.png`
+        );
+        setCoverImagePath(module.default);
+      } catch (error) {
+        console.error("Failed to load cover image", error);
+        setCoverImagePath("path/to/fallback/image.png"); // Fallback path in case of error
+      }
+    };
+
+    loadCoverImage();
     loadThumbnails();
 
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-
   }, [productsData]);
 
-  console.log("vv", thumbNailPath['hotel_product']);
+  console.log("vv", thumbNailPath["hotel_product"]);
 
   return (
     <div className="w-full bg-navbarcolor relative ">
       <div className="hidden lg:block lg:relative lg:w-full">
-        <img src={img} alt="" className="w-full h-[509px] object-cover" />
+        <img src={coverImagePath} alt="cover image" className="w-full h-[509px] object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
           <h1 className="text-white">
