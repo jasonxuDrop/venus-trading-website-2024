@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import img from "../assets/images/test.png";
@@ -10,6 +10,7 @@ const ProductList = () => {
   const { type, productType } = useParams();
 
   const { t } = useTranslation("products"); // Product details contents in japanese and english
+  const [thumbNailPath, setThumbNailPath] = useState([]); // Product thumbnail images path
 
   // For sidebar menu
   const sideBarData = Object.keys(productsLink.allProducts).map((key) => {
@@ -27,13 +28,57 @@ const ProductList = () => {
   const productsData = productsLink.allProducts[type].productCard.find(
     (element) => element.id === productType
   ).products;
-  // console.log("xxx", productsData);
+  console.log("xxx", productsData);
 
   // For product card content in English and Japanese
   const productCards = t(`productType.${productType}.products`);
 
   // For products thumb nail images
-  
+  useEffect(() => {
+    let isMounted = true; // Flag to check if component is still mounted
+
+    // Function to load thumbnail images for all products
+    const loadThumbnails = async () => {
+      if (productsData) {
+        const productImages = {};
+
+        // Loop through each product and load its thumbnails
+        for (let product of productsData) {
+          const promises = product.thumbNails.map((thumb) =>
+            import(`../assets/images/detailImg/${type}/${productType}/${product.id}/thumbNail/${thumb.name}`)
+              .then((module) => ({ id: thumb.id, path: module.default }))
+              .catch((error) => {
+                console.error("Failed to load thumbnail", error);
+                return {
+                  id: thumb.id,
+                  path: `${process.env.PUBLIC_URL}/NoImageFound.png`,
+                };
+              })
+          );
+
+          const thumbnails = await Promise.all(promises);
+          productImages[product.id] = thumbnails.reduce((acc, thumb) => ({
+            ...acc,
+            [thumb.id]: thumb.path,
+          }), {});
+        }
+
+        // Update state with all loaded thumbnail images
+        if (isMounted) {
+          setThumbNailPath(productImages);
+        }
+      }
+    };
+
+    loadThumbnails();
+
+    return () => {
+      isMounted = false; // Set the flag as false when the component unmounts
+    };
+
+  }, [productsData]);
+
+  console.log("vv", thumbNailPath);
 
   return (
     <div className="w-full bg-navbarcolor relative ">

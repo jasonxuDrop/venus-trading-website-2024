@@ -23,6 +23,9 @@ const ProductDetail = () => {
     .find((element) => element.id === productType)
     ?.products.find((element) => element.id === productID);
 
+  console.log("xx", productDetails);
+  console.log("xxxx", imagesPath);
+
   // For product details content in English and Janapanes
   const details = t(`productType.${productType}.products.${productID}.details`);
 
