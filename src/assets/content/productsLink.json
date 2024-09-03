@@ -6,6 +6,7 @@
                 {
                     "id": "hotel",
                     "url": "/productList/linen/hotel",
+                    "coverImage":"coverImage.png",
                     "products": [
                         {
                             "id": "hotel_product",
@@ -124,6 +125,7 @@
                 {
                     "id": "hotSpring",
                     "url": "/productList/linen/hotSpring",
+                    "coverImage":"coverImage.png",
                     "products": [
                         {
                             "id": "hotSpring_product",
@@ -190,6 +192,7 @@
                 {
                     "id": "hospital",
                     "url": "/productList/linen/hospital",
+                    "coverImage":"coverImage.png",
                     "products": [
                         {
                             "id": "hospital_product",
@@ -256,6 +259,7 @@
                 {
                     "id": "fabric",
                     "url": "/productList/linen/fabric",
+                    "coverImage":"coverImage.png",
                     "products": [
                         {
                             "id": "fabric_product",

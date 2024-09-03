@@ -78,7 +78,7 @@ const ProductList = () => {
 
   }, [productsData]);
 
-  console.log("vv", thumbNailPath);
+  console.log("vv", thumbNailPath['hotel_product']);
 
   return (
     <div className="w-full bg-navbarcolor relative ">
@@ -173,7 +173,7 @@ const ProductList = () => {
                         title: productCards[product.id].materialText,
                         content: productCards[product.id].meterial,
                       }}
-                      productImg_1={img}
+                      productImg_1={thumbNailPath[product.id]?.thumbNail1}
                       productURL={product.url}
                       className={"justify-self-end"}
                     />
@@ -187,7 +187,7 @@ const ProductList = () => {
                         title: productCards[product.id].materialText,
                         content: productCards[product.id].meterial,
                       }}
-                      productImg_1={img}
+                      productImg_1={thumbNailPath[product.id]?.thumbNail1}
                       productURL={product.url}
                       className={"justify-self-end"}
                     />
@@ -200,7 +200,7 @@ const ProductList = () => {
                         title: productCards[product.id].materialText,
                         content: productCards[product.id].meterial,
                       }}
-                      productImg_1={img}
+                      productImg_1={thumbNailPath[product.id]?.thumbNail1}
                       productURL={product.url}
                       className={""}
                     />
