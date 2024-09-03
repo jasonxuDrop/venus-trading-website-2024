@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import img from "../assets/images/test.png";
 
 import DetailedProductCard from "../components/DetailedProductCard";
 import productsLink from "../assets/content/productsLink.json";
 
 const ProductList = () => {
-  const { type, productType } = useParams();
-
+  const { type, productType } = useParams(); // Get type, productType from url
   const { t } = useTranslation("products"); // Product details contents in japanese and english
   const [thumbNailPath, setThumbNailPath] = useState([]); // Product thumbnail images path
   const [coverImagePath, setCoverImagePath] = useState(); // Product cover image path
@@ -34,9 +32,22 @@ const ProductList = () => {
   // For product card content in English and Japanese
   const productCards = t(`productType.${productType}.products`);
 
-  // For products thumb nail images
+  // For products images
   useEffect(() => {
     let isMounted = true; // Flag to check if component is still mounted
+
+    // Function to load cover image for each type product
+    const loadCoverImage = async () => {
+      try {
+        const module = await import(
+          `../assets/images/detailImg/${type}/${productType}/cover/cover.png`
+        );
+        setCoverImagePath(module.default);
+      } catch (error) {
+        console.error("Failed to load cover image", error);
+        setCoverImagePath(`${process.env.PUBLIC_URL}/NoImageFound.png`);
+      }
+    };
 
     // Function to load thumbnail images for all products
     const loadThumbnails = async () => {
@@ -76,32 +87,24 @@ const ProductList = () => {
       }
     };
 
-    const loadCoverImage = async () => {
-      try {
-        const module = await import(
-          `../assets/images/detailImg/${type}/${productType}/cover/cover.png`
-        );
-        setCoverImagePath(module.default);
-      } catch (error) {
-        console.error("Failed to load cover image", error);
-        setCoverImagePath("path/to/fallback/image.png"); // Fallback path in case of error
-      }
-    };
-
     loadCoverImage();
     loadThumbnails();
 
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-  }, [productsData]);
+  }, [type, productType, productsData]);
 
   console.log("vv", thumbNailPath["hotel_product"]);
 
   return (
     <div className="w-full bg-navbarcolor relative ">
       <div className="hidden lg:block lg:relative lg:w-full">
-        <img src={coverImagePath} alt="cover image" className="w-full h-[509px] object-cover" />
+        <img
+          src={coverImagePath}
+          alt="cover image"
+          className="w-full h-[509px] object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
           <h1 className="text-white">
@@ -186,10 +189,10 @@ const ProductList = () => {
                 if (index === productsData.length - 1) {
                   return (
                     <DetailedProductCard
-                      productTitle={productCards[product.id].title}
+                      productTitle={productCards[product.id]?.title}
                       productDes={{
-                        title: productCards[product.id].materialText,
-                        content: productCards[product.id].meterial,
+                        title: productCards[product.id]?.materialText,
+                        content: productCards[product.id]?.meterial,
                       }}
                       productImg_1={thumbNailPath[product.id]?.thumbNail1}
                       productURL={product.url}
@@ -200,10 +203,10 @@ const ProductList = () => {
                 if (index === 0) {
                   return (
                     <DetailedProductCard
-                      productTitle={productCards[product.id].title}
+                      productTitle={productCards[product.id]?.title}
                       productDes={{
-                        title: productCards[product.id].materialText,
-                        content: productCards[product.id].meterial,
+                        title: productCards[product.id]?.materialText,
+                        content: productCards[product.id]?.meterial,
                       }}
                       productImg_1={thumbNailPath[product.id]?.thumbNail1}
                       productURL={product.url}
@@ -215,8 +218,8 @@ const ProductList = () => {
                     <DetailedProductCard
                       productTitle={productCards[product.id].title}
                       productDes={{
-                        title: productCards[product.id].materialText,
-                        content: productCards[product.id].meterial,
+                        title: productCards[product.id]?.materialText,
+                        content: productCards[product.id]?.meterial,
                       }}
                       productImg_1={thumbNailPath[product.id]?.thumbNail1}
                       productURL={product.url}

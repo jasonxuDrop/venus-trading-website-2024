@@ -71,7 +71,7 @@ const ProductDetail = () => {
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-  }, [productDetails]);
+  }, [type, productType, productID, productDetails]);
 
   const openModal = (index) => {
     setCurrentImgIndex(index);
