@@ -1,3 +1,5 @@
+// This page for displaying each type of product's product list. (e.g. hotel's product list. )
+
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -120,14 +122,18 @@ const ProductList = () => {
               {sideBarData.map((menu, index) => {
                 if (index === 0) {
                   return (
-                    <div>
+                    <div key={index}>
                       <h3 className="font-semibold mb-[24px] text-xl">
                         {t(`productType.${menu.type}`)}
                       </h3>
                       <div className="flex flex-col">
                         {menu.subMenu.map((item, index) => {
                           return (
-                            <Link to={item.url} className="mb-[24px]">
+                            <Link
+                              to={item.url}
+                              className="mb-[24px]"
+                              key={index}
+                            >
                               <span
                                 className={`border-b-2 ${
                                   productType === item.id
@@ -145,14 +151,18 @@ const ProductList = () => {
                   );
                 } else {
                   return (
-                    <div className="mt-[96px]">
+                    <div className="mt-[96px]" key={index}>
                       <h3 className="font-semibold mb-[24px] text-xl">
                         {t(`productType.${menu.type}`)}
                       </h3>
                       <div className="flex flex-col">
                         {menu.subMenu.map((item, index) => {
                           return (
-                            <Link to={item.url} className="mb-[24px]">
+                            <Link
+                              to={item.url}
+                              className="mb-[24px]"
+                              key={index}
+                            >
                               <span
                                 className={`border-b-2 ${
                                   productType === item.id
@@ -189,12 +199,14 @@ const ProductList = () => {
                 if (index === productsData.length - 1) {
                   return (
                     <DetailedProductCard
+                      key={index}
                       productTitle={productCards[product.id]?.title}
                       productDes={{
                         title: productCards[product.id]?.materialText,
                         content: productCards[product.id]?.meterial,
                       }}
                       productImg_1={thumbNailPath[product.id]?.thumbNail1}
+                      productImg_2={thumbNailPath[product.id]?.thumbNail2}
                       productURL={product.url}
                       className={"justify-self-end"}
                     />
@@ -203,12 +215,14 @@ const ProductList = () => {
                 if (index === 0) {
                   return (
                     <DetailedProductCard
+                      key={index}
                       productTitle={productCards[product.id]?.title}
                       productDes={{
                         title: productCards[product.id]?.materialText,
                         content: productCards[product.id]?.meterial,
                       }}
                       productImg_1={thumbNailPath[product.id]?.thumbNail1}
+                      productImg_2={thumbNailPath[product.id]?.thumbNail2}
                       productURL={product.url}
                       className={"justify-self-end"}
                     />
@@ -216,12 +230,14 @@ const ProductList = () => {
                 } else {
                   return (
                     <DetailedProductCard
+                      key={index}
                       productTitle={productCards[product.id].title}
                       productDes={{
                         title: productCards[product.id]?.materialText,
                         content: productCards[product.id]?.meterial,
                       }}
                       productImg_1={thumbNailPath[product.id]?.thumbNail1}
+                      productImg_2={thumbNailPath[product.id]?.thumbNail2}
                       productURL={product.url}
                       className={""}
                     />

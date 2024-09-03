@@ -1,3 +1,5 @@
+// This page for displaying each type of product's details. (e.g. some spercific product details.)
+
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";

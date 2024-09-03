@@ -1,3 +1,5 @@
+// This page for displaying Lineden product list. 
+
 import LinedenProducts from "../components/LinedenProducts";
 
 const LinedenProductsPage = () => {
