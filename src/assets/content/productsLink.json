@@ -1,190 +1,478 @@
 {
     "allProducts": {
         "linen": {
-            "type": "linen", 
+            "type": "linen",
             "productCard": [
                 {
                     "id": "hotel",
                     "url": "/productList/linen/hotel",
-                    "cover":"cover.png",
-                    "products": [
+                    "cover": "cover.png",
+                    "category": [
                         {
-                            "id": "hotel_product",
-                            "url": "/productDetail/linen/hotel/hotel_product",
-                            "thumbNails": [
+                            "id": "gown",
+                            "url": "/productList/linen/hotel/gown",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
+                                    "id": "gown_product_1",
+                                    "url": "/productDetail/linen/hotel/gown/gown_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {
-                                    "id": "img",
-                                    "name": "product-table-linen-2.png",
-                                    "alt": "product detail image",
-                                    "use_for": "cover"
+                                    "id": "gown_product_2",
+                                    "url": "/productDetail/linen/hotel/gown/gown_product_2",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "id": "img1",
-                                    "name": "tablecloth1.png",
-                                    "alt": "product detail image",
-                                    "use_for": "gallery"
-                                },
-                                {
-                                    "id": "img2",
-                                    "name": "tablecloth2.png",
-                                    "alt": "product detail image",
-                                    "use_for": "gallery"
-                                },
-                                {
-                                    "id": "img3",
-                                    "name": "tablecloth3.png",
-                                    "alt": "product detail image",
-                                    "use_for": "gallery"
+                                    "id": "gown_product_3",
+                                    "url": "/productDetail/linen/hotel/gown/gown_product_3",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "id": "hotel_product1",
-                            "url": "/productDetail/linen/hotel/hotel_product1",
-                            "thumbNails": [
+                            "id": "pajama",
+                            "url": "/productList/linen/hotel/pajama",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {
-                                    "id": "img",
-                                    "name": "product-table-linen-2.png",
-                                    "use_for": "cover"
-                                },
-                                {
-                                    "id": "img1",
-                                    "name": "tablecloth1.png",
-                                    "use_for": "gallery"
-                                },
-                                {
-                                    "id": "img2",
-                                    "name": "tablecloth2.png",
-                                    "use_for": "gallery"
-                                },
-                                {
-                                    "id": "img3",
-                                    "name": "tablecloth3.png",
-                                    "use_for": "gallery"
+                                    "id": "pajama_product_1",
+                                    "url": "/productDetail/linen/hotel/pajama/pajama_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "id": "hotel_product2",
-                            "url": "/productDetail/linen/hotel/hotel_product2",
-                            "thumbNails": [
+                            "id": "samue",
+                            "url": "/productList/linen/hotel/samue",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "samue_product_1",
+                                    "url": "/productDetail/linen/hotel/samue/samue_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
                                 }
-                            ],
-                            "imgs": [
+                            ]
+                        },
+                        {
+                            "id": "bathRobe",
+                            "url": "/productList/linen/hotel/bathRobe",
+                            "products": [
                                 {
-                                    "id": "img",
-                                    "name": "product-table-linen-2.png",
-                                    "use_for": "cover"
-                                },
+                                    "id": "bathRobe_product_1",
+                                    "url": "/productDetail/linen/hotel/bathRobe/bathRobe_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "redLinen",
+                            "url": "/productList/linen/hotel/redLinen",
+                            "products": [
                                 {
-                                    "id": "img1",
-                                    "name": "tablecloth1.png",
-                                    "use_for": "gallery"
-                                },
+                                    "id": "redLinen_product_1",
+                                    "url": "/productDetail/linen/hotel/redLinen/redLinen_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "otherItems",
+                            "url": "/productList/linen/hotel/otherItems",
+                            "products": [
                                 {
-                                    "id": "img2",
-                                    "name": "tablecloth2.png",
-                                    "use_for": "gallery"
-                                },
-                                {
-                                    "id": "img3",
-                                    "name": "tablecloth3.png",
-                                    "use_for": "gallery"
+                                    "id": "otherItems_product_1",
+                                    "url": "/productDetail/linen/hotel/otherItems/otherItems_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "img",
+                                            "name": "product-table-linen-2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "img1",
+                                            "name": "tablecloth1.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img2",
+                                            "name": "tablecloth2.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "img3",
+                                            "name": "tablecloth3.png",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "id": "hotSpring",
-                    "url": "/productList/linen/hotSpring",
-                    "cover":"cover.png",
-                    "products": [
+                    "id": "spaAndesort",
+                    "url": "/productList/linen/spaAndesort",
+                    "cover": "cover.png",
+                    "category":[
                         {
-                            "id": "hotSpring_product",
-                            "url": "/productDetail/linen/hotSpring/hotSpring_product",
-                            "thumbNails": [
+                            "id":"yukata",
+                            "url":"/productList/linen/spaAndesort/yukata",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "yukata_product_1",
+                                    "url": "/productDetail/linen/spaAndesort/yukata/yukata_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         },
                         {
-                            "id": "hotSpring_product1",
-                            "url": "/productDetail/linen/hotSpring/hotSpring_product1",
-                            "thumbNails": [
+                            "id":"relaxWear",
+                            "url":"/productList/linen/spaAndesort/relaxWear",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "relaxWear_product_1",
+                                    "url": "/productDetail/linen/spaAndesort/relaxWear/relaxWear_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         },
                         {
-                            "id": "hotSpring_product2",
-                            "url": "/productDetail/linen/hotSpring/hotSpring_product2",
-                            "thumbNails": [
+                            "id":"haori",
+                            "url":"/productList/linen/spaAndesort/haori",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "haori_product_1",
+                                    "url": "/productDetail/linen/spaAndesort/haori/yukata_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
+                            ]
+                        },
+                        {
+                            "id":"otherItems",
+                            "url":"/productList/linen/spaAndesort/otherItems",
+                            "products": [
+                                {
+                                    "id": "otherItems_product_1",
+                                    "url": "/productDetail/linen/spaAndesort/otherItems/otherItems_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -192,7 +480,7 @@
                 {
                     "id": "hospital",
                     "url": "/productList/linen/hospital",
-                    "cover":"cover.png",
+                    "cover": "cover.png",
                     "products": [
                         {
                             "id": "hospital_product",
@@ -259,7 +547,7 @@
                 {
                     "id": "fabric",
                     "url": "/productList/linen/fabric",
-                    "cover":"cover.png",
+                    "cover": "cover.png",
                     "products": [
                         {
                             "id": "fabric_product",
@@ -331,7 +619,7 @@
                 {
                     "id": "apron",
                     "url": "/productList/apparel/apron",
-                    "cover":"cover.png",
+                    "cover": "cover.png",
                     "products": [
                         {
                             "id": "apron_product",
@@ -398,7 +686,7 @@
                 {
                     "id": "pajama",
                     "url": "/productList/apparel/pajama",
-                    "cover":"cover.png",
+                    "cover": "cover.png",
                     "products": [
                         {
                             "id": "pajama_product",
