@@ -273,12 +273,12 @@
                             ]
                         },
                         {
-                            "id": "redLinen",
-                            "url": "/productList/linen/hotel/redLinen",
+                            "id": "bedLinen",
+                            "url": "/productList/linen/hotel/bedLinen",
                             "products": [
                                 {
-                                    "id": "redLinen_product_1",
-                                    "url": "/productDetail/linen/hotel/redLinen/redLinen_product_1",
+                                    "id": "bedLinen_product_1",
+                                    "url": "/productDetail/linen/hotel/bedLinen/bedLinen_product_1",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
@@ -367,13 +367,13 @@
                     ]
                 },
                 {
-                    "id": "spaAndesort",
-                    "url": "/productList/linen/spaAndesort",
+                    "id": "spaAndresort",
+                    "url": "/productList/linen/spaAndresort",
                     "cover": "cover.png",
                     "category":[
                         {
                             "id":"yukata",
-                            "url":"/productList/linen/spaAndesort/yukata",
+                            "url":"/productList/linen/spaAndresort/yukata",
                             "products": [
                                 {
                                     "id": "yukata_product_1",
@@ -399,11 +399,11 @@
                         },
                         {
                             "id":"relaxWear",
-                            "url":"/productList/linen/spaAndesort/relaxWear",
+                            "url":"/productList/linen/spaAndresort/relaxWear",
                             "products": [
                                 {
                                     "id": "relaxWear_product_1",
-                                    "url": "/productDetail/linen/spaAndesort/relaxWear/relaxWear_product_1",
+                                    "url": "/productDetail/linen/spaAndresort/relaxWear/relaxWear_product_1",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
@@ -425,11 +425,11 @@
                         },
                         {
                             "id":"haori",
-                            "url":"/productList/linen/spaAndesort/haori",
+                            "url":"/productList/linen/spaAndresort/haori",
                             "products": [
                                 {
                                     "id": "haori_product_1",
-                                    "url": "/productDetail/linen/spaAndesort/haori/yukata_product_1",
+                                    "url": "/productDetail/linen/spaAndresort/haori/yukata_product_1",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
@@ -451,11 +451,11 @@
                         },
                         {
                             "id":"otherItems",
-                            "url":"/productList/linen/spaAndesort/otherItems",
+                            "url":"/productList/linen/spaAndresort/otherItems",
                             "products": [
                                 {
                                     "id": "otherItems_product_1",
-                                    "url": "/productDetail/linen/spaAndesort/otherItems/otherItems_product_1",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/otherItems_product_1",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
@@ -481,66 +481,211 @@
                     "id": "hospital",
                     "url": "/productList/linen/hospital",
                     "cover": "cover.png",
-                    "products": [
+                    "category":[
                         {
-                            "id": "hospital_product",
-                            "url": "/productDetail/linen/hospital/hospital_product",
-                            "thumbNails": [
+                            "id":"patientClothes",
+                            "url":"/productList/linen/hospital/patientClothes",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "patientClothes_product_1",
+                                    "url": "/productDetail/linen/hospital/patientClothes/patientClothes_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         },
                         {
-                            "id": "hospital_product1",
-                            "url": "/productDetail/linen/hospital/hospital_product1",
-                            "thumbNails": [
+                            "id":"undergarments",
+                            "url":"/productList/linen/hospital/undergarments",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "undergarments_product_1",
+                                    "url": "/productDetail/linen/hospital/undergarments/undergarments_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         },
                         {
-                            "id": "hospital_product2",
-                            "url": "/productDetail/linen/hospital/hospital_product2",
-                            "thumbNails": [
+                            "id":"scrubs",
+                            "url":"/productList/linen/hospital/scrubs",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "scrubs_product_1",
+                                    "url": "/productDetail/linen/hospital/scrubs/scrubs_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
+                        },
+                        {
+                            "id":"nurseDress",
+                            "url":"/productList/linen/hospital/nurseDress",
+                            "products": [
+                                {
+                                    "id": "nurseDress_product_1",
+                                    "url": "/productDetail/linen/hospital/nurseDress/nurseDress_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":"waterproofSheets",
+                            "url":"/productList/linen/hospital/waterproofSheets",
+                            "products": [
+                                {
+                                    "id": "waterproofSheets_product_1",
+                                    "url": "/productDetail/linen/hospital/waterproofSheets/waterproofSheets_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":"bedProducts",
+                            "url":"/productList/linen/hospital/bedProducts",
+                            "products": [
+                                {
+                                    "id": "bedProducts_product_1",
+                                    "url": "/productDetail/linen/hospital/bedProducts/bedProducts_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":"otherItems",
+                            "url":"/productList/linen/hospital/otherItems",
+                            "products": [
+                                {
+                                    "id": "otherItems_product_1",
+                                    "url": "/productDetail/linen/hospital/otherItems/otherItems_product_1",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "restaurant",
+                    "url": "/productList/linen/restaurant",
+                    "cover": "cover.png",
+                    "category":[
+                        {
+                            "id":"tableCloth",
+                            "url":"/productList/linen/restaurant/tableCloth"
+                        },
+                        {
+                            "id":"napkin",
+                            "url":"/productList/linen/restaurant/napkin"
+                        },
+                        {
+                            "id":"glassTowel",
+                            "url":"/productList/linen/restaurant/glassTowel"
+                        },
+                        {
+                            "id":"otherItems",
+                            "url":"/productList/linen/restaurant/otherItems"
                         }
                     ]
                 },
@@ -548,68 +693,7 @@
                     "id": "fabric",
                     "url": "/productList/linen/fabric",
                     "cover": "cover.png",
-                    "products": [
-                        {
-                            "id": "fabric_product",
-                            "url": "/productDetail/linen/fabric/fabric_product",
-                            "thumbNails": [
-                                {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        {
-                            "id": "fabric_product1",
-                            "url": "/productDetail/linen/fabric/fabric_product1",
-                            "thumbNails": [
-                                {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        {
-                            "id": "fabric_product2",
-                            "url": "/productDetail/linen/fabric/fabric_product2",
-                            "thumbNails": [
-                                {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        }
-                    ]
+                    "products":[]
                 }
             ]
         },

@@ -6,204 +6,1032 @@
             "type": "linen",
             "title": "Hotel Linen",
             "des": "Gown, Pajama, Bathrobe, Bedding, Towel.",
-            "products": {
-                "hotel_product": {
-                    "title": "hotel product",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+            "category": {
+                "gown": {
+                    "title": "Gown",
+                    "des": "",
+                    "products": {
+                        "gown_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "gown_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "gown_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 },
-                "hotel_product1": {
-                    "title": "hotel product 1",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                "pajama": {
+                    "title": "Pajama",
+                    "des": "",
+                    "products": {
+                        "pajama_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "pajama_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "pajama_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 },
-                "hotel_product2": {
-                    "title": "hotel product 2",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                "samue": {
+                    "title": "Samue",
+                    "des": "",
+                    "products": {
+                        "samue_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "samue_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "samue_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "bathRobe": {
+                    "title": "Bath Robe",
+                    "des": "",
+                    "products": {
+                        "bathRobe_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "bathRobe_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "bathRobe_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "bedLinen": {
+                    "title": "Bed Linen",
+                    "des": "",
+                    "products": {
+                        "bedLinen_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "bedLinen_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "bedLinen_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "otherItems": {
+                    "title": "Other Items",
+                    "des": "",
+                    "products": {
+                        "otherItems_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 }
             }
         },
-        "hotSpring": {
+        "spaAndresort": {
             "type": "linene",
-            "title": "Hot Spring Resort",
+            "title": "SPA & Resort",
             "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
-            "products": {
-                "hotSpring_product": {
-                    "title": "hotSpring product",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+            "category": {
+                "yukata": {
+                    "title": "Yukata",
+                    "des": "",
+                    "products": {
+                        "yukata_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "yukata_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "yukata_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 },
-                "hotSpring_product1": {
-                    "title": "hotSpring product1",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                "relaxWear": {
+                    "title": "Relax Wear",
+                    "des": "",
+                    "products": {
+                        "relaxWear_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "relaxWear_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "relaxWear_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 },
-                "hotSpring_product2": {
-                    "title": "hotSpring product2",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                "haori": {
+                    "title": "Haori",
+                    "des": "",
+                    "products": {
+                        "haori_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "haori_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "haori_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "otherItems": {
+                    "title": "Other Items",
+                    "des": "",
+                    "products": {
+                        "otherItems_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 }
             }
@@ -212,101 +1040,1134 @@
             "type": "linene",
             "title": "Hospital",
             "des": "Patient Clothes, Undergarments, etc.",
-            "products": {
-                "hospital_product": {
-                    "title": "hospital product",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+            "category": {
+                "patientClothes": {
+                    "title": "Patient Clothes",
+                    "des": "",
+                    "products": {
+                        "patientClothes_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "patientClothes_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "patientClothes_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 },
-                "hospital_product1": {
-                    "title": "hospital product1",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                "undergarments": {
+                    "title": "Undergarments",
+                    "des": "",
+                    "products": {
+                        "undergarments_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "undergarments_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "undergarments_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 },
-                "hospital_product2": {
-                    "title": "hospital product2",
-                    "meterial": "meterial 100%",
-                    "materialText": "Material",
-                    "details": {
-                        "title": "Hotel Products",
-                        "subTitle": "Nylon 80",
-                        "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
-                        "buttonText": "Inquire",
-                        "specText": "Specifications",
-                        "spec": {
-                            "productNameText": "Name",
-                            "productName": "Waffle",
-                            "materialsText": "Materials",
-                            "materials": {
-                                "material_1": "Rose pattern",
-                                "material_2": "Plain satin"
-                            },
-                            "categoryText": "Category",
-                            "category": "Hand towels, face towels, bath towels, etc.",
-                            "category2Text": "Category",
-                            "category2": {
-                                "category2_1": "Bath Towel:",
-                                "category2_2": "Bath Mat: 20x30 inches",
-                                "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
-                                "category2_4": "Hand Towel: 16x27 inches",
-                                "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                "scrubs": {
+                    "title": "Scrubs",
+                    "des": "",
+                    "products": {
+                        "scrubs_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
                             }
                         },
-                        "gallery": "Gallery"
+                        "scrubs_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "scrubs_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "nurseDress": {
+                    "title": "Nurse Dress",
+                    "des": "",
+                    "products": {
+                        "nurseDress_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "nurseDress_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "nurseDress_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "waterproofSheets": {
+                    "title": "Waterproof Sheets",
+                    "des": "",
+                    "products": {
+                        "waterproofSheets_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "waterproofSheets_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "waterproofSheets_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "bedProducts": {
+                    "title": "Bed Products",
+                    "des": "",
+                    "products": {
+                        "bedProducts_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "bedProducts_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "bedProducts_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "otherItems": {
+                    "title": "Other Items",
+                    "des": "",
+                    "products": {
+                        "otherItems_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "restaurant": {
+            "type": "linene",
+            "title": "Restaurant Linen",
+            "des": "Patient Clothes, Undergarments, etc.",
+            "category": {
+                "tableCloth": {
+                    "title": "Table Cloth",
+                    "des": "",
+                    "products": {
+                        "tableCloth_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "tableCloth_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "tableCloth_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "napkin": {
+                    "title": "Napkin",
+                    "des": "",
+                    "products": {
+                        "napkin_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "napkin_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "napkin_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "glassTowel": {
+                    "title": "Glass Towel",
+                    "des": "",
+                    "products": {
+                        "glassTowel_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "glassTowel_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "glassTowel_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
+                    }
+                },
+                "otherItems": {
+                    "title": "Other Items",
+                    "des": "",
+                    "products": {
+                        "otherItems_product_1": {
+                            "title": "hotel product",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_2": {
+                            "title": "hotel product 1",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        },
+                        "otherItems_product_3": {
+                            "title": "hotel product 2",
+                            "meterial": "meterial 100%",
+                            "materialText": "Material",
+                            "details": {
+                                "title": "Hotel Products",
+                                "subTitle": "Nylon 80",
+                                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                                "buttonText": "Inquire",
+                                "specText": "Specifications",
+                                "spec": {
+                                    "productNameText": "Name",
+                                    "productName": "Waffle",
+                                    "materialsText": "Materials",
+                                    "materials": {
+                                        "material_1": "Rose pattern",
+                                        "material_2": "Plain satin"
+                                    },
+                                    "categoryText": "Category",
+                                    "category": "Hand towels, face towels, bath towels, etc.",
+                                    "category2Text": "Category",
+                                    "category2": {
+                                        "category2_1": "Bath Towel:",
+                                        "category2_2": "Bath Mat: 20x30 inches",
+                                        "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                                        "category2_4": "Hand Towel: 16x27 inches",
+                                        "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                                    }
+                                },
+                                "gallery": "Gallery"
+                            }
+                        }
                     }
                 }
             }
