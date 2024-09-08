@@ -8,31 +8,35 @@ import DetailedProductCard from "../components/DetailedProductCard";
 import productsLink from "../assets/content/productsLink.json";
 
 const ProductList = () => {
-  const { type, productType } = useParams(); // Get type, productType from url
+  const { type, productType, productCategory } = useParams(); // Get type, productType from url
   const { t } = useTranslation("products"); // Product details contents in japanese and english
   const [thumbNailPath, setThumbNailPath] = useState([]); // Product thumbnail images path
   const [coverImagePath, setCoverImagePath] = useState(); // Product cover image path
 
   // For sidebar menu
-  const sideBarData = Object.keys(productsLink.allProducts).map((key) => {
-    const productType = productsLink.allProducts[key];
-    return {
-      type: productType.type,
-      subMenu: productType.productCard.map((card) => ({
-        id: card.id,
-        url: card.url,
-      })),
-    };
-  });
+  // const sideBarData = Object.keys(productsLink.allProducts).map((key) => {
+  //   const productType = productsLink.allProducts[key];
+  //   return {
+  //     type: productType.type,
+  //     subMenu: productType.productCard.map((card) => ({
+  //       id: card.id,
+  //       url: card.url,
+  //     })),
+  //   };
+  // });
 
   // For product list.
-  const productsData = productsLink.allProducts[type].productCard.find(
-    (element) => element.id === productType
-  ).products;
+  const productsData = productsLink.allProducts[type].productCard
+    .find((element) => element.id === productType)
+    .category.filter((element) => element.id === productCategory);
   console.log("xxx", productsData);
 
   // For product card content in English and Japanese
-  const productCards = t(`productType.${productType}.products`);
+  const productCards = t(
+    `productType.${productType}.category.${productCategory}.products`
+  );
+
+  console.log("vvvvv", productCards);
 
   // For products images
   useEffect(() => {
@@ -57,10 +61,10 @@ const ProductList = () => {
         const productImages = {};
 
         // Loop through each product and load its thumbnails
-        for (let product of productsData) {
-          const promises = product.thumbNails.map((thumb) =>
+        for (let product of productsData[0].products) {
+          const promises = product?.thumbNails.map((thumb) =>
             import(
-              `../assets/images/detailImg/${type}/${productType}/${product.id}/thumbNail/${thumb.name}`
+              `../assets/images/detailImg/${type}/${productType}/${productCategory}/${product.id}/${thumb.name}`
             )
               .then((module) => ({ id: thumb.id, path: module.default }))
               .catch((error) => {
@@ -71,7 +75,6 @@ const ProductList = () => {
                 };
               })
           );
-
           const thumbnails = await Promise.all(promises);
           productImages[product.id] = thumbnails.reduce(
             (acc, thumb) => ({
@@ -95,7 +98,7 @@ const ProductList = () => {
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-  }, [type, productType, productsData]);
+  }, [type, productType, productCategory]);
 
   console.log("vv", thumbNailPath["hotel_product"]);
 
@@ -112,12 +115,15 @@ const ProductList = () => {
           <h1 className="text-white">
             {t(`productType.${productType}.title`)}
           </h1>
+          <h2 className="text-white">
+            {t(`productType.${productType}.category.${productCategory}.title`)}
+          </h2>
         </div>
       </div>
 
       <div className="max-w-screen-xl mx-auto lg:pt-[96px] lg:pb-[192px] px-3.5 sm:px-16 lg:px-32">
         <div className="relative grid grid-cols-12 gap-2">
-          <div className="hidden lg:block lg:col-span-2">
+          {/* <div className="hidden lg:block lg:col-span-2">
             <div className="flex flex-col h-full">
               {sideBarData.map((menu, index) => {
                 if (index === 0) {
@@ -181,11 +187,11 @@ const ProductList = () => {
                 }
               })}
             </div>
-          </div>
+          </div> */}
 
           <div className="text-center col-span-12 lg:hidden mb-[64px]">
             <h1 className="inline-block relative">
-              {t(`productType.${productType}.title`)}
+              {t(`productType.${productType}.category.${productCategory}.title`)}
               <span
                 className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/2 h-1 bg-gray-300"
                 style={{ top: "100%" }}
@@ -193,10 +199,10 @@ const ProductList = () => {
             </h1>
           </div>
 
-          <div className="col-span-12 lg:col-span-10 lg:col-start-3">
+          <div className="col-span-12 lg:col-span-12 lg:col-start-1">
             <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-2 lg:gap-4">
-              {productsData.map((product, index) => {
-                if (index === productsData.length - 1) {
+              {productsData[0].products.map((product, index) => {
+                if (index === productsData[0].products.length - 1) {
                   return (
                     <DetailedProductCard
                       key={index}

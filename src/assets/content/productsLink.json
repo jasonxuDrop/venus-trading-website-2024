@@ -13,12 +13,12 @@
                             "url": "/productList/linen/hotel/gown",
                             "products": [
                                 {
-                                    "id": "gown_product_1",
-                                    "url": "/productDetail/linen/hotel/gown/gown_product_1",
+                                    "id": "GS-G001",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
+                                            "name": "GS-G001 (Custom).jpg"
                                         },
                                         {
                                             "id": "thumbNail2",
@@ -27,38 +27,26 @@
                                     ],
                                     "imgs": [
                                         {
-                                            "id": "img",
-                                            "name": "product-table-linen-2.png",
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "cover"
                                         },
                                         {
-                                            "id": "img1",
-                                            "name": "tablecloth1.png",
-                                            "alt": "product detail image",
-                                            "use_for": "gallery"
-                                        },
-                                        {
-                                            "id": "img2",
-                                            "name": "tablecloth2.png",
-                                            "alt": "product detail image",
-                                            "use_for": "gallery"
-                                        },
-                                        {
-                                            "id": "img3",
-                                            "name": "tablecloth3.png",
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
                                         }
                                     ]
                                 },
                                 {
-                                    "id": "gown_product_2",
-                                    "url": "/productDetail/linen/hotel/gown/gown_product_2",
+                                    "id": "GS-G002",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G002",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
+                                            "name": "GS-G002 (Custom).jpg"
                                         },
                                         {
                                             "id": "thumbNail2",
@@ -67,38 +55,26 @@
                                     ],
                                     "imgs": [
                                         {
-                                            "id": "img",
-                                            "name": "product-table-linen-2.png",
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "cover"
                                         },
                                         {
-                                            "id": "img1",
-                                            "name": "tablecloth1.png",
-                                            "alt": "product detail image",
-                                            "use_for": "gallery"
-                                        },
-                                        {
-                                            "id": "img2",
-                                            "name": "tablecloth2.png",
-                                            "alt": "product detail image",
-                                            "use_for": "gallery"
-                                        },
-                                        {
-                                            "id": "img3",
-                                            "name": "tablecloth3.png",
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
                                         }
                                     ]
                                 },
                                 {
-                                    "id": "gown_product_3",
-                                    "url": "/productDetail/linen/hotel/gown/gown_product_3",
+                                    "id": "GS-G003",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G003",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
+                                            "name": "GS-G003 (Custom).jpg"
                                         },
                                         {
                                             "id": "thumbNail2",
@@ -107,26 +83,294 @@
                                     ],
                                     "imgs": [
                                         {
-                                            "id": "img",
-                                            "name": "product-table-linen-2.png",
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "cover"
                                         },
                                         {
-                                            "id": "img1",
-                                            "name": "tablecloth1.png",
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G004",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G004",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G004 (Custom).jpg"
                                         },
                                         {
-                                            "id": "img2",
-                                            "name": "tablecloth2.png",
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G005",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G005",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G005 (Custom).jpg"
                                         },
                                         {
-                                            "id": "img3",
-                                            "name": "tablecloth3.png",
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G006",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G006",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G006 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G007",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G007",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G007 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G008",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G008",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G008 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G009",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G009",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G009 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G010",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G010",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G010 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G011",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G011",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G011 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G012",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G012",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G012 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-G013",
+                                    "url": "/productDetail/linen/hotel/gown/GS-G013",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-G013 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-G001.jpg",
+                                            "name": "GS-G001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
                                         }
