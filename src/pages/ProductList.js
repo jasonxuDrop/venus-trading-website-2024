@@ -1,7 +1,7 @@
 // This page for displaying each type of product's product list. (e.g. hotel's product list. )
 
 import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import DetailedProductCard from "../components/DetailedProductCard";
@@ -9,6 +9,7 @@ import productsLink from "../assets/content/productsLink.json";
 
 const ProductList = () => {
   const { type, productType, productCategory } = useParams(); // Get type, productType from url
+  const navigate = useNavigate();
   const { t } = useTranslation("products"); // Product details contents in japanese and english
   const [thumbNailPath, setThumbNailPath] = useState([]); // Product thumbnail images path
   const [coverImagePath, setCoverImagePath] = useState(); // Product cover image path
@@ -25,18 +26,42 @@ const ProductList = () => {
   //   };
   // });
 
-  // For product list.
-  const productsData = productsLink.allProducts[type].productCard
-    .find((element) => element.id === productType)
-    .category.filter((element) => element.id === productCategory);
-  console.log("xxx", productsData);
+  useEffect(() => {
+    if (!validateParameters()) {
+      console.log("Invalid type or productType, redirecting...");
+      navigate("/404", { replace: true });
+      return;
+    }
+  }, [type, productType, navigate]);
 
-  // For product card content in English and Japanese
-  const productCards = t(
-    `productType.${productType}.category.${productCategory}.products`
-  );
+  const validateParameters = () => {
+    const hasType = productsLink.allProducts.hasOwnProperty(type);
+    if (!hasType) {
+      return false;
+    } else {
+      const productTypeObject = productsLink.allProducts[
+        type
+      ]?.productCard.find((card) => card.id === productType);
+      if (!productTypeObject) {
+        return false;
+      } else {
+        if (productCategory) {
+          const categoryObject = productTypeObject.category?.find(
+            (cat) => cat.id === productCategory
+          );
+          return (
+            categoryObject &&
+            categoryObject.products &&
+            categoryObject.products.length > 0
+          );
+        } else if (!productCategory && type === "linen") {
+          return false;
+        }
+      }
+    }
 
-  console.log("vvvvv", productCards);
+    return true;
+  };
 
   // For products images
   useEffect(() => {
@@ -61,8 +86,8 @@ const ProductList = () => {
         const productImages = {};
 
         // Loop through each product and load its thumbnails
-        for (let product of productsData[0].products) {
-          const promises = product?.thumbNails.map((thumb) =>
+        for (let product of products) {
+          const promises = product?.thumbNails?.map((thumb) =>
             import(
               `../assets/images/detailImg/${type}/${productType}/${productCategory}/${product.id}/${thumb.name}`
             )
@@ -92,13 +117,43 @@ const ProductList = () => {
       }
     };
 
-    loadCoverImage();
-    loadThumbnails();
+    if (validateParameters()) {
+      loadCoverImage();
+      loadThumbnails();
+    }
 
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-  }, [type, productType, productCategory]);
+  }, [navigate, type, productType, productCategory]);
+
+  // For product list.
+  const productsData = validateParameters()
+    ? productCategory
+      ? productsLink.allProducts[type]?.productCard
+          .find((element) => element.id === productType)
+          .category?.filter((element) => element.id === productCategory)
+      : productsLink.allProducts[type]?.productCard.find(
+          (element) => element.id === productType
+        )
+    : [];
+  console.log("xxx", productsData);
+
+  // For product card content in English and Japanese
+  const productCards = productCategory
+    ? t(`productType.${productType}.category.${productCategory}.products`)
+    : t(`productType.${productType}.products`);
+
+  console.log("vvvvv", productCards);
+
+  // For product card rendering
+  const products = validateParameters()
+    ? productCategory
+      ? productsData[0]?.products
+      : productsData?.products
+    : [];
+
+  console.log("xc", products);
 
   console.log("vv", thumbNailPath["hotel_product"]);
 
@@ -115,9 +170,13 @@ const ProductList = () => {
           <h1 className="text-white">
             {t(`productType.${productType}.title`)}
           </h1>
-          <h2 className="text-white">
-            {t(`productType.${productType}.category.${productCategory}.title`)}
-          </h2>
+          {productCategory && (
+            <h2 className="text-white">
+              {t(
+                `productType.${productType}.category.${productCategory}.title`
+              )}
+            </h2>
+          )}
         </div>
       </div>
 
@@ -189,11 +248,9 @@ const ProductList = () => {
             </div>
           </div> */}
 
-          <div className="text-center col-span-12 lg:hidden mb-[64px]">
+          <div className="text-center col-span-12 lg:hidden mb-[12px]">
             <h1 className="inline-block relative">
-              {t(
-                `productType.${productType}.category.${productCategory}.title`
-              )}
+              {t(`productType.${productType}.title`)}
               <span
                 className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/2 h-1 bg-gray-300"
                 style={{ top: "100%" }}
@@ -201,12 +258,24 @@ const ProductList = () => {
             </h1>
           </div>
 
+          <div className="text-center col-span-12 lg:hidden mb-[64px]">
+            <h2 className="inline-block relative">
+              {t(
+                `productType.${productType}.category.${productCategory}.title`
+              )}
+              <span
+                className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/2 h-1 bg-gray-300"
+                style={{ top: "100%" }}
+              ></span>
+            </h2>
+          </div>
+
           <div className="col-span-12 lg:col-span-12 lg:col-start-1">
             <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-2 lg:gap-4">
-              {productsData[0].products.map((product, index) => {
+              {products?.map((product, index) => {
                 const productCardProps = {
-                  key: product.id,
-                  productTitle: productCards[product.id].title,
+                  key: product?.id,
+                  productTitle: productCards[product.id]?.title,
                   productDes: {
                     title: productCards[product.id]?.materialText,
                     content: productCards[product.id]?.meterial,
