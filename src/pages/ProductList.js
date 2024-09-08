@@ -191,7 +191,9 @@ const ProductList = () => {
 
           <div className="text-center col-span-12 lg:hidden mb-[64px]">
             <h1 className="inline-block relative">
-              {t(`productType.${productType}.category.${productCategory}.title`)}
+              {t(
+                `productType.${productType}.category.${productCategory}.title`
+              )}
               <span
                 className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/2 h-1 bg-gray-300"
                 style={{ top: "100%" }}
@@ -202,53 +204,20 @@ const ProductList = () => {
           <div className="col-span-12 lg:col-span-12 lg:col-start-1">
             <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-2 lg:gap-4">
               {productsData[0].products.map((product, index) => {
-                if (index === productsData[0].products.length - 1) {
-                  return (
-                    <DetailedProductCard
-                      key={index}
-                      productTitle={productCards[product.id]?.title}
-                      productDes={{
-                        title: productCards[product.id]?.materialText,
-                        content: productCards[product.id]?.meterial,
-                      }}
-                      productImg_1={thumbNailPath[product.id]?.thumbNail1}
-                      productImg_2={thumbNailPath[product.id]?.thumbNail2}
-                      productURL={product.url}
-                      className={"justify-self-end"}
-                    />
-                  );
-                }
-                if (index === 0) {
-                  return (
-                    <DetailedProductCard
-                      key={index}
-                      productTitle={productCards[product.id]?.title}
-                      productDes={{
-                        title: productCards[product.id]?.materialText,
-                        content: productCards[product.id]?.meterial,
-                      }}
-                      productImg_1={thumbNailPath[product.id]?.thumbNail1}
-                      productImg_2={thumbNailPath[product.id]?.thumbNail2}
-                      productURL={product.url}
-                      className={"justify-self-end"}
-                    />
-                  );
-                } else {
-                  return (
-                    <DetailedProductCard
-                      key={index}
-                      productTitle={productCards[product.id].title}
-                      productDes={{
-                        title: productCards[product.id]?.materialText,
-                        content: productCards[product.id]?.meterial,
-                      }}
-                      productImg_1={thumbNailPath[product.id]?.thumbNail1}
-                      productImg_2={thumbNailPath[product.id]?.thumbNail2}
-                      productURL={product.url}
-                      className={""}
-                    />
-                  );
-                }
+                const productCardProps = {
+                  key: product.id,
+                  productTitle: productCards[product.id].title,
+                  productDes: {
+                    title: productCards[product.id]?.materialText,
+                    content: productCards[product.id]?.meterial,
+                  },
+                  productImg_1: thumbNailPath[product.id]?.thumbNail1,
+                  productImg_2: thumbNailPath[product.id]?.thumbNail2,
+                  productURL: product.url,
+                  className: index % 2 === 0 ? "justify-self-end" : "",
+                };
+
+                return <DetailedProductCard {...productCardProps} />;
               })}
             </div>
           </div>
