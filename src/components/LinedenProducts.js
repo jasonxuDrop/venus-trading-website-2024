@@ -31,31 +31,52 @@ const LinedenProducts = () => {
       </div>
 
       <div className="relative grid grid-cols-12 gap-4">
-        {productsLink.allProducts.linen.productCard.map(
-          (productCard, index) => {
-            if (index < productsLink.allProducts.linen.productCard.length - 1) {
-              return (
-                <ProductCard
-                  type={productsLink.allProducts.linen.type}
-                  productType={productCard.id}
-                  productTitle={t(`productType.${productCard.id}.title`)}
-                  productDes={t(`productType.${productCard.id}.des`)}
-                  className={"col-span-12 mb-[64px] lg:mb-0 lg:col-span-3"}
-                />
-              );
-            } else {
-              return (
-                <ProductCard
-                  type={productsLink.allProducts.linen.type}
-                  productType={productCard.id}
-                  productTitle={t(`productType.${productCard.id}.title`)}
-                  productDes={t(`productType.${productCard.id}.des`)}
-                  className={"col-span-12 lg:col-span-3"}
-                />
-              );
-            }
-          }
-        )}
+        {productsLink.allProducts.linen.productCard.map((category, index) => {
+          return (
+            <>
+              <div className="col-span-12 text-center md:text-left md:col-span-4 lg:text-left lg:col-span-3">
+                <h3>{t(`productType.${category.id}.title`)}</h3>
+              </div>
+              <div className="col-span-12 md:col-span-8 lg:col-span-9">
+                <div className="relative grid md:grid-cols-8 md:gap-8 lg:grid-cols-12 lg:gap-8">
+                  {category.category.map((productCard, index) => {
+                    if (index < category.category.length - 1) {
+                      return (
+                        <ProductCard
+                          type={category.type}
+                          productType={category.id}
+                          productCategory={productCard.id}
+                          productTitle={t(
+                            `productType.${category.id}.category.${productCard.id}.title`
+                          )}
+                          productDes={`productType.${category.id}.category.${productCard.id}.des`}
+                          className={
+                            "col-span-12 mb-[64px] md:col-span-4 lg:mb-0 lg:col-span-3"
+                          }
+                        />
+                      );
+                    } else {
+                      return (
+                        <ProductCard
+                          type={category.type}
+                          productType={category.id}
+                          productCategory={productCard.id}
+                          productTitle={t(
+                            `productType.${category.id}.category.${productCard.id}.title`
+                          )}
+                          productDes={t(
+                            `productType.${category.id}.category.${productCard.id}.des`
+                          )}
+                          className={"col-span-12 md:col-span-4 lg:col-span-3"}
+                        />
+                      );
+                    }
+                  })}
+                </div>
+              </div>
+            </>
+          );
+        })}
       </div>
     </div>
   );

@@ -3,18 +3,19 @@ import React from "react";
 const ProductCard = ({
   type,
   productType,
+  productCategory,
   productTitle,
   productDes,
   productImage,
   className,
 }) => {
   const handleNavigate = () => {
-    window.location.href = `/productList/${type}/${productType}`;
+    window.location.href = `/productList/${type}/${productType}/${productCategory}`;
   };
 
   return (
     <div
-      className={`mx-auto w-full max-w-[270px] h-[450px] cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-400 ease-in-out rounded overflow-hidden ${className}`}
+      className={`mx-auto w-full lg:max-w-[216px] h-[315px] cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-400 ease-in-out rounded overflow-hidden ${className}`}
       onClick={handleNavigate}
     >
       <div className="w-full h-[60%] bg-gray-200"></div>

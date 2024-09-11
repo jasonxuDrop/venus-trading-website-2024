@@ -1,10 +1,10 @@
 {
     "allProducts": {
         "linen": {
-            "type": "linen",
             "productCard": [
                 {
                     "id": "hotel",
+                    "type": "linen",
                     "url": "/productList/linen/hotel",
                     "cover": "cover.png",
                     "thumbNails": [
@@ -664,6 +664,7 @@
                 },
                 {
                     "id": "spaAndresort",
+                    "type": "linen",
                     "url": "/productList/linen/spaAndresort",
                     "cover": "cover.png",
                     "thumbNails": [
@@ -781,6 +782,7 @@
                 },
                 {
                     "id": "hospital",
+                    "type": "linen",
                     "url": "/productList/linen/hospital",
                     "cover": "cover.png",
                     "thumbNails": [
@@ -976,6 +978,7 @@
                 },
                 {
                     "id": "restaurant",
+                    "type": "linen",
                     "url": "/productList/linen/restaurant",
                     "cover": "cover.png",
                     "thumbNails": [
@@ -1005,6 +1008,7 @@
                 },
                 {
                     "id": "fabric",
+                    "type": "linen",
                     "url": "/productList/linen/fabric",
                     "cover": "cover.png",
                     "thumbNails": [
@@ -1013,7 +1017,7 @@
                             "name": "GS-G001 (Custom).jpg"
                         }
                     ],
-                    "category":[
+                    "category": [
                         {
                             "id": "allFabric",
                             "url": "/productList/linen/fabric/allFabric",
@@ -1036,9 +1040,7 @@
                             "name": "GS-G001 (Custom).jpg"
                         }
                     ],
-                    "category":[
-                        
-                    ],
+                    "category": [],
                     "products": [
                         {
                             "id": "apron_product",
