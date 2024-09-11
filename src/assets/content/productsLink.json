@@ -435,12 +435,12 @@
                             "url": "/productList/linen/hotel/samue",
                             "products": [
                                 {
-                                    "id": "samue_product_1",
-                                    "url": "/productDetail/linen/hotel/samue/samue_product_1",
+                                    "id": "GS-S001",
+                                    "url": "/productDetail/linen/hotel/samue/GS-S001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
+                                            "name": "GS-S001 (Custom).jpg"
                                         },
                                         {
                                             "id": "thumbNail2",
@@ -449,26 +449,72 @@
                                     ],
                                     "imgs": [
                                         {
-                                            "id": "img",
-                                            "name": "product-table-linen-2.png",
+                                            "id": "GS-S001",
+                                            "name": "GS-S001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "cover"
                                         },
                                         {
-                                            "id": "img1",
-                                            "name": "tablecloth1.png",
+                                            "id": "GS-S001-1",
+                                            "name": "GS-S001-1.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
                                         },
                                         {
-                                            "id": "img2",
-                                            "name": "tablecloth2.png",
+                                            "id": "GS-S001-2",
+                                            "name": "GS-S001-2.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
                                         },
                                         {
-                                            "id": "img3",
-                                            "name": "tablecloth3.png",
+                                            "id": "GS-S001-3",
+                                            "name": "GS-S001-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-S002",
+                                    "url": "/productDetail/linen/hotel/samue/GS-S002",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-S002 (Custom).jpg"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-S002",
+                                            "name": "GS-S002.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-S002-2",
+                                            "name": "GS-S002-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-S002-3",
+                                            "name": "GS-S002-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-S002-4",
+                                            "name": "GS-S002-4.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-S002-5",
+                                            "name": "GS-S002-5.jpg",
                                             "alt": "product detail image",
                                             "use_for": "gallery"
                                         }
@@ -967,7 +1013,13 @@
                             "name": "GS-G001 (Custom).jpg"
                         }
                     ],
-                    "products": []
+                    "category":[
+                        {
+                            "id": "allFabric",
+                            "url": "/productList/linen/fabric/allFabric",
+                            "products": []
+                        }
+                    ]
                 }
             ]
         },
