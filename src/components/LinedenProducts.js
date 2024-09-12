@@ -22,7 +22,7 @@ const LinedenProducts = () => {
     >
       <div className="text-center mb-[96px]">
         <h2 className="inline-block relative">
-          {t(`productType.${productsLink.allProducts.linen.type}`)}
+          {t(`productType.${productsLink.allProducts.linen.id}`)}
           <span
             className="absolute left-1/2 transform -translate-x-1/2 mt-1 w-1/3 h-1 bg-buttonColor"
             style={{ top: "100%" }}
@@ -49,7 +49,7 @@ const LinedenProducts = () => {
                           productTitle={t(
                             `productType.${category.id}.category.${productCard.id}.title`
                           )}
-                          productDes={`productType.${category.id}.category.${productCard.id}.des`}
+                          productDes={``}
                           className={
                             "col-span-12 mb-[64px] md:col-span-4 lg:mb-0 lg:col-span-3"
                           }

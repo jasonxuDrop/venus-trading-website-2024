@@ -1,6 +1,7 @@
 {
     "allProducts": {
         "linen": {
+            "id": "linen",
             "productCard": [
                 {
                     "id": "hotel",
@@ -1028,10 +1029,11 @@
             ]
         },
         "apparel": {
-            "type": "apparel",
+            "id": "apparel",
             "productCard": [
                 {
                     "id": "apron",
+                    "type": "apparel",
                     "url": "/productList/apparel/apron",
                     "cover": "cover.png",
                     "thumbNails": [
@@ -1040,135 +1042,99 @@
                             "name": "GS-G001 (Custom).jpg"
                         }
                     ],
-                    "category": [],
-                    "products": [
+                    "category": [
                         {
-                            "id": "apron_product",
-                            "url": "/productDetail/apparel/apron/apron_product",
-                            "thumbNails": [
+                            "id": "allApron",
+                            "url": "/productList/apparel/apron/allApron",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "apron_product",
+                                    "url": "/productDetail/apparel/apron/allApron/apron_product",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        {
-                            "id": "apron_product1",
-                            "url": "/productDetail/apparel/apron/apron_product1",
-                            "thumbNails": [
-                                {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        {
-                            "id": "apron_product2",
-                            "url": "/productDetail/apparel/apron/apron_product2",
-                            "thumbNails": [
-                                {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         }
                     ]
                 },
                 {
                     "id": "pajama",
+                    "type": "apparel",
                     "url": "/productList/apparel/pajama",
                     "cover": "cover.png",
-                    "products": [
+                    "category": [
                         {
-                            "id": "pajama_product",
-                            "url": "/productDetail/apparel/pajama/pajama_product",
-                            "thumbNails": [
+                            "id": "allPajama",
+                            "url": "/productList/apparel/apron/allPajama",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "pajama_product",
+                                    "url": "/productDetail/apparel/apron/allPajama/pajama_product",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "id": "pajama",
+                    "type": "apparel",
+                    "url": "/productList/apparel/pajama",
+                    "cover": "cover.png",
+                    "category": [
                         {
-                            "id": "pajama_product1",
-                            "url": "/productDetail/apparel/pajama/pajama_product1",
-                            "thumbNails": [
+                            "id": "allPajama",
+                            "url": "/productList/apparel/apron/allPajama",
+                            "products": [
                                 {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
+                                    "id": "pajama_product",
+                                    "url": "/productDetail/apparel/apron/allPajama/pajama_product",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "thumbNail.png"
+                                        },
+                                        {
+                                            "id": "thumbNail2",
+                                            "name": "thumbNail2.png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {},
+                                        {},
+                                        {},
+                                        {}
+                                    ]
                                 }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {}
-                            ]
-                        },
-                        {
-                            "id": "pajama_product2",
-                            "url": "/productDetail/apparel/pajama/pajama_product2",
-                            "thumbNails": [
-                                {
-                                    "id": "thumbNail1",
-                                    "name": "thumbNail.png"
-                                },
-                                {
-                                    "id": "thumbNail2",
-                                    "name": "thumbNail2.png"
-                                }
-                            ],
-                            "imgs": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         }
                     ]

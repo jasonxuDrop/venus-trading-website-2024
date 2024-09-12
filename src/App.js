@@ -52,7 +52,7 @@ function App() {
                 element={<ApparelProductsPage />}
               />
               <Route
-                path="/productList/:type/:productType/:productCategory?"
+                path="/productList/:type/:productType/:productCategory"
                 element={<ProductList />}
               />
               <Route path="/productDetail/:type/:productType/:productID" element={<ProductDetail />} />
