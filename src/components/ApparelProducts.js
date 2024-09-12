@@ -28,21 +28,23 @@ const ApparelProducts = () => {
       </div>
       {/* relative grid md:grid-cols-8 md:gap-8 lg:grid-cols-12 lg:gap-8 */}
       <div className="relative grid grid-cols-12 gap-4">
-    <div className="col-span-12 md:col-span-8 md:col-start-3 lg:col-span-12 lg:col-start-0">
-        <div className="flex flex-wrap">
-            {productsLink.allProducts.apparel.productCard.map((productCard, index) => (
+        <div className="col-span-12 md:col-span-8 md:col-start-3 lg:col-span-12 lg:col-start-0">
+          <div className="flex flex-wrap md:mx-[50px] lg:mx-[100px]">
+            {productsLink.allProducts.apparel.productCard.map(
+              (productCard, index) => (
                 <ProductCard
-                    key={index} // Always use keys in lists for better performance
-                    type={productCard.type}
-                    productType={productCard.id}
-                    productCategory={productCard.category[0].id}
-                    productTitle={t(`productType.${productCard.id}.title`)}
-                    className="md:max-w-[250px]" // Adjust widths and padding as necessary
+                  key={index}
+                  type={productCard.type}
+                  productType={productCard.id}
+                  productCategory={productCard.category[0].id}
+                  productTitle={t(`productType.${productCard.id}.title`)}
+                  className="md:max-w-[200px] flex-shrink-0"
                 />
-            ))}
+              )
+            )}
+          </div>
         </div>
-    </div>
-</div>
+      </div>
       {/* End Apparel Products */}
     </div>
   );
