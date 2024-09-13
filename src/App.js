@@ -55,7 +55,7 @@ function App() {
                 path="/productList/:type/:productType/:productCategory"
                 element={<ProductList />}
               />
-              <Route path="/productDetail/:type/:productType/:productID" element={<ProductDetail />} />
+              <Route path="/productDetail/:type/:productType/:productCategory/:productID" element={<ProductDetail />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
