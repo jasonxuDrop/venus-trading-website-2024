@@ -991,15 +991,184 @@
                     "category": [
                         {
                             "id": "tableCloth",
-                            "url": "/productList/linen/restaurant/tableCloth"
+                            "url": "/productList/linen/restaurant/tableCloth",
+                            "product": [
+                                {
+                                    "id": "GS-TC001",
+                                    "url": "/productDetail/linen/restaurant/tableCloth/GS-TC001",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-TC001 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-TC001.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "id": "napkin",
-                            "url": "/productList/linen/restaurant/napkin"
+                            "id": "napkins",
+                            "url": "/productList/linen/restaurant/napkins",
+                            "product": [
+                                {
+                                    "id": "GS-N001",
+                                    "url": "/productDetail/linen/restaurant/napkins/GS-N001",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-N001 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-N001.jpg",
+                                            "name": "GS-N001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-N002",
+                                    "url": "/productDetail/linen/restaurant/napkins/GS-N002",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-N002 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-N002.jpg",
+                                            "name": "GS-N002.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-N003",
+                                    "url": "/productDetail/linen/restaurant/napkins/GS-N003",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-N003 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-N003.jpg",
+                                            "name": "GS-N003.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-N004",
+                                    "url": "/productDetail/linen/restaurant/napkins/GS-N004",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-N004 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-N004.jpg",
+                                            "name": "GS-N004.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-N005",
+                                    "url": "/productDetail/linen/restaurant/napkins/GS-N005",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-N005 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-N005.jpg",
+                                            "name": "GS-N005.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                }
+
+                            ]
                         },
                         {
-                            "id": "glassTowel",
-                            "url": "/productList/linen/restaurant/glassTowel"
+                            "id": "glassTowels",
+                            "url": "/productList/linen/restaurant/glassTowels",
+                            "product": [
+                                {
+                                    "id": "GS-TW001",
+                                    "url": "/productDetail/linen/restaurant/glassTowels/GS-TW001",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-TW001 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-TW001.jpg",
+                                            "name": "GS-TW001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-TW002",
+                                    "url": "/productDetail/linen/restaurant/glassTowels/GS-TW002",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-TW002 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-TW002.jpg",
+                                            "name": "GS-TW002.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-TW003",
+                                    "url": "/productDetail/linen/restaurant/glassTowels/GS-TW003",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-TW003 (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "GS-TW003.jpg",
+                                            "name": "GS-TW003.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "id": "otherItems",
@@ -1022,7 +1191,26 @@
                         {
                             "id": "allFabric",
                             "url": "/productList/linen/fabric/allFabric",
-                            "products": []
+                            "products": [
+                                {
+                                    "id": "C40S140x100-1cmST",
+                                    "url": "/productDetail/linen/fabric/allFabric/C40S140x100-1cmST",
+                                    "thumbNails":[
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "C40S140×100-1cmST (thumbnail).jpg"
+                                        }
+                                    ],
+                                    "imgs":[
+                                        {
+                                            "id": "C40S140×100-1cmST.jpg",
+                                            "name": "C40S140×100-1cmST.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
