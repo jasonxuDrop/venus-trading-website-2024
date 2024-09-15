@@ -601,7 +601,7 @@
             }
           }
         },
-        "bathRobe": {
+        "bathrobe": {
           "title": "Bath Robe",
           "des": "",
           "products": {
@@ -703,7 +703,7 @@
             }
           }
         },
-        "bedLinen": {
+        "bed-linen": {
           "title": "Bed Linen",
           "des": "",
           "products": {
@@ -805,7 +805,7 @@
             }
           }
         },
-        "otherItems": {
+        "others": {
           "title": "Other Items",
           "des": "",
           "products": {
@@ -909,7 +909,7 @@
         }
       }
     },
-    "spaAndresort": {
+    "spa-and-resort": {
       "type": "linene",
       "title": "SPA & Resort",
       "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
@@ -1016,7 +1016,7 @@
             }
           }
         },
-        "relaxWear": {
+        "relax-wear": {
           "title": "Relax Wear",
           "des": "",
           "products": {
@@ -1220,7 +1220,7 @@
             }
           }
         },
-        "otherItems": {
+        "others": {
           "title": "Other Items",
           "des": "",
           "products": {
@@ -1329,7 +1329,7 @@
       "title": "Hospital",
       "des": "Patient Clothes, Undergarments, etc.",
       "category": {
-        "patientClothes": {
+        "patient-clothes": {
           "title": "Patient Clothes",
           "des": "",
           "products": {
@@ -1635,7 +1635,7 @@
             }
           }
         },
-        "nurseDress": {
+        "nurse-dress": {
           "title": "Nurse Dress",
           "des": "",
           "products": {
@@ -1737,7 +1737,7 @@
             }
           }
         },
-        "waterproofSheets": {
+        "waterproof-sheets": {
           "title": "Waterproof Sheets",
           "des": "",
           "products": {
@@ -1839,7 +1839,7 @@
             }
           }
         },
-        "bedProducts": {
+        "bed-products": {
           "title": "Bed Products",
           "des": "",
           "products": {
@@ -1941,7 +1941,7 @@
             }
           }
         },
-        "otherItems": {
+        "others": {
           "title": "Other Items",
           "des": "",
           "products": {
@@ -2050,7 +2050,7 @@
       "title": "Restaurant Linen",
       "des": "Patient Clothes, Undergarments, etc.",
       "category": {
-        "tableCloth": {
+        "table-cloth": {
           "title": "Table Cloth",
           "des": "",
           "products": {
@@ -2254,7 +2254,7 @@
             }
           }
         },
-        "glassTowel": {
+        "glass-towel": {
           "title": "Glass Towel",
           "des": "",
           "products": {
@@ -2356,7 +2356,7 @@
             }
           }
         },
-        "otherItems": {
+        "others": {
           "title": "Other Items",
           "des": "",
           "products": {
@@ -2465,7 +2465,7 @@
       "title": "Fabric",
       "des": "",
       "category": {
-        "allFabric": {
+        "all-fabric": {
           "title": "All Fabric",
           "des": "",
           "products": {
@@ -2574,7 +2574,7 @@
       "title": "Apron",
       "des": "",
       "category": {
-        "allAprom": {
+        "all-apron": {
           "title": "All Apron",
           "des": "",
           "products": {
@@ -2683,7 +2683,7 @@
       "title": "Pajama",
       "des": "",
       "category": {
-        "allPajama": {
+        "all-pajama": {
           "title": "All Pajama",
           "des": "",
           "products": {

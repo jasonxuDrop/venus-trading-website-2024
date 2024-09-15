@@ -1485,12 +1485,12 @@
               ]
             },
             {
-              "id": "napkins",
-              "url": "/productList/linen/restaurant/napkins",
+              "id": "napkin",
+              "url": "/productList/linen/restaurant/napkin",
               "products": [
                 {
                   "id": "GS-N001",
-                  "url": "/productDetail/linen/restaurant/napkins/GS-N001",
+                  "url": "/productDetail/linen/restaurant/napkin/GS-N001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1508,7 +1508,7 @@
                 },
                 {
                   "id": "GS-N002",
-                  "url": "/productDetail/linen/restaurant/napkins/GS-N002",
+                  "url": "/productDetail/linen/restaurant/napkin/GS-N002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1526,7 +1526,7 @@
                 },
                 {
                   "id": "GS-N003",
-                  "url": "/productDetail/linen/restaurant/napkins/GS-N003",
+                  "url": "/productDetail/linen/restaurant/napkin/GS-N003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1544,7 +1544,7 @@
                 },
                 {
                   "id": "GS-N004",
-                  "url": "/productDetail/linen/restaurant/napkins/GS-N004",
+                  "url": "/productDetail/linen/restaurant/napkin/GS-N004",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1562,7 +1562,7 @@
                 },
                 {
                   "id": "GS-N005",
-                  "url": "/productDetail/linen/restaurant/napkins/GS-N005",
+                  "url": "/productDetail/linen/restaurant/napkin/GS-N005",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1581,12 +1581,12 @@
               ]
             },
             {
-              "id": "glass-towels",
-              "url": "/productList/linen/restaurant/glass-towels",
+              "id": "glass-towel",
+              "url": "/productList/linen/restaurant/glass-towel",
               "products": [
                 {
                   "id": "GS-TW001",
-                  "url": "/productDetail/linen/restaurant/glass-towels/GS-TW001",
+                  "url": "/productDetail/linen/restaurant/glass-towel/GS-TW001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1604,7 +1604,7 @@
                 },
                 {
                   "id": "GS-TW002",
-                  "url": "/productDetail/linen/restaurant/glass-towels/GS-TW002",
+                  "url": "/productDetail/linen/restaurant/glass-towel/GS-TW002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1622,7 +1622,7 @@
                 },
                 {
                   "id": "GS-TW003",
-                  "url": "/productDetail/linen/restaurant/glass-towels/GS-TW003",
+                  "url": "/productDetail/linen/restaurant/glass-towel/GS-TW003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
