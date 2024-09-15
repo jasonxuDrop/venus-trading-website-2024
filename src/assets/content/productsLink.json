@@ -524,12 +524,12 @@
               ]
             },
             {
-              "id": "bathRobe",
-              "url": "/productList/linen/hotel/bathRobe",
+              "id": "bathrobe",
+              "url": "/productList/linen/hotel/bathrobe",
               "products": [
                 {
                   "id": "bathRobe_product_1",
-                  "url": "/productDetail/linen/hotel/bathRobe/bathRobe_product_1",
+                  "url": "/productDetail/linen/hotel/bathrobe/bathRobe_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -570,12 +570,12 @@
               ]
             },
             {
-              "id": "bedLinen",
-              "url": "/productList/linen/hotel/bedLinen",
+              "id": "bed-linen",
+              "url": "/productList/linen/hotel/bed-linen",
               "products": [
                 {
                   "id": "bedLinen_product_1",
-                  "url": "/productDetail/linen/hotel/bedLinen/bedLinen_product_1",
+                  "url": "/productDetail/linen/hotel/bed-linen/bedLinen_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -616,12 +616,12 @@
               ]
             },
             {
-              "id": "otherItems",
-              "url": "/productList/linen/hotel/otherItems",
+              "id": "others",
+              "url": "/productList/linen/hotel/others",
               "products": [
                 {
                   "id": "otherItems_product_1",
-                  "url": "/productDetail/linen/hotel/otherItems/otherItems_product_1",
+                  "url": "/productDetail/linen/hotel/others/otherItems_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -664,9 +664,9 @@
           ]
         },
         {
-          "id": "spaAndresort",
+          "id": "spa-and-resort",
           "type": "linen",
-          "url": "/productList/linen/spaAndresort",
+          "url": "/productList/linen/spa-and-resort",
           "cover": "cover.png",
           "thumbNails": [
             {
@@ -677,11 +677,11 @@
           "category": [
             {
               "id": "yukata",
-              "url": "/productList/linen/spaAndresort/yukata",
+              "url": "/productList/linen/spa-and-resort/yukata",
               "products": [
                 {
                   "id": "yukata_product_1",
-                  "url": "/productDetail/linen/spaAndesort/yukata/yukata_product_1",
+                  "url": "/productDetail/linen/spa-and-resort/yukata/yukata_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -697,12 +697,12 @@
               ]
             },
             {
-              "id": "relaxWear",
-              "url": "/productList/linen/spaAndresort/relaxWear",
+              "id": "relax-wear",
+              "url": "/productList/linen/spa-and-resort/relax-wear",
               "products": [
                 {
                   "id": "relaxWear_product_1",
-                  "url": "/productDetail/linen/spaAndresort/relaxWear/relaxWear_product_1",
+                  "url": "/productDetail/linen/spa-and-resort/relax-wear/relaxWear_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -719,11 +719,11 @@
             },
             {
               "id": "haori",
-              "url": "/productList/linen/spaAndresort/haori",
+              "url": "/productList/linen/spa-and-resort/haori",
               "products": [
                 {
                   "id": "haori_product_1",
-                  "url": "/productDetail/linen/spaAndresort/haori/yukata_product_1",
+                  "url": "/productDetail/linen/spa-and-resort/haori/yukata_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -739,12 +739,12 @@
               ]
             },
             {
-              "id": "otherItems",
-              "url": "/productList/linen/spaAndresort/otherItems",
+              "id": "others",
+              "url": "/productList/linen/spa-and-resort/others",
               "products": [
                 {
                   "id": "otherItems_product_1",
-                  "url": "/productDetail/linen/spaAndresort/otherItems/otherItems_product_1",
+                  "url": "/productDetail/linen/spa-and-resort/others/otherItems_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -774,12 +774,12 @@
           ],
           "category": [
             {
-              "id": "patientClothes",
-              "url": "/productList/linen/hospital/patientClothes",
+              "id": "patient-clothes",
+              "url": "/productList/linen/hospital/patient-clothes",
               "products": [
                 {
                   "id": "GS-HW001",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW001",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -851,7 +851,7 @@
                 },
                 {
                   "id": "GS-HW003",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW003",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -887,7 +887,7 @@
                 },
                 {
                   "id": "GS-HW004",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW004",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW004",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -917,7 +917,7 @@
                 },
                 {
                   "id": "GS-GS-HW005",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-GS-HW005",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-GS-HW005",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -953,7 +953,7 @@
                 },
                 {
                   "id": "GS-HW006",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW006",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW006",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -989,7 +989,7 @@
                 },
                 {
                   "id": "GS-HW007",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW007",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW007",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1025,7 +1025,7 @@
                 },
                 {
                   "id": "GS-HW008",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW008",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW008",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1073,7 +1073,7 @@
                 },
                 {
                   "id": "GS-HW009",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW009",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW009",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1163,7 +1163,7 @@
                 },
                 {
                   "id": "GS-HW010",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW010",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW010",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1332,12 +1332,12 @@
               ]
             },
             {
-              "id": "nurseDress",
-              "url": "/productList/linen/hospital/nurseDress",
+              "id": "nurse-dress",
+              "url": "/productList/linen/hospital/nurse-dress",
               "products": [
                 {
                   "id": "GS-NU001",
-                  "url": "/productDetail/linen/hospital/nurseDress/GS-NU001",
+                  "url": "/productDetail/linen/hospital/nurse-dress/GS-NU001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1384,12 +1384,12 @@
               ]
             },
             {
-              "id": "waterproofSheets",
-              "url": "/productList/linen/hospital/waterproofSheets",
+              "id": "waterproof-sheets",
+              "url": "/productList/linen/hospital/waterproof-sheets",
               "products": [
                 {
                   "id": "waterproofSheets_product_1",
-                  "url": "/productDetail/linen/hospital/waterproofSheets/waterproofSheets_product_1",
+                  "url": "/productDetail/linen/hospital/waterproof-sheets/waterproofSheets_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1405,12 +1405,12 @@
               ]
             },
             {
-              "id": "bedProducts",
-              "url": "/productList/linen/hospital/bedProducts",
+              "id": "bed-products",
+              "url": "/productList/linen/hospital/bed-products",
               "products": [
                 {
                   "id": "bedProducts_product_1",
-                  "url": "/productDetail/linen/hospital/bedProducts/bedProducts_product_1",
+                  "url": "/productDetail/linen/hospital/bed-products/bedProducts_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1426,12 +1426,12 @@
               ]
             },
             {
-              "id": "otherItems",
-              "url": "/productList/linen/hospital/otherItems",
+              "id": "others",
+              "url": "/productList/linen/hospital/others",
               "products": [
                 {
                   "id": "otherItems_product_1",
-                  "url": "/productDetail/linen/hospital/otherItems/otherItems_product_1",
+                  "url": "/productDetail/linen/hospital/others/otherItems_product_1",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1461,12 +1461,12 @@
           ],
           "category": [
             {
-              "id": "tableCloth",
-              "url": "/productList/linen/restaurant/tableCloth",
+              "id": "table-cloth",
+              "url": "/productList/linen/restaurant/table-cloth",
               "products": [
                 {
                   "id": "GS-TC001",
-                  "url": "/productDetail/linen/restaurant/tableCloth/GS-TC001",
+                  "url": "/productDetail/linen/restaurant/table-cloth/GS-TC001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1581,12 +1581,12 @@
               ]
             },
             {
-              "id": "glassTowels",
-              "url": "/productList/linen/restaurant/glassTowels",
+              "id": "glass-towels",
+              "url": "/productList/linen/restaurant/glass-towels",
               "products": [
                 {
                   "id": "GS-TW001",
-                  "url": "/productDetail/linen/restaurant/glassTowels/GS-TW001",
+                  "url": "/productDetail/linen/restaurant/glass-towels/GS-TW001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1604,7 +1604,7 @@
                 },
                 {
                   "id": "GS-TW002",
-                  "url": "/productDetail/linen/restaurant/glassTowels/GS-TW002",
+                  "url": "/productDetail/linen/restaurant/glass-towels/GS-TW002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1622,7 +1622,7 @@
                 },
                 {
                   "id": "GS-TW003",
-                  "url": "/productDetail/linen/restaurant/glassTowels/GS-TW003",
+                  "url": "/productDetail/linen/restaurant/glass-towels/GS-TW003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1641,8 +1641,8 @@
               ]
             },
             {
-              "id": "otherItems",
-              "url": "/productList/linen/restaurant/otherItems"
+              "id": "others",
+              "url": "/productList/linen/restaurant/others"
             }
           ]
         },
@@ -1659,12 +1659,12 @@
           ],
           "category": [
             {
-              "id": "allFabric",
-              "url": "/productList/linen/fabric/allFabric",
+              "id": "all-fabric",
+              "url": "/productList/linen/fabric/all-fabric",
               "products": [
                 {
                   "id": "C40S140x100-1cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x100-1cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x100-1cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1682,7 +1682,7 @@
                 },
                 {
                   "id": "C40S140x100-3cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x100-3cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x100-3cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1700,7 +1700,7 @@
                 },
                 {
                   "id": "C40S140x100-5mmST",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x100-5mmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x100-5mmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1718,7 +1718,7 @@
                 },
                 {
                   "id": "C40S140x100-65mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x100-65mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x100-65mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1736,7 +1736,7 @@
                 },
                 {
                   "id": "C40S140x100-Satin weave",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x100-Satin weave",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x100-Satin weave",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1754,7 +1754,7 @@
                 },
                 {
                   "id": "C40S140x110-2cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x110-2cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x110-2cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1772,7 +1772,7 @@
                 },
                 {
                   "id": "C40S140x110-3cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x110-3cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x110-3cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1790,7 +1790,7 @@
                 },
                 {
                   "id": "C40S140x110-Satin weave",
-                  "url": "/productDetail/linen/fabric/allFabric/C40S140x110-Satin weave",
+                  "url": "/productDetail/linen/fabric/all-fabric/C40S140x110-Satin weave",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1808,7 +1808,7 @@
                 },
                 {
                   "id": "TC3070-34S130x80 15mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-34S130x80 15mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-34S130x80 15mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1826,7 +1826,7 @@
                 },
                 {
                   "id": "TC3070-34S130x80 25mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-34S130x80 25mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-34S130x80 25mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1844,7 +1844,7 @@
                 },
                 {
                   "id": "TC3070-34S130x80-1.5cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-34S130x80-1.5cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-34S130x80-1.5cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1862,7 +1862,7 @@
                 },
                 {
                   "id": "TC3070-34S130x80-1cm ST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-34S130x80-1cm ST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-34S130x80-1cm ST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1880,7 +1880,7 @@
                 },
                 {
                   "id": "TC3070-34S130x80-2.5cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-34S130x80-2.5cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-34S130x80-2.5cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1898,7 +1898,7 @@
                 },
                 {
                   "id": "TC3070-34S130x80-Square pattern",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-34S130x80-Square pattern",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-34S130x80-Square pattern",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1916,7 +1916,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100 2.5cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100 2.5cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100 2.5cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1934,7 +1934,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100 3cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100 3cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100 3cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1952,7 +1952,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100 60mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100 60mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100 60mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1970,7 +1970,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100 90mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100 90mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100 90mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1988,7 +1988,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100-1cm ST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100-1cm ST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100-1cm ST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2006,7 +2006,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100-Line pattern",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100-Line pattern",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100-Line pattern",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2024,7 +2024,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100-Polka dot pattern",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100-Polka dot pattern",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100-Polka dot pattern",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2042,7 +2042,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100-Satin weave",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100-Satin weave",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100-Satin weave",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2060,7 +2060,7 @@
                 },
                 {
                   "id": "TC3070-40S140x100-Square pattern",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S140x100-Square pattern",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S140x100-Square pattern",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2078,7 +2078,7 @@
                 },
                 {
                   "id": "TC3070-40S173x80-Wave pattern",
-                  "url": "/productDetail/linen/fabric/allFabric/TC3070-40S173x80-Wave pattern",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC3070-40S173x80-Wave pattern",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2096,7 +2096,7 @@
                 },
                 {
                   "id": "TC5050-40S140x100 2.5mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/TC5050-40S140x100 2.5mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC5050-40S140x100 2.5mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2114,7 +2114,7 @@
                 },
                 {
                   "id": "TC5050-40S140x100 2cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC5050-40S140x100 2cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC5050-40S140x100 2cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2132,7 +2132,7 @@
                 },
                 {
                   "id": "TC5050-40S140x100 3cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC5050-40S140x100 3cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC5050-40S140x100 3cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2150,7 +2150,7 @@
                 },
                 {
                   "id": "TC5050-40S140x100 5mm-Checker",
-                  "url": "/productDetail/linen/fabric/allFabric/TC5050-40S140x100 5mm-Checker",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC5050-40S140x100 5mm-Checker",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2168,7 +2168,7 @@
                 },
                 {
                   "id": "TC5050-40S140x100-1cmST",
-                  "url": "/productDetail/linen/fabric/allFabric/TC5050-40S140x100-1cmST",
+                  "url": "/productDetail/linen/fabric/all-fabric/TC5050-40S140x100-1cmST",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2206,12 +2206,12 @@
           ],
           "category": [
             {
-              "id": "allApron",
-              "url": "/productList/apparel/apron/allApron",
+              "id": "all-apron",
+              "url": "/productList/apparel/apron/all-apron",
               "products": [
                 {
                   "id": "GS-AP001",
-                  "url": "/productDetail/apparel/apron/allApron/GS-AP001",
+                  "url": "/productDetail/apparel/apron/all-apron/GS-AP001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2235,7 +2235,7 @@
                 },
                 {
                   "id": "GS-AP002",
-                  "url": "/productDetail/apparel/apron/allApron/GS-AP002",
+                  "url": "/productDetail/apparel/apron/all-apron/GS-AP002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2301,7 +2301,7 @@
                 },
                 {
                   "id": "GS-AP003",
-                  "url": "/productDetail/apparel/apron/allApron/GS-AP003",
+                  "url": "/productDetail/apparel/apron/all-apron/GS-AP003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2361,7 +2361,7 @@
                 },
                 {
                   "id": "GS-AP004",
-                  "url": "/productDetail/apparel/apron/allApron/GS-AP004",
+                  "url": "/productDetail/apparel/apron/all-apron/GS-AP004",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2424,12 +2424,12 @@
           "cover": "cover.png",
           "category": [
             {
-              "id": "allPajama",
-              "url": "/productList/apparel/apron/allPajama",
+              "id": "all-pajama",
+              "url": "/productList/apparel/apron/all-pajama",
               "products": [
                 {
                   "id": "GS-P001",
-                  "url": "/productDetail/apparel/apron/allPajama/GS-P001",
+                  "url": "/productDetail/apparel/apron/all-pajama/GS-P001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2471,7 +2471,7 @@
                 },
                 {
                   "id": "GS-P002",
-                  "url": "/productDetail/apparel/apron/allPajama/GS-P002",
+                  "url": "/productDetail/apparel/apron/all-pajama/GS-P002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2507,7 +2507,7 @@
                 },
                 {
                   "id": "GS-P003",
-                  "url": "/productDetail/apparel/apron/allPajama/GS-P003",
+                  "url": "/productDetail/apparel/apron/all-pajama/GS-P003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
