@@ -620,42 +620,110 @@
                             "url": "/productList/linen/hotel/otherItems",
                             "products": [
                                 {
-                                    "id": "otherItems_product_1",
-                                    "url": "/productDetail/linen/hotel/otherItems/otherItems_product_1",
+                                    "id": "GS-SL001",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-SL001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
                                         {
-                                            "id": "img",
-                                            "name": "product-table-linen-2.png",
+                                            "id": "GS-SL001.jpg",
+                                            "name": "GS-TC001.jpg",
                                             "alt": "product detail image",
                                             "use_for": "cover"
-                                        },
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL002",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL002",
+                                    "thumbNails": [
                                         {
-                                            "id": "img1",
-                                            "name": "tablecloth1.png",
-                                            "alt": "product detail image",
-                                            "use_for": "gallery"
-                                        },
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL002 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
                                         {
-                                            "id": "img2",
-                                            "name": "tablecloth2.png",
+                                            "id": "GS-SL002.jpg",
+                                            "name": "GS-TC001.jpg",
                                             "alt": "product detail image",
-                                            "use_for": "gallery"
-                                        },
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL003",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL003",
+                                    "thumbNails": [
                                         {
-                                            "id": "img3",
-                                            "name": "tablecloth3.png",
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL003 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL003.jpg",
+                                            "name": "GS-TC001.jpg",
                                             "alt": "product detail image",
-                                            "use_for": "gallery"
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL004",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL004",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL004 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL004.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL005",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL005",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL005 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL005.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL006",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL006",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL006 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL006.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
                                         }
                                     ]
                                 }
@@ -664,7 +732,7 @@
                     ]
                 },
                 {
-                    "id": "spaAndresort",
+                    "id": "spaAndesort",
                     "type": "linen",
                     "url": "/productList/linen/spaAndresort",
                     "cover": "cover.png",
@@ -680,23 +748,21 @@
                             "url": "/productList/linen/spaAndresort/yukata",
                             "products": [
                                 {
-                                    "id": "yukata_product_1",
-                                    "url": "/productDetail/linen/spaAndesort/yukata/yukata_product_1",
+                                    "id": "GS-Y001",
+                                    "url": "/productDetail/linen/spaAndesort/yukata/GS-Y001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-Y001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-TC001.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
                                     ]
                                 }
                             ]
@@ -706,23 +772,141 @@
                             "url": "/productList/linen/spaAndresort/relaxWear",
                             "products": [
                                 {
-                                    "id": "relaxWear_product_1",
-                                    "url": "/productDetail/linen/spaAndresort/relaxWear/relaxWear_product_1",
+                                    "id": "GS-RW001",
+                                    "url": "/productDetail/linen/spaAndresort/relaxWear/GS-RW001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-RW001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-RW001.jpg",
+                                            "name": "GS-RW001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW001-1.jpg",
+                                            "name": "GS-RW001-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW001-2.jpg",
+                                            "name": "GS-RW001-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW001-3.jpg",
+                                            "name": "GS-RW001-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-RW002",
+                                    "url": "/productDetail/linen/spaAndresort/relaxWear/GS-RW002",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-RW002 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-RW002.jpg",
+                                            "name": "GS-RW002.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW002-1.jpg",
+                                            "name": "GS-RW002-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW002-2.jpg",
+                                            "name": "GS-RW002-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-RW003",
+                                    "url": "/productDetail/linen/spaAndresort/relaxWear/GS-RW003",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-RW003 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-RW003.jpg",
+                                            "name": "GS-RW003.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW003-1.jpg",
+                                            "name": "GS-RW003-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW003-2.jpg",
+                                            "name": "GS-RW003-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW003-3.jpg",
+                                            "name": "GS-RW003-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-RW004",
+                                    "url": "/productDetail/linen/spaAndresort/relaxWear/GS-RW004",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-RW004 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-RW004.jpg",
+                                            "name": "GS-RW004.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW004-1.jpg",
+                                            "name": "GS-RW004-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW004-2.jpg",
+                                            "name": "GS-RW004-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-RW004-3.jpg",
+                                            "name": "GS-RW004-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
                                     ]
                                 }
                             ]
@@ -732,23 +916,21 @@
                             "url": "/productList/linen/spaAndresort/haori",
                             "products": [
                                 {
-                                    "id": "haori_product_1",
-                                    "url": "/productDetail/linen/spaAndresort/haori/yukata_product_1",
+                                    "id": "GS-H001",
+                                    "url": "/productDetail/linen/spaAndresort/haori/GS-H001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-H001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-H001.jpg",
+                                            "name": "GS-H001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
                                     ]
                                 }
                             ]
@@ -758,23 +940,111 @@
                             "url": "/productList/linen/spaAndresort/otherItems",
                             "products": [
                                 {
-                                    "id": "otherItems_product_1",
-                                    "url": "/productDetail/linen/spaAndresort/otherItems/otherItems_product_1",
+                                    "id": "GS-SL001",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-SL001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-SL001.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL002",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL002",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL002 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL002.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL003",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL003",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL003 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL003.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL004",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL004",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL004 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL004.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL005",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL005",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL005 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL005.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-SL006",
+                                    "url": "/productDetail/linen/spaAndresort/otherItems/GS-SL006",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-SL006 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-SL006.jpg",
+                                            "name": "GS-TC001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
                                     ]
                                 }
                             ]
@@ -1408,23 +1678,123 @@
                             "url": "/productList/linen/hospital/waterproofSheets",
                             "products": [
                                 {
-                                    "id": "waterproofSheets_product_1",
-                                    "url": "/productDetail/linen/hospital/waterproofSheets/waterproofSheets_product_1",
+                                    "id": "GS-WPS001",
+                                    "url": "/productDetail/linen/hospital/waterproofSheets/GS-WPS001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-WPS001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-WPS001.jpg",
+                                            "name": "GS-WPS001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-WPS001-1.jpg",
+                                            "name": "GS-WPS001-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-WPS002",
+                                    "url": "/productDetail/linen/hospital/waterproofSheets/GS-WPS002",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-WPS002 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-WPS002.jpg",
+                                            "name": "GS-WPS002.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-WPS002-1.jpg",
+                                            "name": "GS-WPS002-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-WPS003",
+                                    "url": "/productDetail/linen/hospital/waterproofSheets/GS-WPS003",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-WPS003 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-WPS003.jpg",
+                                            "name": "GS-WPS003.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-WPS003-1.jpg",
+                                            "name": "GS-WPS003-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-WPS004",
+                                    "url": "/productDetail/linen/hospital/waterproofSheets/GS-WPS004",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-WPS004 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-WPS004.jpg",
+                                            "name": "GS-WPS004.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-WPS004-1.jpg",
+                                            "name": "GS-WPS004-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "GS-WPS005",
+                                    "url": "/productDetail/linen/hospital/waterproofSheets/GS-WPS005",
+                                    "thumbNails": [
+                                        {
+                                            "id": "thumbNail1",
+                                            "name": "GS-WPS005 (thumbnail).png"
+                                        }
+                                    ],
+                                    "imgs": [
+                                        {
+                                            "id": "GS-WPS005.jpg",
+                                            "name": "GS-WPS005.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-WPS005-1.jpg",
+                                            "name": "GS-WPS005-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
                                     ]
                                 }
                             ]
@@ -1460,23 +1830,21 @@
                             "url": "/productList/linen/hospital/otherItems",
                             "products": [
                                 {
-                                    "id": "otherItems_product_1",
-                                    "url": "/productDetail/linen/hospital/otherItems/otherItems_product_1",
+                                    "id": "GS-NB001",
+                                    "url": "/productDetail/linen/hospital/otherItems/GS-NB001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-NB001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-NB001.jpg",
+                                            "name": "GS-NB001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        }
                                     ]
                                 }
                             ]
