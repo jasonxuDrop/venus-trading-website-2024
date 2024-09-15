@@ -1272,23 +1272,33 @@
                             "url": "/productList/linen/hospital/undergarments",
                             "products": [
                                 {
-                                    "id": "undergarments_product_1",
-                                    "url": "/productDetail/linen/hospital/undergarments/undergarments_product_1",
+                                    "id": "GS-M001",
+                                    "url": "/productDetail/linen/hospital/undergarments/GS-M001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-M001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-M001.jpg",
+                                            "name": "GS-M001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-M001-1.jpg",
+                                            "name": "GS-M001-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-M001-2.jpg",
+                                            "name": "GS-M001-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
                                     ]
                                 }
                             ]
@@ -1298,23 +1308,45 @@
                             "url": "/productList/linen/hospital/scrubs",
                             "products": [
                                 {
-                                    "id": "scrubs_product_1",
-                                    "url": "/productDetail/linen/hospital/scrubs/scrubs_product_1",
+                                    "id": "GS-SG001",
+                                    "url": "/productDetail/linen/hospital/scrubs/GS-SG001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
-                                            "name": "thumbNail.png"
-                                        },
-                                        {
-                                            "id": "thumbNail2",
-                                            "name": "thumbNail2.png"
+                                            "name": "GS-SG001 (thumbnail).png"
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-SG001.jpg",
+                                            "name": "GS-SG001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-SG001-1.jpg",
+                                            "name": "GS-SG001-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-SG001-2.jpg",
+                                            "name": "GS-SG001-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-SG001-3.jpg",
+                                            "name": "GS-SG001-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-SG001-4.jpg",
+                                            "name": "GS-SG001-4.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
                                     ]
                                 }
                             ]
@@ -1324,8 +1356,8 @@
                             "url": "/productList/linen/hospital/nurseDress",
                             "products": [
                                 {
-                                    "id": "nurseDress_product_1",
-                                    "url": "/productDetail/linen/hospital/nurseDress/nurseDress_product_1",
+                                    "id": "GS-NU001",
+                                    "url": "/productDetail/linen/hospital/nurseDress/GS-NU001",
                                     "thumbNails": [
                                         {
                                             "id": "thumbNail1",
@@ -1337,10 +1369,36 @@
                                         }
                                     ],
                                     "imgs": [
-                                        {},
-                                        {},
-                                        {},
-                                        {}
+                                        {
+                                            "id": "GS-HW001.jpg",
+                                            "name": "GS-HW001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "cover"
+                                        },
+                                        {
+                                            "id": "GS-HW001.jpg",
+                                            "name": "GS-HW001.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-HW001-1.jpg",
+                                            "name": "GS-HW001-1.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-HW001-2.jpg",
+                                            "name": "GS-HW001-2.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        },
+                                        {
+                                            "id": "GS-HW001-3.jpg",
+                                            "name": "GS-HW001-3.jpg",
+                                            "alt": "product detail image",
+                                            "use_for": "gallery"
+                                        }
                                     ]
                                 }
                             ]
