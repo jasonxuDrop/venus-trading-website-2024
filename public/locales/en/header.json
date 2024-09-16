@@ -2,9 +2,10 @@
     "nav": {
         "home": "Home",
         "about": "About",
-        "linden": "Linden Products",
-        "hotel": "Hotel",
-        "hotSpring": "Hot Spring Resort",
+        "linden": "Linen Products",
+        "hotel": "Hotel Linen",
+        "hotSpring": "Spa & Resort",
+        "restaurant": "Restaurant Linen",
         "hospital": "Hospital",
         "fabric": "Fabric",
         "apparel": "Apparel Products",
