@@ -1,16 +1,17 @@
 {
     "nav": {
         "home": "ホーム",
-        "about": "約",
-        "linden": "リンデン製品",
-        "hotel": "リンデン製品",
-        "hotSpring": "温泉リゾート",
-        "hospital": "病院",
-        "fabric": "布",
-        "apparel": "アパレル製品",
-        "apron": "エプロン",
+        "about": "会社概要",
+        "linden": "リネン事業",
+        "hotel": "ホテルリネン",
+        "hotSpring": "温泉旅館施設",
+        "restaurant": "レストランリネン",
+        "hospital": "病院/介護用品",
+        "fabric": "生地",
+        "apparel": "一般用アパレル",
+        "apron": "ワークエプロン",
         "pajama": "パジャマ",
-        "contact": "接触",
+        "contact": "お問い合わせ",
         "lang": "English"
     }
 }

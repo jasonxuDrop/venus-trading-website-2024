@@ -26,10 +26,11 @@ const ApparelProducts = () => {
           ></span>
         </h2>
       </div>
-      {/* relative grid md:grid-cols-8 md:gap-8 lg:grid-cols-12 lg:gap-8 */}
       <div className="relative grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-8 md:col-start-3 lg:col-span-12 lg:col-start-0">
-          <div className="flex flex-wrap md:mx-[50px] lg:mx-[100px]">
+          <div className="max-w-[756px] mx-auto
+              flex flex-col flex-wrap items-center mt-8 gap-6 
+              md:flex-row md:justify-center md:mt-0 md:gap-8">
             {productsLink.allProducts.apparel.productCard.map(
               (productCard, index) => (
                 <ProductCard
@@ -38,7 +39,7 @@ const ApparelProducts = () => {
                   productType={productCard.id}
                   productCategory={productCard.category[0].id}
                   productTitle={t(`productType.${productCard.id}.title`)}
-                  className="md:max-w-[200px] flex-shrink-0"
+                  // className="md:max-w-[200px] flex-shrink-0"
                 />
               )
             )}
