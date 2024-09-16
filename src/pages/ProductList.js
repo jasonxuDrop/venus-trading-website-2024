@@ -167,15 +167,15 @@ const ProductList = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
-          <h1 className="text-white">
+          <h2 className="text-white">
             {t(`productType.${productType}.title`)}
-          </h1>
+          </h2>
           {productCategory && (
-            <h2 className="text-white">
+            <h1 className="text-white">
               {t(
                 `productType.${productType}.category.${productCategory}.title`
               )}
-            </h2>
+            </h1>
           )}
         </div>
       </div>
