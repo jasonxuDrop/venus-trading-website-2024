@@ -163,7 +163,7 @@ const ProductList = () => {
         <img
           src={coverImagePath}
           alt="cover image"
-          className="w-full h-[509px] object-cover"
+          className="w-full h-[250px] object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 max-w-screen-xl mx-auto py-[48px] px-3.5 sm:px-16 lg:px-32">
@@ -205,7 +205,7 @@ const ProductList = () => {
           </div>
 
           <div className="col-span-12 lg:col-span-12 lg:col-start-1">
-            <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-2 lg:gap-4">
+            <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-8 lg:gap-6">
               {products?.map((product, index) => {
                 const productCardProps = {
                   key: product?.id,
