@@ -1,17 +1,17 @@
 {
-    "nav": {
-        "home": "Home",
-        "about": "About",
-        "linden": "Linen Products",
-        "hotel": "Hotel Linen",
-        "hotSpring": "Spa & Resort",
-        "restaurant": "Restaurant Linen",
-        "hospital": "Hospital",
-        "fabric": "Fabric",
-        "apparel": "Apparel Products",
-        "apron": "Apron",
-        "pajama": "Pajama",
-        "contact": "Contact",
-        "lang": "日本語"
-    }
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "linden": "Linen Products",
+    "hotel": "Hotel Linen",
+    "spa-and-resort": "Spa & Resort",
+    "restaurant": "Restaurant Linen",
+    "hospital": "Hospital",
+    "fabric": "Fabric",
+    "apparel": "Apparel Products",
+    "apron": "Apron",
+    "pajama": "Pajama",
+    "contact": "Contact",
+    "lang": "日本語"
+  }
 }

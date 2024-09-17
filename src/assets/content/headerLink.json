@@ -1,58 +1,165 @@
 {
-    "navigation": {
-        "links": [
-            {
-                "id": "home",
-                "url": "/"
-            },
-            {
-                "id": "about",
-                "url": "/about"
-            },
-            {
-                "id": "linden",
-                "url": "/linedenProducts",
-                "subMenu": [
-                    {
-                        "id": "hotel",
-                        "url": "/productList/linen/hotel"
-                    },
-                    {
-                        "id": "hotSpring",
-                        "url": "/productList/linen/hotSpring"
-                    },
-                    {
-                        "id": "hospital",
-                        "url": "/productList/linen/hospital"
-                    },
-                    {
-                        "id": "fabric",
-                        "url": "/productList/linen/fabric"
-                    }
-                ]
-            },
-            {
-                "id": "apparel",
-                "url": "/apparelProducts",
-                "subMenu": [
-                    {
-                        "id": "apron",
-                        "url": "/productList/apparel/apron"
-                    },
-                    {
-                        "id": "pajama",
-                        "url": "/productList/apparel/pajama"
-                    }
-                ]
-            },
-            {
-                "id": "contact",
-                "url": "/contact"
-            },
-            {
-                "id": "lang",
-                "url": null
-            }
+  "navigation": {
+    "links": [
+      {
+        "id": "home",
+        "url": "/"
+      },
+      {
+        "id": "about",
+        "url": "/about"
+      },
+      {
+        "id": "linden",
+        "url": "/linedenProducts",
+        "subMenu": [
+          {
+            "id": "hotel",
+            "category": [
+              {
+                "id": "gown",
+                "url": "/productList/hotel/gown"
+              },
+              {
+                "id": "pajama",
+                "url": "/productList/hotel/pajama"
+              },
+              {
+                "id": "samue",
+                "url": "/productList/hotel/samue"
+              },
+              {
+                "id": "bathrobe",
+                "url": "/productList/hotel/bathrobe"
+              },
+              {
+                "id": "bath-linen",
+                "url": "/productList/hotel/bath-linen"
+              },
+              {
+                "id": "others",
+                "url": "/productList/hotel/others"
+              }
+            ]
+          },
+          {
+            "id": "spa-and-resort",
+            "category": [
+              {
+                "id": "yukata",
+                "url": "/productList/spa-and-resort/yukata"
+              },
+              {
+                "id": "relax-wear",
+                "url": "/productList/spa-and-resort/relax-wear"
+              },
+              {
+                "id": "haori",
+                "url": "/productList/spa-and-resort/haori"
+              },
+              {
+                "id": "others",
+                "url": "/productList/spa-and-resort/others"
+              }
+            ]
+          },
+          {
+            "id": "hospital",
+            "category": [
+              {
+                "id": "patient-clothes",
+                "url": "/productList/hospital/patient-clothes"
+              },
+              {
+                "id": "undergarments",
+                "url": "/productList/hospital/undergarments"
+              },
+              {
+                "id": "scrubs",
+                "url": "/productList/hospital/scrubs"
+              },
+              {
+                "id": "nurse-dress",
+                "url": "/productList/hospital/nurse-dress"
+              },
+              {
+                "id": "waterproof-sheets",
+                "url": "/productList/hospital/waterproof-sheets"
+              },
+              {
+                "id": "bed-products",
+                "url": "/productList/hospital/bed-products"
+              },
+              {
+                "id": "others",
+                "url": "/productList/hospital/others"
+              }
+            ]
+          },
+          {
+            "id": "restaurant",
+            "category": [
+              {
+                "id": "table-cloth",
+                "url": "/productList/restaurant/table-cloth"
+              },
+              {
+                "id": "napkin",
+                "url": "/productList/restaurant/napkin"
+              },
+              {
+                "id": "glass-towel",
+                "url": "/productList/restaurant/glass-towel"
+              },
+              {
+                "id": "others",
+                "url": "/productList/restaurant/others"
+              }
+            ]
+          },
+          {
+            "id": "fabric",
+            "category": [
+              {
+                "id": "all-fabric",
+                "url": "/productList/spa-and-resort/all-fabric"
+              }
+            ]
+          }
         ]
-    }
+      },
+      {
+        "id": "apparel",
+        "url": "/apparelProducts",
+        "subMenu": [
+          {
+            "id": "apron",
+            "category": [
+              {
+                "id": "all-apron",
+                "url": "/productList/apron/all-apron"
+              }
+            ]
+          },
+          {
+            "id": "pajama",
+            "category": [
+              {
+                "id": "all-pajama",
+                "url": "/productList/pajama/all-pajama"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "url": "/contact"
+      },
+      {
+        "id": "lang",
+        "url": null
+      }
+    ]
+  }
 }
