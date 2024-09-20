@@ -18,27 +18,27 @@
             "category": [
               {
                 "id": "gown",
-                "url": "/productList/hotel/gown"
+                "url": "/productList/linen/hotel/gown"
               },
               {
                 "id": "pajama",
-                "url": "/productList/hotel/pajama"
+                "url": "/productList/linen/hotel/pajama"
               },
               {
                 "id": "samue",
-                "url": "/productList/hotel/samue"
+                "url": "/productList/linen/hotel/samue"
               },
               {
                 "id": "bathrobe",
-                "url": "/productList/hotel/bathrobe"
+                "url": "/productList/linen/hotel/bathrobe"
               },
               {
                 "id": "bath-linen",
-                "url": "/productList/hotel/bath-linen"
+                "url": "/productList/linen/hotel/bath-linen"
               },
               {
                 "id": "others",
-                "url": "/productList/hotel/others"
+                "url": "/productList/linen/hotel/others"
               }
             ]
           },
@@ -47,19 +47,19 @@
             "category": [
               {
                 "id": "yukata",
-                "url": "/productList/spa-and-resort/yukata"
+                "url": "/productList/linen/spa-and-resort/yukata"
               },
               {
                 "id": "relax-wear",
-                "url": "/productList/spa-and-resort/relax-wear"
+                "url": "/productList/linen/spa-and-resort/relax-wear"
               },
               {
                 "id": "haori",
-                "url": "/productList/spa-and-resort/haori"
+                "url": "/productList/linen/spa-and-resort/haori"
               },
               {
                 "id": "others",
-                "url": "/productList/spa-and-resort/others"
+                "url": "/productList/linen/spa-and-resort/others"
               }
             ]
           },
@@ -68,31 +68,31 @@
             "category": [
               {
                 "id": "patient-clothes",
-                "url": "/productList/hospital/patient-clothes"
+                "url": "/productList/linen/hospital/patient-clothes"
               },
               {
                 "id": "undergarments",
-                "url": "/productList/hospital/undergarments"
+                "url": "/productList/linen/hospital/undergarments"
               },
               {
                 "id": "scrubs",
-                "url": "/productList/hospital/scrubs"
+                "url": "/productList/linen/hospital/scrubs"
               },
               {
                 "id": "nurse-dress",
-                "url": "/productList/hospital/nurse-dress"
+                "url": "/productList/linen/hospital/nurse-dress"
               },
               {
                 "id": "waterproof-sheets",
-                "url": "/productList/hospital/waterproof-sheets"
+                "url": "/productList/linen/hospital/waterproof-sheets"
               },
               {
                 "id": "bed-products",
-                "url": "/productList/hospital/bed-products"
+                "url": "/productList/linen/hospital/bed-products"
               },
               {
                 "id": "others",
-                "url": "/productList/hospital/others"
+                "url": "/productList/linen/hospital/others"
               }
             ]
           },
@@ -101,19 +101,19 @@
             "category": [
               {
                 "id": "table-cloth",
-                "url": "/productList/restaurant/table-cloth"
+                "url": "/productList/linen/restaurant/table-cloth"
               },
               {
                 "id": "napkin",
-                "url": "/productList/restaurant/napkin"
+                "url": "/productList/linen/restaurant/napkin"
               },
               {
                 "id": "glass-towel",
-                "url": "/productList/restaurant/glass-towel"
+                "url": "/productList/linen/restaurant/glass-towel"
               },
               {
                 "id": "others",
-                "url": "/productList/restaurant/others"
+                "url": "/productList/linen/restaurant/others"
               }
             ]
           },
@@ -122,7 +122,7 @@
             "category": [
               {
                 "id": "all-fabric",
-                "url": "/productList/spa-and-resort/all-fabric"
+                "url": "/productList/linen/spa-and-resort/all-fabric"
               }
             ]
           }
@@ -137,7 +137,7 @@
             "category": [
               {
                 "id": "all-apron",
-                "url": "/productList/apron/all-apron"
+                "url": "/productList/apparel/apron/all-apron"
               }
             ]
           },
@@ -146,7 +146,7 @@
             "category": [
               {
                 "id": "all-pajama",
-                "url": "/productList/pajama/all-pajama"
+                "url": "/productList/apparel/pajama/all-pajama"
               }
             ]
           }
