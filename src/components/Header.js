@@ -191,7 +191,7 @@ const Header = () => {
                           return (
                             <a href={cate.url} key={index} className="mb-[4px]">
                               <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                {cate.id}
+                                {t(`nav.${cate.id}`)}
                               </span>
                             </a>
                           );
@@ -213,7 +213,7 @@ const Header = () => {
                           return (
                             <a href={cate.url} key={index} className="mb-[4px]">
                               <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                {cate.id}
+                                {t(`nav.${cate.id}`)}
                               </span>
                             </a>
                           );
@@ -235,7 +235,7 @@ const Header = () => {
                           return (
                             <a href={cate.url} key={index} className="mb-[4px]">
                               <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                {cate.id}
+                                {t(`nav.${cate.id}`)}
                               </span>
                             </a>
                           );
@@ -272,7 +272,7 @@ const Header = () => {
                           return (
                             <a href={cate.url} className="mb-[4px]">
                               <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                {cate.id}
+                                {t(`nav.${cate.id}`)}
                               </span>
                             </a>
                           );
@@ -294,7 +294,7 @@ const Header = () => {
                           return (
                             <a href={cate.url} className="mb-[4px]">
                               <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                {cate.id}
+                                {t(`nav.${cate.id}`)}
                               </span>
                             </a>
                           );
@@ -313,7 +313,7 @@ const Header = () => {
                           return (
                             <a href={cate.url}>
                               <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                {cate.id}
+                                {t(`nav.${cate.id}`)}
                               </span>
                             </a>
                           );
