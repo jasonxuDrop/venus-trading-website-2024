@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import productsLink from "../assets/content/productsLink.json";
 
 const ProductDetail = () => {
-  const { type, productType, productID } = useParams(); // Get type, productType, productID from url
+  const { type, productType, productCategory, productID } = useParams(); // Get type, productType, productID from url
 
   const [showModal, setShowModal] = useState(false);
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
@@ -22,14 +22,15 @@ const ProductDetail = () => {
 
   // For product details
   const productDetails = productsLink.allProducts[type].productCard
-    .find((element) => element.id === productType)
+    .find((element) => element.id === productType)?.category.find((element) => element.id === productCategory)
     ?.products.find((element) => element.id === productID);
 
   console.log("xx", productDetails);
   console.log("xxxx", imagesPath);
 
   // For product details content in English and Janapanes
-  const details = t(`productType.${productType}.products.${productID}.details`);
+  const details = t(`productType.${productType}.category.${productCategory}.products.${productID}.details`);
+  console.log("123", details);
 
   useEffect(() => {
     let isMounted = true; // Flag to check if component is still mounted
