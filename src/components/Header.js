@@ -282,7 +282,7 @@ const Header = () => {
                   );
                 } else if (index === 0) {
                   return (
-                    <div className="col-span-2 col-start-8">
+                    <div className="col-span-2 col-start-3">
                       <h4
                         href={subLink.url}
                         className="text-mobileHeading4 text-hoverColor mb-[4px] cursor-default select-none"
