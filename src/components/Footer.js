@@ -12,63 +12,55 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-footerBgColor">
+    <footer className="bg-footerBgColor text-textWhite">
       <div className="max-w-7xl mx-auto py-12 px-3.5 sm:px-16 lg:px-32">
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
-          <div className="sm:col-span-1 lg:col-span-2">
+          <div className="sm:col-span-1 lg:col-span-4">
             <div className="flex items-center flex-shrink-0">
               <img
                 src={logo}
                 alt="Logo"
-                className="h-[auto] w-[300px] lg:w-full mr-2"
+                className="h-[auto] w-[420px]"
               />
-              <div className="text-left text-textWhite"></div>
             </div>
             <div className="mt-4">
               {footerLink.navigation["col-1"].map((link) => {
                 return (
-                  <p className="text-left text-textWhite">
+                  <p className="text-left">
                     {t(`footer.${link.id}`)}:{" "}
                     <span>{t(`footer.${link.id2}`)}</span>
                   </p>
                 );
               })}
             </div>
-            <div className="mt-8 flex space-x-6">
-              {/* Social media links here */}
-              <a href="/#" className="text-gray-400 hover:text-gray-500">
-                <span className="sr-only">Facebook</span>
-                {/* Placeholder for Facebook Icon */}
-              </a>
-              <a href="/#" className="text-gray-400 hover:text-gray-500">
-                <span className="sr-only">Instagram</span>
-                {/* Placeholder for Instagram Icon */}
-              </a>
-              {/* More social icons */}
-            </div>
           </div>
-          <div className="sm:col-span-1 lg:col-start-4 lg:col-span-1 text-textWhite text-left lg:text-right">
+          <div className="hidden lg:block lg:col-span-1 text-left lg:text-right">
             <ul className="text-mobileHeading4">
-              {footerLink.navigation["col-2"].map((link, index) => {
-                if (index === 0) {
-                  return (
-                    <li>
+              {footerLink.navigation["col-3"].map((link, index) => {
+                return (
+                    <li className="mb-4 last:mb-0">
                       <a href={link.url}>{t(`footer.${link.id}`)}</a>
                     </li>
                   );
-                } else if (
+              })}
+            </ul>
+          </div>
+          <div className="sm:col-span-1 lg:col-span-1 text-left lg:text-right">
+            <ul className="text-mobileHeading4 ">
+              {footerLink.navigation["col-2"].map((link, index) => {
+                if (
                   link.id === "linden" ||
-                  link.id === "apparel" ||
-                  link.id === "contact"
+                  link.id === "apparel"
                 ) {
                   return (
-                    <li className="mt-4 block lg:hidden">
+                    <li className="mb-4 block lg:hidden last:mb-0">
                       <a href={link.url}>{t(`footer.${link.id}`)}</a>
                     </li>
                   );
-                } else {
+                } 
+                else if (link.id === "lang") {
                   return (
-                    <li className="mt-4">
+                    <li className="mb-4 last:mb-0">
                       <button
                         href={link.url}
                         onClick={() =>
@@ -80,40 +72,9 @@ const Footer = () => {
                     </li>
                   );
                 }
-              })}
-            </ul>
-          </div>
-          <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
-            <ul className="text-mobileHeading4">
-              {footerLink.navigation["col-3"].map((link, index) => {
-                if (index === 0) {
+                else{
                   return (
-                    <li>
-                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                    </li>
-                  );
-                } else {
-                  return (
-                    <li className="mt-4">
-                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                    </li>
-                  );
-                }
-              })}
-            </ul>
-          </div>
-          <div className="hidden lg:block lg:col-span-1 text-textWhite text-left lg:text-right">
-            <ul className="text-mobileHeading4">
-              {footerLink.navigation["col-4"].map((link, index) => {
-                if (index === 0) {
-                  return (
-                    <li>
-                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                    </li>
-                  );
-                } else {
-                  return (
-                    <li className="mt-4">
+                    <li className="mb-4 last:mb-0">
                       <a href={link.url}>{t(`footer.${link.id}`)}</a>
                     </li>
                   );
@@ -123,8 +84,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-footerBgColor mt-4 pt-8 pb-8">
-        <p className="text-sm text-textWhite text-left px-3.5 sm:px-16 lg:px-8 lg:text-center">
+      <div className="mt-4 pt-8 pb-8">
+        <p className="text-sm text-left px-3.5 sm:px-16 lg:px-8 lg:text-center">
           {t(`footer.${footerLink.copyRight.id}`)}
         </p>
       </div>
