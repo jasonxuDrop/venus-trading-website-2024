@@ -37,43 +37,30 @@ const Footer = () => {
           <div className="hidden lg:block lg:col-span-1 text-left lg:text-right">
             <ul className="text-mobileHeading4">
               {footerLink.navigation["col-3"].map((link, index) => {
-                if (index === 0) {
-                  return (
-                    <li>
+                return (
+                    <li className="mb-4 last:mb-0">
                       <a href={link.url}>{t(`footer.${link.id}`)}</a>
                     </li>
                   );
-                } else {
-                  return (
-                    <li className="mt-4">
-                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                    </li>
-                  );
-                }
               })}
             </ul>
           </div>
           <div className="sm:col-span-1 lg:col-span-1 text-left lg:text-right">
-            <ul className="text-mobileHeading4">
+            <ul className="text-mobileHeading4 ">
               {footerLink.navigation["col-2"].map((link, index) => {
-                if (index === 0) {
-                  return (
-                    <li>
-                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
-                    </li>
-                  );
-                } else if (
+                if (
                   link.id === "linden" ||
                   link.id === "apparel"
                 ) {
                   return (
-                    <li className="mt-4 block lg:hidden">
+                    <li className="mb-4 block lg:hidden last:mb-0">
                       <a href={link.url}>{t(`footer.${link.id}`)}</a>
                     </li>
                   );
-                } else {
+                } 
+                else if (link.id === "lang") {
                   return (
-                    <li className="mt-4">
+                    <li className="mb-4 last:mb-0">
                       <button
                         href={link.url}
                         onClick={() =>
@@ -82,6 +69,13 @@ const Footer = () => {
                       >
                         {t(`footer.${link.id}`)}
                       </button>
+                    </li>
+                  );
+                }
+                else{
+                  return (
+                    <li className="mb-4 last:mb-0">
+                      <a href={link.url}>{t(`footer.${link.id}`)}</a>
                     </li>
                   );
                 }
