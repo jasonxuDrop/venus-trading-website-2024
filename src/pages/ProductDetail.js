@@ -45,7 +45,7 @@ const ProductDetail = () => {
       // console.log("running");
       const promises = productDetails.imgs.map((img) =>
         import(
-          `../assets/images/detailImg/${type}/${productType}/${productID}/${img.name}`
+          `../assets/images/detailImg/${type}/${productType}/${productCategory}/${productID}/${img.name}`
         )
           .then((module) => ({ id: img.id, path: module.default }))
           .catch((error) => {

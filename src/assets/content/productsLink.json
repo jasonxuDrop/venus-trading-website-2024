@@ -62,14 +62,26 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G002.jpg",
+                      "name": "GS-G002.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G002-1.jpg",
+                      "name": "GS-G002-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G002-2.jpg",
+                      "name": "GS-G002-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G002-3.jpg",
+                      "name": "GS-G002-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -90,14 +102,14 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G003.jpg",
+                      "name": "GS-G003.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G003-1.jpg",
+                      "name": "GS-G003-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -118,14 +130,26 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G004.jpg",
+                      "name": "GS-G004.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G004-1.jpg",
+                      "name": "GS-G004-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G004-2.jpg",
+                      "name": "GS-G004-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G004-3.jpg",
+                      "name": "GS-G004-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -146,14 +170,20 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G005.jpg",
+                      "name": "GS-G005.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G005-1.jpg",
+                      "name": "GS-G005-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G005-2.jpg",
+                      "name": "GS-G005-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -174,14 +204,26 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G006.jpg",
+                      "name": "GS-G006.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G006-1.jpg",
+                      "name": "GS-G006-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G006-2.jpg",
+                      "name": "GS-G006-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G006-3.jpg",
+                      "name": "GS-G006-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -202,16 +244,10 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G007.jpg",
+                      "name": "GS-G007.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
-                    },
-                    {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
                     }
                   ]
                 },
@@ -230,14 +266,20 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G008.jpg",
+                      "name": "GS-G008.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G008-1.jpg",
+                      "name": "GS-G008-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G008-2.jpg",
+                      "name": "GS-G008-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -258,16 +300,10 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G009.jpg",
+                      "name": "GS-G009.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
-                    },
-                    {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
                     }
                   ]
                 },
@@ -286,14 +322,20 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G010.jpg",
+                      "name": "GS-G010.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G010-1.jpg",
+                      "name": "GS-G010-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G010-2.jpg",
+                      "name": "GS-G010-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -314,16 +356,10 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G011.jpg",
+                      "name": "GS-G011.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
-                    },
-                    {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
                     }
                   ]
                 },
@@ -342,14 +378,14 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G012.jpg",
+                      "name": "GS-G012.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G012-1.jpg",
+                      "name": "GS-G012-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -370,14 +406,14 @@
                   ],
                   "imgs": [
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G013.jpg",
+                      "name": "GS-G013.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G013-1.jpg",
+                      "name": "GS-G013-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -2616,7 +2652,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-AP001 (thumbnail).png"
+                      "name": "GS-AP001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -2640,7 +2676,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-AP002 (thumbnail).png"
+                      "name": "GS-AP002 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -2706,7 +2742,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-AP003 (thumbnail).png"
+                      "name": "GS-AP003 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -2766,7 +2802,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-AP004 (thumbnail).png"
+                      "name": "GS-AP004 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -2826,15 +2862,15 @@
           "category": [
             {
               "id": "all-pajama",
-              "url": "/productList/apparel/apron/all-pajama",
+              "url": "/productList/apparel/pajama/all-pajama",
               "products": [
                 {
                   "id": "GS-P001",
-                  "url": "/productDetail/apparel/apron/all-pajama/GS-P001",
+                  "url": "/productDetail/apparel/pajama/all-pajama/GS-P001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-P001 (thumbnail).png"
+                      "name": "GS-P001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -2872,11 +2908,11 @@
                 },
                 {
                   "id": "GS-P002",
-                  "url": "/productDetail/apparel/apron/all-pajama/GS-P002",
+                  "url": "/productDetail/apparel/pajama/all-pajama/GS-P002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-P002 (thumbnail).png"
+                      "name": "GS-P002 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -2885,12 +2921,6 @@
                       "name": "GS-P002.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
-                    },
-                    {
-                      "id": "GS-P002-1.jpg",
-                      "name": "GS-P002-1.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
                     },
                     {
                       "id": "GS-P002-2.jpg",
@@ -2908,11 +2938,11 @@
                 },
                 {
                   "id": "GS-P003",
-                  "url": "/productDetail/apparel/apron/all-pajama/GS-P003",
+                  "url": "/productDetail/apparel/pajama/all-pajama/GS-P003",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-P003 (thumbnail).png"
+                      "name": "GS-P003 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [

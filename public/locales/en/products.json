@@ -3616,8 +3616,8 @@
           "title": "All Apron",
           "des": "",
           "products": {
-            "apron_product": {
-              "title": "apron product",
+            "GS-AP001": {
+              "title": "GS-AP001",
               "meterial": "meterial 100%",
               "materialText": "Material",
               "details": {
@@ -3648,8 +3648,8 @@
                 "gallery": "Gallery"
               }
             },
-            "apron_product1": {
-              "title": "apron product 1",
+            "GS-AP002": {
+              "title": "GS-AP002",
               "meterial": "meterial 100%",
               "materialText": "Material",
               "details": {
@@ -3680,8 +3680,40 @@
                 "gallery": "Gallery"
               }
             },
-            "apron_product2": {
-              "title": "apron product 2",
+            "GS-AP003": {
+              "title": "GS-AP003",
+              "meterial": "meterial 100%",
+              "materialText": "Material",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "spec": {
+                  "productNameText": "Name",
+                  "productName": "Waffle",
+                  "materialsText": "Materials",
+                  "materials": {
+                    "material_1": "Rose pattern",
+                    "material_2": "Plain satin"
+                  },
+                  "categoryText": "Category",
+                  "category": "Hand towels, face towels, bath towels, etc.",
+                  "category2Text": "Category",
+                  "category2": {
+                    "category2_1": "Bath Towel:",
+                    "category2_2": "Bath Mat: 20x30 inches",
+                    "category2_3": "Face Towel: 12x12 inches or 13x13 inches",
+                    "category2_4": "Hand Towel: 16x27 inches",
+                    "category2_5": "Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                },
+                "gallery": "Gallery"
+              }
+            },
+            "GS-AP004": {
+              "title": "GS-AP004",
               "meterial": "meterial 100%",
               "materialText": "Material",
               "details": {
@@ -3725,8 +3757,8 @@
           "title": "All Pajama",
           "des": "",
           "products": {
-            "pajama_product": {
-              "title": "pajama product",
+            "GS-P001": {
+              "title": "GS-P001",
               "meterial": "meterial 100%",
               "materialText": "Material",
               "details": {
@@ -3757,8 +3789,8 @@
                 "gallery": "Gallery"
               }
             },
-            "pajama_product1": {
-              "title": "pajama product 1",
+            "GS-P002": {
+              "title": "GS-P002",
               "meterial": "meterial 100%",
               "materialText": "Material",
               "details": {
@@ -3789,8 +3821,8 @@
                 "gallery": "Gallery"
               }
             },
-            "pajama_product2": {
-              "title": "pajama product 2",
+            "GS-P003": {
+              "title": "GS-P003",
               "meterial": "meterial 100%",
               "materialText": "Material",
               "details": {
