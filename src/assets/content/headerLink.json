@@ -33,8 +33,8 @@
                 "url": "/productList/linen/hotel/bathrobe"
               },
               {
-                "id": "bath-linen",
-                "url": "/productList/linen/hotel/bath-linen"
+                "id": "bed-linen",
+                "url": "/productList/linen/hotel/bed-linen"
               },
               {
                 "id": "others",
@@ -87,10 +87,6 @@
                 "url": "/productList/linen/hospital/waterproof-sheets"
               },
               {
-                "id": "bed-products",
-                "url": "/productList/linen/hospital/bed-products"
-              },
-              {
                 "id": "others",
                 "url": "/productList/linen/hospital/others"
               }
@@ -110,10 +106,6 @@
               {
                 "id": "glass-towel",
                 "url": "/productList/linen/restaurant/glass-towel"
-              },
-              {
-                "id": "others",
-                "url": "/productList/linen/restaurant/others"
               }
             ]
           },
@@ -122,7 +114,7 @@
             "category": [
               {
                 "id": "all-fabric",
-                "url": "/productList/linen/spa-and-resort/all-fabric"
+                "url": "/productList/linen/fabric/all-fabric"
               }
             ]
           }

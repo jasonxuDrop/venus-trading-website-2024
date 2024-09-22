@@ -390,40 +390,36 @@
               "url": "/productList/linen/hotel/pajama",
               "products": [
                 {
-                  "id": "pajama_product_1",
-                  "url": "/productDetail/linen/hotel/pajama/pajama_product_1",
+                  "id": "GS-P001",
+                  "url": "/productDetail/linen/hotel/pajama/GS-P001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
+                      "name": "GS-P001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
                     {
-                      "id": "img",
-                      "name": "product-table-linen-2.png",
+                      "id": "GS-P001.jpg",
+                      "name": "GS-P001.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "img1",
-                      "name": "tablecloth1.png",
+                      "id": "GS-P001-2.jpg",
+                      "name": "GS-P001-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "img2",
-                      "name": "tablecloth2.png",
+                      "id": "GS-P001-3.jpg",
+                      "name": "GS-P001-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "img3",
-                      "name": "tablecloth3.png",
+                      "id": "GS-P001-4.jpg",
+                      "name": "GS-P001-4.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -528,12 +524,12 @@
               "url": "/productList/linen/hotel/bathrobe",
               "products": [
                 {
-                  "id": "bathRobe_product_1",
-                  "url": "/productDetail/linen/hotel/bathrobe/bathRobe_product_1",
+                  "id": "GS-BR001",
+                  "url": "/productDetail/linen/hotel/bathrobe/GS-BR001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
+                      "name": "GS-BR001 (thumbnail).jpg"
                     },
                     {
                       "id": "thumbNail2",
@@ -542,20 +538,20 @@
                   ],
                   "imgs": [
                     {
-                      "id": "img",
-                      "name": "product-table-linen-2.png",
+                      "id": "GS-BR001",
+                      "name": "GS-BR001.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "img1",
-                      "name": "tablecloth1.png",
+                      "id": "GS-BR001-1",
+                      "name": "GS-BR001-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "img2",
-                      "name": "tablecloth2.png",
+                      "id": "GS-BR001-2",
+                      "name": "GS-BR001-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
@@ -574,12 +570,12 @@
               "url": "/productList/linen/hotel/bed-linen",
               "products": [
                 {
-                  "id": "bedLinen_product_1",
-                  "url": "/productDetail/linen/hotel/bed-linen/bedLinen_product_1",
+                  "id": "GS-BD001",
+                  "url": "/productDetail/linen/hotel/bed-linen/GS-BD001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
+                      "name": "GS-BD001 (thumbnail).jpg"
                     },
                     {
                       "id": "thumbNail2",
@@ -588,26 +584,14 @@
                   ],
                   "imgs": [
                     {
-                      "id": "img",
-                      "name": "product-table-linen-2.png",
+                      "id": "GS-BD001",
+                      "name": "GS-BD001.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "img1",
-                      "name": "tablecloth1.png",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
-                    },
-                    {
-                      "id": "img2",
-                      "name": "tablecloth2.png",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
-                    },
-                    {
-                      "id": "img3",
-                      "name": "tablecloth3.png",
+                      "id": "GS-BD001-1",
+                      "name": "GS-BD001-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -620,12 +604,12 @@
               "url": "/productList/linen/hotel/others",
               "products": [
                 {
-                  "id": "otherItems_product_1",
-                  "url": "/productDetail/linen/hotel/others/otherItems_product_1",
+                  "id": "GS-SL001",
+                  "url": "/productDetail/linen/hotel/others/GS-SL001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
+                      "name": "GS-SL001 (thumbnail).jpg"
                     },
                     {
                       "id": "thumbNail2",
@@ -634,28 +618,120 @@
                   ],
                   "imgs": [
                     {
-                      "id": "img",
-                      "name": "product-table-linen-2.png",
+                      "id": "GS-SL001",
+                      "name": "GS-SL001.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL002",
+                  "url": "/productDetail/linen/hotel/others/GS-SL002",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL002 (thumbnail).jpg"
                     },
                     {
-                      "id": "img1",
-                      "name": "tablecloth1.png",
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL002",
+                      "name": "GS-SL002.jpg",
                       "alt": "product detail image",
-                      "use_for": "gallery"
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL003",
+                  "url": "/productDetail/linen/hotel/others/GS-SL003",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL003 (thumbnail).jpg"
                     },
                     {
-                      "id": "img2",
-                      "name": "tablecloth2.png",
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL003",
+                      "name": "GS-SL003.jpg",
                       "alt": "product detail image",
-                      "use_for": "gallery"
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL004",
+                  "url": "/productDetail/linen/hotel/others/GS-SL004",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL004 (thumbnail).jpg"
                     },
                     {
-                      "id": "img3",
-                      "name": "tablecloth3.png",
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL004",
+                      "name": "GS-SL004.jpg",
                       "alt": "product detail image",
-                      "use_for": "gallery"
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL005",
+                  "url": "/productDetail/linen/hotel/others/GS-SL005",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL005 (thumbnail).jpg"
+                    },
+                    {
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL005",
+                      "name": "GS-SL005.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL006",
+                  "url": "/productDetail/linen/hotel/others/GS-SL006",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL006 (thumbnail).jpg"
+                    },
+                    {
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL006",
+                      "name": "GS-SL006.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
                     }
                   ]
                 }
@@ -680,19 +756,22 @@
               "url": "/productList/linen/spa-and-resort/yukata",
               "products": [
                 {
-                  "id": "yukata_product_1",
-                  "url": "/productDetail/linen/spa-and-resort/yukata/yukata_product_1",
+                  "id": "GS-Y001",
+                  "url": "/productDetail/linen/spa-and-resort/yukata/GS-Y001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
+                      "name": "GS-Y001 (thumbnail).jpg"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
+                  "imgs": [
+                    {
+                      "id": "GS-Y001",
+                      "name": "GS-Y001.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
                 }
               ]
             },
@@ -701,19 +780,142 @@
               "url": "/productList/linen/spa-and-resort/relax-wear",
               "products": [
                 {
-                  "id": "relaxWear_product_1",
-                  "url": "/productDetail/linen/spa-and-resort/relax-wear/relaxWear_product_1",
+                  "id": "GS-RW001",
+                  "url": "/productDetail/linen/spa-and-resort/relax-wear/GS-RW001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
+                      "name": "GS-RW001 (thumbnail).jpg"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
+                  "imgs": [
+                    {
+                      "id": "GS-RW001",
+                      "name": "GS-RW001.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW001-1",
+                      "name": "GS-RW001-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW001-2",
+                      "name": "GS-RW001-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW001-3",
+                      "name": "GS-RW001-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-RW002",
+                  "url": "/productDetail/linen/spa-and-resort/relax-wear/GS-RW002",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-RW002 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-RW002",
+                      "name": "GS-RW002.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW002-1",
+                      "name": "GS-RW002-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW002-2",
+                      "name": "GS-RW002-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-RW003",
+                  "url": "/productDetail/linen/spa-and-resort/relax-wear/GS-RW003",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-RW003 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-RW003",
+                      "name": "GS-RW003.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW003-1",
+                      "name": "GS-RW003-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW003-2",
+                      "name": "GS-RW003-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW003-3",
+                      "name": "GS-RW003-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-RW004",
+                  "url": "/productDetail/linen/spa-and-resort/relax-wear/GS-RW004",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-RW004 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-RW004",
+                      "name": "GS-RW004.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW004-1",
+                      "name": "GS-RW004-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW004-2",
+                      "name": "GS-RW004-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-RW004-3",
+                      "name": "GS-RW004-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
                 }
               ]
             },
@@ -722,19 +924,22 @@
               "url": "/productList/linen/spa-and-resort/haori",
               "products": [
                 {
-                  "id": "haori_product_1",
-                  "url": "/productDetail/linen/spa-and-resort/haori/yukata_product_1",
+                  "id": "GS-H001",
+                  "url": "/productDetail/linen/spa-and-resort/haori/GS-H001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
+                      "name": "GS-H001 (thumbnail).jpg"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
+                  "imgs": [
+                    {
+                      "id": "GS-H001",
+                      "name": "GS-H001.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
                 }
               ]
             },
@@ -743,19 +948,112 @@
               "url": "/productList/linen/spa-and-resort/others",
               "products": [
                 {
-                  "id": "otherItems_product_1",
-                  "url": "/productDetail/linen/spa-and-resort/others/otherItems_product_1",
+                  "id": "GS-SL001",
+                  "url": "/productDetail/linen/spa-and-resort/others/GS-SL001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
+                      "name": "GS-SL001 (thumbnail).jpg"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
+                  "imgs": [
+                    {
+                      "id": "GS-SL001",
+                      "name": "GS-SL001.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL002",
+                  "url": "/productDetail/linen/spa-and-resort/others/GS-SL002",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL002 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL002",
+                      "name": "GS-SL002.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL003",
+                  "url": "/productDetail/linen/spa-and-resort/others/GS-SL003",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL003 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL003",
+                      "name": "GS-SL003.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL004",
+                  "url": "/productDetail/linen/spa-and-resort/others/GS-SL004",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL004 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL004",
+                      "name": "GS-SL004.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL005",
+                  "url": "/productDetail/linen/spa-and-resort/others/GS-SL005",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL005 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL005",
+                      "name": "GS-SL005.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-SL006",
+                  "url": "/productDetail/linen/spa-and-resort/others/GS-SL006",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-SL006 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-SL006",
+                      "name": "GS-SL006.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
                 }
               ]
             }
@@ -783,7 +1081,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW001 (thumbnail).png"
+                      "name": "GS-HW001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -807,7 +1105,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW002 (thumbnail).png"
+                      "name": "GS-HW002 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -855,7 +1153,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW003 (thumbnail).png"
+                      "name": "GS-HW003 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -891,7 +1189,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW004 (thumbnail).png"
+                      "name": "GS-HW004 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -916,36 +1214,36 @@
                   ]
                 },
                 {
-                  "id": "GS-GS-HW005",
+                  "id": "GS-HW005",
                   "url": "/productDetail/linen/hospital/patient-clothes/GS-GS-HW005",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-GS-HW005 (thumbnail).png"
+                      "name": "GS-HW005 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
                     {
-                      "id": "GS-GS-HW005.jpg",
-                      "name": "GS-GS-HW005.jpg",
+                      "id": "GS-HW005.jpg",
+                      "name": "GS-HW005.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-GS-HW005-1.jpg",
-                      "name": "GS-GS-HW005-1.jpg",
+                      "id": "GS-HW005-1.jpg",
+                      "name": "GS-HW005-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "GS-GS-HW005-2.jpg",
-                      "name": "GS-GS-HW005-2.jpg",
+                      "id": "GS-HW005-2.jpg",
+                      "name": "GS-HW005-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "GS-GS-HW005-3.jpg",
-                      "name": "GS-GS-HW005-3.jpg",
+                      "id": "GS-HW005-3.jpg",
+                      "name": "GS-HW005-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -957,7 +1255,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW006 (thumbnail).png"
+                      "name": "GS-HW006 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -993,7 +1291,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW007 (thumbnail).png"
+                      "name": "GS-HW007 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -1029,7 +1327,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW008 (thumbnail).png"
+                      "name": "GS-HW008 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -1077,7 +1375,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW009 (thumbnail).png"
+                      "name": "GS-HW009 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -1167,7 +1465,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-HW010 (thumbnail).png"
+                      "name": "GS-HW010 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -1257,7 +1555,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-M001 (thumbnail).png"
+                      "name": "GS-M001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -1293,7 +1591,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-SG001 (thumbnail).png"
+                      "name": "GS-SG001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
@@ -1341,7 +1639,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
+                      "name": "GS-NU001 (thumbnail).jpg"
                     },
                     {
                       "id": "thumbNail2",
@@ -1388,40 +1686,144 @@
               "url": "/productList/linen/hospital/waterproof-sheets",
               "products": [
                 {
-                  "id": "waterproofSheets_product_1",
-                  "url": "/productDetail/linen/hospital/waterproof-sheets/waterproofSheets_product_1",
+                  "id": "GS-WPS001",
+                  "url": "/productDetail/linen/hospital/waterproof-sheets/GS-WPS001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
+                      "name": "GS-WPS001 (thumbnail).jpg"
                     },
                     {
                       "id": "thumbNail2",
                       "name": "thumbNail2.png"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
-                }
-              ]
-            },
-            {
-              "id": "bed-products",
-              "url": "/productList/linen/hospital/bed-products",
-              "products": [
+                  "imgs": [
+                    {
+                      "id": "GS-WPS001",
+                      "name": "GS-WPS001",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-WPS001",
+                      "name": "GS-WPS001-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
                 {
-                  "id": "bedProducts_product_1",
-                  "url": "/productDetail/linen/hospital/bed-products/bedProducts_product_1",
+                  "id": "GS-WPS002",
+                  "url": "/productDetail/linen/hospital/waterproof-sheets/GS-WPS002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
+                      "name": "GS-WPS002 (thumbnail).jpg"
                     },
                     {
                       "id": "thumbNail2",
                       "name": "thumbNail2.png"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
+                  "imgs": [
+                    {
+                      "id": "GS-WPS002",
+                      "name": "GS-WPS002",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-WPS002",
+                      "name": "GS-WPS002-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-WPS003",
+                  "url": "/productDetail/linen/hospital/waterproof-sheets/GS-WPS003",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-WPS003 (thumbnail).jpg"
+                    },
+                    {
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-WPS003",
+                      "name": "GS-WPS003",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-WPS003",
+                      "name": "GS-WPS003-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-WPS004",
+                  "url": "/productDetail/linen/hospital/waterproof-sheets/GS-WPS004",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-WPS004 (thumbnail).jpg"
+                    },
+                    {
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-WPS004",
+                      "name": "GS-WPS004",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-WPS004",
+                      "name": "GS-WPS004-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-WPS005",
+                  "url": "/productDetail/linen/hospital/waterproof-sheets/GS-WPS005",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-WPS005 (thumbnail).jpg"
+                    },
+                    {
+                      "id": "thumbNail2",
+                      "name": "thumbNail2.png"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-WPS005",
+                      "name": "GS-WPS005",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-WPS005",
+                      "name": "GS-WPS005-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
                 }
               ]
             },
@@ -1430,19 +1832,22 @@
               "url": "/productList/linen/hospital/others",
               "products": [
                 {
-                  "id": "otherItems_product_1",
-                  "url": "/productDetail/linen/hospital/others/otherItems_product_1",
+                  "id": "GS-NB001",
+                  "url": "/productDetail/linen/hospital/others/GS-NB001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "thumbNail.png"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
+                      "name": "GS-NB001 (thumbnail).jpg"
                     }
                   ],
-                  "imgs": [{}, {}, {}, {}]
+                  "imgs": [
+                    {
+                      "id": "GS-NB001.jpg",
+                      "name": "GS-NB001.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    }
+                  ]
                 }
               ]
             }
@@ -1639,10 +2044,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "others",
-              "url": "/productList/linen/restaurant/others"
             }
           ]
         },
@@ -1866,7 +2267,7 @@
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "TC3070-34S130x80-1cm ST (thumbnail).jpg"
+                      "name": "TC3070-34S 130x80-1cm ST (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
