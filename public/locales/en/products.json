@@ -13,30 +13,26 @@
           "products": {
             "GS-G001": {
               "title": "GS-G001",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "ガウン",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G001"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -44,30 +40,26 @@
             },
             "GS-G002": {
               "title": "GS-G002",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G002"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -75,30 +67,26 @@
             },
             "GS-G003": {
               "title": "GS-G003",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G003"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -106,30 +94,26 @@
             },
             "GS-G004": {
               "title": "GS-G004",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G004"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -137,30 +121,26 @@
             },
             "GS-G005": {
               "title": "GS-G005",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G005"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -168,30 +148,26 @@
             },
             "GS-G006": {
               "title": "GS-G006",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G006"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -199,30 +175,26 @@
             },
             "GS-G007": {
               "title": "GS-G007",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G007"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -235,25 +207,21 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G008"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -266,25 +234,21 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G009"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -297,25 +261,21 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G010"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -323,30 +283,26 @@
             },
             "GS-G011": {
               "title": "GS-G011",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G011"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -359,25 +315,21 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G012"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -390,25 +342,21 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G013"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
                     "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
                   }
                 ],
                 "gallery": "Gallery"
@@ -427,7 +375,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -458,7 +406,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -489,7 +437,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -521,12 +469,12 @@
           "products": {
             "GS-S001": {
               "title": "GS-S001",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -552,12 +500,12 @@
             },
             "GS-S002": {
               "title": "GS-S002",
-              "meterial": "ポリエステル65％/ 綿35％ ",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -594,7 +542,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -625,7 +573,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -656,7 +604,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -693,7 +641,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -724,7 +672,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -755,7 +703,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -792,7 +740,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -823,7 +771,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -854,7 +802,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -885,7 +833,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -916,7 +864,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -947,7 +895,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -991,7 +939,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1022,7 +970,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1053,7 +1001,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1090,7 +1038,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1121,7 +1069,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1152,7 +1100,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1183,7 +1131,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1220,7 +1168,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1257,7 +1205,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1288,7 +1236,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1319,7 +1267,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1350,7 +1298,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1381,7 +1329,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1412,7 +1360,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1456,7 +1404,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1487,7 +1435,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1518,7 +1466,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1549,7 +1497,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1580,7 +1528,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1611,7 +1559,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1642,7 +1590,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1673,7 +1621,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1704,7 +1652,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1735,7 +1683,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1772,7 +1720,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1803,7 +1751,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1834,7 +1782,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1871,7 +1819,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1902,7 +1850,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1933,7 +1881,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -1970,7 +1918,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2001,7 +1949,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2032,7 +1980,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2069,7 +2017,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2100,7 +2048,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2131,7 +2079,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2162,7 +2110,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2193,7 +2141,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2237,7 +2185,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2268,7 +2216,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2299,7 +2247,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2336,7 +2284,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2367,7 +2315,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2398,7 +2346,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2429,7 +2377,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2460,7 +2408,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2497,7 +2445,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2528,7 +2476,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2559,7 +2507,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2603,7 +2551,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2634,7 +2582,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2665,7 +2613,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2696,7 +2644,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2727,7 +2675,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2758,7 +2706,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2789,7 +2737,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2820,7 +2768,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2851,7 +2799,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2882,7 +2830,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2913,7 +2861,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2944,7 +2892,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -2975,7 +2923,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3006,7 +2954,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3037,7 +2985,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3068,7 +3016,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3099,7 +3047,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3130,7 +3078,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3161,7 +3109,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3192,7 +3140,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3223,7 +3171,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3254,7 +3202,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3285,7 +3233,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3316,7 +3264,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3347,7 +3295,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3378,7 +3326,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3409,7 +3357,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3440,7 +3388,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3471,7 +3419,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3515,7 +3463,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3546,7 +3494,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3577,7 +3525,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3608,7 +3556,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3652,7 +3600,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3683,7 +3631,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
@@ -3714,7 +3662,7 @@
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
-                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
