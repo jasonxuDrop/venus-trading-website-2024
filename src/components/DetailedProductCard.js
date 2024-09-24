@@ -19,7 +19,7 @@ const DetailedProductCard = ({
       className={`${className} 
         w-[190px] bg-white flex-0
         flex flex-col 
-        lg:min-w-[322px] lg:h-[160px] lg:col-span-4 lg:flex-row 
+        lg:min-w-[320px] lg:h-[160px] lg:col-span-4 lg:flex-row 
         cursor-pointer shadow-md hover:shadow-lg transition-shadow duration-400 ease-in-out 
         rounded overflow-hidden`}
       onMouseEnter={() => setHover(true)}
