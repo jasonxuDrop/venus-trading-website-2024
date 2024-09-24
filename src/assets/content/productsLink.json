@@ -18,6 +18,16 @@
             {
               "id": "gown",
               "url": "/productList/linen/hotel/gown",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-G001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-G001",
@@ -424,6 +434,12 @@
             {
               "id": "pajama",
               "url": "/productList/linen/hotel/pajama",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-P001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-P001",
@@ -466,6 +482,16 @@
             {
               "id": "samue",
               "url": "/productList/linen/hotel/samue",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-S001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-S001",
@@ -558,6 +584,16 @@
             {
               "id": "bathrobe",
               "url": "/productList/linen/hotel/bathrobe",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-BR001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-BR001",
@@ -604,6 +640,16 @@
             {
               "id": "bed-linen",
               "url": "/productList/linen/hotel/bed-linen",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-BD001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-BD001",
@@ -638,6 +684,16 @@
             {
               "id": "others",
               "url": "/productList/linen/hotel/others",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-SL001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-SL001",
@@ -790,6 +846,12 @@
             {
               "id": "yukata",
               "url": "/productList/linen/spa-and-resort/yukata",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-Y001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-Y001",
@@ -814,6 +876,12 @@
             {
               "id": "relax-wear",
               "url": "/productList/linen/spa-and-resort/relax-wear",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-RW001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-RW001",
@@ -958,6 +1026,12 @@
             {
               "id": "haori",
               "url": "/productList/linen/spa-and-resort/haori",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-H001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-H001",
@@ -982,6 +1056,12 @@
             {
               "id": "others",
               "url": "/productList/linen/spa-and-resort/others",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-SL001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-SL001",
@@ -1110,6 +1190,12 @@
             {
               "id": "patient-clothes",
               "url": "/productList/linen/hospital/patient-clothes",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-HW001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-HW001",
@@ -1584,6 +1670,12 @@
             {
               "id": "undergarments",
               "url": "/productList/linen/hospital/undergarments",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-M001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-M001",
@@ -1620,6 +1712,12 @@
             {
               "id": "scrubs",
               "url": "/productList/linen/hospital/scrubs",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-SG001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-SG001",
@@ -1668,6 +1766,16 @@
             {
               "id": "nurse-dress",
               "url": "/productList/linen/hospital/nurse-dress",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-NU001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-NU001",
@@ -1720,6 +1828,16 @@
             {
               "id": "waterproof-sheets",
               "url": "/productList/linen/hospital/waterproof-sheets",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-WPS001 (thumbnail).jpg"
+                },
+                {
+                  "id": "thumbNail2",
+                  "name": "thumbNail2.png"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-WPS001",
@@ -1866,6 +1984,12 @@
             {
               "id": "others",
               "url": "/productList/linen/hospital/others",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-NB001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-NB001",
@@ -1904,6 +2028,12 @@
             {
               "id": "table-cloth",
               "url": "/productList/linen/restaurant/table-cloth",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-TC001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-TC001",
@@ -1928,6 +2058,12 @@
             {
               "id": "napkin",
               "url": "/productList/linen/restaurant/napkin",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-N001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-N001",
@@ -2024,6 +2160,12 @@
             {
               "id": "glass-towel",
               "url": "/productList/linen/restaurant/glass-towel",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-TW001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-TW001",
@@ -2098,6 +2240,12 @@
             {
               "id": "all-fabric",
               "url": "/productList/linen/fabric/all-fabric",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "C40S140x100-1cmST (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "C40S140x100-1cmST",
@@ -2645,6 +2793,12 @@
             {
               "id": "all-apron",
               "url": "/productList/apparel/apron/all-apron",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-AP001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-AP001",
@@ -2863,6 +3017,12 @@
             {
               "id": "all-pajama",
               "url": "/productList/apparel/pajama/all-pajama",
+              "thumbNails": [
+                {
+                  "id": "thumbNail1",
+                  "name": "GS-P001 (thumbnail).jpg"
+                }
+              ],
               "products": [
                 {
                   "id": "GS-P001",
