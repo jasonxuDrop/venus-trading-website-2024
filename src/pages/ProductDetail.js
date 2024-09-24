@@ -178,7 +178,19 @@ const ProductDetail = () => {
               <h2 className="border-b-4 border-buttonColor">
                 {details.specText}
               </h2>
-              <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
+
+              {details.specTable.map((item, index) => (
+                <div key={index} className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
+                  <h4 className="col-span-1 lg:col-span-1 font-semibold">
+                    {item.name}
+                  </h4>
+                  <p className="col-span-1 lg:col-span-2">
+                    {item.value}
+                  </p>
+                </div>
+              ))}
+
+              {/* <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
                 <h4 className="col-span-1 lg:col-span-1 font-semibold">
                   {details.spec.productNameText}
                 </h4>
@@ -219,7 +231,7 @@ const ProductDetail = () => {
                     </>
                   ))}
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
