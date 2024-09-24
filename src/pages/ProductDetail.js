@@ -159,17 +159,18 @@ const ProductDetail = () => {
               key={imagesPath[0]?.id}
               src={imagesPath[0]?.path}
               alt={imagesPath[0]?.alt}
-              className={`h-[auto] object-cover`}
+              className={`h-[auto] object-cover cursor-pointer`}
+              onClick={() => openModal(0)}
             />
           </div>
 
-          <div className="col-span-12 lg:col-span-5 lg:col-start-8 text-left">
+          <div className="col-span-12 lg:col-span-5 lg:col-start-8 text-left flex flex-col">
             <h1 className="mt-[64px] lg:mt-0">{details.title}</h1>
             <span className="mt-[16px] lg:mt-0">{details.subTitle}</span>
             <p className="mt-[16px] lg:mt-[48px]">{details.des}</p>
             <button
               type="submit"
-              className="px-6 py-2 mt-[32px] lg:mt-[48px] bg-buttonColor text-black rounded hover:bg-buttonHover"
+              className="px-6 py-2 mt-[32px] lg:mt-[48px] w-40 bg-buttonColor text-black rounded shadow hover:bg-buttonHover"
             >
               {details.buttonText}
             </button>
@@ -181,7 +182,7 @@ const ProductDetail = () => {
 
               {details.specTable.map((item, index) => (
                 <div key={index} className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
-                  <h4 className="col-span-1 lg:col-span-1 font-semibold">
+                  <h4 className="col-span-1 lg:col-span-1 font-semibold text-base">
                     {item.name}
                   </h4>
                   <p className="col-span-1 lg:col-span-2">
@@ -195,7 +196,7 @@ const ProductDetail = () => {
         </div>
 
         {/* Photo Gallery */}
-        <div className="w-full mb-[128px] lg:mb-[192px]">
+        <div className={imagesPath.length <= 1 ? "hidden" : "w-full mb-[128px] lg:mb-[192px]"}>
           <h2 className="lg:text-center mb-2">{details.gallery}</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {imagesPath.map(
