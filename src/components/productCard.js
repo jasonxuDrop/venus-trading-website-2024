@@ -23,16 +23,22 @@ const ProductCard = ({
         bg-white`}
       onClick={handleNavigate}
     >
-      <div className="
+      <div
+        className="
         hidden w-full h-[165px] 
         md:block bg-gray-200
-        ">
-        <p>TODO: Image</p>
+        "
+      >
+        <img className="w-full h-full object-cover" src={productImage} />
       </div>
-      <p className="
+      <p
+        className="
       mx-3 my-6 
       text-xl text-left
-      md:text-base md:text-center ">{productTitle}</p>
+      md:text-base md:text-center "
+      >
+        {productTitle}
+      </p>
       <p className="text-center mx-3 my-6 text-gray-500">{productDes}</p>
 
       {/* <div className="w-full h-[40%] flex items-center justify-center">

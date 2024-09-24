@@ -20,12 +20,8 @@
               "url": "/productList/linen/hotel/gown",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-G001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -436,7 +432,7 @@
               "url": "/productList/linen/hotel/pajama",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-P001 (thumbnail).jpg"
                 }
               ],
@@ -484,12 +480,8 @@
               "url": "/productList/linen/hotel/samue",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-S001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -586,12 +578,8 @@
               "url": "/productList/linen/hotel/bathrobe",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-BR001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -642,12 +630,8 @@
               "url": "/productList/linen/hotel/bed-linen",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-BD001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -686,12 +670,8 @@
               "url": "/productList/linen/hotel/others",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-SL001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -838,7 +818,7 @@
           "cover": "cover.png",
           "thumbNails": [
             {
-              "id": "thumbNail1",
+              "id": "thumbNail",
               "name": "GS-G001 (thumbnail).jpg"
             }
           ],
@@ -848,7 +828,7 @@
               "url": "/productList/linen/spa-and-resort/yukata",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-Y001 (thumbnail).jpg"
                 }
               ],
@@ -878,7 +858,7 @@
               "url": "/productList/linen/spa-and-resort/relax-wear",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-RW001 (thumbnail).jpg"
                 }
               ],
@@ -1028,7 +1008,7 @@
               "url": "/productList/linen/spa-and-resort/haori",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-H001 (thumbnail).jpg"
                 }
               ],
@@ -1058,7 +1038,7 @@
               "url": "/productList/linen/spa-and-resort/others",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-SL001 (thumbnail).jpg"
                 }
               ],
@@ -1182,7 +1162,7 @@
           "cover": "cover.png",
           "thumbNails": [
             {
-              "id": "thumbNail1",
+              "id": "thumbNail",
               "name": "GS-G001 (thumbnail).jpg"
             }
           ],
@@ -1192,7 +1172,7 @@
               "url": "/productList/linen/hospital/patient-clothes",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-HW001 (thumbnail).jpg"
                 }
               ],
@@ -1672,7 +1652,7 @@
               "url": "/productList/linen/hospital/undergarments",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-M001 (thumbnail).jpg"
                 }
               ],
@@ -1714,7 +1694,7 @@
               "url": "/productList/linen/hospital/scrubs",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-SG001 (thumbnail).jpg"
                 }
               ],
@@ -1768,12 +1748,8 @@
               "url": "/productList/linen/hospital/nurse-dress",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-NU001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -1830,12 +1806,8 @@
               "url": "/productList/linen/hospital/waterproof-sheets",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-WPS001 (thumbnail).jpg"
-                },
-                {
-                  "id": "thumbNail2",
-                  "name": "thumbNail2.png"
                 }
               ],
               "products": [
@@ -1986,7 +1958,7 @@
               "url": "/productList/linen/hospital/others",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-NB001 (thumbnail).jpg"
                 }
               ],
@@ -2020,7 +1992,7 @@
           "cover": "cover.png",
           "thumbNails": [
             {
-              "id": "thumbNail1",
+              "id": "thumbNail",
               "name": "GS-G001 (thumbnail).jpg"
             }
           ],
@@ -2030,7 +2002,7 @@
               "url": "/productList/linen/restaurant/table-cloth",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-TC001 (thumbnail).jpg"
                 }
               ],
@@ -2060,7 +2032,7 @@
               "url": "/productList/linen/restaurant/napkin",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-N001 (thumbnail).jpg"
                 }
               ],
@@ -2162,7 +2134,7 @@
               "url": "/productList/linen/restaurant/glass-towel",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-TW001 (thumbnail).jpg"
                 }
               ],
@@ -2232,7 +2204,7 @@
           "cover": "cover.png",
           "thumbNails": [
             {
-              "id": "thumbNail1",
+              "id": "thumbNail",
               "name": "GS-G001 (thumbnail).jpg"
             }
           ],
@@ -2242,7 +2214,7 @@
               "url": "/productList/linen/fabric/all-fabric",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "C40S140x100-1cmST (thumbnail).jpg"
                 }
               ],
@@ -2785,7 +2757,7 @@
           "cover": "cover.png",
           "thumbNails": [
             {
-              "id": "thumbNail1",
+              "id": "thumbNail",
               "name": "GS-G001 (thumbnail).jpg"
             }
           ],
@@ -2795,7 +2767,7 @@
               "url": "/productList/apparel/apron/all-apron",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-AP001 (thumbnail).jpg"
                 }
               ],
@@ -3019,7 +2991,7 @@
               "url": "/productList/apparel/pajama/all-pajama",
               "thumbNails": [
                 {
-                  "id": "thumbNail1",
+                  "id": "thumbNail",
                   "name": "GS-P001 (thumbnail).jpg"
                 }
               ],

@@ -155,7 +155,7 @@ const ProductList = () => {
 
   console.log("xc", products);
 
-  console.log("vv", thumbNailPath["hotel_product"]);
+  console.log("vv", thumbNailPath);
 
   return (
     <div className="w-full bg-navbarcolor relative ">
