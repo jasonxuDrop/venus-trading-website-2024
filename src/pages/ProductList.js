@@ -205,7 +205,8 @@ const ProductList = () => {
           </div>
 
           <div className="col-span-12 lg:col-span-12 lg:col-start-1">
-            <div className="grid-cols-2 justify-center grid lg:grid-cols-12 gap-8 lg:gap-6">
+            <div className="flex flex-row flex-wrap gap-6 justify-center
+            lg:justify-start">
               {products?.map((product, index) => {
                 const productCardProps = {
                   key: product?.id,
