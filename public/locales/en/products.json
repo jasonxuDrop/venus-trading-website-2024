@@ -113,7 +113,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -140,7 +140,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -167,7 +167,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -194,7 +194,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -202,7 +202,7 @@
             },
             "GS-G008": {
               "title": "GS-G008",
-              "meterial": "ポリエステル100％",
+              "meterial": "100% Polyester",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
@@ -221,7 +221,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "100% Polyester"
                   }
                 ],
                 "gallery": "Gallery"
@@ -229,7 +229,7 @@
             },
             "GS-G009": {
               "title": "GS-G009",
-              "meterial": "ポリエステル80％/ 綿20％ ",
+              "meterial": "80% Polyester / 20% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
@@ -248,7 +248,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "80% Polyester / 20% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -256,7 +256,7 @@
             },
             "GS-G010": {
               "title": "GS-G010",
-              "meterial": "ポリエステル100％",
+              "meterial": "100% Polyester",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
@@ -275,7 +275,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "100% Polyester"
                   }
                 ],
                 "gallery": "Gallery"
@@ -302,7 +302,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -310,7 +310,7 @@
             },
             "GS-G012": {
               "title": "GS-G012",
-              "meterial": "ポリエステル40％/ 綿60％",
+              "meterial": "40% Polyester / 60% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
@@ -329,7 +329,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "40% Polyester / 60% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -337,7 +337,7 @@
             },
             "GS-G013": {
               "title": "GS-G013",
-              "meterial": "ポリエステル40％/ 綿60％ ",
+              "meterial": "40% Polyester / 60% Cotton",
               "materialText": "Material",
               "details": {
                 "title": "Hotel Products",
@@ -356,7 +356,7 @@
                   },
                   {
                     "name": "Materials",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "40% Polyester / 60% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
