@@ -30,7 +30,7 @@ const DetailedProductCard = ({
       flex-none
       lg:w-[160px] lg:h-full">
         <img src={productImg_1} className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300`} />
-        <img src={productImg_2} className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${hover ? 'opacity-100' : 'opacity-0'}`} />
+        {/* <img src={productImg_2} className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${hover ? 'opacity-100' : 'opacity-0'}`} /> */}
       </div>
       <div className="w-full px-4 py-8
       flex flex-col items-stretch
