@@ -189,49 +189,7 @@ const ProductDetail = () => {
                   </p>
                 </div>
               ))}
-
-              {/* <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
-                <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  {details.spec.productNameText}
-                </h4>
-                <p className="col-span-1 lg:col-span-2">
-                  {details.spec.productName}
-                </p>
-              </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
-                <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  {details.spec.materialsText}
-                </h4>
-                <p className="col-span-1 lg:col-span-2">
-                  {Object.keys(details.spec.materials).map((key) => (
-                    <>
-                      <span>{details.spec.materials[key]}</span>
-                      <br />
-                    </>
-                  ))}
-                </p>
-              </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
-                <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  {details.spec.categoryText}
-                </h4>
-                <p className="col-span-1 lg:col-span-2">
-                  {details.spec.category}
-                </p>
-              </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
-                <h4 className="col-span-1 lg:col-span-1 font-semibold">
-                  {details.spec.category2Text}
-                </h4>
-                <p className="col-span-1 lg:col-span-2">
-                  {Object.keys(details.spec.category2).map((key) => (
-                    <>
-                      <span>{details.spec.category2[key]}</span>
-                      <br />
-                    </>
-                  ))}
-                </p>
-              </div> */}
+              
             </div>
           </div>
         </div>
