@@ -57,7 +57,7 @@ const Header = () => {
     <nav
       className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${stickOrNot()}`}
     >
-      <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
+      <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between relative">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
@@ -66,7 +66,7 @@ const Header = () => {
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="flex items-baseline space-x-4">
               {headerLinks.navigation.links.map((link) => {
                 if (!link.subMenu && link.id !== "lang") {
                   return (
@@ -356,7 +356,8 @@ const Header = () => {
       <div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto`}
+        } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto
+         `}
       >
         <div className="px-3 pt-5 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
@@ -389,7 +390,7 @@ const Header = () => {
         </div>
 
         <div className="flex-grow flex">
-          <div className="w-full">
+          <div className="w-full font-tropikal flex flex-col gap-6">
             {headerLinks.navigation.links.map((link, index) => {
               if (!link.subMenu && link.id !== "lang") {
                 if (index === 0) {
@@ -399,7 +400,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pt-8 pb-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor">
+                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -411,7 +412,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pb-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor">
+                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -423,7 +424,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pv-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor">
+                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -432,9 +433,9 @@ const Header = () => {
               } else if (link.subMenu && link.id === "linden") {
                 return (
                   <div>
-                    <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                    <div className="text-textcolor w-full text-center px-3 pb-1 flex justify-center items-center">
                       <a href="/linedenProducts" onClick={closeAllMenus}>
-                        <h2 className="border-transparent hover:border-hoverColor">
+                        <h2 className="border-transparent hover:border-hoverColor text-4xl">
                           {t(`nav.${link.id}`)}
                         </h2>
                       </a>
@@ -478,9 +479,9 @@ const Header = () => {
               } else if (link.subMenu && link.id === "apparel") {
                 return (
                   <div>
-                    <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                    <div className="text-textcolor w-full text-center px-3 pb-1 flex justify-center items-center">
                       <a href="/apparelProducts" onClick={closeAllMenus}>
-                        <h2 className="border-transparent hover:border-hoverColor">
+                        <h2 className="border-transparent hover:border-hoverColor text-4xl">
                           {t(`nav.${link.id}`)}
                         </h2>
                       </a>
@@ -532,7 +533,7 @@ const Header = () => {
             className="block text-left"
             onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
           >
-            <h4 className="hover:border-hoverColor border-transparent font-bold">
+            <h4 className="hover:border-hoverColor border-transparent">
               {t(
                 `nav.${
                   headerLinks.navigation.links[

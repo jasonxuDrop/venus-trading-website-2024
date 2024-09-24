@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-footerBgColor text-textWhite">
-      <div className="max-w-7xl mx-auto py-12 px-3.5 sm:px-16 lg:px-32">
+      <div className="max-w-7xl mx-auto py-12 px-6 sm:px-16 lg:px-32">
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
           <div className="sm:col-span-1 lg:col-span-4">
             <div className="flex items-center flex-shrink-0">
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-4 pt-8 pb-8">
-        <p className="text-sm text-left px-3.5 sm:px-16 lg:px-8 lg:text-center">
+        <p className="text-sm text-left px-6 sm:px-16 lg:px-8 lg:text-center">
           {t(`footer.${footerLink.copyRight.id}`)}
         </p>
       </div>

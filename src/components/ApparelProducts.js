@@ -62,7 +62,7 @@ const ApparelProducts = () => {
 
   return (
     <div
-      className={`max-w-screen-xl mx-auto px-3.5 sm:px-16 lg:px-32 ${
+      className={`max-w-screen-xl mx-auto px-6 sm:px-16 lg:px-32 ${
         smallScreenHeight ? "" : ""
       } flex flex-col justify-center`}
     >
