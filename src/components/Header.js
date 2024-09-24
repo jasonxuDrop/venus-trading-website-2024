@@ -533,7 +533,7 @@ const Header = () => {
             className="block text-left"
             onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
           >
-            <h4 className="hover:border-hoverColor border-transparent font-bold">
+            <h4 className="hover:border-hoverColor border-transparent">
               {t(
                 `nav.${
                   headerLinks.navigation.links[
