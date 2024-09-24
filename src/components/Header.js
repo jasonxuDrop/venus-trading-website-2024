@@ -66,7 +66,7 @@ const Header = () => {
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="flex items-baseline space-x-4">
               {headerLinks.navigation.links.map((link) => {
                 if (!link.subMenu && link.id !== "lang") {
                   return (
