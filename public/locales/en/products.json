@@ -13,8 +13,8 @@
           "products": {
             "GS-G001": {
               "title": "GS-G001",
-              "meterial": "ガウン",
-              "materialText": "Material",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -41,7 +41,7 @@
             "GS-G002": {
               "title": "GS-G002",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -68,7 +68,7 @@
             "GS-G003": {
               "title": "GS-G003",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -95,7 +95,7 @@
             "GS-G004": {
               "title": "GS-G004",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -122,7 +122,7 @@
             "GS-G005": {
               "title": "GS-G005",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -149,7 +149,7 @@
             "GS-G006": {
               "title": "GS-G006",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -176,7 +176,7 @@
             "GS-G007": {
               "title": "GS-G007",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -203,7 +203,7 @@
             "GS-G008": {
               "title": "GS-G008",
               "meterial": "100% Polyester",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -230,7 +230,7 @@
             "GS-G009": {
               "title": "GS-G009",
               "meterial": "80% Polyester / 20% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -257,7 +257,7 @@
             "GS-G010": {
               "title": "GS-G010",
               "meterial": "100% Polyester",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -284,7 +284,7 @@
             "GS-G011": {
               "title": "GS-G011",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -311,7 +311,7 @@
             "GS-G012": {
               "title": "GS-G012",
               "meterial": "40% Polyester / 60% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -338,7 +338,7 @@
             "GS-G013": {
               "title": "GS-G013",
               "meterial": "40% Polyester / 60% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -371,7 +371,7 @@
             "GS-P001": {
               "title": "GS-P001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -402,7 +402,7 @@
             "pajama_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -433,7 +433,7 @@
             "pajama_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -470,7 +470,7 @@
             "GS-S001": {
               "title": "GS-S001",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -501,7 +501,7 @@
             "GS-S002": {
               "title": "GS-S002",
               "meterial": "65% Polyester / 35% Cotton",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -538,7 +538,7 @@
             "GS-BR001": {
               "title": "GS-BR001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -569,7 +569,7 @@
             "bathRobe_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -600,7 +600,7 @@
             "bathRobe_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -637,7 +637,7 @@
             "GS-BD001": {
               "title": "GS-BD001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -668,7 +668,7 @@
             "bedLinen_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -699,7 +699,7 @@
             "bedLinen_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -736,7 +736,7 @@
             "GS-SL001": {
               "title": "GS-SL001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -767,7 +767,7 @@
             "GS-SL002": {
               "title": "GS-SL002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -798,7 +798,7 @@
             "GS-SL003": {
               "title": "GS-SL003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -829,7 +829,7 @@
             "GS-SL004": {
               "title": "GS-SL004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -860,7 +860,7 @@
             "GS-SL005": {
               "title": "GS-SL005",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -891,7 +891,7 @@
             "GS-SL006": {
               "title": "GS-SL006",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -935,7 +935,7 @@
             "GS-Y001": {
               "title": "GS-Y001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -966,7 +966,7 @@
             "yukata_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -997,7 +997,7 @@
             "yukata_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1034,7 +1034,7 @@
             "GS-RW001": {
               "title": "GS-RW001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1065,7 +1065,7 @@
             "GS-RW002": {
               "title": "GS-RW002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1096,7 +1096,7 @@
             "GS-RW003": {
               "title": "GS-RW003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1127,7 +1127,7 @@
             "GS-RW004": {
               "title": "GS-RW004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1164,7 +1164,7 @@
             "GS-H001": {
               "title": "GS-H001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1201,7 +1201,7 @@
             "GS-SL001": {
               "title": "GS-SL001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1232,7 +1232,7 @@
             "GS-SL002": {
               "title": "GS-SL002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1263,7 +1263,7 @@
             "GS-SL003": {
               "title": "GS-SL003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1294,7 +1294,7 @@
             "GS-SL004": {
               "title": "GS-SL004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1325,7 +1325,7 @@
             "GS-SL005": {
               "title": "GS-SL005",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1356,7 +1356,7 @@
             "GS-SL006": {
               "title": "GS-SL006",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1400,7 +1400,7 @@
             "GS-HW001": {
               "title": "GS-HW001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1431,7 +1431,7 @@
             "GS-HW002": {
               "title": "GS-HW002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1462,7 +1462,7 @@
             "GS-HW003": {
               "title": "GS-HW003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1493,7 +1493,7 @@
             "GS-HW004": {
               "title": "GS-HW004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1524,7 +1524,7 @@
             "GS-HW005": {
               "title": "GS-HW005",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1555,7 +1555,7 @@
             "GS-HW006": {
               "title": "GS-HW006",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1586,7 +1586,7 @@
             "GS-HW007": {
               "title": "GS-HW007",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1617,7 +1617,7 @@
             "GS-HW008": {
               "title": "GS-HW008",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1648,7 +1648,7 @@
             "GS-HW009": {
               "title": "GS-HW009",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1679,7 +1679,7 @@
             "GS-HW010": {
               "title": "GS-HW010",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1716,7 +1716,7 @@
             "GS-M001": {
               "title": "GS-M001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1747,7 +1747,7 @@
             "undergarments_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1778,7 +1778,7 @@
             "undergarments_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1815,7 +1815,7 @@
             "GS-SG001": {
               "title": "GS-SG001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1846,7 +1846,7 @@
             "scrubs_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1877,7 +1877,7 @@
             "scrubs_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1914,7 +1914,7 @@
             "GS-NU001": {
               "title": "GS-NU001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1945,7 +1945,7 @@
             "nurseDress_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -1976,7 +1976,7 @@
             "nurseDress_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2013,7 +2013,7 @@
             "GS-WPS001": {
               "title": "GS-WPS001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2044,7 +2044,7 @@
             "GS-WPS002": {
               "title": "GS-WPS002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2075,7 +2075,7 @@
             "GS-WPS003": {
               "title": "GS-WPS003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2106,7 +2106,7 @@
             "GS-WPS004": {
               "title": "GS-WPS004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2137,7 +2137,7 @@
             "GS-WPS005": {
               "title": "GS-WPS005",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2174,7 +2174,7 @@
             "GS-NB001": {
               "title": "GS-NB001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2218,7 +2218,7 @@
             "GS-TC001": {
               "title": "GS-TC001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2249,7 +2249,7 @@
             "tableCloth_product_2": {
               "title": "hotel product 1",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2280,7 +2280,7 @@
             "tableCloth_product_3": {
               "title": "hotel product 2",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2317,7 +2317,7 @@
             "GS-N001": {
               "title": "GS-N001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2348,7 +2348,7 @@
             "GS-N002": {
               "title": "GS-N002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2379,7 +2379,7 @@
             "GS-N003": {
               "title": "GS-N003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2410,7 +2410,7 @@
             "GS-N004": {
               "title": "GS-N004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2441,7 +2441,7 @@
             "GS-N005": {
               "title": "GS-N005",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2478,7 +2478,7 @@
             "GS-TW001": {
               "title": "GS-TW001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2509,7 +2509,7 @@
             "GS-TW002": {
               "title": "GS-TW002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2540,7 +2540,7 @@
             "GS-TW003": {
               "title": "GS-TW003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2584,7 +2584,7 @@
             "C40S140x100-1cmST": {
               "title": "C40S140x100-1cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2615,7 +2615,7 @@
             "C40S140x100-3cmST": {
               "title": "C40S140x100-3cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2646,7 +2646,7 @@
             "C40S140x100-5mmST": {
               "title": "C40S140x100-5mmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2677,7 +2677,7 @@
             "C40S140x100-65mm-Checker": {
               "title": "C40S140x100-65mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2708,7 +2708,7 @@
             "C40S140x100-Satin weave": {
               "title": "C40S140x100-Satin weave",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2739,7 +2739,7 @@
             "C40S140x110-2cmST": {
               "title": "C40S140x110-2cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2770,7 +2770,7 @@
             "C40S140x110-3cmST": {
               "title": "C40S140x110-3cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2801,7 +2801,7 @@
             "C40S140x110-Satin weave": {
               "title": "C40S140x110-Satin weave",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2832,7 +2832,7 @@
             "TC3070-34S130x80 15mm-Checker": {
               "title": "TC3070-34S130x80 15mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2863,7 +2863,7 @@
             "TC3070-34S130x80 25mm-Checker": {
               "title": "TC3070-34S130x80 25mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2894,7 +2894,7 @@
             "TC3070-34S130x80-1.5cmST": {
               "title": "TC3070-34S130x80-1.5cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2925,7 +2925,7 @@
             "TC3070-34S130x80-1cm ST": {
               "title": "TC3070-34S130x80-1cm ST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2956,7 +2956,7 @@
             "TC3070-34S130x80-2.5cmST": {
               "title": "TC3070-34S130x80-2.5cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -2987,7 +2987,7 @@
             "TC3070-34S130x80-Square pattern": {
               "title": "TC3070-34S130x80-Square pattern",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3018,7 +3018,7 @@
             "TC3070-40S140x100 2.5cmST": {
               "title": "TC3070-40S140x100 2.5cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3049,7 +3049,7 @@
             "TC3070-40S140x100 3cmST": {
               "title": "TC3070-40S140x100 3cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3080,7 +3080,7 @@
             "TC3070-40S140x100 60mm-Checker": {
               "title": "TC3070-40S140x100 60mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3111,7 +3111,7 @@
             "TC3070-40S140x100 90mm-Checker": {
               "title": "TC3070-40S140x100 90mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3142,7 +3142,7 @@
             "TC3070-40S140x100-1cm ST": {
               "title": "TC3070-40S140x100-1cm ST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3173,7 +3173,7 @@
             "TC3070-40S140x100-Line pattern": {
               "title": "TC3070-40S140x100-Line pattern",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3204,7 +3204,7 @@
             "TC3070-40S140x100-Polka dot pattern": {
               "title": "TC3070-40S140x100-Polka dot pattern",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3235,7 +3235,7 @@
             "TC3070-40S140x100-Satin weave": {
               "title": "TC3070-40S140x100-Satin weave",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3266,7 +3266,7 @@
             "TC3070-40S140x100-Square pattern": {
               "title": "TC3070-40S140x100-Square pattern",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3297,7 +3297,7 @@
             "TC3070-40S173x80-Wave pattern": {
               "title": "TC3070-40S173x80-Wave pattern",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3328,7 +3328,7 @@
             "TC5050-40S140x100 2.5mm-Checker": {
               "title": "TC5050-40S140x100 2.5mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3359,7 +3359,7 @@
             "TC5050-40S140x100 2cmST": {
               "title": "TC5050-40S140x100 2cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3390,7 +3390,7 @@
             "TC5050-40S140x100 3cmST": {
               "title": "TC5050-40S140x100 3cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3421,7 +3421,7 @@
             "TC5050-40S140x100 5mm-Checker": {
               "title": "TC5050-40S140x100 5mm-Checker",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3452,7 +3452,7 @@
             "TC5050-40S140x100-1cmST": {
               "title": "TC5050-40S140x100-1cmST",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3496,7 +3496,7 @@
             "GS-AP001": {
               "title": "GS-AP001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3527,7 +3527,7 @@
             "GS-AP002": {
               "title": "GS-AP002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3558,7 +3558,7 @@
             "GS-AP003": {
               "title": "GS-AP003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3589,7 +3589,7 @@
             "GS-AP004": {
               "title": "GS-AP004",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3633,7 +3633,7 @@
             "GS-P001": {
               "title": "GS-P001",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3664,7 +3664,7 @@
             "GS-P002": {
               "title": "GS-P002",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
@@ -3695,7 +3695,7 @@
             "GS-P003": {
               "title": "GS-P003",
               "meterial": "meterial 100%",
-              "materialText": "Material",
+              "materialText": "",
               "details": {
                 "title": "Hotel Products",
                 "subTitle": "Nylon 80",
