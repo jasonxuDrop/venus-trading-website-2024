@@ -46,6 +46,11 @@ body .jp {
   line-height: 1.6;
 }
 
+.font-tropikal {
+  font-family: 'tropikal';
+}
+
+
 .custom-hero-mobile {
   background-image: url('assets/images/homeImg/hero-image.jpg');
   background-size: cover;

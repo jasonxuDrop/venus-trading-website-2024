@@ -227,7 +227,7 @@ const ProductDetail = () => {
         {/* Photo Gallery */}
         <div className="w-full mb-[128px] lg:mb-[192px]">
           <h2 className="lg:text-center mb-2">{details.gallery}</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {imagesPath.map(
               (image, index) =>
                 index > 0 && (
@@ -274,11 +274,11 @@ const ProductDetail = () => {
 
             {/* Close button */}
             <button
-              className="absolute top-[1.5rem] right-[1.5rem] bg-white text-black px-2 py-1 text-center"
+              className="absolute top-[1.5rem] right-[1.5rem] bg-white text-black size-16 text-center rounded shadow"
               onClick={closeModal}
             >
               <svg
-                className="h-8 w-8"
+                className="m-auto w-12 h-12"
                 fill="none"
                 stroke="#1C1F29"
                 viewBox="0 0 24 24"
@@ -294,15 +294,17 @@ const ProductDetail = () => {
             </button>
 
             {/* Page indicator */}
-            <div className="absolute bottom-[1.5rem] left-1/2 transform -translate-x-1/2 flex items-center space-x-4 p-1 bg-white">
-              <button className="text-black" onClick={previousImage}>
-                &lt;
+            <div className="absolute bottom-[1.5rem] mx-auto flex items-center p-0.5 rounded shadow
+            font-tropikal text-3xl 
+            bg-white text-black">
+              <button className="w-16 h-14 pt-2" onClick={previousImage}>
+              &larr;
               </button>
-              <span className="text-black">
-                {currentImgIndex + 1} / {imagesPath.length}
+              <span className="text-center min-w-20">
+                {currentImgIndex + 1}/{imagesPath.length}
               </span>
-              <button className="text-black" onClick={nextImage}>
-                &gt;
+              <button className="w-16 h-14 pt-2" onClick={nextImage}>
+              &rarr;
               </button>
             </div>
           </div>
