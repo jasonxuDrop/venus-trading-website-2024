@@ -1,8 +1,9 @@
 // This page for displaying each type of product's details. (e.g. some spercific product details.)
 
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useQuote } from "../context/QuoteContext";
 
 import productsLink from "../assets/content/productsLink.json";
 
@@ -20,16 +21,28 @@ const ProductDetail = () => {
   const [imagesPath, setImagesPath] = useState([]); // Product details images path
   const { t } = useTranslation("products"); // Product details contents in japanese and english
 
+  const { updateQuoteDetails } = useQuote(); // For quote message context
+
+  const handleQuoteRequest = () => {
+    const details = `Hi there, \n\nI am interested in the product with the ID of ${productID} - ${productCategory} - ${productType} - ${type}, \n\nThank you so much!`;
+    //navigation("/contact");
+    updateQuoteDetails(details);
+    window.location.href = `/contact`;
+  };
+
   // For product details
   const productDetails = productsLink.allProducts[type].productCard
-    .find((element) => element.id === productType)?.category.find((element) => element.id === productCategory)
+    .find((element) => element.id === productType)
+    ?.category.find((element) => element.id === productCategory)
     ?.products.find((element) => element.id === productID);
 
   console.log("xx", productDetails);
   console.log("xxxx", imagesPath);
 
   // For product details content in English and Janapanes
-  const details = t(`productType.${productType}.category.${productCategory}.products.${productID}.details`);
+  const details = t(
+    `productType.${productType}.category.${productCategory}.products.${productID}.details`
+  );
   console.log("123", details);
 
   useEffect(() => {
@@ -170,6 +183,7 @@ const ProductDetail = () => {
             <p className="mt-[16px] lg:mt-[48px]">{details.des}</p>
             <button
               type="submit"
+              onClick={handleQuoteRequest}
               className="px-6 py-2 mt-[32px] lg:mt-[48px] w-40 bg-buttonColor text-black rounded shadow hover:bg-buttonHover"
             >
               {details.buttonText}
@@ -181,22 +195,28 @@ const ProductDetail = () => {
               </h2>
 
               {details.specTable.map((item, index) => (
-                <div key={index} className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2">
+                <div
+                  key={index}
+                  className="grid grid-cols-1 lg:grid-cols-3 border-b-4 py-2"
+                >
                   <h4 className="col-span-1 lg:col-span-1 font-semibold text-base">
                     {item.name}
                   </h4>
-                  <p className="col-span-1 lg:col-span-2">
-                    {item.value}
-                  </p>
+                  <p className="col-span-1 lg:col-span-2">{item.value}</p>
                 </div>
               ))}
-              
             </div>
           </div>
         </div>
 
         {/* Photo Gallery */}
-        <div className={imagesPath.length <= 1 ? "hidden" : "w-full mb-[128px] lg:mb-[192px]"}>
+        <div
+          className={
+            imagesPath.length <= 1
+              ? "hidden"
+              : "w-full mb-[128px] lg:mb-[192px]"
+          }
+        >
           <h2 className="lg:text-center mb-2">{details.gallery}</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {imagesPath.map(
@@ -265,17 +285,19 @@ const ProductDetail = () => {
             </button>
 
             {/* Page indicator */}
-            <div className="absolute bottom-[1.5rem] mx-auto flex items-center p-0.5 rounded shadow
+            <div
+              className="absolute bottom-[1.5rem] mx-auto flex items-center p-0.5 rounded shadow
             font-tropikal text-3xl 
-            bg-white text-black">
+            bg-white text-black"
+            >
               <button className="w-16 h-14 pt-2" onClick={previousImage}>
-              &larr;
+                &larr;
               </button>
               <span className="text-center min-w-20">
                 {currentImgIndex + 1}/{imagesPath.length}
               </span>
               <button className="w-16 h-14 pt-2" onClick={nextImage}>
-              &rarr;
+                &rarr;
               </button>
             </div>
           </div>

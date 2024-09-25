@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
+import { useQuote } from "../context/QuoteContext";
+import { Prompt } from "react-router-dom";
 
 import pageImage from "../assets/content/pageImg.json";
 
@@ -8,6 +10,45 @@ const Contact = () => {
   const smallScreenHeight = useScreenHeight(600);
 
   const { t } = useTranslation("page");
+
+  const { quoteDetails, updateQuoteDetails } = useQuote(); // for the quote message context.
+  const [quoteTextArea, setQuoteTextArea] = useState(""); // for the quote message local.
+  const isDirty = Boolean(quoteDetails);
+
+  useEffect(() => {
+    setQuoteTextArea(quoteDetails);
+  }, [quoteDetails]);
+
+  // Effect to handle the beforeunload event
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+      if (isDirty) {
+        localStorage.setItem("clearQuoteOnReload", "true");
+        // Standard for most browsers
+        event.preventDefault();
+        // Chrome requires returnValue to be set
+        event.returnValue = "";
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, [isDirty]); // Only re-run the effect if isDirty changes
+
+  const handleInputChange = (event) => {
+    setQuoteTextArea(event.target.value);
+  };
+
+  useEffect(() => {
+    if (localStorage.getItem("clearQuoteOnReload") === "true") {
+      updateQuoteDetails("");
+      localStorage.removeItem("clearQuoteOnReload");
+    }
+  }, []);
 
   return (
     <div
@@ -84,6 +125,8 @@ const Contact = () => {
                 required
                 rows="4"
                 className="input-field resize-none"
+                value={quoteTextArea}
+                onChange={handleInputChange}
               ></textarea>
             </div>
             <div className="text-center lg:flex lg:justify-end">
