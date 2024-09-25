@@ -13,42 +13,42 @@ const Contact = () => {
 
   const { quoteDetails, updateQuoteDetails } = useQuote(); // for the quote message context.
   const [quoteTextArea, setQuoteTextArea] = useState(""); // for the quote message local.
+  const [nameTextArea, setNameTextArea] = useState("");
+  const [emailTextArea, setEmailTextArea] = useState("");
+  const [companyTextArea, setCompanyTextArea] = useState("");
   const isDirty = Boolean(quoteDetails);
 
+  // Update local state when quoteDetails change
   useEffect(() => {
     setQuoteTextArea(quoteDetails);
   }, [quoteDetails]);
 
-  // Effect to handle the beforeunload event
+  // Check for a flag to clear quoteDetails on component mount
+  useEffect(() => {
+    if (localStorage.getItem("clearQuoteOnReload") === "true") {
+      updateQuoteDetails("");
+      localStorage.removeItem("clearQuoteOnReload");
+    }
+  }, [updateQuoteDetails]);
+
+  // Handle the beforeunload event
   useEffect(() => {
     const handleBeforeUnload = (event) => {
-      if (isDirty) {
+      if (quoteDetails) {
         localStorage.setItem("clearQuoteOnReload", "true");
-        // Standard for most browsers
         event.preventDefault();
-        // Chrome requires returnValue to be set
         event.returnValue = "";
       }
     };
 
     window.addEventListener("beforeunload", handleBeforeUnload);
 
-    // Cleanup the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-    };
-  }, [isDirty]); // Only re-run the effect if isDirty changes
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [quoteDetails]); // Depend on quoteDetails directly
 
   const handleInputChange = (event) => {
     setQuoteTextArea(event.target.value);
   };
-
-  useEffect(() => {
-    if (localStorage.getItem("clearQuoteOnReload") === "true") {
-      updateQuoteDetails("");
-      localStorage.removeItem("clearQuoteOnReload");
-    }
-  }, []);
 
   return (
     <div
