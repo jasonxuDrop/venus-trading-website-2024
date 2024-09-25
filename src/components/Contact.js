@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 import { useQuote } from "../context/QuoteContext";
-import { Prompt } from "react-router-dom";
 
 import pageImage from "../assets/content/pageImg.json";
 
@@ -13,10 +12,11 @@ const Contact = () => {
 
   const { quoteDetails, updateQuoteDetails } = useQuote(); // for the quote message context.
   const [quoteTextArea, setQuoteTextArea] = useState(""); // for the quote message local.
-  const [nameTextArea, setNameTextArea] = useState("");
-  const [emailTextArea, setEmailTextArea] = useState("");
-  const [companyTextArea, setCompanyTextArea] = useState("");
-  const isDirty = Boolean(quoteDetails);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+  });
 
   // Update local state when quoteDetails change
   useEffect(() => {
@@ -48,6 +48,14 @@ const Contact = () => {
 
   const handleInputChange = (event) => {
     setQuoteTextArea(event.target.value);
+  };
+
+  const handleContactInput = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
   };
 
   return (
@@ -97,13 +105,25 @@ const Contact = () => {
               <label htmlFor="name" className="font-semibold text-formColor">
                 {t(`contact.form.${pageImage.contact.form.name}`)}
               </label>
-              <input type="text" id="name" required className="input-field" />
+              <input
+                type="text"
+                id="name"
+                required
+                className="input-field"
+                onChange={handleContactInput}
+              />
             </div>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="email" className="font-semibold text-formColor">
                 {t(`contact.form.${pageImage.contact.form.email}`)}
               </label>
-              <input type="email" id="email" required className="input-field" />
+              <input
+                type="email"
+                id="email"
+                required
+                className="input-field"
+                onChange={handleContactInput}
+              />
             </div>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="company" className="font-semibold text-formColor">
@@ -114,6 +134,7 @@ const Contact = () => {
                 id="company"
                 required
                 className="input-field"
+                onChange={handleContactInput}
               />
             </div>
             <div className="flex flex-col mb-[32px]">
