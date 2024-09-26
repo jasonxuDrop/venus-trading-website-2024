@@ -370,7 +370,7 @@
           "products": {
             "GS-P001": {
               "title": "GS-P001",
-              "meterial": "meterial 100%",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
                 "title": "Hotel Products",
@@ -380,28 +380,24 @@
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G001"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Pajama"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
               }
             },
-            "pajama_product_2": {
-              "title": "hotel product 1",
-              "meterial": "meterial 100%",
+            "GS-P002": {
+              "title": "GS-P002",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
                 "title": "Hotel Products",
@@ -411,28 +407,24 @@
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-G001"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Pajama"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
               }
             },
-            "pajama_product_3": {
-              "title": "hotel product 2",
-              "meterial": "meterial 100%",
+            "GS-P003": {
+              "title": "GS-P003",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
                 "title": "Hotel Products",
@@ -442,20 +434,16 @@
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-P003"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Pajama"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -479,20 +467,16 @@
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-S001"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
-                  },
-                  {
-                    "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -510,20 +494,232 @@
                 "specText": "Specifications",
                 "specTable": [
                   {
-                    "name": "Name",
-                    "value": "Waffle"
+                    "name": "Product ID",
+                    "value": "GS-S002"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
                   },
                   {
                     "name": "Materials",
-                    "value": "Rose pattern, \nPlain satin"
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S003": {
+              "title": "GS-S003",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S003"
                   },
                   {
                     "name": "Category",
-                    "value": "Hand towels, face towels, bath towels, etc."
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S004": {
+              "title": "GS-S004",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S004"
                   },
                   {
                     "name": "Category",
-                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S005": {
+              "title": "GS-S005",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S005"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S006": {
+              "title": "GS-S006",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S006"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S007": {
+              "title": "GS-S007",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S007"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S008": {
+              "title": "GS-S008",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S008"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S009": {
+              "title": "GS-S009",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S009"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S010": {
+              "title": "GS-S010",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-S010"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Samue"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
