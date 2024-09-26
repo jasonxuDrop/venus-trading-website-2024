@@ -454,6 +454,12 @@
                       "use_for": "cover"
                     },
                     {
+                      "id": "GS-P001-1.jpg",
+                      "name": "GS-P001-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
                       "id": "GS-P001-2.jpg",
                       "name": "GS-P001-2.jpg",
                       "alt": "product detail image",
@@ -468,6 +474,72 @@
                     {
                       "id": "GS-P001-4.jpg",
                       "name": "GS-P001-4.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-P002",
+                  "url": "/productDetail/linen/hotel/pajama/GS-P002",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-P002 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-P002.jpg",
+                      "name": "GS-P002.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-P002-2.jpg",
+                      "name": "GS-P002-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-P002-3.jpg",
+                      "name": "GS-P002-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-P003",
+                  "url": "/productDetail/linen/hotel/pajama/GS-P003",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-P003 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-P003.jpg",
+                      "name": "GS-P003.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-P003-1.jpg",
+                      "name": "GS-P003-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-P003-2.jpg",
+                      "name": "GS-P003-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-P003-3.jpg",
+                      "name": "GS-P003-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -492,10 +564,6 @@
                     {
                       "id": "thumbNail1",
                       "name": "GS-S001 (thumbnail).jpg"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
                     }
                   ],
                   "imgs": [
@@ -532,10 +600,6 @@
                     {
                       "id": "thumbNail1",
                       "name": "GS-S002 (thumbnail).jpg"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
                     }
                   ],
                   "imgs": [
@@ -566,6 +630,264 @@
                     {
                       "id": "GS-S002-5",
                       "name": "GS-S002-5.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S003",
+                  "url": "/productDetail/linen/hotel/samue/GS-S003",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S003 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S003",
+                      "name": "GS-S003.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S003-2",
+                      "name": "GS-S003-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S003-3",
+                      "name": "GS-S003-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S004",
+                  "url": "/productDetail/linen/hotel/samue/GS-S004",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S004 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S004",
+                      "name": "GS-S004.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S004-2",
+                      "name": "GS-S004-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S005",
+                  "url": "/productDetail/linen/hotel/samue/GS-S005",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S005 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S005",
+                      "name": "GS-S005.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S005-2",
+                      "name": "GS-S005-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S005-3",
+                      "name": "GS-S005-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S005-4",
+                      "name": "GS-S005-4.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S006",
+                  "url": "/productDetail/linen/hotel/samue/GS-S006",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S006 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S006",
+                      "name": "GS-S006.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S006-2",
+                      "name": "GS-S006-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S007",
+                  "url": "/productDetail/linen/hotel/samue/GS-S007",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S007 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S007",
+                      "name": "GS-S007.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S007-2",
+                      "name": "GS-S007-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S007-3",
+                      "name": "GS-S007-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S008",
+                  "url": "/productDetail/linen/hotel/samue/GS-S008",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S008 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S008",
+                      "name": "GS-S008.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S008-2",
+                      "name": "GS-S008-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S008-3",
+                      "name": "GS-S008-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S009",
+                  "url": "/productDetail/linen/hotel/samue/GS-S009",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S009 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S009",
+                      "name": "GS-S009.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S009-2",
+                      "name": "GS-S009-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S009-3",
+                      "name": "GS-S009-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S009-4",
+                      "name": "GS-S009-4.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S009-5",
+                      "name": "GS-S009-5.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-S010",
+                  "url": "/productDetail/linen/hotel/samue/GS-S010",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-S010 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-S010",
+                      "name": "GS-S010.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-S010-2",
+                      "name": "GS-S010-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S010-3",
+                      "name": "GS-S010-3.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S010-4",
+                      "name": "GS-S010-4.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-S010-5",
+                      "name": "GS-S010-5.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -618,6 +940,36 @@
                     {
                       "id": "img3",
                       "name": "tablecloth3.png",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    }
+                  ]
+                },
+                {
+                  "id": "GS-BR002",
+                  "url": "/productDetail/linen/hotel/bathrobe/GS-BR002",
+                  "thumbNails": [
+                    {
+                      "id": "thumbNail1",
+                      "name": "GS-BR002 (thumbnail).jpg"
+                    }
+                  ],
+                  "imgs": [
+                    {
+                      "id": "GS-BR002",
+                      "name": "GS-BR002.jpg",
+                      "alt": "product detail image",
+                      "use_for": "cover"
+                    },
+                    {
+                      "id": "GS-BR002-1",
+                      "name": "GS-BR002-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-BR002-2",
+                      "name": "GS-BR002-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -982,14 +1334,14 @@
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-RW004-1",
-                      "name": "GS-RW004-1.jpg",
+                      "id": "GS-RW004-2",
+                      "name": "GS-RW004-2.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-RW004-2",
-                      "name": "GS-RW004-2.jpg",
+                      "id": "GS-RW004-1",
+                      "name": "GS-RW004-1.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
@@ -1760,40 +2112,30 @@
                     {
                       "id": "thumbNail1",
                       "name": "GS-NU001 (thumbnail).jpg"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
                     }
                   ],
                   "imgs": [
                     {
-                      "id": "GS-HW001.jpg",
-                      "name": "GS-HW001.jpg",
-                      "alt": "product detail image",
-                      "use_for": "cover"
-                    },
-                    {
-                      "id": "GS-HW001.jpg",
-                      "name": "GS-HW001.jpg",
+                      "id": "GS-NU001.jpg",
+                      "name": "GS-NU001.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "GS-HW001-1.jpg",
-                      "name": "GS-HW001-1.jpg",
+                      "id": "GS-NU001-1.jpg",
+                      "name": "GS-NU001-1.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "GS-HW001-2.jpg",
-                      "name": "GS-HW001-2.jpg",
+                      "id": "GS-NU001-2.jpg",
+                      "name": "GS-NU001-2.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     },
                     {
-                      "id": "GS-HW001-3.jpg",
-                      "name": "GS-HW001-3.jpg",
+                      "id": "GS-NU001-3.jpg",
+                      "name": "GS-NU001-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -1818,16 +2160,12 @@
                     {
                       "id": "thumbNail1",
                       "name": "GS-WPS001 (thumbnail).jpg"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
                     }
                   ],
                   "imgs": [
                     {
                       "id": "GS-WPS001",
-                      "name": "GS-WPS001",
+                      "name": "GS-WPS001.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
@@ -1855,7 +2193,7 @@
                   "imgs": [
                     {
                       "id": "GS-WPS002",
-                      "name": "GS-WPS002",
+                      "name": "GS-WPS002.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
@@ -1883,7 +2221,7 @@
                   "imgs": [
                     {
                       "id": "GS-WPS003",
-                      "name": "GS-WPS003",
+                      "name": "GS-WPS003.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
@@ -1911,7 +2249,7 @@
                   "imgs": [
                     {
                       "id": "GS-WPS004",
-                      "name": "GS-WPS004",
+                      "name": "GS-WPS004.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
@@ -1939,7 +2277,7 @@
                   "imgs": [
                     {
                       "id": "GS-WPS005",
-                      "name": "GS-WPS005",
+                      "name": "GS-WPS005.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     },
