@@ -42,7 +42,9 @@ const Header = () => {
 
   const stickOrNot = () => {
     return location.pathname === "/"
-      ? isScrolledPast ? "sticky opacity-100" : "relative"
+      ? isScrolledPast
+        ? "sticky opacity-100"
+        : "relative"
       : "sticky";
   };
 
@@ -55,8 +57,8 @@ const Header = () => {
     <nav
       className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${stickOrNot()}`}
     >
-      <div className="max-w-7xl mx-auto px-3.5 sm:px-16 lg:px-32">
-        <div className="flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
+        <div className="flex items-center justify-between relative">
           <a href="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
@@ -64,7 +66,7 @@ const Header = () => {
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="flex items-baseline space-x-4">
               {headerLinks.navigation.links.map((link) => {
                 if (!link.subMenu && link.id !== "lang") {
                   return (
@@ -108,51 +110,6 @@ const Header = () => {
                           ></path>
                         </svg>
                       </button>
-                      <div
-                        className={`absolute bg-white w-[199px] z-10 ${
-                          isLindenMenuOpen ? "block" : "hidden"
-                        }`}
-                        onMouseEnter={() => setIsLindenMenuOpen(true)}
-                        onMouseLeave={() => setIsLindenMenuOpen(false)}
-                        style={{}}
-                      >
-                        {link.subMenu.map((subLink, index) => {
-                          if (index === link.subMenu.length - 1) {
-                            return (
-                              <a
-                                href={subLink.url}
-                                className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
-                              >
-                                <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                  {t(`nav.${subLink.id}`)}
-                                </span>
-                              </a>
-                            );
-                          } else if (index === 0) {
-                            return (
-                              <a
-                                href={subLink.url}
-                                className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
-                              >
-                                <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                  {t(`nav.${subLink.id}`)}
-                                </span>
-                              </a>
-                            );
-                          } else {
-                            return (
-                              <a
-                                href={subLink.url}
-                                className="block text-left px-3 py-1 text-mobileHeading4"
-                              >
-                                <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                  {t(`nav.${subLink.id}`)}
-                                </span>
-                              </a>
-                            );
-                          }
-                        })}
-                      </div>
                     </div>
                   );
                 } else if (link.id === "apparel") {
@@ -186,50 +143,6 @@ const Header = () => {
                           ></path>
                         </svg>
                       </button>
-                      <div
-                        className={`absolute bg-white w-[199px] z-10 ${
-                          isApparelMenuOpen ? "block" : "hidden"
-                        }`}
-                        onMouseEnter={() => setIsApparelMenuOpen(true)}
-                        onMouseLeave={() => setIsApparelMenuOpen(false)}
-                      >
-                        {link.subMenu.map((subLink, index) => {
-                          if (index === link.subMenu.length - 1) {
-                            return (
-                              <a
-                                href={subLink.url}
-                                className="block text-left px-3 py-1 pb-4 text-mobileHeading4"
-                              >
-                                <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                  {t(`nav.${subLink.id}`)}
-                                </span>
-                              </a>
-                            );
-                          } else if (index === 0) {
-                            return (
-                              <a
-                                href={subLink.url}
-                                className="block text-left px-3 py-1 pt-4 text-mobileHeading4"
-                              >
-                                <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                  {t(`nav.${subLink.id}`)}
-                                </span>
-                              </a>
-                            );
-                          } else {
-                            return (
-                              <a
-                                href={subLink.url}
-                                className="block text-left px-3 py-1 text-mobileHeading4"
-                              >
-                                <span className="border-b-2 border-transparent hover:border-hoverColor">
-                                  {t(`nav.${subLink.id}`)}
-                                </span>
-                              </a>
-                            );
-                          }
-                        })}
-                      </div>
                     </div>
                   );
                 } else if (link.id === "lang") {
@@ -247,6 +160,167 @@ const Header = () => {
                   );
                 } else {
                   return null;
+                }
+              })}
+            </div>
+
+            {/* updated version dropdown part */}
+            <div
+              className={`absolute bg-white w-full z-10 top-[72px] grid grid-cols-12 py-[48px] gap-10 ${
+                isLindenMenuOpen ? "block" : "hidden"
+              }`}
+              onMouseEnter={() => setIsLindenMenuOpen(true)}
+              onMouseLeave={() => setIsLindenMenuOpen(false)}
+              style={{}}
+            >
+              {headerLinks.navigation.links[2].subMenu.map((subLink, index) => {
+                if (
+                  index ===
+                  headerLinks.navigation.links[2].subMenu.length - 1
+                ) {
+                  return (
+                    <div className="col-span-2">
+                      <p
+                        href={subLink.url}
+                        className="text-mobileHeading4 text-hoverColor mb-[4px] cursor-default select-none"
+                      >
+                        {t(`nav.${subLink.id}`)}
+                      </p>
+                      <div className="flex flex-col">
+                        {subLink.category.map((cate, index) => {
+                          return (
+                            <a href={cate.url} key={index} className="mb-[4px]">
+                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                {t(`nav.${cate.id}`)}
+                              </span>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                } else if (index === 0) {
+                  return (
+                    <div className="col-span-2 col-start-3">
+                      <p
+                        href={subLink.url}
+                        className="text-mobileHeading4 text-hoverColor mb-[4px] cursor-default select-none"
+                      >
+                        {t(`nav.${subLink.id}`)}
+                      </p>
+                      <div className="flex flex-col">
+                        {subLink.category.map((cate, index) => {
+                          return (
+                            <a href={cate.url} key={index} className="mb-[4px]">
+                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                {t(`nav.${cate.id}`)}
+                              </span>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                } else {
+                  return (
+                    <div className="col-span-2">
+                      <p
+                        href={subLink.url}
+                        className="text-mobileHeading4 text-hoverColor mb-[4px] cursor-default select-none"
+                      >
+                        {t(`nav.${subLink.id}`)}
+                      </p>
+                      <div className="flex flex-col">
+                        {subLink.category.map((cate, index) => {
+                          return (
+                            <a href={cate.url} key={index} className="mb-[4px]">
+                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                {t(`nav.${cate.id}`)}
+                              </span>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                }
+              })}
+            </div>
+
+            <div
+              className={`absolute bg-white w-full z-10 top-[72px] grid grid-cols-12 py-[48px] gap-10 ${
+                isApparelMenuOpen ? "block" : "hidden"
+              }`}
+              onMouseEnter={() => setIsApparelMenuOpen(true)}
+              onMouseLeave={() => setIsApparelMenuOpen(false)}
+            >
+              {headerLinks.navigation.links[3].subMenu.map((subLink, index) => {
+                if (
+                  index ===
+                  headerLinks.navigation.links[3].subMenu.length - 1
+                ) {
+                  return (
+                    <div className="col-span-2">
+                      <h4
+                        href={subLink.url}
+                        className="text-mobileHeading4 text-hoverColor mb-[4px] cursor-default select-none"
+                      >
+                        {t(`nav.${subLink.id}`)}
+                      </h4>
+                      <div className="flex flex-col">
+                        {subLink.category.map((cate, index) => {
+                          return (
+                            <a href={cate.url} className="mb-[4px]">
+                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                {t(`nav.${cate.id}`)}
+                              </span>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                } else if (index === 0) {
+                  return (
+                    <div className="col-span-2 col-start-3">
+                      <h4
+                        href={subLink.url}
+                        className="text-mobileHeading4 text-hoverColor mb-[4px] cursor-default select-none"
+                      >
+                        {t(`nav.${subLink.id}`)}
+                      </h4>
+                      <div className="flex flex-col">
+                        {subLink.category.map((cate, index) => {
+                          return (
+                            <a href={cate.url} className="mb-[4px]">
+                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                {t(`nav.${cate.id}`)}
+                              </span>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                } else {
+                  return (
+                    <div className="col-span-2">
+                      <h4 href={subLink.url} className="text-mobileHeading4">
+                        {t(`nav.${subLink.id}`)}
+                      </h4>
+                      <div className="flex flex-col">
+                        {subLink.category.map((cate, index) => {
+                          return (
+                            <a href={cate.url}>
+                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                                {t(`nav.${cate.id}`)}
+                              </span>
+                            </a>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
                 }
               })}
             </div>
@@ -282,7 +356,8 @@ const Header = () => {
       <div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto`}
+        } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto
+         `}
       >
         <div className="px-3 pt-5 pb-3 sm:px-3">
           <div className="flex justify-between items-center">
@@ -315,7 +390,7 @@ const Header = () => {
         </div>
 
         <div className="flex-grow flex">
-          <div className="w-full">
+          <div className="w-full font-tropikal flex flex-col gap-6">
             {headerLinks.navigation.links.map((link, index) => {
               if (!link.subMenu && link.id !== "lang") {
                 if (index === 0) {
@@ -325,7 +400,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pt-8 pb-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor">
+                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -337,7 +412,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pb-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor">
+                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -349,7 +424,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pv-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor">
+                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -358,13 +433,13 @@ const Header = () => {
               } else if (link.subMenu && link.id === "linden") {
                 return (
                   <div>
-                    <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                    <div className="text-textcolor w-full text-center px-3 pb-1 flex justify-center items-center">
                       <a href="/linedenProducts" onClick={closeAllMenus}>
-                        <h2 className="border-transparent hover:border-hoverColor">
+                        <h2 className="border-transparent hover:border-hoverColor text-4xl">
                           {t(`nav.${link.id}`)}
                         </h2>
                       </a>
-                      <svg
+                      {/* <svg
                         onClick={toggleLindenMenu}
                         className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                           isLindenMenuOpen ? "rotate-180" : "rotate-0"
@@ -380,9 +455,9 @@ const Header = () => {
                           strokeWidth="2"
                           d="M5 15l7-7 7 7"
                         ></path>
-                      </svg>
+                      </svg> */}
                     </div>
-                    {isLindenMenuOpen && (
+                    {/* {isLindenMenuOpen && (
                       <div className="bg-mobileNavbarColor">
                         {link.subMenu.map((subLink) => {
                           return (
@@ -398,19 +473,19 @@ const Header = () => {
                           );
                         })}
                       </div>
-                    )}
+                    )} */}
                   </div>
                 );
               } else if (link.subMenu && link.id === "apparel") {
                 return (
                   <div>
-                    <div className="text-textcolor w-full text-center block px-3 pb-1 flex justify-center items-center">
+                    <div className="text-textcolor w-full text-center px-3 pb-1 flex justify-center items-center">
                       <a href="/apparelProducts" onClick={closeAllMenus}>
-                        <h2 className="border-transparent hover:border-hoverColor">
+                        <h2 className="border-transparent hover:border-hoverColor text-4xl">
                           {t(`nav.${link.id}`)}
                         </h2>
                       </a>
-                      <svg
+                      {/* <svg
                         onClick={toggleApparelMenu}
                         className={`ml-2 w-5 h-5 transition-transform duration-300 ${
                           isApparelMenuOpen ? "rotate-180" : "rotate-0"
@@ -426,9 +501,9 @@ const Header = () => {
                           strokeWidth="2"
                           d="M5 15l7-7 7 7"
                         ></path>
-                      </svg>
+                      </svg> */}
                     </div>
-                    {isApparelMenuOpen && (
+                    {/* {isApparelMenuOpen && (
                       <div className="bg-mobileNavbarColor">
                         {link.subMenu.map((subLink) => {
                           return (
@@ -444,7 +519,7 @@ const Header = () => {
                           );
                         })}
                       </div>
-                    )}
+                    )} */}
                   </div>
                 );
               }
@@ -458,7 +533,7 @@ const Header = () => {
             className="block text-left"
             onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
           >
-            <h4 className="hover:border-hoverColor border-transparent font-bold">
+            <h4 className="hover:border-hoverColor border-transparent">
               {t(
                 `nav.${
                   headerLinks.navigation.links[

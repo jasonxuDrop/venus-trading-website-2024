@@ -1,16 +1,17 @@
 {
     "footer": {
         "home": "ホーム",
-        "about": "約",
-        "linden": "リンデン製品",
-        "hotel": "ホテル",
-        "hotSpring": "温泉リゾート",
-        "hospital": "病院",
-        "fabric": "ファブリック",
-        "apparel": "アパレル製品",
-        "apron": "エプロン",
+        "about": "会社概要",
+        "linden": "リネン事業",
+        "hotel": "ホテルリネン",
+        "hotSpring": "温泉旅館施設",
+        "restaurant": "レストランリネン",
+        "hospital": "病院/介護用品",
+        "fabric": "生地",
+        "apparel": "一般用アパレル",
+        "apron": "ワークエプロン",
         "pajama": "パジャマ",
-        "contact": "連絡先",
+        "contact": "お問い合わせ",
         "lang": "English", 
         "addressText": "住所",
         "address": "123 ビジネスロード, ビジネスシティ, BC 12345",
@@ -19,6 +20,6 @@
         "faxText": "ファックス",
         "fax": "+1234567891",
         "copyRight": "© 2024 Weifang SevenUp International Trading Co., LTD. すべての権利を保有.",
-        "logoImg": "../assets/images/logo/Logo Full En-white.svg"
+        "logoImg": "../assets/images/logo/Logo Full JP-white.svg"
     }
 }

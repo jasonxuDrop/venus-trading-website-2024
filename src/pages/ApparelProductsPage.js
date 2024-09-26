@@ -1,3 +1,5 @@
+// This page for displaying Apparel product list. 
+
 import ApparelProducts from "../components/ApparelProducts";
 
 const ApparelProductsPage = () => {

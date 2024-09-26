@@ -1,3 +1,5 @@
+// This is about me page. 
+
 import React from "react";
 import AboutComponent from "../components/AboutComponent";
 

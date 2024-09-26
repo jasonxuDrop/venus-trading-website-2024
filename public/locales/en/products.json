@@ -1,200 +1,3731 @@
 {
-    "productType": {
-        "linen": "Linen Products",
-        "apparel": "Apparel Products",
-        "hotel": {
-            "title": "Hotel Linen",
-            "des": "Gown, Pajama, Bathrobe, Bedding, Towel.",
-            "products": {
-                "hotel_product": {
-                    "title": "hotel product",
-                    "meterial": "meterial 100%",
-                    "details": {
-                        "title": "",
-                        "subTitle": "",
-                        "des": "",
-                        "spec": {
-                            "productName": "",
-                            "materials": "",
-                            "category": "",
-                            "category2": ""
-                        },
-                        "imgs": []
-                    }
-                },
-                "hotel_product1": {
-                    "title": "hotel product 1",
-                    "meterial": "meterial 100%"
-                },
-                "hotel_product2": {
-                    "title": "hotel product 2",
-                    "meterial": "meterial 100%"
-                }
+  "productType": {
+    "linen": "Linen Products",
+    "apparel": "Apparel Products",
+    "hotel": {
+      "type": "linen",
+      "title": "Hotel Linen",
+      "des": "Gown, Pajama, Bathrobe, Bedding, Towel.",
+      "category": {
+        "gown": {
+          "title": "Gown",
+          "des": "",
+          "products": {
+            "GS-G001": {
+              "title": "GS-G001",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G001"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G002": {
+              "title": "GS-G002",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G002"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G003": {
+              "title": "GS-G003",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G003"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G004": {
+              "title": "GS-G004",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G004"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G005": {
+              "title": "GS-G005",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G005"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G006": {
+              "title": "GS-G006",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G006"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G007": {
+              "title": "GS-G007",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G007"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G008": {
+              "title": "GS-G008",
+              "meterial": "100% Polyester",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G008"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "100% Polyester"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G009": {
+              "title": "GS-G009",
+              "meterial": "80% Polyester / 20% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G009"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "80% Polyester / 20% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G010": {
+              "title": "GS-G010",
+              "meterial": "100% Polyester",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G010"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "100% Polyester"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G011": {
+              "title": "GS-G011",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G011"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "65% Polyester / 35% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G012": {
+              "title": "GS-G012",
+              "meterial": "40% Polyester / 60% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G012"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "40% Polyester / 60% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-G013": {
+              "title": "GS-G013",
+              "meterial": "40% Polyester / 60% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Product ID",
+                    "value": "GS-G013"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Gown"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "40% Polyester / 60% Cotton"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             }
-        },
-        "hotSpring": {
-            "title": "Hot Spring Resort",
-            "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
-            "products": {
-                "hotSpring_product": {
-                    "title": "hotSpring product",
-                    "meterial": "meterial 100%"
-                },
-                "hotSpring_product1": {
-                    "title": "hotSpring product1",
-                    "meterial": "meterial 100%"
-                },
-                "hotSpring_product2": {
-                    "title": "hotSpring product2",
-                    "meterial": "meterial 100%"
-                }
-            }
-        },
-        "hospital": {
-            "title": "Hospital",
-            "des": "Patient Clothes, Undergarments, etc.",
-            "products": {
-                "hospital_product": {
-                    "title": "hospital product",
-                    "meterial": "meterial 100%"
-                },
-                "hospital_product1": {
-                    "title": "hospital product1",
-                    "meterial": "meterial 100%"
-                },
-                "hospital_product2": {
-                    "title": "hospital product2",
-                    "meterial": "meterial 100%"
-                }
-            }
-        },
-        "fabric": {
-            "title": "Fabric",
-            "des": "",
-            "products": {
-                "fabric_product": {
-                    "title": "fabric product",
-                    "meterial": "meterial 100%"
-                },
-                "fabric_product1": {
-                    "title": "fabric product 1",
-                    "meterial": "meterial 100%"
-                },
-                "fabric_product2": {
-                    "title": "fabric product 2",
-                    "meterial": "meterial 100%"
-                }
-            }
-        },
-        "apron": {
-            "title": "Apron",
-            "des": "",
-            "products": {
-                "apron_product": {
-                    "title": "apron product",
-                    "meterial": "meterial 100%"
-                },
-                "apron_product1": {
-                    "title": "apron product 1",
-                    "meterial": "meterial 100%"
-                },
-                "apron_product2": {
-                    "title": "apron product 2",
-                    "meterial": "meterial 100%"
-                }
-            }
+          }
         },
         "pajama": {
-            "title": "Pajama",
-            "des": "",
-            "products": {
-                "pajama_product": {
-                    "title": "pajama product",
-                    "meterial": "meterial 100%"
-                },
-                "pajama_product1": {
-                    "title": "pajama product 1",
-                    "meterial": "meterial 100%"
-                },
-                "pajama_product2": {
-                    "title": "pajama product 2",
-                    "meterial": "meterial 100%"
-                }
+          "title": "Pajama",
+          "des": "",
+          "products": {
+            "GS-P001": {
+              "title": "GS-P001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "pajama_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "pajama_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             }
+          }
+        },
+        "samue": {
+          "title": "Samue",
+          "des": "",
+          "products": {
+            "GS-S001": {
+              "title": "GS-S001",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-S002": {
+              "title": "GS-S002",
+              "meterial": "65% Polyester / 35% Cotton",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "bathrobe": {
+          "title": "Bath Robe",
+          "des": "",
+          "products": {
+            "GS-BR001": {
+              "title": "GS-BR001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "bathRobe_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "bathRobe_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "bed-linen": {
+          "title": "Bed Linen",
+          "des": "",
+          "products": {
+            "GS-BD001": {
+              "title": "GS-BD001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "bedLinen_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "bedLinen_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "others": {
+          "title": "Other Items",
+          "des": "",
+          "products": {
+            "GS-SL001": {
+              "title": "GS-SL001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL002": {
+              "title": "GS-SL002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL003": {
+              "title": "GS-SL003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL004": {
+              "title": "GS-SL004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL005": {
+              "title": "GS-SL005",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL006": {
+              "title": "GS-SL006",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
         }
+      }
     },
-    "productDetails": {
-        "hotel_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
+    "spa-and-resort": {
+      "type": "linene",
+      "title": "SPA & Resort",
+      "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
+      "category": {
+        "yukata": {
+          "title": "Yukata",
+          "des": "",
+          "products": {
+            "GS-Y001": {
+              "title": "GS-Y001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             },
-            "imgs": []
+            "yukata_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "yukata_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
         },
-        "hotSpring_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
+        "relax-wear": {
+          "title": "Relax Wear",
+          "des": "",
+          "products": {
+            "GS-RW001": {
+              "title": "GS-RW001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             },
-            "imgs": []
+            "GS-RW002": {
+              "title": "GS-RW002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-RW003": {
+              "title": "GS-RW003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-RW004": {
+              "title": "GS-RW004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
         },
-        "hospital_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
+        "haori": {
+          "title": "Haori",
+          "des": "",
+          "products": {
+            "GS-H001": {
+              "title": "GS-H001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
         },
-        "fabric_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
+        "others": {
+          "title": "Other Items",
+          "des": "",
+          "products": {
+            "GS-SL001": {
+              "title": "GS-SL001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             },
-            "imgs": []
-        },
-        "apron_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
+            "GS-SL002": {
+              "title": "GS-SL002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             },
-            "imgs": []
-        },
-        "pajama_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
+            "GS-SL003": {
+              "title": "GS-SL003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
             },
-            "imgs": []
+            "GS-SL004": {
+              "title": "GS-SL004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL005": {
+              "title": "GS-SL005",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-SL006": {
+              "title": "GS-SL006",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
         }
+      }
+    },
+    "hospital": {
+      "type": "linene",
+      "title": "Hospital",
+      "des": "Patient Clothes, Undergarments, etc.",
+      "category": {
+        "patient-clothes": {
+          "title": "Patient Clothes",
+          "des": "",
+          "products": {
+            "GS-HW001": {
+              "title": "GS-HW001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW002": {
+              "title": "GS-HW002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW003": {
+              "title": "GS-HW003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW004": {
+              "title": "GS-HW004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW005": {
+              "title": "GS-HW005",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW006": {
+              "title": "GS-HW006",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW007": {
+              "title": "GS-HW007",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW008": {
+              "title": "GS-HW008",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW009": {
+              "title": "GS-HW009",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-HW010": {
+              "title": "GS-HW010",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "undergarments": {
+          "title": "Undergarments",
+          "des": "",
+          "products": {
+            "GS-M001": {
+              "title": "GS-M001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "undergarments_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "undergarments_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "scrubs": {
+          "title": "Scrubs",
+          "des": "",
+          "products": {
+            "GS-SG001": {
+              "title": "GS-SG001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "scrubs_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "scrubs_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "nurse-dress": {
+          "title": "Nurse Dress",
+          "des": "",
+          "products": {
+            "GS-NU001": {
+              "title": "GS-NU001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "nurseDress_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "nurseDress_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "waterproof-sheets": {
+          "title": "Waterproof Sheets",
+          "des": "",
+          "products": {
+            "GS-WPS001": {
+              "title": "GS-WPS001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-WPS002": {
+              "title": "GS-WPS002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-WPS003": {
+              "title": "GS-WPS003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-WPS004": {
+              "title": "GS-WPS004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-WPS005": {
+              "title": "GS-WPS005",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "others": {
+          "title": "Others",
+          "des": "",
+          "products": {
+            "GS-NB001": {
+              "title": "GS-NB001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "Our general-purpose towel products such as face towels, bath towels, and bath mats in plain, yarn-dyed, jacquard, and printed styles are also well-received by our customers. We can accommodate small lots as well.",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        }
+      }
+    },
+    "restaurant": {
+      "type": "linene",
+      "title": "Restaurant Linen",
+      "des": "Patient Clothes, Undergarments, etc.",
+      "category": {
+        "table-cloth": {
+          "title": "Table Cloth",
+          "des": "",
+          "products": {
+            "GS-TC001": {
+              "title": "GS-TC001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "tableCloth_product_2": {
+              "title": "hotel product 1",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "tableCloth_product_3": {
+              "title": "hotel product 2",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "napkin": {
+          "title": "Napkin",
+          "des": "",
+          "products": {
+            "GS-N001": {
+              "title": "GS-N001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-N002": {
+              "title": "GS-N002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-N003": {
+              "title": "GS-N003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-N004": {
+              "title": "GS-N004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-N005": {
+              "title": "GS-N005",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        },
+        "glass-towel": {
+          "title": "Glass Towel",
+          "des": "",
+          "products": {
+            "GS-TW001": {
+              "title": "GS-TW001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-TW002": {
+              "title": "GS-TW002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-TW003": {
+              "title": "GS-TW003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fabric": {
+      "type": "linene",
+      "title": "Fabric",
+      "des": "",
+      "category": {
+        "all-fabric": {
+          "title": "All Fabric",
+          "des": "",
+          "products": {
+            "C40S140x100-1cmST": {
+              "title": "C40S140x100-1cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x100-3cmST": {
+              "title": "C40S140x100-3cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x100-5mmST": {
+              "title": "C40S140x100-5mmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x100-65mm-Checker": {
+              "title": "C40S140x100-65mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x100-Satin weave": {
+              "title": "C40S140x100-Satin weave",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x110-2cmST": {
+              "title": "C40S140x110-2cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x110-3cmST": {
+              "title": "C40S140x110-3cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "C40S140x110-Satin weave": {
+              "title": "C40S140x110-Satin weave",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-34S130x80 15mm-Checker": {
+              "title": "TC3070-34S130x80 15mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-34S130x80 25mm-Checker": {
+              "title": "TC3070-34S130x80 25mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-34S130x80-1.5cmST": {
+              "title": "TC3070-34S130x80-1.5cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-34S130x80-1cm ST": {
+              "title": "TC3070-34S130x80-1cm ST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-34S130x80-2.5cmST": {
+              "title": "TC3070-34S130x80-2.5cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-34S130x80-Square pattern": {
+              "title": "TC3070-34S130x80-Square pattern",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100 2.5cmST": {
+              "title": "TC3070-40S140x100 2.5cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100 3cmST": {
+              "title": "TC3070-40S140x100 3cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100 60mm-Checker": {
+              "title": "TC3070-40S140x100 60mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100 90mm-Checker": {
+              "title": "TC3070-40S140x100 90mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100-1cm ST": {
+              "title": "TC3070-40S140x100-1cm ST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100-Line pattern": {
+              "title": "TC3070-40S140x100-Line pattern",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100-Polka dot pattern": {
+              "title": "TC3070-40S140x100-Polka dot pattern",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100-Satin weave": {
+              "title": "TC3070-40S140x100-Satin weave",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S140x100-Square pattern": {
+              "title": "TC3070-40S140x100-Square pattern",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC3070-40S173x80-Wave pattern": {
+              "title": "TC3070-40S173x80-Wave pattern",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC5050-40S140x100 2.5mm-Checker": {
+              "title": "TC5050-40S140x100 2.5mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC5050-40S140x100 2cmST": {
+              "title": "TC5050-40S140x100 2cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC5050-40S140x100 3cmST": {
+              "title": "TC5050-40S140x100 3cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC5050-40S140x100 5mm-Checker": {
+              "title": "TC5050-40S140x100 5mm-Checker",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "TC5050-40S140x100-1cmST": {
+              "title": "TC5050-40S140x100-1cmST",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        }
+      }
+    },
+    "apron": {
+      "type": "apparel",
+      "title": "Apron",
+      "des": "",
+      "category": {
+        "all-apron": {
+          "title": "All Apron",
+          "des": "",
+          "products": {
+            "GS-AP001": {
+              "title": "GS-AP001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-AP002": {
+              "title": "GS-AP002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-AP003": {
+              "title": "GS-AP003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-AP004": {
+              "title": "GS-AP004",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pajama": {
+      "type": "apparel",
+      "title": "Pajama",
+      "des": "",
+      "category": {
+        "all-pajama": {
+          "title": "All Pajama",
+          "des": "",
+          "products": {
+            "GS-P001": {
+              "title": "GS-P001",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-P002": {
+              "title": "GS-P002",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            },
+            "GS-P003": {
+              "title": "GS-P003",
+              "meterial": "meterial 100%",
+              "materialText": "",
+              "details": {
+                "title": "Hotel Products",
+                "subTitle": "Nylon 80",
+                "des": "",
+                "buttonText": "Inquire",
+                "specText": "Specifications",
+                "specTable": [
+                  {
+                    "name": "Name",
+                    "value": "Waffle"
+                  },
+                  {
+                    "name": "Materials",
+                    "value": "Rose pattern, \nPlain satin"
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Hand towels, face towels, bath towels, etc."
+                  },
+                  {
+                    "name": "Category",
+                    "value": "Bath Towel:, Bath Mat: 20x30 inches, Face Towel: 12x12 inches or 13x13 inches, Hand Towel: 16x27 inches, Bath Sheet or Spa Sheet: 54x90 inches Custom sizes available"
+                  }
+                ],
+                "gallery": "Gallery"
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }

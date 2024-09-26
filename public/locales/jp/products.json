@@ -1,200 +1,528 @@
 {
-    "productType": {
-        "linen": "リネン製品",
-        "apparel": "アパレル製品",
-        "hotel": {
-            "title": "ホテルリネン",
-            "des": "ガウン、パジャマ、バスローブ、寝具、タオル。",
-            "products": {
-                "hotel_product": {
-                    "title": "ホテル 製品",
-                    "meterial": "素材 100%",
-                    "details": {
-                        "title": "ホテル 製品",
-                        "subTitle": "Nylon 80",
-                        "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-                        "spec": {
-                            "productName": "ワッフル",
-                            "materials": "バラ柄バラ柄 <br /> 朱子無地サテン",
-                            "category": "カテゴリ",
-                            "category2": "バスタオル： <br /> バスマット： 20x30インチ <br /> フェイスタオル：12x12インチまたは13x13インチ <br /> ハンドタオル：16x27インチ <br /> バスシートまたはスパシート：54x90インチ カスタムサイズ対応可 <br />"
-                        },
-                        "imgs": []
-                    }
-                },
-                "hotel_product1": {
-                    "title": "ホテル 製品 1",
-                    "meterial": "素材 100%"
-                },
-                "hotel_product2": {
-                    "title": "ホテル 製品 2",
-                    "meterial": "素材 100%"
-                }
-            }
-        },
-        "hotSpring": {
-            "title": "温泉リゾート",
-            "des": "浴衣、室内着、羽織、サウナ服。",
-            "products": {
-                "hotSpring_product": {
-                    "title": "温泉製品",
-                    "meterial": "素材 100%"
-                },
-                "hotSpring_product1": {
-                    "title": "温泉製品 1",
-                    "meterial": "素材 100%"
-                },
-                "hotSpring_product2": {
-                    "title": "温泉製品 2",
-                    "meterial": "素材 100%"
-                }
-            }
-        },
-        "hospital": {
-            "title": "病院",
-            "des": "患者服、下着など。",
-            "products": {
-                "hospital_product": {
-                    "title": "病院製品",
-                    "meterial": "素材 100%"
-                },
-                "hospital_product1": {
-                    "title": "病院製品 1",
-                    "meterial": "素材 100%"
-                },
-                "hospital_product2": {
-                    "title": "病院製品 2",
-                    "meterial": "素材 100%"
-                }
-            }
-        },
-        "fabric": {
-            "title": "生地",
-            "des": "",
-            "products": {
-                "fabric_product": {
-                    "title": "生地製品",
-                    "meterial": "素材 100%"
-                },
-                "fabric_product1": {
-                    "title": "生地製品 1",
-                    "meterial": "素材 100%"
-                },
-                "fabric_product2": {
-                    "title": "生地製品 2",
-                    "meterial": "素材 100%"
-                }
-            }
-        },
-        "apron": {
-            "title": "エプロン",
-            "des": "",
-            "products": {
-                "apron_product": {
-                    "title": "エプロン製品",
-                    "meterial": "素材 100%"
-                },
-                "apron_product1": {
-                    "title": "エプロン製品 1",
-                    "meterial": "素材 100%"
-                },
-                "apron_product2": {
-                    "title": "エプロン製品 2",
-                    "meterial": "素材 100%"
-                }
-            }
-        },
-        "pajama": {
-            "title": "パジャマ",
-            "des": "",
-            "products": {
-                "pajama_product": {
-                    "title": "パジャマ製品",
-                    "meterial": "素材 100%"
-                },
-                "pajama_product1": {
-                    "title": "パジャマ製品 1",
-                    "meterial": "素材 100%"
-                },
-                "pajama_product2": {
-                    "title": "パジャマ製品 2",
-                    "meterial": "素材 100%"
-                }
-            }
-        }
-    },
-    "productDetails": {
+  "productType": {
+    "linen": "リネン製品",
+    "apparel": "アパレル製品",
+    "hotel": {
+      "title": "ホテルリネン",
+      "des": "ガウン、パジャマ、バスローブ、寝具、タオル。",
+      "products": {
         "hotel_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
+          "title": "ホテル 製品",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
         },
-        "hotSpring_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
+        "hotel_product1": {
+          "title": "ホテル 製品 1",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
         },
-        "hospital_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "fabric_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "apron_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
-        },
-        "pajama_product": {
-            "title": "",
-            "subTitle": "",
-            "des": "",
-            "spec": {
-                "productName": "",
-                "materials": "",
-                "category": "",
-                "category2": ""
-            },
-            "imgs": []
+        "hotel_product2": {
+          "title": "ホテル 製品 2",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
         }
+      }
+    },
+    "hotSpring": {
+      "title": "温泉リゾート",
+      "des": "浴衣、室内着、羽織、サウナ服。",
+      "products": {
+        "hotSpring_product": {
+          "title": "温泉製品",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "hotSpring_product1": {
+          "title": "温泉製品 1",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "hotSpring_product2": {
+          "title": "温泉製品 2",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        }
+      }
+    },
+    "hospital": {
+      "title": "病院",
+      "des": "患者服、下着など。",
+      "products": {
+        "hospital_product": {
+          "title": "病院製品",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "hospital_product1": {
+          "title": "病院製品 1",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "hospital_product2": {
+          "title": "病院製品 2",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        }
+      }
+    },
+    "fabric": {
+      "title": "生地",
+      "des": "",
+      "products": {
+        "fabric_product": {
+          "title": "生地製品",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "fabric_product1": {
+          "title": "生地製品 1",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "fabric_product2": {
+          "title": "生地製品 2",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        }
+      }
+    },
+    "apron": {
+      "title": "エプロン",
+      "des": "",
+      "products": {
+        "apron_product": {
+          "title": "エプロン製品",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "apron_product1": {
+          "title": "エプロン製品 1",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "apron_product2": {
+          "title": "エプロン製品 2",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        }
+      }
+    },
+    "pajama": {
+      "title": "パジャマ",
+      "des": "",
+      "products": {
+        "pajama_product": {
+          "title": "パジャマ製品",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "pajama_product1": {
+          "title": "パジャマ製品 1",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        },
+        "pajama_product2": {
+          "title": "パジャマ製品 2",
+          "meterial": "素材 100%",
+          "materialText": "素材",
+          "details": {
+            "title": "ホテル 製品",
+            "subTitle": "Nylon 80",
+            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
+            "buttonText": "問い合わせ",
+            "specText": "仕様",
+            "specTable": [
+              {
+                "name": "製品番号",
+                "value": "GS-G001-G001"
+              },
+              {
+                "name": "分類",
+                "value": "GOWN ガウン"
+              },
+              {
+                "name": "素材：",
+                "value": "ポリエステル65％/ 綿35％ "
+              }
+            ],
+            "gallery": "ギャラリー"
+          }
+        }
+      }
     }
+  }
 }

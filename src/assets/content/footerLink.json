@@ -49,34 +49,8 @@
                 "url": "/linedenProducts"
             },
             {
-                "id": "hotel",
-                "url": "/productList/linen/hotel"
-            },
-            {
-                "id": "hotSpring",
-                "url": "/productList/linen/hotSpring"
-            },
-            {
-                "id": "hospital",
-                "url": "/productList/linen/hospital"
-            },
-            {
-                "id": "fabric",
-                "url": "/productList/linen/fabric"
-            }
-        ],
-        "col-4": [
-            {
                 "id": "apparel",
                 "url": "/apparelProducts"
-            },
-            {
-                "id": "apron",
-                "url": "/productList/apparel/apron"
-            },
-            {
-                "id": "pajama",
-                "url": "/productList/apparel/pajama"
             }
         ]
     },

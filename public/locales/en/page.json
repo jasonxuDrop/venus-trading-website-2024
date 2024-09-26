@@ -1,30 +1,30 @@
 {
-    "home": {
-        "hero": {
-            "title": ""
-        }
-    },
-    "about": {
-        "aboutImg": "../assets/images/aboutImg/pexels-cottonbro-4108797.png",
-        "title": "Import, Export Experts In Weifang, China",
-        "paragraph_1": "Weifang SevenUp International Trading Co., Ltd. specializes in the import, export, and processing of textiles. Leveraging the abundant local textile resources, we maintain a comprehensive and rigorous quality management system.",
-        "paragraph_2": "We export a wide range of high-quality products to Japan, United States, Europe, and other regions throughout the year."
-    },
-    "contact": {
-        "title": "Contact Us",
-        "address": "Address",
-        "addressVal": "123 Business Rd, Business City, BC 12345",
-        "phone": "Phone",
-        "phoneVal": "+1234567890",
-        "fax": "Fax",
-        "faxVal": "+1234567891",
-        "content": "Have questions about a particular product or interested in collaborating with us? Leave us a message, and we'll get back to you shortly.",
-        "form": {
-            "name": "Your Name *",
-            "email": "Email Address *",
-            "company": "Company Name *",
-            "message": "Message *",
-            "send": "Send"
-        }
+  "home": {
+    "hero": {
+      "title": ""
     }
+  },
+  "about": {
+    "aboutImg": "../assets/images/aboutImg/pexels-cottonbro-4108797.png",
+    "title": "Delivering High-Quality Linen and Apparel Worldwide",
+    "paragraph_1": "Our company specializes in the export and processing of textile products. Since the inception of our business, we have established a rigorous quality control system. For over 20 years, we have been producing and exporting linen goods and general apparel.",
+    "paragraph_2": "Moving forward, we will continue to strengthen our fabric management and sewing supervision to deliver high-quality products to our customers."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Address",
+    "addressVal": "123 Business Rd, Business City, BC 12345",
+    "phone": "Phone",
+    "phoneVal": "+1234567890",
+    "fax": "Fax",
+    "faxVal": "+1234567891",
+    "content": "Have questions about a particular product or interested in collaborating with us? Leave us a message, and we'll get back to you shortly.",
+    "form": {
+      "name": "Your Name *",
+      "email": "Email Address *",
+      "company": "Company Name *",
+      "message": "Message *",
+      "send": "Send"
+    }
+  }
 }

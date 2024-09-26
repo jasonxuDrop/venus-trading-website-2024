@@ -11,7 +11,7 @@ const AboutComponent = () => {
   const smallScreenHeight = useScreenHeight(600);
 
   return (
-    <div className="max-w-screen-xl mx-auto h-[auto] px-3.5 sm:px-16 lg:px-32">
+    <div className="max-w-screen-xl mx-auto h-[auto] px-6 sm:px-16 lg:px-32">
       <div className="relative grid grid-cols-12 gap-2">
         <div className="col-span-12 lg:col-span-6 text-left">
           <img

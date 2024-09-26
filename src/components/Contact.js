@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
+import { useQuote } from "../context/QuoteContext";
 
 import pageImage from "../assets/content/pageImg.json";
 
@@ -9,9 +10,57 @@ const Contact = () => {
 
   const { t } = useTranslation("page");
 
+  const { quoteDetails, updateQuoteDetails } = useQuote(); // for the quote message context.
+  const [quoteTextArea, setQuoteTextArea] = useState(""); // for the quote message local.
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+  });
+
+  // Update local state when quoteDetails change
+  useEffect(() => {
+    setQuoteTextArea(quoteDetails);
+  }, [quoteDetails]);
+
+  // Check for a flag to clear quoteDetails on component mount
+  useEffect(() => {
+    if (localStorage.getItem("clearQuoteOnReload") === "true") {
+      updateQuoteDetails("");
+      localStorage.removeItem("clearQuoteOnReload");
+    }
+  }, [updateQuoteDetails]);
+
+  // Handle the beforeunload event
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+      if (quoteDetails) {
+        localStorage.setItem("clearQuoteOnReload", "true");
+        event.preventDefault();
+        event.returnValue = "";
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [quoteDetails]); // Depend on quoteDetails directly
+
+  const handleInputChange = (event) => {
+    setQuoteTextArea(event.target.value);
+  };
+
+  const handleContactInput = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
   return (
     <div
-      className={`max-w-screen-xl lg:h-[537px] mx-auto px-3.5 sm:px-16 lg:px-32 ${
+      className={`max-w-screen-xl lg:h-[537px] mx-auto px-6 sm:px-16 lg:px-32 ${
         smallScreenHeight ? "" : ""
       }`}
     >
@@ -56,13 +105,25 @@ const Contact = () => {
               <label htmlFor="name" className="font-semibold text-formColor">
                 {t(`contact.form.${pageImage.contact.form.name}`)}
               </label>
-              <input type="text" id="name" required className="input-field" />
+              <input
+                type="text"
+                id="name"
+                required
+                className="input-field"
+                onChange={handleContactInput}
+              />
             </div>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="email" className="font-semibold text-formColor">
                 {t(`contact.form.${pageImage.contact.form.email}`)}
               </label>
-              <input type="email" id="email" required className="input-field" />
+              <input
+                type="email"
+                id="email"
+                required
+                className="input-field"
+                onChange={handleContactInput}
+              />
             </div>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="company" className="font-semibold text-formColor">
@@ -73,6 +134,7 @@ const Contact = () => {
                 id="company"
                 required
                 className="input-field"
+                onChange={handleContactInput}
               />
             </div>
             <div className="flex flex-col mb-[32px]">
@@ -84,6 +146,8 @@ const Contact = () => {
                 required
                 rows="4"
                 className="input-field resize-none"
+                value={quoteTextArea}
+                onChange={handleInputChange}
               ></textarea>
             </div>
             <div className="text-center lg:flex lg:justify-end">
