@@ -204,7 +204,7 @@ const ProductList = () => {
             </h2>
           </div>
 
-          <div className="col-span-12 lg:col-span-12 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-12 lg:col-start-1 mb-32">
             <div className="flex flex-row flex-wrap gap-6 justify-center
             lg:justify-start">
               {products?.map((product, index) => {
