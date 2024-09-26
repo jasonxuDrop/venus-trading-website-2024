@@ -22,7 +22,7 @@
     "form": {
       "name": "Your Name *",
       "email": "Email Address *",
-      "company": "Company Name *",
+      "company": "Company Name",
       "message": "Message *",
       "send": "Send"
     }

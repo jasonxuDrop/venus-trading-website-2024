@@ -132,7 +132,6 @@ const Contact = () => {
               <input
                 type="text"
                 id="company"
-                required
                 className="input-field"
                 onChange={handleContactInput}
               />
@@ -145,7 +144,7 @@ const Contact = () => {
                 id="message"
                 required
                 rows="4"
-                className="input-field resize-none"
+                className="resize-y input-field"
                 value={quoteTextArea}
                 onChange={handleInputChange}
               ></textarea>
