@@ -165,7 +165,7 @@ const ProductDetail = () => {
   };
 
   return (
-    <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor">
+    <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor min-h-[calc(100vh-72px-356px)]">
       <div className="max-w-screen-xl mx-auto h-[auto] px-6 sm:px-16 lg:px-32">
         <div className="relative grid grid-cols-12 gap-2">
           <div className="col-span-12 lg:col-span-6 text-left">

@@ -180,7 +180,9 @@ const ProductList = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-xl mx-auto lg:pt-[96px] lg:pb-[192px] px-6 sm:px-16 lg:px-32">
+      <div className="max-w-screen-xl mx-auto lg:pt-[96px] lg:pb-[192px] 
+      px-6 sm:px-16 lg:px-32
+      min-h-[calc(100vh-72px-356px-250px)]">
         <div className="relative grid grid-cols-12 gap-2">
           <div className="text-center col-span-12 lg:hidden mb-[12px]">
             <h1 className="inline-block relative">
