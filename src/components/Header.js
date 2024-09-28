@@ -49,9 +49,9 @@ const Header = () => {
     // on homepage
     if (isScrolledPast) 
     {
-      return "lg:opacity-100";
+      return "lg:bg-navbarcolor";
     } 
-    return "lg:opacity-0 lg:hover:opacity-100";
+    return "lg:bg-transparent lg:hover:bg-navbarcolor";
   };
 
   const changeLanguage = (lng) => {
@@ -61,7 +61,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`top-0 z-50 h-[72px] bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out sticky ${stickOrNot()}`}
+      className={`top-0 z-50 h-[72px] bg-navbarcolor text-textcolor transition-colors duration-500 ease-in-out sticky ${stickOrNot()}`}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between relative">
