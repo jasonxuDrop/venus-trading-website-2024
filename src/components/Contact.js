@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 import { useQuote } from "../context/QuoteContext";
+import emailjs from "@emailjs/browser";
 
 import pageImage from "../assets/content/pageImg.json";
 
@@ -52,10 +53,42 @@ const Contact = () => {
 
   const handleContactInput = (event) => {
     const { name, value } = event.target;
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [name]: value,
-    }));
+    console.log('123');
+    setFormData({
+        ...formData,
+        [name]: value
+    });
+};
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    const MY_SERVICE_ID = process.env.REACT_APP_MY_SERVICE_ID;
+    const MY_TEMPLATE_ID = process.env.REACT_APP_MY_TEMPLATE_ID;
+    const MY_PUBLIC_KEY = process.env.REACT_APP_MY_PUBLIC_KEY;
+
+    const EMAIL_TEMPLATE = {
+      from_name: formData.name,
+      from_email: formData.email,
+      from_company: formData.company,
+      message: quoteTextArea,
+      to_name: "Venus Trading",
+    };
+
+    emailjs
+      .send(MY_SERVICE_ID, MY_TEMPLATE_ID, EMAIL_TEMPLATE, MY_PUBLIC_KEY)
+      .then(
+        (result) => {
+          console.log("Email successfully sent!", result);
+          setFormData({ name: "", email: "", company: "" });
+          setQuoteTextArea("");
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log("Failed to send the email: ", error.text);
+          alert("Failed to send the message.");
+        }
+      );
   };
 
   return (
@@ -100,7 +133,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-left">
-          <form className="space-y-4">
+          <form className="space-y-4" onSubmit={handleFormSubmit}>
             <div className="flex flex-col mb-[16px]">
               <label htmlFor="name" className="font-semibold text-formColor">
                 {t(`contact.form.${pageImage.contact.form.name}`)}
@@ -109,7 +142,9 @@ const Contact = () => {
                 type="text"
                 id="name"
                 required
+                name="name"
                 className="input-field"
+                value={formData.name}
                 onChange={handleContactInput}
               />
             </div>
@@ -121,8 +156,10 @@ const Contact = () => {
                 type="email"
                 id="email"
                 required
+                name="email"
                 className="input-field"
                 onChange={handleContactInput}
+                value={formData.email}
               />
             </div>
             <div className="flex flex-col mb-[16px]">
@@ -132,8 +169,10 @@ const Contact = () => {
               <input
                 type="text"
                 id="company"
+                name="company"
                 className="input-field"
                 onChange={handleContactInput}
+                value={formData.company}
               />
             </div>
             <div className="flex flex-col mb-[32px]">

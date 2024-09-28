@@ -1,10 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import homtImg from "../assets/images/homeImg/hero-image.jpg";
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
-import logoNoIconEn from "../assets/images/logo/Logo No Icon JP.svg";
+import logoNoIconJp from "../assets/images/logo/Logo No Icon JP.svg";
+import logoNoIconEn from "../assets/images/logo/Logo No Icon En.svg";
 
 const Hero = () => {
+  const { t, i18n } = useTranslation("page");
+
     return (
         <div
           className="max-w-screen-xl mx-auto
@@ -20,7 +24,7 @@ const Hero = () => {
             >
               <div className="flex flex-col justify-end h-full">
                 <img
-                  src={logoNoIconEn}
+                  src={i18n.language === "en" ? logoNoIconEn : logoNoIconJp}
                   alt="company logo"
                   className="max-w-full"
                   style={{ marginBottom: "min(12vw, 9rem)" }}
