@@ -991,7 +991,7 @@
       }
     },
     "spa-and-resort": {
-      "type": "linene",
+      "type": "linen",
       "title": "SPA & Resort",
       "des": "Yukata, Indoor Wear, Haori, Sauna Clothes.",
       "category": {
@@ -1346,7 +1346,7 @@
       }
     },
     "hospital": {
-      "type": "linene",
+      "type": "linen",
       "title": "Hospital",
       "des": "Patient Clothes, Undergarments, etc.",
       "category": {
@@ -1693,7 +1693,7 @@
           }
         },
         "nurse-dress": {
-          "title": "Nurse Dress",
+          "title": "Nurse Uniform",
           "des": "",
           "products": {
             "GS-NU001": {
@@ -1872,7 +1872,7 @@
           "products": {
             "GS-NV001": {
               "title": "GS-NV001",
-              "meterial": "Breast Belt 100% Cotton",
+              "meterial": "Breast Belt",
               "materialText": "",
               "details": {
                 "title": "GS-NV001",
@@ -1902,9 +1902,9 @@
       }
     },
     "restaurant": {
-      "type": "linene",
+      "type": "linen",
       "title": "Restaurant Linen",
-      "des": "Patient Clothes, Undergarments, etc.",
+      "des": "Table Cloth, Napkins, etc.",
       "category": {
         "table-cloth": {
           "title": "Table Cloth",
@@ -2090,7 +2090,7 @@
               "materialText": "",
               "details": {
                 "title": "GS-TW001",
-                "subTitle": "Glass Towel",
+                "subTitle": "Tea Towel",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
@@ -2101,7 +2101,7 @@
                   },
                   {
                     "name": "Category",
-                    "value": "Glass Towel"
+                    "value": "Tea Towel"
                   },
                   {
                     "name": "Materials",
@@ -2117,7 +2117,7 @@
               "materialText": "",
               "details": {
                 "title": "GS-TW002",
-                "subTitle": "Glass Towel",
+                "subTitle": "Tea Towel",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
@@ -2128,7 +2128,7 @@
                   },
                   {
                     "name": "Category",
-                    "value": "Glass Towel"
+                    "value": "Tea Towel"
                   },
                   {
                     "name": "Materials",
@@ -2144,7 +2144,7 @@
               "materialText": "",
               "details": {
                 "title": "GS-TW003",
-                "subTitle": "Glass Towel",
+                "subTitle": "Tea Towel",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
@@ -2155,7 +2155,7 @@
                   },
                   {
                     "name": "Category",
-                    "value": "Glass Towel"
+                    "value": "Tea Towel"
                   },
                   {
                     "name": "Materials",
@@ -2170,7 +2170,7 @@
       }
     },
     "fabric": {
-      "type": "linene",
+      "type": "linen",
       "title": "Fabric",
       "des": "",
       "category": {
@@ -2287,11 +2287,11 @@
               }
             },
             "C40S140x100-Satin weave": {
-              "title": "C40S/140x100 Satin weave",
+              "title": "C40S/140x100 Satin Weave",
               "meterial": "",
               "materialText": "",
               "details": {
-                "title": "C40S/140x100 Satin weave",
+                "title": "C40S/140x100 Satin Weave",
                 "subTitle": "Fabric",
                 "des": "",
                 "buttonText": "Inquire",
@@ -2341,11 +2341,11 @@
               }
             },
             "C40S140x110-3cmST": {
-              "title": "C40S/140x110 3cmST",
+              "title": "C40S/140x110 3cm ST",
               "meterial": "",
               "materialText": "",
               "details": {
-                "title": "C40S/140x110 3cmST",
+                "title": "C40S/140x110 3cm ST",
                 "subTitle": "Fabric",
                 "des": "",
                 "buttonText": "Inquire",
@@ -2368,11 +2368,11 @@
               }
             },
             "C40S140x110-Satin weave": {
-              "title": "C40S/140x110 Satin weave",
+              "title": "C40S/140x110 Satin Weave",
               "meterial": "",
               "materialText": "",
               "details": {
-                "title": "C40S/140x110 Satin weave",
+                "title": "C40S/140x110 Satin Weave",
                 "subTitle": "Fabric",
                 "des": "",
                 "buttonText": "Inquire",

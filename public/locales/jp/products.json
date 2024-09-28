@@ -1,525 +1,3181 @@
 {
   "productType": {
-    "linen": "リネン製品",
-    "apparel": "アパレル製品",
+    "linen": "リネン事業",
+    "apparel": "一般用アパレル",
     "hotel": {
+      "type": "リネン",
       "title": "ホテルリネン",
-      "des": "ガウン、パジャマ、バスローブ、寝具、タオル。",
-      "products": {
-        "hotel_product": {
-          "title": "ホテル 製品",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+      "des": "ガウン, パジャマ, バスローブ, ベッドリネン, Towel.",
+      "category": {
+        "gown": {
+          "title": "ガウン",
+          "des": "",
+          "products": {
+            "GS-G001": {
+              "title": "GS-G001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G001",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "GS-G002": {
+              "title": "GS-G002",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G002",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G003": {
+              "title": "GS-G003",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G003",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G004": {
+              "title": "GS-G004",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G004",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G005": {
+              "title": "GS-G005",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G005",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G006": {
+              "title": "GS-G006",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G006",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G006"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G007": {
+              "title": "GS-G007",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G007",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G007"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G008": {
+              "title": "GS-G008",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G008",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G008"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G009": {
+              "title": "GS-G009",
+              "meterial": "ポリエステル80％ / 綿20％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G009",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G009"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル80％ / 綿20％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G010": {
+              "title": "GS-G010",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G010",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G010"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G011": {
+              "title": "GS-G011",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G011",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G011"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G012": {
+              "title": "GS-G012",
+              "meterial": "ポリエステル40％ / 綿60％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G012",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G012"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル40％ / 綿60％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-G013": {
+              "title": "GS-G013",
+              "meterial": "ポリエステル40％ / 綿60％",
+              "materialText": "",
+              "details": {
+                "title": "GS-G013",
+                "subTitle": "ガウン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-G013"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ガウン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル40％ / 綿60％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         },
-        "hotel_product1": {
-          "title": "ホテル 製品 1",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+        "pajama": {
+          "title": "パジャマ",
+          "des": "",
+          "products": {
+            "GS-P001": {
+              "title": "GS-P001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-P001",
+                "subTitle": "パジャマ",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-P001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "パジャマ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "GS-P002": {
+              "title": "GS-P002",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-P002",
+                "subTitle": "パジャマ",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-P002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "パジャマ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-P003": {
+              "title": "GS-P003",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-P003",
+                "subTitle": "パジャマ",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-P003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "パジャマ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         },
-        "hotel_product2": {
-          "title": "ホテル 製品 2",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+        "samue": {
+          "title": "作務衣",
+          "des": "",
+          "products": {
+            "GS-S001": {
+              "title": "GS-S001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S001",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "GS-S002": {
+              "title": "GS-S002",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S002",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S003": {
+              "title": "GS-S003",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S003",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S004": {
+              "title": "GS-S004",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S004",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S005": {
+              "title": "GS-S005",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S005",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S006": {
+              "title": "GS-S006",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S006",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S006"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S007": {
+              "title": "GS-S007",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S007",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S007"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S008": {
+              "title": "GS-S008",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S008",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S008"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S009": {
+              "title": "GS-S009",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S009",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S009"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-S010": {
+              "title": "GS-S010",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-S010",
+                "subTitle": "作務衣",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-S010"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "作務衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "bathrobe": {
+          "title": "バスローブ",
+          "des": "",
+          "products": {
+            "GS-BR001": {
+              "title": "GS-BR001",
+              "meterial": "ポリエステル10％ / 綿90％",
+              "materialText": "",
+              "details": {
+                "title": "GS-BR001",
+                "subTitle": "ポリエステル10％ / 綿90％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-BR001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "バスローブ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル10％ / 綿90％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-BR002": {
+              "title": "GS-BR002",
+              "meterial": "ポリエステル10％ / 綿90％",
+              "materialText": "",
+              "details": {
+                "title": "GS-BR002",
+                "subTitle": "ポリエステル10％ / 綿90％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-BR002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "バスローブ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル10％ / 綿90％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "bed-linen": {
+          "title": "ベッドリネン",
+          "des": "",
+          "products": {
+            "GS-BD001": {
+              "title": "GS-BD001",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-BD001",
+                "subTitle": "綿100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-BD001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ベッドリネン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "others": {
+          "title": "その他 ",
+          "des": "",
+          "products": {
+            "GS-SL001": {
+              "title": "GS-SL001",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL001",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL002": {
+              "title": "GS-SL002",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL002",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL003": {
+              "title": "GS-SL003",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL003",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL004": {
+              "title": "GS-SL004",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL004",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL005": {
+              "title": "GS-SL005",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL005",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL006": {
+              "title": "GS-SL006",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL006",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL006"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         }
       }
     },
-    "hotSpring": {
-      "title": "温泉リゾート",
-      "des": "浴衣、室内着、羽織、サウナ服。",
-      "products": {
-        "hotSpring_product": {
-          "title": "温泉製品",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+    "spa-and-resort": {
+      "type": "リネン事業",
+      "title": "温泉旅館施設",
+      "des": "浴衣, 館内着, 羽織, Sauna Clothes.",
+      "category": {
+        "yukata": {
+          "title": "浴衣",
+          "des": "",
+          "products": {
+            "GS-Y001": {
+              "title": "GS-Y001",
+              "meterial": "綿90％ OR ポリエステル30％ / 綿70％",
+              "materialText": "",
+              "details": {
+                "title": "GS-Y001",
+                "subTitle": "綿90％ OR ポリエステル30％ / 綿70％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-Y001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "浴衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿90％ OR ポリエステル30％ / 綿70％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            }
           }
         },
-        "hotSpring_product1": {
-          "title": "温泉製品 1",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+        "relax-wear": {
+          "title": "館内着",
+          "des": "",
+          "products": {
+            "GS-RW001": {
+              "title": "GS-RW001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-RW001",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-RW001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "館内着"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "GS-RW002": {
+              "title": "GS-RW002",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-RW002",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-RW002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "館内着"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-RW003": {
+              "title": "GS-RW003",
+              "meterial": "ポリエステル80％ / 綿20％",
+              "materialText": "",
+              "details": {
+                "title": "GS-RW003",
+                "subTitle": "ポリエステル80％ / 綿20％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-RW003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "館内着"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル80％ / 綿20％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-RW004": {
+              "title": "GS-RW004",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-RW004",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-RW004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "館内着"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         },
-        "hotSpring_product2": {
-          "title": "温泉製品 2",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+        "haori": {
+          "title": "羽織",
+          "des": "",
+          "products": {
+            "GS-H001": {
+              "title": "GS-H001",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-H001",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-H001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "羽織"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            }
+          }
+        },
+        "others": {
+          "title": "その他 ",
+          "des": "",
+          "products": {
+            "GS-SL001": {
+              "title": "GS-SL001",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL001",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL002": {
+              "title": "GS-SL002",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL002",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL003": {
+              "title": "GS-SL003",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL003",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL004": {
+              "title": "GS-SL004",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL004",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL005": {
+              "title": "GS-SL005",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL005",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-SL006": {
+              "title": "GS-SL006",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SL006",
+                "subTitle": "ポリエステル100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SL006"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "スリッパ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         }
       }
     },
     "hospital": {
-      "title": "病院",
-      "des": "患者服、下着など。",
-      "products": {
-        "hospital_product": {
-          "title": "病院製品",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+      "type": "リネン事業",
+      "title": "病院/介護用品",
+      "des": "患者衣, 肌着, etc.",
+      "category": {
+        "patient-clothes": {
+          "title": "患者衣",
+          "des": "",
+          "products": {
+            "GS-HW001": {
+              "title": "GS-HW001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW001",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "GS-HW002": {
+              "title": "GS-HW002",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW002",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW003": {
+              "title": "GS-HW003",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW003",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW004": {
+              "title": "GS-HW004",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW004",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW005": {
+              "title": "GS-HW005",
+              "meterial": "ポリエステル30％ / 綿70％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW005",
+                "subTitle": "ポリエステル30％ / 綿70％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル30％ / 綿70％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW006": {
+              "title": "GS-HW006",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW006",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW006"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW007": {
+              "title": "GS-HW007",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW007",
+                "subTitle": "ポリエステル65％ / 綿35％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW007"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW008": {
+              "title": "GS-HW008",
+              "meterial": "ポリエステル80％ / 綿20％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW008",
+                "subTitle": "ポリエステル80％ / 綿20％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW008"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル80％ / 綿20％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW009": {
+              "title": "GS-HW009",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-HW009",
+                "subTitle": "綿100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-HW009"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-HW010": {
+              "title": "GS-HW010",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "綿100％",
+                "subTitle": "綿100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "綿100％"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "患者衣"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         },
-        "hospital_product1": {
-          "title": "病院製品 1",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+        "undergarments": {
+          "title": "肌着",
+          "des": "",
+          "products": {
+            "GS-M001": {
+              "title": "GS-M001",
+              "meterial": "肌着",
+              "materialText": "",
+              "details": {
+                "title": "GS-M001",
+                "subTitle": "綿100％",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-M001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "肌着"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            }
           }
         },
-        "hospital_product2": {
-          "title": "病院製品 2",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+        "scrubs": {
+          "title": "手術服",
+          "des": "",
+          "products": {
+            "GS-SG001": {
+              "title": "GS-SG001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-SG001",
+                "subTitle": "手術服",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-SG001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "手術服"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            }
+          }
+        },
+        "nurse-dress": {
+          "title": "看護婦服",
+          "des": "",
+          "products": {
+            "GS-NU001": {
+              "title": "GS-NU001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-NU001",
+                "subTitle": "看護婦服",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-NU001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "看護婦服"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "waterproof-sheets": {
+          "title": "ベッド製品",
+          "des": "",
+          "products": {
+            "GS-WPS001": {
+              "title": "GS-WPS001",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-WPS001",
+                "subTitle": "ベッド製品",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-WPS001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ベッド製品"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-WPS002": {
+              "title": "GS-WPS002",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-WPS002",
+                "subTitle": "ベッド製品",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-WPS002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ベッド製品"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-WPS003": {
+              "title": "GS-WPS003",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-WPS003",
+                "subTitle": "ベッド製品",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-WPS003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ベッド製品"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-WPS004": {
+              "title": "GS-WPS004",
+              "meterial": "ポリエステル100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-WPS004",
+                "subTitle": "ベッド製品",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-WPS004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ベッド製品"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-WPS005": {
+              "title": "GS-WPS005",
+              "meterial": "ポリエステル85％ / 綿15％",
+              "materialText": "",
+              "details": {
+                "title": "GS-WPS005",
+                "subTitle": "ベッド製品",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-WPS005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ベッド製品"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル85％ / 綿15％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "others": {
+          "title": "その他",
+          "des": "",
+          "products": {
+            "GS-NV001": {
+              "title": "GS-NV001",
+              "meterial": "乳帯",
+              "materialText": "",
+              "details": {
+                "title": "GS-NV001",
+                "subTitle": "乳帯",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-NV001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "乳帯"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        }
+      }
+    },
+    "restaurant": {
+      "type": "リネン事業",
+      "title": "レストランリネン",
+      "des": "テーブルクロス, ナフキン, etc.",
+      "category": {
+        "table-cloth": {
+          "title": "テーブルクロス",
+          "des": "",
+          "products": {
+            "GS-TC001": {
+              "title": "GS-TC001",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-TC001",
+                "subTitle": "テーブルクロス",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-TC001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "テーブルクロス"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "napkin": {
+          "title": "ナフキン",
+          "des": "",
+          "products": {
+            "GS-N001": {
+              "title": "GS-N001",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-N001",
+                "subTitle": "ナフキン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-N001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ナフキン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-N002": {
+              "title": "GS-N002",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-N002",
+                "subTitle": "Napkin",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-N002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "Napkin"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-N003": {
+              "title": "GS-N003",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-N003",
+                "subTitle": "Napkin",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-N003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "Napkin"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-N004": {
+              "title": "GS-N004",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-N004",
+                "subTitle": "Napkin",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-N004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "Napkin"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-N005": {
+              "title": "GS-N005",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-N005",
+                "subTitle": "Napkin",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-N005"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "Napkin"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
+          }
+        },
+        "glass-towel": {
+          "title": "グラスタオル",
+          "des": "",
+          "products": {
+            "GS-TW001": {
+              "title": "GS-TW001",
+              "meterial": "麻55% / 棉45%",
+              "materialText": "",
+              "details": {
+                "title": "GS-TW001",
+                "subTitle": "グラスタオル",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-TW001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "グラスタオル"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "麻55% / 棉45%"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-TW002": {
+              "title": "GS-TW002",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-TW002",
+                "subTitle": "グラスタオル",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-TW002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "グラスタオル"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "GS-TW003": {
+              "title": "GS-TW003",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-TW003",
+                "subTitle": "グラスタオル",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-TW003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "グラスタオル"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         }
       }
     },
     "fabric": {
+      "type": "リネン事業",
       "title": "生地",
       "des": "",
-      "products": {
-        "fabric_product": {
-          "title": "生地製品",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+      "category": {
+        "all-fabric": {
+          "title": "全ての生地",
+          "des": "",
+          "products": {
+            "C40S140x100-1cmST": {
+              "title": "C40S/140x100 1cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S140x100-1cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
-          }
-        },
-        "fabric_product1": {
-          "title": "生地製品 1",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+            },
+            "C40S140x100-3cmST": {
+              "title": "C40S/140x100 3cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x100 3cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
-          }
-        },
-        "fabric_product2": {
-          "title": "生地製品 2",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+            },
+            "C40S140x100-5mmST": {
+              "title": "C40S/140x100 5mmST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x100 5mmST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "C40S140x100-65mm-Checker": {
+              "title": "C40S/140x100 65mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x100 65mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "C40S140x100-Satin weave": {
+              "title": "C40S/140x100 朱子織",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x100 朱子織",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "C40S140x110-2cmST": {
+              "title": "C40S/140x110 2cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x110 2cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*110"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "C40S140x110-3cmST": {
+              "title": "C40S/140x110 3cmST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x110 3cmST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*110"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "C40S140x110-Satin weave": {
+              "title": "C40S/140x110 朱子織",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "C40S/140x110 朱子織",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "Cotton"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿100％ 40S / 140*110"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-34S130x80 15mm-Checker": {
+              "title": "T/C30/70 34S/130x80 15mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 34S//130x80 15mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 34S / 130*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-34S130x80 25mm-Checker": {
+              "title": "T/C30/70 34S/130x80 25mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 34S/130x80 25mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 34S / 130*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-34S130x80-1.5cmST": {
+              "title": "T/C30/70 34S/130x80 1.5cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 34S/130x80 1.5cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 34S / 130*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-34S130x80-1cm ST": {
+              "title": "T/C30/70 34S/130x80 1cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 34S/130x80 1cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 34S / 130*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-34S130x80-2.5cmST": {
+              "title": "T/C30/70 34S/130x80 2.5cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 34S/130x80 2.5cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 34S / 130*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-34S130x80-Square pattern": {
+              "title": "T/C30/70 34S/130x80 回字格",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 34S/130x80 回字格",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 34S / 130*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100 2.5cmST": {
+              "title": "T/C30/70 40S/140x100 2.5cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 2.5cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100 3cmST": {
+              "title": "T/C30/70 40S/140x100 3cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 3cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100 60mm-Checker": {
+              "title": "T/C30/70 40S/140x100 60mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 60mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100 90mm-Checker": {
+              "title": "T/C30/70 40S/140x100 90mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 90mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100-1cm ST": {
+              "title": "T/C30/70 40S/140x100 1cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 1cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100-Line pattern": {
+              "title": "T/C30/70 40S/140x100 一缐格",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 一缐格",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100-Polka dot pattern": {
+              "title": "T/C30/70 40S/140x100 ドッド柄",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 ドッド柄",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100-Satin weave": {
+              "title": "T/C30/70 40S/140x100 朱子織",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 朱子織",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S140x100-Square pattern": {
+              "title": "T/C30/70 40S/140x100 回字格",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/140x100 回字格",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC3070-40S173x80-Wave pattern": {
+              "title": "T/C30/70 40S/173x80 水波柄",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C30/70 40S/173x80 水波柄",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿70％ / ポリエステル30％ 40S / 173*80"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC5050-40S140x100 2.5mm-Checker": {
+              "title": "T/C50/50 40S/140x100 2.5mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C50/50 40S/140x100 2.5mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿50％ / ポリエステル50％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC5050-40S140x100 2cmST": {
+              "title": "T/C50/50 40S/140x100 2cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C50/50 40S/140x100 2cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿50％ / ポリエステル50％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC5050-40S140x100 3cmST": {
+              "title": "T/C50/50 40S/140x100 3cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C50/50 40S/140x100 3cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿50％ / ポリエステル50％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC5050-40S140x100 5mm-Checker": {
+              "title": "T/C50/50 40S/140x100 5mm チェック",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C50/50 40S/140x100 5mm チェック",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿50％ / ポリエステル50％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            },
+            "TC5050-40S140x100-1cmST": {
+              "title": "T/C50/50 40S/140x100 1cm ST",
+              "meterial": "",
+              "materialText": "",
+              "details": {
+                "title": "T/C50/50 40S/140x100 1cm ST",
+                "subTitle": "生地",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "分類",
+                    "value": "ベッド生地"
+                  },
+                  {
+                    "name": "素材名",
+                    "value": "綿 / ポリエステル"
+                  },
+                  {
+                    "name": "組成",
+                    "value": "綿50％ / ポリエステル50％ 40S / 140*100"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         }
       }
     },
     "apron": {
-      "title": "エプロン",
+      "type": "一般用アパレル",
+      "title": "ワークエプロン",
       "des": "",
-      "products": {
-        "apron_product": {
-          "title": "エプロン製品",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+      "category": {
+        "all-apron": {
+          "title": "全てのワークエプロン",
+          "des": "",
+          "products": {
+            "GS-AP001": {
+              "title": "GS-AP001",
+              "meterial": "綿100％",
+              "materialText": "",
+              "details": {
+                "title": "GS-AP001",
+                "subTitle": "ワークエプロン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-AP001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ワークエプロン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "綿100％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
-          }
-        },
-        "apron_product1": {
-          "title": "エプロン製品 1",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+            },
+            "GS-AP002": {
+              "title": "GS-AP002",
+              "meterial": "ポリエステル80％ / 綿20％",
+              "materialText": "",
+              "details": {
+                "title": "GS-AP002",
+                "subTitle": "ワークエプロン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-AP002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ワークエプロン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル80％ / 綿20％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
-          }
-        },
-        "apron_product2": {
-          "title": "エプロン製品 2",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+            },
+            "GS-AP003": {
+              "title": "GS-AP003",
+              "meterial": "ポリエステル80％ / 綿20％",
+              "materialText": "",
+              "details": {
+                "title": "GS-AP003",
+                "subTitle": "ワークエプロン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-AP003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ワークエプロン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル80％ / 綿20％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            },
+            "GS-AP004": {
+              "title": "GS-AP004",
+              "meterial": "ポリエステル80％ / 綿20％",
+              "materialText": "",
+              "details": {
+                "title": "GS-AP004",
+                "subTitle": "ワークエプロン",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-AP004"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "ワークエプロン"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル80％ / 綿20％"
+                  }
+                ],
+                "gallery": "ギャラリー"
+              }
+            }
           }
         }
       }
     },
     "pajama": {
+      "type": "一般用アパレル",
       "title": "パジャマ",
       "des": "",
-      "products": {
-        "pajama_product": {
-          "title": "パジャマ製品",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+      "category": {
+        "all-pajama": {
+          "title": "全てのパジャマ",
+          "des": "",
+          "products": {
+            "GS-P001": {
+              "title": "GS-P001",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-P001",
+                "subTitle": "パジャマ",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-P001"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "パジャマ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
-          }
-        },
-        "pajama_product1": {
-          "title": "パジャマ製品 1",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+            },
+            "GS-P002": {
+              "title": "GS-P002",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-P002",
+                "subTitle": "パジャマ",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-P002"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "パジャマ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
-          }
-        },
-        "pajama_product2": {
-          "title": "パジャマ製品 2",
-          "meterial": "素材 100%",
-          "materialText": "素材",
-          "details": {
-            "title": "ホテル 製品",
-            "subTitle": "Nylon 80",
-            "des": "無地、先染め、ジャガード、プリントなどのファイスタオル、バスタオル、バスマットなどの一般 用タオル製品も、お客様に好評をいただいています。 小ロットにも対応できます。",
-            "buttonText": "問い合わせ",
-            "specText": "仕様",
-            "specTable": [
-              {
-                "name": "製品番号",
-                "value": "GS-G001-G001"
-              },
-              {
-                "name": "分類",
-                "value": "GOWN ガウン"
-              },
-              {
-                "name": "素材：",
-                "value": "ポリエステル65％/ 綿35％ "
+            },
+            "GS-P003": {
+              "title": "GS-P003",
+              "meterial": "ポリエステル65％ / 綿35％",
+              "materialText": "",
+              "details": {
+                "title": "GS-P003",
+                "subTitle": "パジャマ",
+                "des": "",
+                "buttonText": "お問い合わせ",
+                "specText": "仕様",
+                "specTable": [
+                  {
+                    "name": "製品番号",
+                    "value": "GS-P003"
+                  },
+                  {
+                    "name": "分類",
+                    "value": "パジャマ"
+                  },
+                  {
+                    "name": "素材",
+                    "value": "ポリエステル65％ / 綿35％"
+                  }
+                ],
+                "gallery": "ギャラリー"
               }
-            ],
-            "gallery": "ギャラリー"
+            }
           }
         }
       }
