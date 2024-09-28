@@ -373,15 +373,15 @@
               "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
-                "title": "Hotel Products",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-P001",
+                "subTitle": "Pajama",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "GS-G001"
+                    "value": "GS-P001"
                   },
                   {
                     "name": "Category",
@@ -400,15 +400,15 @@
               "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
-                "title": "Hotel Products",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-P002",
+                "subTitle": "Pajama",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "GS-G001"
+                    "value": "GS-P002"
                   },
                   {
                     "name": "Category",
@@ -427,8 +427,8 @@
               "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
-                "title": "Hotel Products",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-P003",
+                "subTitle": "Pajama",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
@@ -2976,26 +2976,26 @@
           "products": {
             "GS-AP001": {
               "title": "GS-AP001",
-              "meterial": "TODO MATERIALS",
+              "meterial": "100% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-AP001",
+                "subTitle": "Apron",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-AP001"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Apron"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "100% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -3003,26 +3003,26 @@
             },
             "GS-AP002": {
               "title": "GS-AP002",
-              "meterial": "TODO MATERIALS",
+              "meterial": "80% Polyester / 20% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-AP002",
+                "subTitle": "Apron",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-AP002"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Apron"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "80% Polyester / 20% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -3030,26 +3030,26 @@
             },
             "GS-AP003": {
               "title": "GS-AP003",
-              "meterial": "TODO MATERIALS",
+              "meterial": "80% Polyester / 20% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-AP003",
+                "subTitle": "Apron",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-AP003"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Apron"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "80% Polyester / 20% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -3057,26 +3057,26 @@
             },
             "GS-AP004": {
               "title": "GS-AP004",
-              "meterial": "TODO MATERIALS",
+              "meterial": "80% Polyester / 20% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-AP004",
+                "subTitle": "Apron",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-AP004"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Apron"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "80% Polyester / 20% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -3097,26 +3097,26 @@
           "products": {
             "GS-P001": {
               "title": "GS-P001",
-              "meterial": "TODO MATERIALS",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-P001",
+                "subTitle": "Pajama",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-P001"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Pajama"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -3124,26 +3124,26 @@
             },
             "GS-P002": {
               "title": "GS-P002",
-              "meterial": "TODO MATERIALS",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-P002",
+                "subTitle": "Pajama",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-P002"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Pajama"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
@@ -3151,26 +3151,26 @@
             },
             "GS-P003": {
               "title": "GS-P003",
-              "meterial": "TODO MATERIALS",
+              "meterial": "65% Polyester / 35% Cotton",
               "materialText": "",
               "details": {
-                "title": "TODO ID",
-                "subTitle": "TODO CATEGORY",
+                "title": "GS-P003",
+                "subTitle": "Pajama",
                 "des": "",
                 "buttonText": "Inquire",
                 "specText": "Specifications",
                 "specTable": [
                   {
                     "name": "Product ID",
-                    "value": "TODO ID"
+                    "value": "GS-P003"
                   },
                   {
                     "name": "Category",
-                    "value": "TODO CATEGORY"
+                    "value": "Pajama"
                   },
                   {
                     "name": "Materials",
-                    "value": "TODO MATERIALS"
+                    "value": "65% Polyester / 35% Cotton"
                   }
                 ],
                 "gallery": "Gallery"
