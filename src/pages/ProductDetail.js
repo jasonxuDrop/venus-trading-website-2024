@@ -294,7 +294,7 @@ const ProductDetail = () => {
               <button className="w-16 h-14 pt-2" onClick={previousImage}>
                 &larr;
               </button>
-              <span className="text-center min-w-20">
+              <span className="pt-2 text-center min-w-20">
                 {currentImgIndex + 1}/{imagesPath.length}
               </span>
               <button className="w-16 h-14 pt-2" onClick={nextImage}>
