@@ -108,27 +108,27 @@ const Contact = () => {
             {t(`contact.${pageImage.contact.context.content}`)}
           </p>
           <div className="my-2 mb-[128px]">
-            <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">
+            <p className="text-left flex gap-2">
+              <span className="pr-2 w-24">
                 {t(`contact.${pageImage.contact.context.phone}`)}
               </span>
-              <span className="lg:col-span-1">
+              <span className="">
                 {t(`contact.${pageImage.contact.context.phoneVal}`)}
               </span>
             </p>
-            <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">
+            <p className="text-left flex gap-2">
+              <span className="pr-2 w-24">
                 {t(`contact.${pageImage.contact.context.fax}`)}
               </span>
-              <span className="lg:col-span-1">
+              <span className="">
                 {t(`contact.${pageImage.contact.context.faxVal}`)}
               </span>
             </p>
-            <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">
+            <p className="text-left flex gap-2">
+              <span className="pr-2 w-24">
                 {t(`contact.${pageImage.contact.context.address}`)}
               </span>
-              <span className="lg:col-span-3">
+              <span className="">
                 {t(`contact.${pageImage.contact.context.addressVal}`)}
               </span>
             </p>
