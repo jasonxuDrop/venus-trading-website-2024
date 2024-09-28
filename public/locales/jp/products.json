@@ -1904,7 +1904,7 @@
     "restaurant": {
       "type": "リネン事業",
       "title": "レストランリネン",
-      "des": "テーブルクロス, ナフキン, etc.",
+      "des": "テーブルクロス, ナプキン, etc.",
       "category": {
         "table-cloth": {
           "title": "テーブルクロス",
@@ -1940,7 +1940,7 @@
           }
         },
         "napkin": {
-          "title": "ナフキン",
+          "title": "ナプキン",
           "des": "",
           "products": {
             "GS-N001": {
@@ -1949,7 +1949,7 @@
               "materialText": "",
               "details": {
                 "title": "GS-N001",
-                "subTitle": "ナフキン",
+                "subTitle": "ナプキン",
                 "des": "",
                 "buttonText": "お問い合わせ",
                 "specText": "仕様",
@@ -1960,7 +1960,7 @@
                   },
                   {
                     "name": "分類",
-                    "value": "ナフキン"
+                    "value": "ナプキン"
                   },
                   {
                     "name": "素材",
