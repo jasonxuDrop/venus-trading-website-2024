@@ -972,10 +972,6 @@
                     {
                       "id": "thumbNail1",
                       "name": "GS-BR001 (thumbnail).jpg"
-                    },
-                    {
-                      "id": "thumbNail2",
-                      "name": "thumbNail2.png"
                     }
                   ],
                   "imgs": [
@@ -994,12 +990,6 @@
                     {
                       "id": "GS-BR001-2",
                       "name": "GS-BR001-2.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
-                    },
-                    {
-                      "id": "img3",
-                      "name": "tablecloth3.png",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -1615,7 +1605,7 @@
                 },
                 {
                   "id": "GS-HW002",
-                  "url": "/productDetail/linen/hospital/patientClothes/GS-HW002",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW002",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -1729,7 +1719,7 @@
                 },
                 {
                   "id": "GS-HW005",
-                  "url": "/productDetail/linen/hospital/patient-clothes/GS-GS-HW005",
+                  "url": "/productDetail/linen/hospital/patient-clothes/GS-HW005",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
@@ -2357,23 +2347,23 @@
               "thumbNails": [
                 {
                   "id": "thumbNail",
-                  "name": "GS-NB001 (thumbnail).jpg"
+                  "name": "GS-NV001 (thumbnail).jpg"
                 }
               ],
               "products": [
                 {
-                  "id": "GS-NB001",
-                  "url": "/productDetail/linen/hospital/others/GS-NB001",
+                  "id": "GS-NV001",
+                  "url": "/productDetail/linen/hospital/others/GS-NV001",
                   "thumbNails": [
                     {
                       "id": "thumbNail1",
-                      "name": "GS-NB001 (thumbnail).jpg"
+                      "name": "GS-NV001 (thumbnail).jpg"
                     }
                   ],
                   "imgs": [
                     {
-                      "id": "GS-NB001.jpg",
-                      "name": "GS-NB001.jpg",
+                      "id": "GS-NV001.jpg",
+                      "name": "GS-NV001.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
                     }
