@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 import { useQuote } from "../context/QuoteContext";
 import emailjs from "@emailjs/browser";
+import Reveal from "./Reveal";
 
 import pageImage from "../assets/content/pageImg.json";
 
@@ -97,6 +98,7 @@ const Contact = () => {
         smallScreenHeight ? "" : ""
       }`}
     >
+      <Reveal>
       <div className="relative grid grid-cols-12 gap-2">
         <div className="col-span-12 lg:col-span-5 text-left flex flex-col">
           <h2 className="mb-[64px]">
@@ -199,6 +201,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      </Reveal>
     </div>
   );
 };
