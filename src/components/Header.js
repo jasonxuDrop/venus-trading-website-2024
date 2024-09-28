@@ -41,18 +41,17 @@ const Header = () => {
   const location = useLocation();
 
   const stickOrNot = () => {
+    // not on homepage
     if (location.pathname != "/") {
       return "sticky";
     } 
     
+    // on homepage
     if (isScrolledPast) 
-      {
-      return "sticky opacity-100";
-    } 
-    else 
     {
-      return "relative";
-    }
+      return "opacity-100";
+    } 
+    return "opacity-0 hover:opacity-100";
   };
 
   const changeLanguage = (lng) => {
@@ -62,7 +61,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${stickOrNot()}`}
+      className={`top-0 z-50 h-[72px] bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out sticky ${stickOrNot()}`}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between relative">

@@ -11,10 +11,11 @@ const Hero = () => {
 
     return (
         <div
-          className="max-w-screen-xl mx-auto
-        px-3.5
-        sm:px-16 
-        lg:px-32"
+          className="max-w-screen-xl mx-auto pt
+          mt-[-72px]
+          px-3.5
+          sm:px-16 
+          lg:px-32"
         >
           <div className="relative grid grid-cols-12 gap-2">
             {/* DESKTOP HERO */}
