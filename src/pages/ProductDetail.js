@@ -43,7 +43,8 @@ const ProductDetail = () => {
   const details = t(
     `productType.${productType}.category.${productCategory}.products.${productID}.details`
   );
-  console.log("123", details);
+  console.log("123", details );
+  console.log("456", productType +", "+ productCategory +", "+ productID );
 
   useEffect(() => {
     let isMounted = true; // Flag to check if component is still mounted
