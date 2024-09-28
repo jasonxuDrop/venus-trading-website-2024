@@ -2179,8 +2179,8 @@
           "des": "",
           "products": {
             "C40S140x100-1cmST": {
-              "title": "C40S/140x100 1cmST",
-              "meterial": "100% Cotton 40S / 140*100",
+              "title": "C40S/140x100 1cm ST",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "TODO TITLE",
@@ -2191,7 +2191,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2206,11 +2206,11 @@
               }
             },
             "C40S140x100-3cmST": {
-              "title": "C40S/140x100 3cmST",
-              "meterial": "100% Cotton 40S / 140*100",
+              "title": "C40S/140x100 3cm ST",
+              "meterial": "",
               "materialText": "",
               "details": {
-                "title": "C40S/140x100 3cmST",
+                "title": "C40S/140x100 3cm ST",
                 "subTitle": "Fabric",
                 "des": "",
                 "buttonText": "Inquire",
@@ -2218,7 +2218,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2234,7 +2234,7 @@
             },
             "C40S140x100-5mmST": {
               "title": "C40S/140x100 5mmST",
-              "meterial": "100% Cotton 40S / 140*100",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "C40S/140x100 5mmST",
@@ -2245,7 +2245,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2261,7 +2261,7 @@
             },
             "C40S140x100-65mm-Checker": {
               "title": "C40S/140x100 65mm Checker",
-              "meterial": "100% Cotton 40S / 140*100",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "C40S/140x100 65mm Checker",
@@ -2272,7 +2272,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2288,7 +2288,7 @@
             },
             "C40S140x100-Satin weave": {
               "title": "C40S/140x100 Satin weave",
-              "meterial": "100% Cotton 40S / 140*100",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "C40S/140x100 Satin weave",
@@ -2299,7 +2299,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2314,11 +2314,11 @@
               }
             },
             "C40S140x110-2cmST": {
-              "title": "C40S/140x110 2cmST",
-              "meterial": "100% Cotton 40S / 140*110",
+              "title": "C40S/140x110 2cm ST",
+              "meterial": "",
               "materialText": "",
               "details": {
-                "title": "C40S/140x110 2cmST",
+                "title": "C40S/140x110 2cm ST",
                 "subTitle": "Fabric",
                 "des": "",
                 "buttonText": "Inquire",
@@ -2326,7 +2326,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2342,7 +2342,7 @@
             },
             "C40S140x110-3cmST": {
               "title": "C40S/140x110 3cmST",
-              "meterial": "100% Cotton 40S / 140*110",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "C40S/140x110 3cmST",
@@ -2353,7 +2353,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2369,7 +2369,7 @@
             },
             "C40S140x110-Satin weave": {
               "title": "C40S/140x110 Satin weave",
-              "meterial": "100% Cotton 40S / 140*110",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "C40S/140x110 Satin weave",
@@ -2380,7 +2380,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2396,7 +2396,7 @@
             },
             "TC3070-34S130x80 15mm-Checker": {
               "title": "T/C30/70 34S/130x80 15mm Checker",
-              "meterial": "70% Cotton / 30% Polyester 34S / 130*80",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 34S//130x80 15mm Checker",
@@ -2407,7 +2407,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2423,7 +2423,7 @@
             },
             "TC3070-34S130x80 25mm-Checker": {
               "title": "T/C30/70 34S/130x80 25mm Checker",
-              "meterial": "70% Cotton / 30% Polyester 34S / 130*80",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 34S/130x80 25mm Checker",
@@ -2434,7 +2434,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2450,7 +2450,7 @@
             },
             "TC3070-34S130x80-1.5cmST": {
               "title": "T/C30/70 34S/130x80 1.5cm ST",
-              "meterial": "70% Cotton / 30% Polyester 34S / 130*80",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 34S/130x80 1.5cm ST",
@@ -2461,7 +2461,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2477,7 +2477,7 @@
             },
             "TC3070-34S130x80-1cm ST": {
               "title": "T/C30/70 34S/130x80 1cm ST",
-              "meterial": "70% Cotton / 30% Polyester 34S / 130*80",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 34S/130x80 1cm ST",
@@ -2488,7 +2488,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2504,7 +2504,7 @@
             },
             "TC3070-34S130x80-2.5cmST": {
               "title": "T/C30/70 34S/130x80 2.5cm ST",
-              "meterial": "70% Cotton / 30% Polyester 34S / 130*80",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 34S/130x80 2.5cm ST",
@@ -2515,7 +2515,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2531,7 +2531,7 @@
             },
             "TC3070-34S130x80-Square pattern": {
               "title": "T/C30/70 34S/130x80 Square Pattern",
-              "meterial": "70% Cotton / 30% Polyester 34S / 130*80",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 34S/130x80 Square Pattern",
@@ -2542,7 +2542,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2558,10 +2558,10 @@
             },
             "TC3070-40S140x100 2.5cmST": {
               "title": "T/C30/70 40S/140x100 2.5cm ST",
-              "meterial": "70% Cotton / 30% Polyester 40S / 140*100",
+              "meterial": "",
               "materialText": "",
               "details": {
-                "title": "T/C30/70 40S/140x100 2.5cmST",
+                "title": "T/C30/70 40S/140x100 2.5cm ST",
                 "subTitle": "Fabric",
                 "des": "",
                 "buttonText": "Inquire",
@@ -2569,7 +2569,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2585,7 +2585,7 @@
             },
             "TC3070-40S140x100 3cmST": {
               "title": "T/C30/70 40S/140x100 3cm ST",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 3cm ST",
@@ -2596,7 +2596,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2612,7 +2612,7 @@
             },
             "TC3070-40S140x100 60mm-Checker": {
               "title": "T/C30/70 40S/140x100 60mm Checker",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 60mm Checker",
@@ -2623,7 +2623,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2639,7 +2639,7 @@
             },
             "TC3070-40S140x100 90mm-Checker": {
               "title": "T/C30/70 40S/140x100 90mm Checker",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 90mm Checker",
@@ -2650,7 +2650,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2666,7 +2666,7 @@
             },
             "TC3070-40S140x100-1cm ST": {
               "title": "T/C30/70 40S/140x100 1cm ST",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 1cm ST",
@@ -2677,7 +2677,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2693,7 +2693,7 @@
             },
             "TC3070-40S140x100-Line pattern": {
               "title": "T/C30/70 40S/140x100 Line Pattern",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 Line Pattern",
@@ -2704,7 +2704,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2720,7 +2720,7 @@
             },
             "TC3070-40S140x100-Polka dot pattern": {
               "title": "T/C30/70 40S/140x100 Polka Dot Pattern",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 Polka Dot Pattern",
@@ -2731,7 +2731,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2747,7 +2747,7 @@
             },
             "TC3070-40S140x100-Satin weave": {
               "title": "T/C30/70 40S/140x100 Satin Weave",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 Satin Weave",
@@ -2758,7 +2758,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2774,7 +2774,7 @@
             },
             "TC3070-40S140x100-Square pattern": {
               "title": "T/C30/70 40S/140x100 Square Pattern",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/140x100 Square Pattern",
@@ -2785,7 +2785,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2801,7 +2801,7 @@
             },
             "TC3070-40S173x80-Wave pattern": {
               "title": "T/C30/70 40S/173x80 Wave Pattern",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C30/70 40S/173x80 Wave Pattern",
@@ -2812,7 +2812,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2828,7 +2828,7 @@
             },
             "TC5050-40S140x100 2.5mm-Checker": {
               "title": "T/C50/50 40S/140x100 2.5mm Checker",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C50/50 40S/140x100 2.5mm Checker",
@@ -2839,7 +2839,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2855,7 +2855,7 @@
             },
             "TC5050-40S140x100 2cmST": {
               "title": "T/C50/50 40S/140x100 2cm ST",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C50/50 40S/140x100 2cm ST",
@@ -2866,7 +2866,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2882,7 +2882,7 @@
             },
             "TC5050-40S140x100 3cmST": {
               "title": "T/C50/50 40S/140x100 3cm ST",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C50/50 40S/140x100 3cm ST",
@@ -2893,7 +2893,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2909,7 +2909,7 @@
             },
             "TC5050-40S140x100 5mm-Checker": {
               "title": "T/C50/50 40S/140x100 5mm Checker",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C50/50 40S/140x100 5mm Checker",
@@ -2920,7 +2920,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
@@ -2936,7 +2936,7 @@
             },
             "TC5050-40S140x100-1cmST": {
               "title": "T/C50/50 40S/140x100 1cm ST",
-              "meterial": "TODOOO",
+              "meterial": "",
               "materialText": "",
               "details": {
                 "title": "T/C50/50 40S/140x100 1cm ST",
@@ -2947,7 +2947,7 @@
                 "specTable": [
                   {
                     "name": "Category",
-                    "value": "Fabric"
+                    "value": "Bed Fabric"
                   },
                   {
                     "name": "Materials",
