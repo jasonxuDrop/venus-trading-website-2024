@@ -93,12 +93,12 @@ const Contact = () => {
 
   return (
     <div
-      className={`max-w-screen-xl lg:h-[537px] mx-auto px-6 sm:px-16 lg:px-32 ${
+      className={`max-w-screen-xl lg:min-h-[537px] mx-auto px-6 sm:px-16 lg:px-32 ${
         smallScreenHeight ? "" : ""
       }`}
     >
       <div className="relative grid grid-cols-12 gap-2">
-        <div className="col-span-12 lg:col-span-5 text-left flex flex-col justify-between lg:h-[70%]">
+        <div className="col-span-12 lg:col-span-5 text-left flex flex-col">
           <h2 className="mb-[64px]">
             {t(`contact.${pageImage.contact.context.title}`)}
           </h2>
