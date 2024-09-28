@@ -49,9 +49,9 @@ const Header = () => {
     // on homepage
     if (isScrolledPast) 
     {
-      return "opacity-100";
+      return "lg:opacity-100";
     } 
-    return "opacity-0 hover:opacity-100";
+    return "lg:opacity-0 lg:hover:opacity-100";
   };
 
   const changeLanguage = (lng) => {
