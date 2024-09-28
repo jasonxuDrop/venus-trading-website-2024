@@ -43,7 +43,8 @@ const ProductDetail = () => {
   const details = t(
     `productType.${productType}.category.${productCategory}.products.${productID}.details`
   );
-  console.log("123", details);
+  console.log("123", details );
+  console.log("456", productType +", "+ productCategory +", "+ productID );
 
   useEffect(() => {
     let isMounted = true; // Flag to check if component is still mounted
@@ -293,7 +294,7 @@ const ProductDetail = () => {
               <button className="w-16 h-14 pt-2" onClick={previousImage}>
                 &larr;
               </button>
-              <span className="text-center min-w-20">
+              <span className="pt-2 text-center min-w-20">
                 {currentImgIndex + 1}/{imagesPath.length}
               </span>
               <button className="w-16 h-14 pt-2" onClick={nextImage}>
