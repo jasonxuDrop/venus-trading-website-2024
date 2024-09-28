@@ -193,7 +193,7 @@ const Contact = () => {
             <div className="text-center lg:flex lg:justify-end">
               <button
                 type="submit"
-                className="px-6 py-2 bg-buttonColor text-black rounded hover:bg-buttonHover"
+                className="px-6 py-2 transition-colors duration-150 bg-buttonColor text-black rounded hover:bg-buttonHover"
               >
                 {t(`contact.form.${pageImage.contact.form.send}`)}
               </button>
