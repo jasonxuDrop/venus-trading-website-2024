@@ -41,11 +41,18 @@ const Header = () => {
   const location = useLocation();
 
   const stickOrNot = () => {
-    return location.pathname === "/"
-      ? isScrolledPast
-        ? "sticky opacity-100"
-        : "relative"
-      : "sticky";
+    if (location.pathname != "/") {
+      return "sticky";
+    } 
+    
+    if (isScrolledPast) 
+      {
+      return "sticky opacity-100";
+    } 
+    else 
+    {
+      return "relative";
+    }
   };
 
   const changeLanguage = (lng) => {
@@ -62,7 +69,7 @@ const Header = () => {
           <a href="/">
             <div className="flex items-center flex-shrink-0">
               <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
-              <h4 className="font-medium">Weifang SevenUp</h4>
+              <h4 className="font-medium">{t(`nav.company-name`)}</h4>
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
