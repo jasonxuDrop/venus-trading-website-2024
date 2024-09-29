@@ -185,7 +185,7 @@ const ProductDetail = () => {
             <button
               type="submit"
               onClick={handleQuoteRequest}
-              className="px-6 py-2 mt-[32px] lg:mt-[48px] w-40 bg-buttonColor text-black rounded shadow hover:bg-buttonHover"
+              className="px-6 py-2 mt-[32px] lg:mt-[48px] w-40 transition-colors duration-150 bg-buttonColor text-black rounded shadow hover:bg-buttonHover"
             >
               {details.buttonText}
             </button>

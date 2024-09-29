@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 import { useQuote } from "../context/QuoteContext";
 import emailjs from "@emailjs/browser";
+import Reveal from "./Reveal";
 
 import pageImage from "../assets/content/pageImg.json";
 
@@ -97,6 +98,7 @@ const Contact = () => {
         smallScreenHeight ? "" : ""
       }`}
     >
+      <Reveal>
       <div className="relative grid grid-cols-12 gap-2">
         <div className="col-span-12 lg:col-span-5 text-left flex flex-col">
           <h2 className="mb-[64px]">
@@ -106,27 +108,27 @@ const Contact = () => {
             {t(`contact.${pageImage.contact.context.content}`)}
           </p>
           <div className="my-2 mb-[128px]">
-            <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">
+            <p className="text-left flex gap-2">
+              <span className="w-24 flex-none">
                 {t(`contact.${pageImage.contact.context.phone}`)}
               </span>
-              <span className="lg:col-span-1">
+              <span className="">
                 {t(`contact.${pageImage.contact.context.phoneVal}`)}
               </span>
             </p>
-            <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">
+            <p className="text-left flex gap-2">
+              <span className="w-24 flex-none">
                 {t(`contact.${pageImage.contact.context.fax}`)}
               </span>
-              <span className="lg:col-span-1">
+              <span className="">
                 {t(`contact.${pageImage.contact.context.faxVal}`)}
               </span>
             </p>
-            <p className="text-left flex lg:grid lg:grid-cols-5 lg:gap-2">
-              <span className="pr-2 lg:col-span-1">
+            <p className="text-left flex gap-2">
+              <span className="w-24 flex-none">
                 {t(`contact.${pageImage.contact.context.address}`)}
               </span>
-              <span className="lg:col-span-3">
+              <span className="">
                 {t(`contact.${pageImage.contact.context.addressVal}`)}
               </span>
             </p>
@@ -191,7 +193,7 @@ const Contact = () => {
             <div className="text-center lg:flex lg:justify-end">
               <button
                 type="submit"
-                className="px-6 py-2 bg-buttonColor text-black rounded hover:bg-buttonHover"
+                className="px-6 py-2 transition-colors duration-150 bg-buttonColor text-black rounded hover:bg-buttonHover"
               >
                 {t(`contact.form.${pageImage.contact.form.send}`)}
               </button>
@@ -199,6 +201,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      </Reveal>
     </div>
   );
 };
