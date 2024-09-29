@@ -23,6 +23,9 @@ function App() {
   return (
     <Router>
       <QuoteProvider>
+        <h1 className="hidden">
+          Venus Trading 2024 | Top-Quality Linen and Apparel Export
+        </h1>
         <div className="App min-h-screen">
           <Header />
           <div className="">
