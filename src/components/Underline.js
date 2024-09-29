@@ -7,7 +7,7 @@ const Underline = ({ children }) => {
 
     return (
         <motion.div
-            className='felx flex-col fit-content'
+            className='flex flex-col fit-content'
             onHoverStart={() => controls.start({ width: '100%' })}
             onHoverEnd={() => controls.start({ width: '0%' })}
         >

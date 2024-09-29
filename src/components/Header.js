@@ -7,6 +7,8 @@ import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Icon.png";
 import useScrollDetection from "../utils/hooks/useScrollDetection";
+import { motion, useAnimation } from 'framer-motion';
+
 
 import headerLinks from "../assets/content/headerLink.json";
 import Underline from "./Underline";
@@ -380,13 +382,13 @@ const Header = () => {
       </div>
 
       {/* Mobile view menu */}
-      <div
+      <motion.div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto
          `}
       >
-        <div className="px-3 pt-5 pb-3 sm:px-3">
+        <div className="px-6 sm:px-16 py-5">
           <div className="flex justify-between items-center">
             <a href="/" onClick={closeAllMenus}>
               <div className="flex items-center flex-shrink-0">
@@ -559,7 +561,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="px-3 pb-4">
+        <div className="px-6 sm:px-16 py-5">
           <button
             className="block text-left"
             onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
@@ -575,7 +577,7 @@ const Header = () => {
             </h4>
           </button>
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 };
