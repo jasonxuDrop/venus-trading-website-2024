@@ -109,7 +109,7 @@ const Contact = () => {
           </p>
           <div className="my-2 mb-[128px]">
             <p className="text-left flex gap-2">
-              <span className="pr-2 w-24">
+              <span className="w-24 flex-none">
                 {t(`contact.${pageImage.contact.context.phone}`)}
               </span>
               <span className="">
@@ -117,7 +117,7 @@ const Contact = () => {
               </span>
             </p>
             <p className="text-left flex gap-2">
-              <span className="pr-2 w-24">
+              <span className="w-24 flex-none">
                 {t(`contact.${pageImage.contact.context.fax}`)}
               </span>
               <span className="">
@@ -125,7 +125,7 @@ const Contact = () => {
               </span>
             </p>
             <p className="text-left flex gap-2">
-              <span className="pr-2 w-24">
+              <span className="w-24 flex-none">
                 {t(`contact.${pageImage.contact.context.address}`)}
               </span>
               <span className="">
