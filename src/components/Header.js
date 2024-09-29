@@ -69,9 +69,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between relative">
           <a href="/">
-            <div className="flex items-center flex-shrink-0">
-              <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
-              <h4 className="font-medium">{t(`nav.company-name`)}</h4>
+            <div className="flex items-center flex-shrink-0 pb-0.5">
+              <img src={logo} alt="Logo" className="h-[32px] w-auto mr-2" />
+              <h4 className="text-base">{t(`nav.company-name`)}</h4>
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
@@ -108,7 +108,7 @@ const Header = () => {
                         </a>
                         <svg
                           className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                            isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                            isLindenMenuOpen ? "rotate-0" : "rotate-180"
                           }`}
                           fill="none"
                           stroke="#1C1F29"
@@ -143,7 +143,7 @@ const Header = () => {
                         </a>
                         <svg
                           className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                            isApparelMenuOpen ? "rotate-180" : "rotate-0"
+                            isApparelMenuOpen ? "rotate-0" : "rotate-180"
                           }`}
                           fill="none"
                           stroke="#1C1F29"
@@ -391,9 +391,9 @@ const Header = () => {
         <div className="px-6 sm:px-16 py-5">
           <div className="flex justify-between items-center">
             <a href="/" onClick={closeAllMenus}>
-              <div className="flex items-center flex-shrink-0">
+              <div className="flex items-center flex-shrink-0 pb-0.5">
                 <img src={logo} alt="Logo" className="h-[auto] w-[50px] mr-2" />
-                <h4 className="font-medium">Weifang SevenUp</h4>
+                <h4 className="text-base">{t(`nav.company-name`)}</h4>
               </div>
             </a>
             <button
@@ -471,7 +471,7 @@ const Header = () => {
                       {/* <svg
                         onClick={toggleLindenMenu}
                         className={`ml-2 w-5 h-5 transition-transform duration-300 ${
-                          isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                          isLindenMenuOpen ? "rotate-0" : "rotate-180"
                         }`}
                         fill="none"
                         stroke="#1C1F29"
