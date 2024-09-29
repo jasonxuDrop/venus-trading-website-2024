@@ -183,8 +183,8 @@ const Header = () => {
 
             {/* updated version dropdown part */}
             <div
-              className={`absolute bg-white w-full z-10 top-[72px] grid grid-cols-12 py-[48px] gap-10 ${
-                isLindenMenuOpen ? "nav-in" : "nav-out"
+              className={`absolute bg-white w-full z-10 top-[72px] grid-cols-12 py-[48px] gap-10 ${
+                isLindenMenuOpen ? "grid" : "hidden"
               }`}
               onMouseEnter={() => setIsLindenMenuOpen(true)}
               onMouseLeave={() => setIsLindenMenuOpen(false)}
@@ -272,7 +272,7 @@ const Header = () => {
 
             <div
               className={`absolute bg-white w-full z-10 top-[72px] grid grid-cols-12 py-[48px] gap-10 ${
-                isApparelMenuOpen ? "nav-in" : "nav-out"
+                isApparelMenuOpen ? "grid" : "hidden"
               }`}
               onMouseEnter={() => setIsApparelMenuOpen(true)}
               onMouseLeave={() => setIsApparelMenuOpen(false)}

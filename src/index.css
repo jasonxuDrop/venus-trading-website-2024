@@ -91,7 +91,7 @@ code {
 
 
 /* NAV ANIMATION */
-.nav-in {
+/* .nav-in {
   animation: NavMenuIn .3s forwards;
 }
 .nav-out {
@@ -121,4 +121,4 @@ code {
     opacity: 0;
     transform: translateY(-50%) scaleY(0);
   }
-}
+} */
