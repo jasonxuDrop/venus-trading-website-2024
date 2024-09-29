@@ -45,7 +45,7 @@ const Header = () => {
 
   const stickOrNot = () => {
     // not on homepage
-    if (location.pathname != "/") {
+    if (location.pathname !== "/") {
       return "sticky";
     } 
     
@@ -58,7 +58,6 @@ const Header = () => {
   };
 
   const changeLanguage = (lng) => {
-    console.log("1233");
     i18n.changeLanguage(lng);
   };
 

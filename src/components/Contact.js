@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
 import { useQuote } from "../context/QuoteContext";
@@ -62,7 +62,6 @@ const Contact = () => {
 
   const handleContactInput = (event) => {
     const { name, value } = event.target;
-    console.log("123");
     setFormData({
       ...formData,
       [name]: value,

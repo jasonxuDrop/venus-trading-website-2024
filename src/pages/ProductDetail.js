@@ -1,7 +1,7 @@
 // This page for displaying each type of product's details. (e.g. some spercific product details.)
 
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useQuote } from "../context/QuoteContext";
 
@@ -88,7 +88,7 @@ const ProductDetail = () => {
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-  }, [type, productType, productID, productDetails]);
+  }, [type, productType, productID, productDetails, productCategory, showModal]);
 
   const openModal = (index) => {
     setCurrentImgIndex(index);
