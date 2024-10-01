@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import aboutImg from "../assets/images/aboutImg/pexels-cottonbro-4108797.png";
 import useScreenHeight from "../utils/hooks/useScreenHeight";
+import Reveal from "./Reveal";
 
 import pageImg from "../assets/content/pageImg.json";
 
@@ -23,17 +24,19 @@ const AboutComponent = () => {
             } hidden lg:block object-cover`}
           />
         </div>
-        <div className="col-span-12 lg:col-span-5 lg:col-start-8 text-left my-auto">
-          <h2>{t(`about.${pageImg.about.title.id}`)}</h2>
-          {
-            pageImg.about.paragraph.map((p)=> {
-              return (
-                <p className="mt-4">{
-                  t(`about.${p.id}`)
-                }</p>
-              )
-            })
-          }
+          <div className="col-span-12 lg:col-span-5 lg:col-start-8 text-left my-auto">
+            <Reveal>
+              <h2>{t(`about.${pageImg.about.title.id}`)}</h2>
+                {
+                  pageImg.about.paragraph.map((p)=> {
+                    return (
+                      <p className="mt-4">{
+                        t(`about.${p.id}`)
+                      }</p>
+                    )
+                  })
+                }
+            </Reveal>
         </div>
       </div>
     </div>

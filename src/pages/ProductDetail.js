@@ -1,7 +1,7 @@
 // This page for displaying each type of product's details. (e.g. some spercific product details.)
 
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useQuote } from "../context/QuoteContext";
 
@@ -88,7 +88,7 @@ const ProductDetail = () => {
     return () => {
       isMounted = false; // Set the flag as false when the component unmounts
     };
-  }, [type, productType, productID, productDetails]);
+  }, [type, productType, productID, productDetails, productCategory, showModal]);
 
   const openModal = (index) => {
     setCurrentImgIndex(index);
@@ -165,7 +165,7 @@ const ProductDetail = () => {
   };
 
   return (
-    <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor">
+    <div className="pt-[64px] pb-[128px] lg:py-[192px] bg-navbarcolor min-h-[calc(100vh-72px-356px)]">
       <div className="max-w-screen-xl mx-auto h-[auto] px-6 sm:px-16 lg:px-32">
         <div className="relative grid grid-cols-12 gap-2">
           <div className="col-span-12 lg:col-span-6 text-left">
@@ -185,7 +185,7 @@ const ProductDetail = () => {
             <button
               type="submit"
               onClick={handleQuoteRequest}
-              className="px-6 py-2 mt-[32px] lg:mt-[48px] w-40 bg-buttonColor text-black rounded shadow hover:bg-buttonHover"
+              className="px-6 py-2 mt-[32px] lg:mt-[48px] w-40 transition-colors duration-150 bg-buttonColor text-black rounded shadow hover:bg-buttonHover"
             >
               {details.buttonText}
             </button>

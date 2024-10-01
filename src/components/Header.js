@@ -7,8 +7,11 @@ import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import logo from "../assets/images/logo/Logo Icon.png";
 import useScrollDetection from "../utils/hooks/useScrollDetection";
+import { motion, useAnimation } from 'framer-motion';
+
 
 import headerLinks from "../assets/content/headerLink.json";
+import Underline from "./Underline";
 
 const Header = () => {
   const { t, i18n } = useTranslation("header");
@@ -41,28 +44,33 @@ const Header = () => {
   const location = useLocation();
 
   const stickOrNot = () => {
-    return location.pathname === "/"
-      ? isScrolledPast
-        ? "sticky opacity-100"
-        : "relative"
-      : "sticky";
+    // not on homepage
+    if (location.pathname !== "/") {
+      return "sticky";
+    } 
+    
+    // on homepage
+    if (isScrolledPast) 
+    {
+      return "lg:bg-navbarcolor";
+    } 
+    return "lg:bg-transparent lg:hover:bg-navbarcolor";
   };
 
   const changeLanguage = (lng) => {
-    console.log("1233");
     i18n.changeLanguage(lng);
   };
 
   return (
     <nav
-      className={`top-0 z-50 bg-navbarcolor text-textcolor transition-opacity duration-500 ease-in-out ${stickOrNot()}`}
+      className={`top-0 z-50 h-[72px] bg-navbarcolor text-textcolor transition-colors duration-500 ease-in-out sticky ${stickOrNot()}`}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between relative">
           <a href="/">
-            <div className="flex items-center flex-shrink-0">
-              <img src={logo} alt="Logo" className="h-[auto] w-[48px] mr-2" />
-              <h4 className="font-medium">Weifang SevenUp</h4>
+            <div className="flex items-center flex-shrink-0 pb-0.5">
+              <img src={logo} alt="Logo" className="h-[32px] w-auto mr-2" />
+              <h4 className="text-base">{t(`nav.company-name`)}</h4>
             </div>
           </a>
           <div className="hidden lg:flex justify-end flex-grow">
@@ -74,9 +82,11 @@ const Header = () => {
                       href={link.url}
                       className="px-3 py-6 cursor-pointer group"
                     >
-                      <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                      <Underline>
+                      <span className="">
                         {t(`nav.${link.id}`)}
                       </span>
+                      </Underline>
                     </a>
                   );
                 } else if (link.id === "linden") {
@@ -89,13 +99,15 @@ const Header = () => {
                         aria-expanded={isLindenMenuOpen}
                       >
                         <a href={link.url}>
-                          <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                          <Underline>
+                          <span className="">
                             {t(`nav.${link.id}`)}
                           </span>
+                          </Underline>
                         </a>
                         <svg
                           className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                            isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                            isLindenMenuOpen ? "rotate-0" : "rotate-180"
                           }`}
                           fill="none"
                           stroke="#1C1F29"
@@ -122,13 +134,15 @@ const Header = () => {
                         aria-expanded={isApparelMenuOpen}
                       >
                         <a href={link.url}>
-                          <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                          <Underline>
+                          <span className="">
                             {t(`nav.${link.id}`)}
                           </span>
+                          </Underline>
                         </a>
                         <svg
                           className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                            isApparelMenuOpen ? "rotate-180" : "rotate-0"
+                            isApparelMenuOpen ? "rotate-0" : "rotate-180"
                           }`}
                           fill="none"
                           stroke="#1C1F29"
@@ -153,9 +167,11 @@ const Header = () => {
                         changeLanguage(i18n.language === "en" ? "jp" : "en")
                       }
                     >
-                      <span className="border-b-2 border-transparent group-hover:border-hoverColor">
+                      <Underline>
+                      <span className="">
                         {t(`nav.${link.id}`)}
                       </span>
+                      </Underline>
                     </button>
                   );
                 } else {
@@ -166,8 +182,8 @@ const Header = () => {
 
             {/* updated version dropdown part */}
             <div
-              className={`absolute bg-white w-full z-10 top-[72px] grid grid-cols-12 py-[48px] gap-10 ${
-                isLindenMenuOpen ? "block" : "hidden"
+              className={`absolute bg-white w-full z-10 top-[72px] grid-cols-12 py-[48px] gap-10 ${
+                isLindenMenuOpen ? "grid" : "hidden"
               }`}
               onMouseEnter={() => setIsLindenMenuOpen(true)}
               onMouseLeave={() => setIsLindenMenuOpen(false)}
@@ -186,13 +202,15 @@ const Header = () => {
                       >
                         {t(`nav.${subLink.id}`)}
                       </p>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col items-start">
                         {subLink.category.map((cate, index) => {
                           return (
                             <a href={cate.url} key={index} className="mb-[4px]">
-                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <span className="">
                                 {t(`nav.${cate.id}`)}
                               </span>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -208,13 +226,15 @@ const Header = () => {
                       >
                         {t(`nav.${subLink.id}`)}
                       </p>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col items-start">
                         {subLink.category.map((cate, index) => {
                           return (
                             <a href={cate.url} key={index} className="mb-[4px]">
-                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <span className="">
                                 {t(`nav.${cate.id}`)}
                               </span>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -230,13 +250,15 @@ const Header = () => {
                       >
                         {t(`nav.${subLink.id}`)}
                       </p>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col items-start">
                         {subLink.category.map((cate, index) => {
                           return (
                             <a href={cate.url} key={index} className="mb-[4px]">
-                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <span className="">
                                 {t(`nav.${cate.id}`)}
                               </span>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -249,7 +271,7 @@ const Header = () => {
 
             <div
               className={`absolute bg-white w-full z-10 top-[72px] grid grid-cols-12 py-[48px] gap-10 ${
-                isApparelMenuOpen ? "block" : "hidden"
+                isApparelMenuOpen ? "grid" : "hidden"
               }`}
               onMouseEnter={() => setIsApparelMenuOpen(true)}
               onMouseLeave={() => setIsApparelMenuOpen(false)}
@@ -267,13 +289,15 @@ const Header = () => {
                       >
                         {t(`nav.${subLink.id}`)}
                       </h4>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col items-start">
                         {subLink.category.map((cate, index) => {
                           return (
                             <a href={cate.url} className="mb-[4px]">
-                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <span className="">
                                 {t(`nav.${cate.id}`)}
                               </span>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -289,13 +313,15 @@ const Header = () => {
                       >
                         {t(`nav.${subLink.id}`)}
                       </h4>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col items-start">
                         {subLink.category.map((cate, index) => {
                           return (
                             <a href={cate.url} className="mb-[4px]">
-                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <span className="">
                                 {t(`nav.${cate.id}`)}
                               </span>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -308,13 +334,15 @@ const Header = () => {
                       <h4 href={subLink.url} className="text-mobileHeading4">
                         {t(`nav.${subLink.id}`)}
                       </h4>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col items-start">
                         {subLink.category.map((cate, index) => {
                           return (
                             <a href={cate.url}>
-                              <span className="border-b-2 border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <span className=" ">
                                 {t(`nav.${cate.id}`)}
                               </span>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -353,18 +381,18 @@ const Header = () => {
       </div>
 
       {/* Mobile view menu */}
-      <div
+      <motion.div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transform top-0 left-0 w-full h-full bg-mobileNavbarColor fixed z-50 ease-in-out duration-300 flex flex-col overflow-y-auto
          `}
       >
-        <div className="px-3 pt-5 pb-3 sm:px-3">
+        <div className="px-6 sm:px-16 py-5">
           <div className="flex justify-between items-center">
             <a href="/" onClick={closeAllMenus}>
-              <div className="flex items-center flex-shrink-0">
+              <div className="flex items-center flex-shrink-0 pb-0.5">
                 <img src={logo} alt="Logo" className="h-[auto] w-[50px] mr-2" />
-                <h4 className="font-medium">Weifang SevenUp</h4>
+                <h4 className="text-base">{t(`nav.company-name`)}</h4>
               </div>
             </a>
             <button
@@ -400,7 +428,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pt-8 pb-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
+                      <h2 className="border-transparent text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -412,7 +440,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pb-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
+                      <h2 className="border-transparent  text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -424,7 +452,7 @@ const Header = () => {
                       className="text-textcolor text-center block px-3 pv-1"
                       onClick={closeAllMenus}
                     >
-                      <h2 className="border-transparent hover:border-hoverColor text-4xl">
+                      <h2 className="border-transparent  text-4xl">
                         {t(`nav.${link.id}`)}
                       </h2>
                     </a>
@@ -435,14 +463,14 @@ const Header = () => {
                   <div>
                     <div className="text-textcolor w-full text-center px-3 pb-1 flex justify-center items-center">
                       <a href="/linedenProducts" onClick={closeAllMenus}>
-                        <h2 className="border-transparent hover:border-hoverColor text-4xl">
+                        <h2 className="border-transparent text-4xl">
                           {t(`nav.${link.id}`)}
                         </h2>
                       </a>
                       {/* <svg
                         onClick={toggleLindenMenu}
                         className={`ml-2 w-5 h-5 transition-transform duration-300 ${
-                          isLindenMenuOpen ? "rotate-180" : "rotate-0"
+                          isLindenMenuOpen ? "rotate-0" : "rotate-180"
                         }`}
                         fill="none"
                         stroke="#1C1F29"
@@ -466,9 +494,11 @@ const Header = () => {
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
-                              <h3 className="border-transparent hover:border-hoverColor">
+                              <Underline>
+                              <h3 className="border-transparent ">
                                 {t(`nav.${subLink.id}`)}
                               </h3>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -481,7 +511,7 @@ const Header = () => {
                   <div>
                     <div className="text-textcolor w-full text-center px-3 pb-1 flex justify-center items-center">
                       <a href="/apparelProducts" onClick={closeAllMenus}>
-                        <h2 className="border-transparent hover:border-hoverColor text-4xl">
+                        <h2 className="border-transparent  text-4xl">
                           {t(`nav.${link.id}`)}
                         </h2>
                       </a>
@@ -512,9 +542,11 @@ const Header = () => {
                               className="text-textcolor text-center block px-4 py-1"
                               onClick={closeAllMenus}
                             >
-                              <h3 className="border-transparent hover:border-hoverColor">
+                            <Underline>
+                              <h3 className="border-transparent">
                                 {t(`nav.${subLink.id}`)}
                               </h3>
+                              </Underline>
                             </a>
                           );
                         })}
@@ -528,12 +560,12 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="px-3 pb-4">
+        <div className="px-6 sm:px-16 py-5">
           <button
             className="block text-left"
             onClick={() => changeLanguage(i18n.language === "en" ? "jp" : "en")}
           >
-            <h4 className="hover:border-hoverColor border-transparent">
+            <h4 className=" border-transparent">
               {t(
                 `nav.${
                   headerLinks.navigation.links[
@@ -544,7 +576,7 @@ const Header = () => {
             </h4>
           </button>
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 };
