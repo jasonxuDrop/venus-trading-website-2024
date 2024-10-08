@@ -41,6 +41,7 @@
             "title": "title",
             "address": "address",
             "addressVal": "addressVal",
+            "addressVal2": "addressVal2",
             "phone": "phone",
             "phoneVal": "phoneVal",
             "fax": "fax",

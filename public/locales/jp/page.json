@@ -7,17 +7,18 @@
     "about": {
         "aboutImg": "../assets/images/aboutImg/pexels-cottonbro-4108797.png",
         "title": "高品質なリネン用品・アパレルを世界へお届け",
-        "paragraph_1": "弊社は繊維製品の輸出及び加工する会社でございます。事業展開以来、厳しい品質管理のシステムを作りました。20年以上渡しってリネン用品、一般的用アパレルを生産輸出しております。",
+        "paragraph_1": "弊社は繊維製品の輸出及び加工する会社でございます。事業展開以来、厳しい品質管理のシステムを作って、20年以上リネン用品、一般用アパレルを生産輸出しております。",
         "paragraph_2": "これからも引き続き、生地管理、縫製監督強化して、高品質の製品をお客様に提供できるように頑張ります。"
     },
     "contact": {
         "title": "お問い合わせ",
         "address": "住所",
-        "addressVal": "123 ビジネスロード, ビジネスシティ, BC 12345",
+        "addressVal": "WEIFANG SEVENUP INTERNATIONAL TRADING CO.,LTD",
+        "addressVal2": "Rm.1907 Shijidongfang Building, No.5922 East Dongfeng Street Weifang, Shandong, China",
         "phone": "電話",
-        "phoneVal": "+1234567890",
+        "phoneVal": "(0086) 536-830-6011",
         "fax": "ファックス",
-        "faxVal": "+1234567891",
+        "faxVal": "(0086) 536-830-6037",
         "content": "特定の製品についての質問や、当社との協力に興味がある場合は、メッセージを残してください。追ってご連絡いたします。",
         "form": {
             "name": "お名前 *",

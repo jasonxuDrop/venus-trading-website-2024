@@ -140,6 +140,12 @@ const Contact = () => {
                   {t(`contact.${pageImage.contact.context.addressVal}`)}
                 </span>
               </p>
+              <p className="text-left flex gap-2">
+                <span className="w-24 flex-none"> </span>
+                <span className="">
+                  {t(`contact.${pageImage.contact.context.addressVal2}`)}
+                </span>
+              </p>
             </div>
           </div>
           <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-left">

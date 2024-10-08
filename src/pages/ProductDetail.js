@@ -24,7 +24,8 @@ const ProductDetail = () => {
   const { updateQuoteDetails } = useQuote(); // For quote message context
 
   const handleQuoteRequest = () => {
-    const details = `Hi there, \n\nI am interested in the product with the ID of ${productID} - ${productCategory} - ${productType} - ${type}, \n\nThank you so much!`;
+    const details = `Product: ${productID} (${productCategory}).\n\n`;
+    //const details = `Hi there, \n\nI am interested in the product with the ID of ${productID} - ${productCategory} - ${productType} - ${type}, \n\nThank you so much!`;
     //navigation("/contact");
     updateQuoteDetails(details);
     window.location.href = `/contact`;

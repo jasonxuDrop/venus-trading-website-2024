@@ -496,12 +496,6 @@
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-P002-1.jpg",
-                      "name": "GS-P002-1.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
-                    },
-                    {
                       "id": "GS-P002-2.jpg",
                       "name": "GS-P002-2.jpg",
                       "alt": "product detail image",

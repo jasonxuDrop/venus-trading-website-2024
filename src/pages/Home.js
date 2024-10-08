@@ -11,17 +11,16 @@ import Contact from "../components/Contact";
 import useScreenWidth from "../utils/hooks/useScreenWidth";
 
 const Home = () => {
-  const isMobileScreenWidth = useScreenWidth(640, "smaller");
 
   return (
     <>
-      <div className={`w-full h-auto bg-homeBgColor ${isMobileScreenWidth ? "custom-hero-mobile" : ""}`} id="hero">
+      <div className="w-full h-auto bg-homeBgColor" id="hero">
         {/* Hero */}
         <Hero />
         {/* End Hero */}
       </div>
       {/* About */}
-      <div className="pt-[64px] lg:pt-[192px] bg-navbarcolor" id="about">
+      <div className="pt-[192px] bg-navbarcolor" id="about">
         <AboutComponent />
       </div>
       {/* End About */}
