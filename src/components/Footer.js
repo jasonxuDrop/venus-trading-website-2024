@@ -33,6 +33,7 @@ const Footer = () => {
                   </p>
                 );
               })}
+              <p>{t(`footer.address2`)}</p>
             </div>
           </div>
           <div className="hidden lg:block lg:col-span-1 text-left lg:text-right">

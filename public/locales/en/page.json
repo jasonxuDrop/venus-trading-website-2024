@@ -13,11 +13,12 @@
   "contact": {
     "title": "Contact Us",
     "address": "Address",
-    "addressVal": "123 Business Rd, Business City, BC 12345",
+    "addressVal": "WEIFANG SEVENUP INTERNATIONAL TRADING CO.,LTD",
+    "addressVal2": "Rm.1907 Shijidongfang Building, No.5922 East Dongfeng Street Weifang, Shandong, China",
     "phone": "Phone",
-    "phoneVal": "+1234567890",
+    "phoneVal": "(0086) 536-830-6011",
     "fax": "Fax",
-    "faxVal": "+1234567891",
+    "faxVal": "(0086) 536-830-6037",
     "content": "Have questions about a particular product or interested in collaborating with us? Leave us a message, and we'll get back to you shortly.",
     "form": {
       "name": "Your Name *",
