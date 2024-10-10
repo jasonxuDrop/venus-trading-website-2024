@@ -65,7 +65,7 @@ const Header = () => {
     <nav
       className={`top-0 z-50 h-[72px] bg-navbarcolor text-textcolor transition-colors duration-500 ease-in-out sticky ${stickOrNot()}`}
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-16 lg:px-32">
+      <div className="w-7xl mx-auto px-6 sm:px-16 lg:px-32">
         <div className="flex items-center justify-between relative">
           <a href="/">
             <div className="flex items-center flex-shrink-0 pb-0.5">

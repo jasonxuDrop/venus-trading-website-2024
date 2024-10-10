@@ -29,7 +29,7 @@ module.exports = {
         mobilePText: "1rem",
       },
       screens: {
-        'lg': '1200px',
+        'lg': '1250px',
         // => @media (min-width: 1200px) { ... }
       }
     },

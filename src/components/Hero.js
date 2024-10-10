@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import homeImg from "../assets/images/homeImg/hero-image.jpg";
 import logo from "../assets/images/logo/Logo Icon@4x 1.png";
 import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
+import logoFullCenterJp from "../assets/images/logo/Logo Full JP Center.png";
 import logoNoIconJp from "../assets/images/logo/Logo No Icon JP.svg";
 import logoNoIconEn from "../assets/images/logo/Logo No Icon En.svg";
 
@@ -47,7 +48,7 @@ const Hero = () => {
                 />
                 {/* TODO: SWITCH TO JP LOGO IS IN JAPANESE */}
                 <img
-                  src={logoFullCenterEn}
+                  src={i18n.language === "en" ? logoFullCenterEn : logoFullCenterJp}
                   alt="Weifang SevenUp Trading Co., Ltd."
                   className="w-80 max-w-[80vw]"
                 />
