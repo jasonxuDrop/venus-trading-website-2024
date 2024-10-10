@@ -46,8 +46,20 @@
                       "use_for": "cover"
                     },
                     {
-                      "id": "GS-G001.jpg",
-                      "name": "GS-G001.jpg",
+                      "id": "GS-G001-1.jpg",
+                      "name": "GS-G001-1.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G001-2.jpg",
+                      "name": "GS-G001-2.jpg",
+                      "alt": "product detail image",
+                      "use_for": "gallery"
+                    },
+                    {
+                      "id": "GS-G001-3.jpg",
+                      "name": "GS-G001-3.jpg",
                       "alt": "product detail image",
                       "use_for": "gallery"
                     }
@@ -72,24 +84,6 @@
                       "name": "GS-G002.jpg",
                       "alt": "product detail image",
                       "use_for": "cover"
-                    },
-                    {
-                      "id": "GS-G002-1.jpg",
-                      "name": "GS-G002-1.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
-                    },
-                    {
-                      "id": "GS-G002-2.jpg",
-                      "name": "GS-G002-2.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
-                    },
-                    {
-                      "id": "GS-G002-3.jpg",
-                      "name": "GS-G002-3.jpg",
-                      "alt": "product detail image",
-                      "use_for": "gallery"
                     }
                   ]
                 },
