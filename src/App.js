@@ -24,7 +24,7 @@ function App() {
     <Router>
       <QuoteProvider>
         <h1 className="hidden">
-          Venus Trading 2024 | Top-Quality Linen and Apparel Export
+          Weifang SevenUp Trading 潍坊庚尚国際貿易公司
         </h1>
         <div className="App min-h-screen">
           <Header />
