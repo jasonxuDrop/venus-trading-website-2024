@@ -13,12 +13,12 @@
     "contact": {
         "title": "お問い合わせ",
         "address": "住所",
-        "addressVal": "潍坊庚尚国際贸易有限公司",
-        "addressVal2": "濰坊市東風東街5922号世紀東方商務大廈A座1907室",
+        "addressVal": "Venus Trading Co.",
+        "addressVal2": "11307 161 Street, Surrey, BC, Canada, V4N 4P5",
         "phone": "電話",
-        "phoneVal": "(0086) 536-830-6011",
+        "phoneVal": "+1 604 589 3939",
         "fax": "ファックス",
-        "faxVal": "(0086) 536-830-6037",
+        "faxVal": "+1 604 589 3939",
         "content": "特定の製品についての質問や、当社との協力に興味がある場合は、メッセージを残してください。追ってご連絡いたします。",
         "form": {
             "name": "お名前 *",

@@ -9,10 +9,6 @@
                 "id2": "tel"
             },
             {
-                "id": "faxText",
-                "id2": "fax"
-            },
-            {
                 "id": "addressText",
                 "id2": "address"
             }

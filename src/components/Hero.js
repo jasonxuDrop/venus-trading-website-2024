@@ -1,11 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import homeImg from "../assets/images/homeImg/hero-image.jpg";
-import logo from "../assets/images/logo/Logo Icon@4x 1.png";
-import logoFullCenterEn from "../assets/images/logo/Logo Full EN Center.png";
-import logoFullCenterJp from "../assets/images/logo/Logo Full JP Center.png";
-import logoNoIconJp from "../assets/images/logo/Logo No Icon JP.svg";
-import logoNoIconEn from "../assets/images/logo/Logo No Icon En.svg";
+// import logo from "../assets/images/logo/Logo Icon.svg";
+import logoFullCenterEn from "../assets/images/logo/Logo Full.png";
+import logoFullCenterJp from "../assets/images/logo/Logo Full.png";
+import logoNoIconJp from "../assets/images/logo/Logo No Icon.svg";
+import logoNoIconEn from "../assets/images/logo/Logo No Icon.svg";
 
 const Hero = () => {
   const { t, i18n } = useTranslation("page");
@@ -28,7 +28,7 @@ const Hero = () => {
               <div className="flex flex-col justify-end h-full">
                 <img
                   src={i18n.language === "en" ? logoNoIconEn : logoNoIconJp}
-                  alt="Weifang SevenUp Trading Co., Ltd."
+                  alt="Venus Trading Co., Ltd."
                   className="max-w-full"
                   style={{ marginBottom: "min(12vw, 9rem)" }}
                 />
@@ -41,15 +41,15 @@ const Hero = () => {
             sm:hidden"
             >
               <div className="flex flex-col items-center justify-center text-center">
-                <img
+                {/* <img
                   src={logo}
-                  alt="Weifang SevenUp Trading Co., Ltd."
-                  className="block w-28 h-auto"
-                />
+                  alt="Venus Trading Co., Ltd."
+                  className="block w-20 h-auto"
+                /> */}
                 {/* TODO: SWITCH TO JP LOGO IS IN JAPANESE */}
                 <img
                   src={i18n.language === "en" ? logoFullCenterEn : logoFullCenterJp}
-                  alt="Weifang SevenUp Trading Co., Ltd."
+                  alt="Venus Trading Co., Ltd."
                   className="w-80 max-w-[80vw]"
                 />
               </div>

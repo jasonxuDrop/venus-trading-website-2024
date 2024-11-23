@@ -24,7 +24,7 @@ function App() {
     <Router>
       <QuoteProvider>
         <h1 className="hidden">
-          Weifang SevenUp Trading 潍坊庚尚国際貿易公司
+        Venus Trading Co., LTD
         </h1>
         <div className="App min-h-screen">
           <Header />

@@ -7,12 +7,12 @@
                 "jp": "/homeImg/hero-image-jp.jpg"
             },
             "logoFullCenter": {
-                "en": "/logo/Logo No Icon EN.svg",
-                "jp": "/logo/Logo No Icon JP.svg"
+                "en": "/logo/Logo No Icon.svg",
+                "jp": "/logo/Logo No Icon.svg"
             },
             "logoIcon": {
-                "en": "/logo/Logo Icon@4x 1.png",
-                "jp": "/logo/Logo Icon@4x 1.png"
+                "en": "/logo/Logo Icon.svg",
+                "jp": "/logo/Logo Icon.svg"
             },
             "homeImg": {
                 "en": "/homeImg/hero-image-en.jpg",

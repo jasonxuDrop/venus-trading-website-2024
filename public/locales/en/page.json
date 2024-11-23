@@ -13,12 +13,12 @@
   "contact": {
     "title": "Contact Us",
     "address": "Address",
-    "addressVal": "WEIFANG SEVENUP INTERNATIONAL TRADING CO.,LTD",
-    "addressVal2": "Rm.1907 Shijidongfang Building, No.5922 East Dongfeng Street Weifang, Shandong, China",
+    "addressVal": "Venus Trading Co.",
+    "addressVal2": "11307 161 Street, Surrey, BC, Canada, V4N 4P5",
     "phone": "Phone",
-    "phoneVal": "(0086) 536-830-6011",
+    "phoneVal": "+1 604 589 3939",
     "fax": "Fax",
-    "faxVal": "(0086) 536-830-6037",
+    "faxVal": "+1 604 589 3939",
     "content": "Have questions about a particular product or interested in collaborating with us? Leave us a message, and we'll get back to you shortly.",
     "form": {
       "name": "Your Name *",

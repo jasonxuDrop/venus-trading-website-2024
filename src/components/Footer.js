@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import logoEn from "../assets/images/logo/Logo Full En-white.svg";
-import logoJp from "../assets/images/logo/Logo Full JP-white.svg";
+import logoEn from "../assets/images/logo/Logo No Icon White.svg";
+import logoJp from "../assets/images/logo/Logo No Icon White.svg";
 
 import footerLink from "../assets/content/footerLink.json";
 
@@ -21,7 +21,7 @@ const Footer = () => {
               <img
                 src={i18n.language === "en" ? logoEn : logoJp}
                 alt="Logo"
-                className="h-[auto] w-[420px]"
+                className="h-[auto] w-[220px]"
               />
             </div>
             <div className="mt-4">
